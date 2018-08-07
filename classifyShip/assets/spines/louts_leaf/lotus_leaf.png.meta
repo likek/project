@@ -1,0 +1,30 @@
+{
+  "ver": "1.0.0",
+  "uuid": "48f74aa9-6ab0-4594-b87f-44a919db69e7",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "subMetas": {
+    "lotus_leaf": {
+      "ver": "1.0.3",
+      "uuid": "cfd405aa-6fe1-4e37-90c4-966489a2173c",
+      "rawTextureUuid": "48f74aa9-6ab0-4594-b87f-44a919db69e7",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 2,
+      "trimY": 2,
+      "width": 342,
+      "height": 244,
+      "rawWidth": 346,
+      "rawHeight": 248,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

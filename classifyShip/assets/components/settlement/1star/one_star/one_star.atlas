@@ -1,0 +1,62 @@
+
+one_star.png
+size: 1612,855
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+cloud_big
+  rotate: false
+  xy: 5, 11
+  size: 1389, 181
+  orig: 1389, 181
+  offset: 0, 0
+  index: -1
+cloud_small1
+  rotate: false
+  xy: 1248, 201
+  size: 178, 93
+  orig: 178, 93
+  offset: 0, 0
+  index: -1
+cloud_small2
+  rotate: false
+  xy: 1431, 203
+  size: 176, 91
+  orig: 176, 91
+  offset: 0, 0
+  index: -1
+light_one
+  rotate: true
+  xy: 1399, 4
+  size: 193, 143
+  orig: 193, 143
+  offset: 0, 0
+  index: -1
+not_star
+  rotate: false
+  xy: 1248, 298
+  size: 272, 254
+  orig: 272, 254
+  offset: 0, 0
+  index: -1
+rainbow
+  rotate: false
+  xy: 5, 196
+  size: 1238, 655
+  orig: 1238, 655
+  offset: 0, 0
+  index: -1
+shadows
+  rotate: true
+  xy: 1565, 518
+  size: 333, 21
+  orig: 333, 21
+  offset: 0, 0
+  index: -1
+star
+  rotate: false
+  xy: 1248, 556
+  size: 312, 295
+  orig: 312, 295
+  offset: 0, 0
+  index: -1

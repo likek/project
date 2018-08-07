@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "time_over",
+    "texture": "de7e1ffa-4a73-40ca-bc9b-242eee30f247",
+    "atlas": "",
+    "rect": [
+      5,
+      4,
+      1356,
+      386
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      1366,
+      394
+    ]
+  }
+}

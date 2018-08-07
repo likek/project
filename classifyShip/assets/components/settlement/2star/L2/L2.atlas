@@ -1,0 +1,83 @@
+
+L2.png
+size: 244,138
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+body
+  rotate: false
+  xy: 5, 4
+  size: 132, 130
+  orig: 132, 130
+  offset: 0, 0
+  index: -1
+bowknot
+  rotate: true
+  xy: 142, 69
+  size: 65, 58
+  orig: 65, 58
+  offset: 0, 0
+  index: -1
+eye_l
+  rotate: false
+  xy: 205, 69
+  size: 22, 17
+  orig: 22, 17
+  offset: 0, 0
+  index: -1
+eye_r
+  rotate: false
+  xy: 142, 7
+  size: 22, 17
+  orig: 22, 17
+  offset: 0, 0
+  index: -1
+eyeball_l
+  rotate: true
+  xy: 142, 28
+  size: 37, 38
+  orig: 37, 38
+  offset: 0, 0
+  index: -1
+eyeball_r
+  rotate: true
+  xy: 142, 28
+  size: 37, 38
+  orig: 37, 38
+  offset: 0, 0
+  index: -1
+leg_l
+  rotate: false
+  xy: 224, 36
+  size: 15, 29
+  orig: 15, 29
+  offset: 0, 0
+  index: -1
+leg_r
+  rotate: true
+  xy: 169, 8
+  size: 9, 30
+  orig: 9, 30
+  offset: 0, 0
+  index: -1
+mouth
+  rotate: true
+  xy: 224, 8
+  size: 24, 12
+  orig: 24, 12
+  offset: 0, 0
+  index: -1
+wing_l
+  rotate: false
+  xy: 185, 21
+  size: 34, 44
+  orig: 34, 44
+  offset: 0, 0
+  index: -1
+wing_r
+  rotate: false
+  xy: 205, 90
+  size: 34, 44
+  orig: 34, 44
+  offset: 0, 0
+  index: -1

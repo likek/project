@@ -1,0 +1,13 @@
+
+lotus_leaf.png
+size: 346,248
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+lotus_leaf
+  rotate: false
+  xy: 2, 2
+  size: 342, 244
+  orig: 342, 244
+  offset: 0, 0
+  index: -1

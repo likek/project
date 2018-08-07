@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "three_star_",
+    "texture": "3cc66aa3-ae85-48ae-9c17-1cb6e8abe5d9",
+    "atlas": "",
+    "rect": [
+      5,
+      4,
+      1692,
+      840
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      1702,
+      848
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "lotus_leaf",
+    "texture": "48f74aa9-6ab0-4594-b87f-44a919db69e7",
+    "atlas": "",
+    "rect": [
+      2,
+      2,
+      342,
+      244
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      346,
+      248
+    ]
+  }
+}

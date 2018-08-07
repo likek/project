@@ -1,0 +1,153 @@
+
+frog.png
+size: 992,354
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+eye_happy_f
+  rotate: false
+  xy: 947, 189
+  size: 16, 12
+  orig: 16, 12
+  offset: 0, 0
+  index: -1
+frog_arm_l
+  rotate: true
+  xy: 882, 114
+  size: 73, 44
+  orig: 73, 44
+  offset: 0, 0
+  index: -1
+frog_arm_r
+  rotate: false
+  xy: 585, 5
+  size: 135, 66
+  orig: 135, 66
+  offset: 0, 0
+  index: -1
+frog_body
+  rotate: false
+  xy: 730, 100
+  size: 93, 86
+  orig: 93, 86
+  offset: 0, 0
+  index: -1
+frog_box
+  rotate: false
+  xy: 2, 2
+  size: 394, 350
+  orig: 394, 350
+  offset: 0, 0
+  index: -1
+frog_car
+  rotate: false
+  xy: 398, 188
+  size: 444, 102
+  orig: 444, 102
+  offset: 0, 0
+  index: -1
+frog_eye_l
+  rotate: false
+  xy: 785, 8
+  size: 28, 23
+  orig: 28, 23
+  offset: 0, 0
+  index: -1
+frog_eye_r
+  rotate: false
+  xy: 882, 88
+  size: 27, 24
+  orig: 27, 24
+  offset: 0, 0
+  index: -1
+frog_eyeball_l
+  rotate: true
+  xy: 928, 138
+  size: 49, 47
+  orig: 49, 47
+  offset: 0, 0
+  index: -1
+frog_eyeball_r
+  rotate: false
+  xy: 928, 89
+  size: 49, 47
+  orig: 49, 47
+  offset: 0, 0
+  index: -1
+frog_foot_l
+  rotate: false
+  xy: 947, 251
+  size: 43, 18
+  orig: 43, 18
+  offset: 0, 0
+  index: -1
+frog_foot_r
+  rotate: false
+  xy: 947, 271
+  size: 43, 19
+  orig: 43, 19
+  offset: 0, 0
+  index: -1
+frog_hand_l
+  rotate: false
+  xy: 722, 3
+  size: 30, 28
+  orig: 30, 28
+  offset: 0, 0
+  index: -1
+frog_hand_r
+  rotate: true
+  xy: 754, 8
+  size: 23, 29
+  orig: 23, 29
+  offset: 0, 0
+  index: -1
+frog_head
+  rotate: false
+  xy: 585, 73
+  size: 143, 113
+  orig: 143, 113
+  offset: 0, 0
+  index: -1
+frog_leg_l
+  rotate: true
+  xy: 730, 33
+  size: 65, 89
+  orig: 65, 89
+  offset: 0, 0
+  index: -1
+frog_leg_r
+  rotate: false
+  xy: 825, 103
+  size: 55, 83
+  orig: 55, 83
+  offset: 0, 0
+  index: -1
+frog_mouth
+  rotate: true
+  xy: 947, 203
+  size: 46, 26
+  orig: 46, 26
+  offset: 0, 0
+  index: -1
+frog_shadows
+  rotate: false
+  xy: 398, 292
+  size: 592, 60
+  orig: 592, 60
+  offset: 0, 0
+  index: -1
+frog_wheel
+  rotate: false
+  xy: 844, 189
+  size: 101, 101
+  orig: 101, 101
+  offset: 0, 0
+  index: -1
+fruits
+  rotate: false
+  xy: 398, 18
+  size: 185, 168
+  orig: 185, 168
+  offset: 0, 0
+  index: -1

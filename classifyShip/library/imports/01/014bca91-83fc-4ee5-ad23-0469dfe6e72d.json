@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "two_star",
+    "texture": "ddac392c-7063-4c04-9c94-c4ca4faa0277",
+    "atlas": "",
+    "rect": [
+      5,
+      4,
+      1692,
+      840
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      1702,
+      848
+    ]
+  }
+}

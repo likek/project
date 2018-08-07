@@ -1,0 +1,111 @@
+
+bear.png
+size: 550,511
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+arm_r
+  rotate: false
+  xy: 451, 158
+  size: 88, 141
+  orig: 88, 141
+  offset: 0, 0
+  index: -1
+bear_arm_l
+  rotate: true
+  xy: 363, 180
+  size: 119, 81
+  orig: 119, 81
+  offset: 0, 0
+  index: -1
+bear_body
+  rotate: true
+  xy: 363, 301
+  size: 208, 185
+  orig: 208, 185
+  offset: 0, 0
+  index: -1
+bear_ear_l
+  rotate: false
+  xy: 2, 2
+  size: 42, 41
+  orig: 42, 41
+  offset: 0, 0
+  index: -1
+bear_ear_r
+  rotate: false
+  xy: 46, 2
+  size: 42, 41
+  orig: 42, 41
+  offset: 0, 0
+  index: -1
+bear_eye_l
+  rotate: false
+  xy: 240, 27
+  size: 11, 16
+  orig: 11, 16
+  offset: 0, 0
+  index: -1
+bear_eye_r
+  rotate: false
+  xy: 240, 9
+  size: 11, 16
+  orig: 11, 16
+  offset: 0, 0
+  index: -1
+bear_mouth
+  rotate: true
+  xy: 227, 14
+  size: 29, 11
+  orig: 29, 11
+  offset: 0, 0
+  index: -1
+bear_nose
+  rotate: true
+  xy: 208, 14
+  size: 29, 17
+  orig: 29, 17
+  offset: 0, 0
+  index: -1
+bear_shadows
+  rotate: false
+  xy: 2, 45
+  size: 447, 82
+  orig: 447, 82
+  offset: 0, 0
+  index: -1
+cap
+  rotate: false
+  xy: 451, 111
+  size: 89, 45
+  orig: 89, 45
+  offset: 0, 0
+  index: -1
+gold1
+  rotate: true
+  xy: 130, 5
+  size: 38, 37
+  orig: 38, 37
+  offset: 0, 0
+  index: -1
+gold2
+  rotate: false
+  xy: 169, 5
+  size: 37, 38
+  orig: 37, 38
+  offset: 0, 0
+  index: -1
+gold3
+  rotate: false
+  xy: 90, 5
+  size: 38, 38
+  orig: 38, 38
+  offset: 0, 0
+  index: -1
+platform
+  rotate: true
+  xy: 2, 129
+  size: 380, 359
+  orig: 380, 359
+  offset: 0, 0
+  index: -1

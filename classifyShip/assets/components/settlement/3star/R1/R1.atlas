@@ -1,0 +1,90 @@
+
+R1.png
+size: 228,137
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+body
+  rotate: false
+  xy: 5, 4
+  size: 132, 129
+  orig: 132, 129
+  offset: 0, 0
+  index: -1
+eye_happy_m
+  rotate: true
+  xy: 209, 93
+  size: 21, 14
+  orig: 21, 22
+  offset: 0, 8
+  index: -1
+eye_l
+  rotate: true
+  xy: 184, 97
+  size: 17, 18
+  orig: 17, 18
+  offset: 0, 0
+  index: -1
+eye_r
+  rotate: true
+  xy: 184, 97
+  size: 17, 18
+  orig: 17, 18
+  offset: 0, 0
+  index: -1
+eyeball_l
+  rotate: false
+  xy: 142, 95
+  size: 37, 38
+  orig: 37, 38
+  offset: 0, 0
+  index: -1
+eyeball_r
+  rotate: false
+  xy: 142, 95
+  size: 37, 38
+  orig: 37, 38
+  offset: 0, 0
+  index: -1
+leg_l
+  rotate: false
+  xy: 195, 10
+  size: 15, 29
+  orig: 15, 29
+  offset: 0, 0
+  index: -1
+leg_r
+  rotate: true
+  xy: 184, 118
+  size: 15, 29
+  orig: 15, 29
+  offset: 0, 0
+  index: -1
+mouth
+  rotate: false
+  xy: 209, 74
+  size: 10, 15
+  orig: 10, 15
+  offset: 0, 0
+  index: -1
+point
+  rotate: false
+  xy: 142, 35
+  size: 32, 56
+  orig: 32, 56
+  offset: 0, 0
+  index: -1
+wing_l
+  rotate: true
+  xy: 142, 6
+  size: 25, 48
+  orig: 25, 48
+  offset: 0, 0
+  index: -1
+wing_r
+  rotate: false
+  xy: 179, 43
+  size: 25, 48
+  orig: 25, 48
+  offset: 0, 0
+  index: -1

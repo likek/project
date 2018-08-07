@@ -1,0 +1,1355 @@
+2018-08-06T06:08:16.526Z - normal: Load ~/.CocosCreator/settings.json
+2018-08-06T06:08:16.530Z - normal: checking language setting...
+2018-08-06T06:08:16.530Z - normal: Language: zh
+2018-08-06T06:08:17.120Z - success: protocol editor-framework registered
+2018-08-06T06:08:17.120Z - success: protocol app registered
+2018-08-06T06:08:17.121Z - success: protocol theme registered
+2018-08-06T06:08:17.121Z - success: protocol packages registered
+2018-08-06T06:08:17.121Z - success: protocol unpack registerred
+2018-08-06T06:08:17.121Z - success: protocol disable-commonjs registerred
+2018-08-06T06:08:17.222Z - normal: connected!
+2018-08-06T06:08:17.226Z - normal: Check project /Users/likeke/Documents/pro/projects/classifyShip1
+2018-08-06T06:08:17.237Z - normal: Initializing Cocos2d
+2018-08-06T06:08:17.400Z - normal: Initializing Asset Database
+2018-08-06T06:08:17.430Z - success: protocol uuid registerred
+2018-08-06T06:08:17.430Z - success: protocol db registerred
+2018-08-06T06:08:17.431Z - success: protocol thumbnail registerred
+2018-08-06T06:08:17.431Z - normal: Loading editor/builtin packages
+2018-08-06T06:08:17.448Z - success: anysdk loaded
+2018-08-06T06:08:17.554Z - success: assets loaded
+2018-08-06T06:08:17.557Z - success: builder loaded
+2018-08-06T06:08:17.559Z - success: cocos-analytics loaded
+2018-08-06T06:08:17.563Z - success: console loaded
+2018-08-06T06:08:17.594Z - success: fb-instant-games loaded
+2018-08-06T06:08:17.599Z - success: hierarchy loaded
+2018-08-06T06:08:17.603Z - success: inspector loaded
+2018-08-06T06:08:17.604Z - success: keystore loaded
+2018-08-06T06:08:17.608Z - success: node-library loaded
+2018-08-06T06:08:17.609Z - success: package-asset loaded
+2018-08-06T06:08:17.611Z - success: preferences loaded
+2018-08-06T06:08:17.614Z - success: project-exporter loaded
+2018-08-06T06:08:17.628Z - success: project-importer loaded
+2018-08-06T06:08:17.632Z - success: project-settings loaded
+2018-08-06T06:08:17.635Z - success: ui-kit loaded
+2018-08-06T06:08:17.639Z - success: ui-grid loaded
+2018-08-06T06:08:17.643Z - success: scene loaded
+2018-08-06T06:08:17.644Z - success: sprite-editor loaded
+2018-08-06T06:08:17.648Z - success: store loaded
+2018-08-06T06:08:17.653Z - success: timeline loaded
+2018-08-06T06:08:17.654Z - normal: Loading builtin packages
+2018-08-06T06:08:17.658Z - success: asset-db-debugger loaded
+2018-08-06T06:08:17.659Z - success: color-picker loaded
+2018-08-06T06:08:17.662Z - success: package-manager loaded
+2018-08-06T06:08:17.663Z - success: qqplay-adapter loaded
+2018-08-06T06:08:17.669Z - success: sdkbox loaded
+2018-08-06T06:08:17.672Z - success: tester loaded
+2018-08-06T06:08:17.675Z - success: ui-kit-preview-extra loaded
+2018-08-06T06:08:17.678Z - success: ui-kit-preview loaded
+2018-08-06T06:08:17.681Z - success: ui-tree loaded
+2018-08-06T06:08:17.682Z - success: weapp-adapter loaded
+2018-08-06T06:08:18.534Z - normal: Initializing project /Users/likeke/Documents/pro/projects/classifyShip1
+2018-08-06T06:08:18.539Z - normal: Loading packages
+2018-08-06T06:08:18.547Z - normal: Watching packages
+2018-08-06T06:08:18.652Z - normal: Run Application
+2018-08-06T06:08:20.216Z - success: preview server running at http://localhost:7456
+2018-08-06T06:08:24.517Z - normal: 1.9.3
+2018-08-06T06:34:23.618Z - normal: Start building with options : {
+  "androidStudio": true,
+  "apiLevel": "",
+  "appABIs": [],
+  "appKey": "",
+  "appSecret": "",
+  "buildPath": "/Users/likeke/Documents/pro/projects/classifyShip1/build",
+  "debug": false,
+  "dest": "/Users/likeke/Documents/pro/projects/classifyShip1/build/web-mobile",
+  "encryptJs": true,
+  "excludeScenes": [],
+  "excludedModules": [
+    "Mask",
+    "CCSpriteDistortion",
+    "TiledMap",
+    "ProgressBar",
+    "ScrollBar",
+    "ScrollView",
+    "Toggle",
+    "PageView",
+    "PageViewIndicator",
+    "Slider",
+    "EditorBox",
+    "VideoPlayer",
+    "RichText",
+    "MotionStreak",
+    "Graphics",
+    "DragonBones",
+    "Physics",
+    "StudioComponent"
+  ],
+  "fb-instant-games": {},
+  "includeAnySDK": false,
+  "includeEruda": false,
+  "includeSDKBox": false,
+  "inlineSpriteFrames": true,
+  "inlineSpriteFrames_native": true,
+  "jailbreakPlatform": false,
+  "md5Cache": false,
+  "mergeStartScene": false,
+  "oauthLoginServer": "",
+  "optimizeHotUpdate": false,
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "org.cocos2d.ZhuoXiaoYu",
+  "platform": "web-mobile",
+  "previewHeight": "720",
+  "previewWidth": "1280",
+  "privateKey": "",
+  "qqplay": {
+    "REMOTE_SERVER_ROOT": "",
+    "orientation": "portrait"
+  },
+  "renderMode": "0",
+  "scenes": [
+    "c0e4e3a0-b011-41b6-82d6-c31f202631fe"
+  ],
+  "sourceMaps": false,
+  "startScene": "c0e4e3a0-b011-41b6-82d6-c31f202631fe",
+  "template": "link",
+  "title": "classifyShip",
+  "useDebugKeystore": true,
+  "vsVersion": "auto",
+  "webOrientation": "auto",
+  "wechatgame": {
+    "REMOTE_SERVER_ROOT": "",
+    "appid": "wx6ac3f5090a6b99c5",
+    "isSubdomain": false,
+    "orientation": "portrait",
+    "subContext": ""
+  },
+  "xxteaKey": "d205a30b-873b-4c",
+  "zipCompressJs": true,
+  "project": "/Users/likeke/Documents/pro/projects/classifyShip1",
+  "projectName": "classifyShip",
+  "debugBuildWorker": false
+}
+2018-08-06T06:34:23.621Z - normal: Building /Users/likeke/Documents/pro/projects/classifyShip1
+2018-08-06T06:34:23.621Z - normal: Destination /Users/likeke/Documents/pro/projects/classifyShip1/build/web-mobile
+2018-08-06T06:34:23.867Z - normal: Delete /Users/likeke/Documents/pro/projects/classifyShip1/build/web-mobile/**/*
+2018-08-06T06:34:53.610Z - normal: Compiled project javascript file successfully
+2018-08-06T06:34:53.612Z - normal: Start building assets
+2018-08-06T06:34:53.612Z - normal: Start spawn build-worker
+2018-08-06T06:34:54.234Z - normal: Finish spawn build-worker
+2018-08-06T06:34:54.235Z - normal: Start init build-worker
+2018-08-06T06:34:56.080Z - normal: 1.9.3
+2018-08-06T06:34:56.190Z - normal: Finish init build-worker
+2018-08-06T06:34:56.190Z - normal: Start build-assets in worker
+2018-08-06T06:34:56.834Z - normal: Finish build-assets in worker
+2018-08-06T06:34:56.836Z - normal: Finish building assets
+2018-08-06T06:34:56.863Z - normal: Start building raw assets
+2018-08-06T06:34:56.864Z - normal: Start building plugin scripts
+2018-08-06T06:34:57.043Z - normal: Finish building raw assets
+2018-08-06T06:34:57.078Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
+2018-08-06T06:34:57.092Z - normal: Generating html from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/web-mobile/template/index.html
+2018-08-06T06:34:57.104Z - normal: Built to "/Users/likeke/Documents/pro/projects/classifyShip1/build/web-mobile" successfully
+2018-08-06T06:39:09.766Z - normal: Start building with options : {
+  "androidStudio": true,
+  "apiLevel": "",
+  "appABIs": [],
+  "appKey": "",
+  "appSecret": "",
+  "buildPath": "/Users/likeke/Documents/pro/projects/classifyShip1/build",
+  "debug": false,
+  "dest": "/Users/likeke/Documents/pro/projects/classifyShip1/build/web-mobile",
+  "encryptJs": true,
+  "excludeScenes": [],
+  "excludedModules": [
+    "Mask",
+    "CCSpriteDistortion",
+    "TiledMap",
+    "ProgressBar",
+    "ScrollBar",
+    "ScrollView",
+    "Toggle",
+    "PageView",
+    "PageViewIndicator",
+    "Slider",
+    "EditorBox",
+    "VideoPlayer",
+    "RichText",
+    "MotionStreak",
+    "Graphics",
+    "DragonBones",
+    "Physics",
+    "StudioComponent"
+  ],
+  "fb-instant-games": {},
+  "includeAnySDK": false,
+  "includeEruda": false,
+  "includeSDKBox": false,
+  "inlineSpriteFrames": true,
+  "inlineSpriteFrames_native": true,
+  "jailbreakPlatform": false,
+  "md5Cache": false,
+  "mergeStartScene": false,
+  "oauthLoginServer": "",
+  "optimizeHotUpdate": false,
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "org.cocos2d.ZhuoXiaoYu",
+  "platform": "web-mobile",
+  "previewHeight": "720",
+  "previewWidth": "1280",
+  "privateKey": "",
+  "qqplay": {
+    "REMOTE_SERVER_ROOT": "",
+    "orientation": "portrait"
+  },
+  "renderMode": "0",
+  "scenes": [
+    "c0e4e3a0-b011-41b6-82d6-c31f202631fe"
+  ],
+  "sourceMaps": false,
+  "startScene": "c0e4e3a0-b011-41b6-82d6-c31f202631fe",
+  "template": "link",
+  "title": "classifyShip",
+  "useDebugKeystore": true,
+  "vsVersion": "auto",
+  "webOrientation": "auto",
+  "wechatgame": {
+    "REMOTE_SERVER_ROOT": "",
+    "appid": "wx6ac3f5090a6b99c5",
+    "isSubdomain": false,
+    "orientation": "portrait",
+    "subContext": ""
+  },
+  "xxteaKey": "d205a30b-873b-4c",
+  "zipCompressJs": true,
+  "project": "/Users/likeke/Documents/pro/projects/classifyShip1",
+  "projectName": "classifyShip",
+  "debugBuildWorker": false
+}
+2018-08-06T06:39:09.779Z - normal: Building /Users/likeke/Documents/pro/projects/classifyShip1
+2018-08-06T06:39:09.779Z - normal: Destination /Users/likeke/Documents/pro/projects/classifyShip1/build/web-mobile
+2018-08-06T06:39:09.782Z - normal: Delete /Users/likeke/Documents/pro/projects/classifyShip1/build/web-mobile/**/*
+2018-08-06T06:39:12.233Z - normal: Compiled project javascript file successfully
+2018-08-06T06:39:12.233Z - normal: Start building assets
+2018-08-06T06:39:12.233Z - normal: Start spawn build-worker
+2018-08-06T06:39:12.860Z - normal: Finish spawn build-worker
+2018-08-06T06:39:12.860Z - normal: Start init build-worker
+2018-08-06T06:39:14.706Z - normal: 1.9.3
+2018-08-06T06:39:14.817Z - normal: Finish init build-worker
+2018-08-06T06:39:14.818Z - normal: Start build-assets in worker
+2018-08-06T06:39:15.482Z - normal: Finish build-assets in worker
+2018-08-06T06:39:15.485Z - normal: Finish building assets
+2018-08-06T06:39:15.509Z - normal: Start building raw assets
+2018-08-06T06:39:15.510Z - normal: Start building plugin scripts
+2018-08-06T06:39:15.636Z - normal: Finish building raw assets
+2018-08-06T06:39:15.646Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
+2018-08-06T06:39:15.652Z - normal: Generating html from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/web-mobile/template/index.html
+2018-08-06T06:39:15.663Z - normal: Built to "/Users/likeke/Documents/pro/projects/classifyShip1/build/web-mobile" successfully
+2018-08-06T06:41:30.360Z - normal: Start building with options : {
+  "androidStudio": true,
+  "apiLevel": "",
+  "appABIs": [],
+  "appKey": "",
+  "appSecret": "",
+  "buildPath": "/Users/likeke/Documents/pro/projects/classifyShip1/build",
+  "debug": false,
+  "dest": "/Users/likeke/Documents/pro/projects/classifyShip1/build/web-mobile",
+  "encryptJs": true,
+  "excludeScenes": [],
+  "excludedModules": [
+    "Mask",
+    "CCSpriteDistortion",
+    "TiledMap",
+    "ProgressBar",
+    "ScrollBar",
+    "ScrollView",
+    "Toggle",
+    "PageView",
+    "PageViewIndicator",
+    "Slider",
+    "EditorBox",
+    "VideoPlayer",
+    "RichText",
+    "MotionStreak",
+    "Graphics",
+    "DragonBones",
+    "Physics",
+    "StudioComponent"
+  ],
+  "fb-instant-games": {},
+  "includeAnySDK": false,
+  "includeEruda": false,
+  "includeSDKBox": false,
+  "inlineSpriteFrames": true,
+  "inlineSpriteFrames_native": true,
+  "jailbreakPlatform": false,
+  "md5Cache": false,
+  "mergeStartScene": false,
+  "oauthLoginServer": "",
+  "optimizeHotUpdate": false,
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "org.cocos2d.ZhuoXiaoYu",
+  "platform": "web-mobile",
+  "previewHeight": "720",
+  "previewWidth": "1280",
+  "privateKey": "",
+  "qqplay": {
+    "REMOTE_SERVER_ROOT": "",
+    "orientation": "portrait"
+  },
+  "renderMode": "0",
+  "scenes": [
+    "c0e4e3a0-b011-41b6-82d6-c31f202631fe"
+  ],
+  "sourceMaps": false,
+  "startScene": "c0e4e3a0-b011-41b6-82d6-c31f202631fe",
+  "template": "link",
+  "title": "classifyShip",
+  "useDebugKeystore": true,
+  "vsVersion": "auto",
+  "webOrientation": "auto",
+  "wechatgame": {
+    "REMOTE_SERVER_ROOT": "",
+    "appid": "wx6ac3f5090a6b99c5",
+    "isSubdomain": false,
+    "orientation": "portrait",
+    "subContext": ""
+  },
+  "xxteaKey": "d205a30b-873b-4c",
+  "zipCompressJs": true,
+  "project": "/Users/likeke/Documents/pro/projects/classifyShip1",
+  "projectName": "classifyShip",
+  "debugBuildWorker": false
+}
+2018-08-06T06:41:30.368Z - normal: Building /Users/likeke/Documents/pro/projects/classifyShip1
+2018-08-06T06:41:30.368Z - normal: Destination /Users/likeke/Documents/pro/projects/classifyShip1/build/web-mobile
+2018-08-06T06:41:30.369Z - normal: Delete /Users/likeke/Documents/pro/projects/classifyShip1/build/web-mobile/**/*
+2018-08-06T06:41:32.810Z - normal: Compiled project javascript file successfully
+2018-08-06T06:41:32.810Z - normal: Start building assets
+2018-08-06T06:41:32.810Z - normal: Start spawn build-worker
+2018-08-06T06:41:33.434Z - normal: Finish spawn build-worker
+2018-08-06T06:41:33.434Z - normal: Start init build-worker
+2018-08-06T06:41:35.228Z - normal: 1.9.3
+2018-08-06T06:41:35.334Z - normal: Finish init build-worker
+2018-08-06T06:41:35.334Z - normal: Start build-assets in worker
+2018-08-06T06:41:35.960Z - normal: Finish build-assets in worker
+2018-08-06T06:41:35.963Z - normal: Finish building assets
+2018-08-06T06:41:35.983Z - normal: Start building raw assets
+2018-08-06T06:41:35.984Z - normal: Start building plugin scripts
+2018-08-06T06:41:36.203Z - normal: Finish building raw assets
+2018-08-06T06:41:36.222Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
+2018-08-06T06:41:36.250Z - normal: Generating html from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/web-mobile/template/index.html
+2018-08-06T06:41:36.281Z - normal: Built to "/Users/likeke/Documents/pro/projects/classifyShip1/build/web-mobile" successfully
+2018-08-06T06:42:40.327Z - normal: Start building with options : {
+  "androidStudio": true,
+  "apiLevel": "",
+  "appABIs": [],
+  "appKey": "",
+  "appSecret": "",
+  "buildPath": "/Users/likeke/Documents/pro/projects/classifyShip1/build",
+  "debug": false,
+  "dest": "/Users/likeke/Documents/pro/projects/classifyShip1/build/web-mobile",
+  "encryptJs": true,
+  "excludeScenes": [],
+  "excludedModules": [
+    "Mask",
+    "CCSpriteDistortion",
+    "TiledMap",
+    "ProgressBar",
+    "ScrollBar",
+    "ScrollView",
+    "Toggle",
+    "PageView",
+    "PageViewIndicator",
+    "Slider",
+    "EditorBox",
+    "VideoPlayer",
+    "RichText",
+    "MotionStreak",
+    "Graphics",
+    "DragonBones",
+    "Physics",
+    "StudioComponent"
+  ],
+  "fb-instant-games": {},
+  "includeAnySDK": false,
+  "includeEruda": false,
+  "includeSDKBox": false,
+  "inlineSpriteFrames": true,
+  "inlineSpriteFrames_native": true,
+  "jailbreakPlatform": false,
+  "md5Cache": false,
+  "mergeStartScene": false,
+  "oauthLoginServer": "",
+  "optimizeHotUpdate": false,
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "org.cocos2d.ZhuoXiaoYu",
+  "platform": "web-mobile",
+  "previewHeight": "720",
+  "previewWidth": "1280",
+  "privateKey": "",
+  "qqplay": {
+    "REMOTE_SERVER_ROOT": "",
+    "orientation": "portrait"
+  },
+  "renderMode": "0",
+  "scenes": [
+    "c0e4e3a0-b011-41b6-82d6-c31f202631fe"
+  ],
+  "sourceMaps": false,
+  "startScene": "c0e4e3a0-b011-41b6-82d6-c31f202631fe",
+  "template": "link",
+  "title": "classifyShip",
+  "useDebugKeystore": true,
+  "vsVersion": "auto",
+  "webOrientation": "auto",
+  "wechatgame": {
+    "REMOTE_SERVER_ROOT": "",
+    "appid": "wx6ac3f5090a6b99c5",
+    "isSubdomain": false,
+    "orientation": "portrait",
+    "subContext": ""
+  },
+  "xxteaKey": "d205a30b-873b-4c",
+  "zipCompressJs": true,
+  "project": "/Users/likeke/Documents/pro/projects/classifyShip1",
+  "projectName": "classifyShip",
+  "debugBuildWorker": false
+}
+2018-08-06T06:42:40.329Z - normal: Building /Users/likeke/Documents/pro/projects/classifyShip1
+2018-08-06T06:42:40.329Z - normal: Destination /Users/likeke/Documents/pro/projects/classifyShip1/build/web-mobile
+2018-08-06T06:42:40.331Z - normal: Delete /Users/likeke/Documents/pro/projects/classifyShip1/build/web-mobile/**/*
+2018-08-06T06:42:42.767Z - normal: Compiled project javascript file successfully
+2018-08-06T06:42:42.767Z - normal: Start building assets
+2018-08-06T06:42:42.767Z - normal: Start spawn build-worker
+2018-08-06T06:42:43.390Z - normal: Finish spawn build-worker
+2018-08-06T06:42:43.390Z - normal: Start init build-worker
+2018-08-06T06:42:45.181Z - normal: 1.9.3
+2018-08-06T06:42:45.293Z - normal: Finish init build-worker
+2018-08-06T06:42:45.293Z - normal: Start build-assets in worker
+2018-08-06T06:42:45.918Z - normal: Finish build-assets in worker
+2018-08-06T06:42:45.921Z - normal: Finish building assets
+2018-08-06T06:42:45.941Z - normal: Start building raw assets
+2018-08-06T06:42:45.941Z - normal: Start building plugin scripts
+2018-08-06T06:42:46.062Z - normal: Finish building raw assets
+2018-08-06T06:42:46.067Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
+2018-08-06T06:42:46.071Z - normal: Generating html from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/web-mobile/template/index.html
+2018-08-06T06:42:46.077Z - normal: Built to "/Users/likeke/Documents/pro/projects/classifyShip1/build/web-mobile" successfully
+2018-08-06T06:43:25.275Z - normal: Start building with options : {
+  "androidStudio": true,
+  "apiLevel": "",
+  "appABIs": [],
+  "appKey": "",
+  "appSecret": "",
+  "buildPath": "/Users/likeke/Documents/pro/projects/classifyShip1/build",
+  "debug": false,
+  "dest": "/Users/likeke/Documents/pro/projects/classifyShip1/build/web-mobile",
+  "encryptJs": true,
+  "excludeScenes": [],
+  "excludedModules": [
+    "Mask",
+    "CCSpriteDistortion",
+    "TiledMap",
+    "ProgressBar",
+    "ScrollBar",
+    "ScrollView",
+    "Toggle",
+    "PageView",
+    "PageViewIndicator",
+    "Slider",
+    "EditorBox",
+    "VideoPlayer",
+    "RichText",
+    "MotionStreak",
+    "Graphics",
+    "DragonBones",
+    "Physics",
+    "StudioComponent"
+  ],
+  "fb-instant-games": {},
+  "includeAnySDK": false,
+  "includeEruda": false,
+  "includeSDKBox": false,
+  "inlineSpriteFrames": true,
+  "inlineSpriteFrames_native": true,
+  "jailbreakPlatform": false,
+  "md5Cache": false,
+  "mergeStartScene": false,
+  "oauthLoginServer": "",
+  "optimizeHotUpdate": false,
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "org.cocos2d.ZhuoXiaoYu",
+  "platform": "web-mobile",
+  "previewHeight": "720",
+  "previewWidth": "1280",
+  "privateKey": "",
+  "qqplay": {
+    "REMOTE_SERVER_ROOT": "",
+    "orientation": "portrait"
+  },
+  "renderMode": "0",
+  "scenes": [
+    "c0e4e3a0-b011-41b6-82d6-c31f202631fe"
+  ],
+  "sourceMaps": false,
+  "startScene": "c0e4e3a0-b011-41b6-82d6-c31f202631fe",
+  "template": "link",
+  "title": "classifyShip",
+  "useDebugKeystore": true,
+  "vsVersion": "auto",
+  "webOrientation": "auto",
+  "wechatgame": {
+    "REMOTE_SERVER_ROOT": "",
+    "appid": "wx6ac3f5090a6b99c5",
+    "isSubdomain": false,
+    "orientation": "portrait",
+    "subContext": ""
+  },
+  "xxteaKey": "d205a30b-873b-4c",
+  "zipCompressJs": true,
+  "project": "/Users/likeke/Documents/pro/projects/classifyShip1",
+  "projectName": "classifyShip",
+  "debugBuildWorker": false
+}
+2018-08-06T06:43:25.277Z - normal: Building /Users/likeke/Documents/pro/projects/classifyShip1
+2018-08-06T06:43:25.277Z - normal: Destination /Users/likeke/Documents/pro/projects/classifyShip1/build/web-mobile
+2018-08-06T06:43:25.278Z - normal: Delete /Users/likeke/Documents/pro/projects/classifyShip1/build/web-mobile/**/*
+2018-08-06T06:43:27.771Z - normal: Compiled project javascript file successfully
+2018-08-06T06:43:27.771Z - normal: Start building assets
+2018-08-06T06:43:27.771Z - normal: Start spawn build-worker
+2018-08-06T06:43:28.391Z - normal: Finish spawn build-worker
+2018-08-06T06:43:28.391Z - normal: Start init build-worker
+2018-08-06T06:43:30.199Z - normal: 1.9.3
+2018-08-06T06:43:30.312Z - normal: Finish init build-worker
+2018-08-06T06:43:30.312Z - normal: Start build-assets in worker
+2018-08-06T06:43:30.930Z - normal: Finish build-assets in worker
+2018-08-06T06:43:30.933Z - normal: Finish building assets
+2018-08-06T06:43:30.957Z - normal: Start building raw assets
+2018-08-06T06:43:30.957Z - normal: Start building plugin scripts
+2018-08-06T06:43:31.068Z - normal: Finish building raw assets
+2018-08-06T06:43:31.073Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
+2018-08-06T06:43:31.076Z - normal: Generating html from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/web-mobile/template/index.html
+2018-08-06T06:43:31.083Z - normal: Built to "/Users/likeke/Documents/pro/projects/classifyShip1/build/web-mobile" successfully
+2018-08-06T06:44:54.803Z - normal: Start building with options : {
+  "androidStudio": true,
+  "apiLevel": "",
+  "appABIs": [],
+  "appKey": "",
+  "appSecret": "",
+  "buildPath": "/Users/likeke/Documents/pro/projects/classifyShip1/build",
+  "debug": false,
+  "dest": "/Users/likeke/Documents/pro/projects/classifyShip1/build/web-mobile",
+  "encryptJs": true,
+  "excludeScenes": [],
+  "excludedModules": [
+    "Mask",
+    "CCSpriteDistortion",
+    "TiledMap",
+    "ProgressBar",
+    "ScrollBar",
+    "ScrollView",
+    "Toggle",
+    "PageView",
+    "PageViewIndicator",
+    "Slider",
+    "EditorBox",
+    "VideoPlayer",
+    "RichText",
+    "MotionStreak",
+    "Graphics",
+    "DragonBones",
+    "Physics",
+    "StudioComponent"
+  ],
+  "fb-instant-games": {},
+  "includeAnySDK": false,
+  "includeEruda": false,
+  "includeSDKBox": false,
+  "inlineSpriteFrames": true,
+  "inlineSpriteFrames_native": true,
+  "jailbreakPlatform": false,
+  "md5Cache": false,
+  "mergeStartScene": false,
+  "oauthLoginServer": "",
+  "optimizeHotUpdate": false,
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "org.cocos2d.ZhuoXiaoYu",
+  "platform": "web-mobile",
+  "previewHeight": "720",
+  "previewWidth": "1280",
+  "privateKey": "",
+  "qqplay": {
+    "REMOTE_SERVER_ROOT": "",
+    "orientation": "portrait"
+  },
+  "renderMode": "0",
+  "scenes": [
+    "c0e4e3a0-b011-41b6-82d6-c31f202631fe"
+  ],
+  "sourceMaps": false,
+  "startScene": "c0e4e3a0-b011-41b6-82d6-c31f202631fe",
+  "template": "link",
+  "title": "classifyShip",
+  "useDebugKeystore": true,
+  "vsVersion": "auto",
+  "webOrientation": "auto",
+  "wechatgame": {
+    "REMOTE_SERVER_ROOT": "",
+    "appid": "wx6ac3f5090a6b99c5",
+    "isSubdomain": false,
+    "orientation": "portrait",
+    "subContext": ""
+  },
+  "xxteaKey": "d205a30b-873b-4c",
+  "zipCompressJs": true,
+  "project": "/Users/likeke/Documents/pro/projects/classifyShip1",
+  "projectName": "classifyShip",
+  "debugBuildWorker": false
+}
+2018-08-06T06:44:54.806Z - normal: Building /Users/likeke/Documents/pro/projects/classifyShip1
+2018-08-06T06:44:54.806Z - normal: Destination /Users/likeke/Documents/pro/projects/classifyShip1/build/web-mobile
+2018-08-06T06:44:54.807Z - normal: Delete /Users/likeke/Documents/pro/projects/classifyShip1/build/web-mobile/**/*
+2018-08-06T06:44:57.441Z - normal: Compiled project javascript file successfully
+2018-08-06T06:44:57.441Z - normal: Start building assets
+2018-08-06T06:44:57.442Z - normal: Start spawn build-worker
+2018-08-06T06:44:58.141Z - normal: Finish spawn build-worker
+2018-08-06T06:44:58.141Z - normal: Start init build-worker
+2018-08-06T06:45:00.037Z - normal: 1.9.3
+2018-08-06T06:45:00.149Z - normal: Finish init build-worker
+2018-08-06T06:45:00.149Z - normal: Start build-assets in worker
+2018-08-06T06:45:00.756Z - normal: Finish build-assets in worker
+2018-08-06T06:45:00.758Z - normal: Finish building assets
+2018-08-06T06:45:00.774Z - normal: Start building raw assets
+2018-08-06T06:45:00.774Z - normal: Start building plugin scripts
+2018-08-06T06:45:00.891Z - normal: Finish building raw assets
+2018-08-06T06:45:00.897Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
+2018-08-06T06:45:00.900Z - normal: Generating html from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/web-mobile/template/index.html
+2018-08-06T06:45:00.910Z - normal: Built to "/Users/likeke/Documents/pro/projects/classifyShip1/build/web-mobile" successfully
+2018-08-06T06:46:12.374Z - normal: Start building with options : {
+  "androidStudio": true,
+  "apiLevel": "",
+  "appABIs": [],
+  "appKey": "",
+  "appSecret": "",
+  "buildPath": "/Users/likeke/Documents/pro/projects/classifyShip1/build",
+  "debug": false,
+  "dest": "/Users/likeke/Documents/pro/projects/classifyShip1/build/web-mobile",
+  "encryptJs": true,
+  "excludeScenes": [],
+  "excludedModules": [
+    "Mask",
+    "CCSpriteDistortion",
+    "TiledMap",
+    "ProgressBar",
+    "ScrollBar",
+    "ScrollView",
+    "Toggle",
+    "PageView",
+    "PageViewIndicator",
+    "Slider",
+    "EditorBox",
+    "VideoPlayer",
+    "RichText",
+    "MotionStreak",
+    "Graphics",
+    "DragonBones",
+    "Physics",
+    "StudioComponent"
+  ],
+  "fb-instant-games": {},
+  "includeAnySDK": false,
+  "includeEruda": false,
+  "includeSDKBox": false,
+  "inlineSpriteFrames": true,
+  "inlineSpriteFrames_native": true,
+  "jailbreakPlatform": false,
+  "md5Cache": false,
+  "mergeStartScene": false,
+  "oauthLoginServer": "",
+  "optimizeHotUpdate": false,
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "org.cocos2d.ZhuoXiaoYu",
+  "platform": "web-mobile",
+  "previewHeight": "720",
+  "previewWidth": "1280",
+  "privateKey": "",
+  "qqplay": {
+    "REMOTE_SERVER_ROOT": "",
+    "orientation": "portrait"
+  },
+  "renderMode": "0",
+  "scenes": [
+    "c0e4e3a0-b011-41b6-82d6-c31f202631fe"
+  ],
+  "sourceMaps": false,
+  "startScene": "c0e4e3a0-b011-41b6-82d6-c31f202631fe",
+  "template": "link",
+  "title": "classifyShip",
+  "useDebugKeystore": true,
+  "vsVersion": "auto",
+  "webOrientation": "auto",
+  "wechatgame": {
+    "REMOTE_SERVER_ROOT": "",
+    "appid": "wx6ac3f5090a6b99c5",
+    "isSubdomain": false,
+    "orientation": "portrait",
+    "subContext": ""
+  },
+  "xxteaKey": "d205a30b-873b-4c",
+  "zipCompressJs": true,
+  "project": "/Users/likeke/Documents/pro/projects/classifyShip1",
+  "projectName": "classifyShip",
+  "debugBuildWorker": false
+}
+2018-08-06T06:46:12.376Z - normal: Building /Users/likeke/Documents/pro/projects/classifyShip1
+2018-08-06T06:46:12.377Z - normal: Destination /Users/likeke/Documents/pro/projects/classifyShip1/build/web-mobile
+2018-08-06T06:46:12.377Z - normal: Delete /Users/likeke/Documents/pro/projects/classifyShip1/build/web-mobile/**/*
+2018-08-06T06:46:14.872Z - normal: Compiled project javascript file successfully
+2018-08-06T06:46:14.873Z - normal: Start building assets
+2018-08-06T06:46:14.873Z - normal: Start spawn build-worker
+2018-08-06T06:46:15.517Z - normal: Finish spawn build-worker
+2018-08-06T06:46:15.517Z - normal: Start init build-worker
+2018-08-06T06:46:17.361Z - normal: 1.9.3
+2018-08-06T06:46:17.476Z - normal: Finish init build-worker
+2018-08-06T06:46:17.476Z - normal: Start build-assets in worker
+2018-08-06T06:46:18.117Z - normal: Finish build-assets in worker
+2018-08-06T06:46:18.119Z - normal: Finish building assets
+2018-08-06T06:46:18.140Z - normal: Start building raw assets
+2018-08-06T06:46:18.141Z - normal: Start building plugin scripts
+2018-08-06T06:46:18.248Z - normal: Finish building raw assets
+2018-08-06T06:46:18.260Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
+2018-08-06T06:46:18.265Z - normal: Generating html from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/web-mobile/template/index.html
+2018-08-06T06:46:18.275Z - normal: Built to "/Users/likeke/Documents/pro/projects/classifyShip1/build/web-mobile" successfully
+2018-08-06T07:00:17.909Z - normal: Start building with options : {
+  "androidStudio": true,
+  "apiLevel": "",
+  "appABIs": [],
+  "appKey": "",
+  "appSecret": "",
+  "buildPath": "/Users/likeke/Documents/pro/projects/classifyShip1/build",
+  "debug": false,
+  "dest": "/Users/likeke/Documents/pro/projects/classifyShip1/build/web-mobile",
+  "encryptJs": true,
+  "excludeScenes": [],
+  "excludedModules": [
+    "Mask",
+    "CCSpriteDistortion",
+    "TiledMap",
+    "ProgressBar",
+    "ScrollBar",
+    "ScrollView",
+    "Toggle",
+    "PageView",
+    "PageViewIndicator",
+    "Slider",
+    "EditorBox",
+    "VideoPlayer",
+    "RichText",
+    "MotionStreak",
+    "Graphics",
+    "DragonBones",
+    "Physics",
+    "StudioComponent"
+  ],
+  "fb-instant-games": {},
+  "includeAnySDK": false,
+  "includeEruda": false,
+  "includeSDKBox": false,
+  "inlineSpriteFrames": true,
+  "inlineSpriteFrames_native": true,
+  "jailbreakPlatform": false,
+  "md5Cache": false,
+  "mergeStartScene": false,
+  "oauthLoginServer": "",
+  "optimizeHotUpdate": false,
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "org.cocos2d.ZhuoXiaoYu",
+  "platform": "web-mobile",
+  "previewHeight": "720",
+  "previewWidth": "1280",
+  "privateKey": "",
+  "qqplay": {
+    "REMOTE_SERVER_ROOT": "",
+    "orientation": "portrait"
+  },
+  "renderMode": "0",
+  "scenes": [
+    "c0e4e3a0-b011-41b6-82d6-c31f202631fe"
+  ],
+  "sourceMaps": false,
+  "startScene": "c0e4e3a0-b011-41b6-82d6-c31f202631fe",
+  "template": "link",
+  "title": "classifyShip",
+  "useDebugKeystore": true,
+  "vsVersion": "auto",
+  "webOrientation": "auto",
+  "wechatgame": {
+    "REMOTE_SERVER_ROOT": "",
+    "appid": "wx6ac3f5090a6b99c5",
+    "isSubdomain": false,
+    "orientation": "portrait",
+    "subContext": ""
+  },
+  "xxteaKey": "d205a30b-873b-4c",
+  "zipCompressJs": true,
+  "project": "/Users/likeke/Documents/pro/projects/classifyShip1",
+  "projectName": "classifyShip",
+  "debugBuildWorker": false
+}
+2018-08-06T07:00:17.920Z - normal: Building /Users/likeke/Documents/pro/projects/classifyShip1
+2018-08-06T07:00:17.920Z - normal: Destination /Users/likeke/Documents/pro/projects/classifyShip1/build/web-mobile
+2018-08-06T07:00:17.921Z - normal: Delete /Users/likeke/Documents/pro/projects/classifyShip1/build/web-mobile/**/*
+2018-08-06T07:00:21.215Z - normal: Compiled project javascript file successfully
+2018-08-06T07:00:21.215Z - normal: Start building assets
+2018-08-06T07:00:21.215Z - normal: Start spawn build-worker
+2018-08-06T07:00:21.876Z - normal: Finish spawn build-worker
+2018-08-06T07:00:21.876Z - normal: Start init build-worker
+2018-08-06T07:00:23.996Z - normal: 1.9.3
+2018-08-06T07:00:24.120Z - normal: Finish init build-worker
+2018-08-06T07:00:24.120Z - normal: Start build-assets in worker
+2018-08-06T07:00:24.847Z - normal: Finish build-assets in worker
+2018-08-06T07:00:24.851Z - normal: Finish building assets
+2018-08-06T07:00:24.875Z - normal: Start building raw assets
+2018-08-06T07:00:24.875Z - normal: Start building plugin scripts
+2018-08-06T07:00:25.002Z - normal: Finish building raw assets
+2018-08-06T07:00:25.014Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
+2018-08-06T07:00:25.021Z - normal: Generating html from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/web-mobile/template/index.html
+2018-08-06T07:00:25.030Z - normal: Built to "/Users/likeke/Documents/pro/projects/classifyShip1/build/web-mobile" successfully
+2018-08-06T07:12:15.890Z - normal: Start building with options : {
+  "androidStudio": true,
+  "apiLevel": "",
+  "appABIs": [],
+  "appKey": "",
+  "appSecret": "",
+  "buildPath": "/Users/likeke/Documents/pro/projects/classifyShip1/build",
+  "debug": false,
+  "dest": "/Users/likeke/Documents/pro/projects/classifyShip1/build/web-mobile",
+  "encryptJs": true,
+  "excludeScenes": [],
+  "excludedModules": [
+    "Mask",
+    "CCSpriteDistortion",
+    "TiledMap",
+    "ProgressBar",
+    "ScrollBar",
+    "ScrollView",
+    "Toggle",
+    "PageView",
+    "PageViewIndicator",
+    "Slider",
+    "EditorBox",
+    "VideoPlayer",
+    "RichText",
+    "MotionStreak",
+    "Graphics",
+    "DragonBones",
+    "Physics",
+    "StudioComponent"
+  ],
+  "fb-instant-games": {},
+  "includeAnySDK": false,
+  "includeEruda": false,
+  "includeSDKBox": false,
+  "inlineSpriteFrames": true,
+  "inlineSpriteFrames_native": true,
+  "jailbreakPlatform": false,
+  "md5Cache": false,
+  "mergeStartScene": false,
+  "oauthLoginServer": "",
+  "optimizeHotUpdate": false,
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "org.cocos2d.ZhuoXiaoYu",
+  "platform": "web-mobile",
+  "previewHeight": "720",
+  "previewWidth": "1280",
+  "privateKey": "",
+  "qqplay": {
+    "REMOTE_SERVER_ROOT": "",
+    "orientation": "portrait"
+  },
+  "renderMode": "0",
+  "scenes": [
+    "c0e4e3a0-b011-41b6-82d6-c31f202631fe"
+  ],
+  "sourceMaps": false,
+  "startScene": "c0e4e3a0-b011-41b6-82d6-c31f202631fe",
+  "template": "link",
+  "title": "classifyShip",
+  "useDebugKeystore": true,
+  "vsVersion": "auto",
+  "webOrientation": "auto",
+  "wechatgame": {
+    "REMOTE_SERVER_ROOT": "",
+    "appid": "wx6ac3f5090a6b99c5",
+    "isSubdomain": false,
+    "orientation": "portrait",
+    "subContext": ""
+  },
+  "xxteaKey": "d205a30b-873b-4c",
+  "zipCompressJs": true,
+  "project": "/Users/likeke/Documents/pro/projects/classifyShip1",
+  "projectName": "classifyShip",
+  "debugBuildWorker": false
+}
+2018-08-06T07:12:15.903Z - normal: Building /Users/likeke/Documents/pro/projects/classifyShip1
+2018-08-06T07:12:15.903Z - normal: Destination /Users/likeke/Documents/pro/projects/classifyShip1/build/web-mobile
+2018-08-06T07:12:15.904Z - normal: Delete /Users/likeke/Documents/pro/projects/classifyShip1/build/web-mobile/**/*
+2018-08-06T07:12:19.909Z - normal: Compiled project javascript file successfully
+2018-08-06T07:12:19.909Z - normal: Start building assets
+2018-08-06T07:12:19.909Z - normal: Start spawn build-worker
+2018-08-06T07:12:20.561Z - normal: Finish spawn build-worker
+2018-08-06T07:12:20.563Z - normal: Start init build-worker
+2018-08-06T07:12:22.489Z - normal: 1.9.3
+2018-08-06T07:12:22.605Z - normal: Finish init build-worker
+2018-08-06T07:12:22.606Z - normal: Start build-assets in worker
+2018-08-06T07:12:23.309Z - normal: Finish build-assets in worker
+2018-08-06T07:12:23.311Z - normal: Finish building assets
+2018-08-06T07:12:23.328Z - normal: Start building raw assets
+2018-08-06T07:12:23.329Z - normal: Start building plugin scripts
+2018-08-06T07:12:23.437Z - normal: Finish building raw assets
+2018-08-06T07:12:23.447Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
+2018-08-06T07:12:23.457Z - normal: Generating html from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/web-mobile/template/index.html
+2018-08-06T07:12:23.473Z - normal: Built to "/Users/likeke/Documents/pro/projects/classifyShip1/build/web-mobile" successfully
+2018-08-06T07:14:25.581Z - normal: Start building with options : {
+  "androidStudio": true,
+  "apiLevel": "",
+  "appABIs": [],
+  "appKey": "",
+  "appSecret": "",
+  "buildPath": "/Users/likeke/Documents/pro/projects/classifyShip1/build",
+  "debug": false,
+  "dest": "/Users/likeke/Documents/pro/projects/classifyShip1/build/web-mobile",
+  "encryptJs": true,
+  "excludeScenes": [],
+  "excludedModules": [
+    "Mask",
+    "CCSpriteDistortion",
+    "TiledMap",
+    "ProgressBar",
+    "ScrollBar",
+    "ScrollView",
+    "Toggle",
+    "PageView",
+    "PageViewIndicator",
+    "Slider",
+    "EditorBox",
+    "VideoPlayer",
+    "RichText",
+    "MotionStreak",
+    "Graphics",
+    "DragonBones",
+    "Physics",
+    "StudioComponent"
+  ],
+  "fb-instant-games": {},
+  "includeAnySDK": false,
+  "includeEruda": false,
+  "includeSDKBox": false,
+  "inlineSpriteFrames": true,
+  "inlineSpriteFrames_native": true,
+  "jailbreakPlatform": false,
+  "md5Cache": false,
+  "mergeStartScene": false,
+  "oauthLoginServer": "",
+  "optimizeHotUpdate": false,
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "org.cocos2d.ZhuoXiaoYu",
+  "platform": "web-mobile",
+  "previewHeight": "720",
+  "previewWidth": "1280",
+  "privateKey": "",
+  "qqplay": {
+    "REMOTE_SERVER_ROOT": "",
+    "orientation": "portrait"
+  },
+  "renderMode": "0",
+  "scenes": [
+    "c0e4e3a0-b011-41b6-82d6-c31f202631fe"
+  ],
+  "sourceMaps": false,
+  "startScene": "c0e4e3a0-b011-41b6-82d6-c31f202631fe",
+  "template": "link",
+  "title": "classifyShip",
+  "useDebugKeystore": true,
+  "vsVersion": "auto",
+  "webOrientation": "auto",
+  "wechatgame": {
+    "REMOTE_SERVER_ROOT": "",
+    "appid": "wx6ac3f5090a6b99c5",
+    "isSubdomain": false,
+    "orientation": "portrait",
+    "subContext": ""
+  },
+  "xxteaKey": "d205a30b-873b-4c",
+  "zipCompressJs": true,
+  "project": "/Users/likeke/Documents/pro/projects/classifyShip1",
+  "projectName": "classifyShip",
+  "debugBuildWorker": false
+}
+2018-08-06T07:14:25.596Z - normal: Building /Users/likeke/Documents/pro/projects/classifyShip1
+2018-08-06T07:14:25.597Z - normal: Destination /Users/likeke/Documents/pro/projects/classifyShip1/build/web-mobile
+2018-08-06T07:14:25.598Z - normal: Delete /Users/likeke/Documents/pro/projects/classifyShip1/build/web-mobile/**/*
+2018-08-06T07:14:28.741Z - normal: Compiled project javascript file successfully
+2018-08-06T07:14:28.741Z - normal: Start building assets
+2018-08-06T07:14:28.741Z - normal: Start spawn build-worker
+2018-08-06T07:14:29.408Z - normal: Finish spawn build-worker
+2018-08-06T07:14:29.408Z - normal: Start init build-worker
+2018-08-06T07:14:31.349Z - normal: 1.9.3
+2018-08-06T07:14:31.466Z - normal: Finish init build-worker
+2018-08-06T07:14:31.466Z - normal: Start build-assets in worker
+2018-08-06T07:14:32.141Z - normal: Finish build-assets in worker
+2018-08-06T07:14:32.143Z - normal: Finish building assets
+2018-08-06T07:14:32.160Z - normal: Start building raw assets
+2018-08-06T07:14:32.160Z - normal: Start building plugin scripts
+2018-08-06T07:14:32.271Z - normal: Finish building raw assets
+2018-08-06T07:14:32.289Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
+2018-08-06T07:14:32.320Z - normal: Generating html from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/web-mobile/template/index.html
+2018-08-06T07:14:32.364Z - normal: Built to "/Users/likeke/Documents/pro/projects/classifyShip1/build/web-mobile" successfully
+2018-08-06T07:19:09.440Z - normal: Start building with options : {
+  "androidStudio": true,
+  "apiLevel": "",
+  "appABIs": [],
+  "appKey": "",
+  "appSecret": "",
+  "buildPath": "/Users/likeke/Documents/pro/projects/classifyShip1/build",
+  "debug": false,
+  "dest": "/Users/likeke/Documents/pro/projects/classifyShip1/build/web-mobile",
+  "encryptJs": true,
+  "excludeScenes": [],
+  "excludedModules": [
+    "Mask",
+    "CCSpriteDistortion",
+    "TiledMap",
+    "ProgressBar",
+    "ScrollBar",
+    "ScrollView",
+    "Toggle",
+    "PageView",
+    "PageViewIndicator",
+    "Slider",
+    "EditorBox",
+    "VideoPlayer",
+    "RichText",
+    "MotionStreak",
+    "Graphics",
+    "DragonBones",
+    "Physics",
+    "StudioComponent"
+  ],
+  "fb-instant-games": {},
+  "includeAnySDK": false,
+  "includeEruda": false,
+  "includeSDKBox": false,
+  "inlineSpriteFrames": true,
+  "inlineSpriteFrames_native": true,
+  "jailbreakPlatform": false,
+  "md5Cache": false,
+  "mergeStartScene": false,
+  "oauthLoginServer": "",
+  "optimizeHotUpdate": false,
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "org.cocos2d.ZhuoXiaoYu",
+  "platform": "web-mobile",
+  "previewHeight": "720",
+  "previewWidth": "1280",
+  "privateKey": "",
+  "qqplay": {
+    "REMOTE_SERVER_ROOT": "",
+    "orientation": "portrait"
+  },
+  "renderMode": "0",
+  "scenes": [
+    "c0e4e3a0-b011-41b6-82d6-c31f202631fe"
+  ],
+  "sourceMaps": false,
+  "startScene": "c0e4e3a0-b011-41b6-82d6-c31f202631fe",
+  "template": "link",
+  "title": "classifyShip",
+  "useDebugKeystore": true,
+  "vsVersion": "auto",
+  "webOrientation": "auto",
+  "wechatgame": {
+    "REMOTE_SERVER_ROOT": "",
+    "appid": "wx6ac3f5090a6b99c5",
+    "isSubdomain": false,
+    "orientation": "portrait",
+    "subContext": ""
+  },
+  "xxteaKey": "d205a30b-873b-4c",
+  "zipCompressJs": true,
+  "project": "/Users/likeke/Documents/pro/projects/classifyShip1",
+  "projectName": "classifyShip",
+  "debugBuildWorker": false
+}
+2018-08-06T07:19:09.449Z - normal: Building /Users/likeke/Documents/pro/projects/classifyShip1
+2018-08-06T07:19:09.449Z - normal: Destination /Users/likeke/Documents/pro/projects/classifyShip1/build/web-mobile
+2018-08-06T07:19:09.450Z - normal: Delete /Users/likeke/Documents/pro/projects/classifyShip1/build/web-mobile/**/*
+2018-08-06T07:19:13.048Z - normal: Compiled project javascript file successfully
+2018-08-06T07:19:13.049Z - normal: Start building assets
+2018-08-06T07:19:13.049Z - normal: Start spawn build-worker
+2018-08-06T07:19:13.704Z - normal: Finish spawn build-worker
+2018-08-06T07:19:13.715Z - normal: Start init build-worker
+2018-08-06T07:19:15.709Z - normal: 1.9.3
+2018-08-06T07:19:15.826Z - normal: Finish init build-worker
+2018-08-06T07:19:15.827Z - normal: Start build-assets in worker
+2018-08-06T07:19:16.987Z - normal: Finish build-assets in worker
+2018-08-06T07:19:16.991Z - normal: Finish building assets
+2018-08-06T07:19:17.011Z - normal: Start building raw assets
+2018-08-06T07:19:17.012Z - normal: Start building plugin scripts
+2018-08-06T07:19:17.114Z - normal: Finish building raw assets
+2018-08-06T07:19:17.126Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
+2018-08-06T07:19:17.132Z - normal: Generating html from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/web-mobile/template/index.html
+2018-08-06T07:19:17.143Z - normal: Built to "/Users/likeke/Documents/pro/projects/classifyShip1/build/web-mobile" successfully
+2018-08-06T09:00:31.093Z - normal: Start building with options : {
+  "androidStudio": true,
+  "apiLevel": "",
+  "appABIs": [],
+  "appKey": "",
+  "appSecret": "",
+  "buildPath": "/Users/likeke/Documents/pro/projects/classifyShip1/build",
+  "debug": false,
+  "dest": "/Users/likeke/Documents/pro/projects/classifyShip1/build/web-mobile",
+  "encryptJs": true,
+  "excludeScenes": [],
+  "excludedModules": [
+    "Mask",
+    "CCSpriteDistortion",
+    "TiledMap",
+    "ProgressBar",
+    "ScrollBar",
+    "ScrollView",
+    "Toggle",
+    "PageView",
+    "PageViewIndicator",
+    "Slider",
+    "EditorBox",
+    "VideoPlayer",
+    "RichText",
+    "MotionStreak",
+    "Graphics",
+    "DragonBones",
+    "Physics",
+    "StudioComponent"
+  ],
+  "fb-instant-games": {},
+  "includeAnySDK": false,
+  "includeEruda": false,
+  "includeSDKBox": false,
+  "inlineSpriteFrames": true,
+  "inlineSpriteFrames_native": true,
+  "jailbreakPlatform": false,
+  "md5Cache": false,
+  "mergeStartScene": false,
+  "oauthLoginServer": "",
+  "optimizeHotUpdate": false,
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "org.cocos2d.ZhuoXiaoYu",
+  "platform": "web-mobile",
+  "previewHeight": "720",
+  "previewWidth": "1280",
+  "privateKey": "",
+  "qqplay": {
+    "REMOTE_SERVER_ROOT": "",
+    "orientation": "portrait"
+  },
+  "renderMode": "0",
+  "scenes": [
+    "c0e4e3a0-b011-41b6-82d6-c31f202631fe"
+  ],
+  "sourceMaps": false,
+  "startScene": "c0e4e3a0-b011-41b6-82d6-c31f202631fe",
+  "template": "link",
+  "title": "classifyShip",
+  "useDebugKeystore": true,
+  "vsVersion": "auto",
+  "webOrientation": "auto",
+  "wechatgame": {
+    "REMOTE_SERVER_ROOT": "",
+    "appid": "wx6ac3f5090a6b99c5",
+    "isSubdomain": false,
+    "orientation": "portrait",
+    "subContext": ""
+  },
+  "xxteaKey": "d205a30b-873b-4c",
+  "zipCompressJs": true,
+  "project": "/Users/likeke/Documents/pro/projects/classifyShip1",
+  "projectName": "classifyShip",
+  "debugBuildWorker": false
+}
+2018-08-06T09:00:31.102Z - normal: Building /Users/likeke/Documents/pro/projects/classifyShip1
+2018-08-06T09:00:31.102Z - normal: Destination /Users/likeke/Documents/pro/projects/classifyShip1/build/web-mobile
+2018-08-06T09:00:31.103Z - normal: Delete /Users/likeke/Documents/pro/projects/classifyShip1/build/web-mobile/**/*
+2018-08-06T09:00:33.730Z - normal: Compiled project javascript file successfully
+2018-08-06T09:00:33.730Z - normal: Start building assets
+2018-08-06T09:00:33.731Z - normal: Start spawn build-worker
+2018-08-06T09:00:34.368Z - normal: Finish spawn build-worker
+2018-08-06T09:00:34.368Z - normal: Start init build-worker
+2018-08-06T09:00:36.411Z - normal: 1.9.3
+2018-08-06T09:00:36.528Z - normal: Finish init build-worker
+2018-08-06T09:00:36.528Z - normal: Start build-assets in worker
+2018-08-06T09:00:37.197Z - normal: Finish build-assets in worker
+2018-08-06T09:00:37.200Z - normal: Finish building assets
+2018-08-06T09:00:37.218Z - normal: Start building raw assets
+2018-08-06T09:00:37.219Z - normal: Start building plugin scripts
+2018-08-06T09:00:37.325Z - normal: Finish building raw assets
+2018-08-06T09:00:37.335Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
+2018-08-06T09:00:37.340Z - normal: Generating html from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/web-mobile/template/index.html
+2018-08-06T09:00:37.350Z - normal: Built to "/Users/likeke/Documents/pro/projects/classifyShip1/build/web-mobile" successfully
+2018-08-06T09:04:47.530Z - normal: Start building with options : {
+  "androidStudio": true,
+  "apiLevel": "",
+  "appABIs": [],
+  "appKey": "",
+  "appSecret": "",
+  "buildPath": "/Users/likeke/Documents/pro/projects/classifyShip1/build",
+  "debug": false,
+  "dest": "/Users/likeke/Documents/pro/projects/classifyShip1/build/web-mobile",
+  "encryptJs": true,
+  "excludeScenes": [],
+  "excludedModules": [
+    "Mask",
+    "CCSpriteDistortion",
+    "TiledMap",
+    "ProgressBar",
+    "ScrollBar",
+    "ScrollView",
+    "Toggle",
+    "PageView",
+    "PageViewIndicator",
+    "Slider",
+    "EditorBox",
+    "VideoPlayer",
+    "RichText",
+    "MotionStreak",
+    "Graphics",
+    "DragonBones",
+    "Physics",
+    "StudioComponent"
+  ],
+  "fb-instant-games": {},
+  "includeAnySDK": false,
+  "includeEruda": false,
+  "includeSDKBox": false,
+  "inlineSpriteFrames": true,
+  "inlineSpriteFrames_native": true,
+  "jailbreakPlatform": false,
+  "md5Cache": false,
+  "mergeStartScene": false,
+  "oauthLoginServer": "",
+  "optimizeHotUpdate": false,
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "org.cocos2d.ZhuoXiaoYu",
+  "platform": "web-mobile",
+  "previewHeight": "720",
+  "previewWidth": "1280",
+  "privateKey": "",
+  "qqplay": {
+    "REMOTE_SERVER_ROOT": "",
+    "orientation": "portrait"
+  },
+  "renderMode": "0",
+  "scenes": [
+    "c0e4e3a0-b011-41b6-82d6-c31f202631fe"
+  ],
+  "sourceMaps": false,
+  "startScene": "c0e4e3a0-b011-41b6-82d6-c31f202631fe",
+  "template": "link",
+  "title": "classifyShip",
+  "useDebugKeystore": true,
+  "vsVersion": "auto",
+  "webOrientation": "auto",
+  "wechatgame": {
+    "REMOTE_SERVER_ROOT": "",
+    "appid": "wx6ac3f5090a6b99c5",
+    "isSubdomain": false,
+    "orientation": "portrait",
+    "subContext": ""
+  },
+  "xxteaKey": "d205a30b-873b-4c",
+  "zipCompressJs": true,
+  "project": "/Users/likeke/Documents/pro/projects/classifyShip1",
+  "projectName": "classifyShip",
+  "debugBuildWorker": false
+}
+2018-08-06T09:04:47.534Z - normal: Building /Users/likeke/Documents/pro/projects/classifyShip1
+2018-08-06T09:04:47.534Z - normal: Destination /Users/likeke/Documents/pro/projects/classifyShip1/build/web-mobile
+2018-08-06T09:04:47.535Z - normal: Delete /Users/likeke/Documents/pro/projects/classifyShip1/build/web-mobile/**/*
+2018-08-06T09:04:50.130Z - normal: Compiled project javascript file successfully
+2018-08-06T09:04:50.130Z - normal: Start building assets
+2018-08-06T09:04:50.131Z - normal: Start spawn build-worker
+2018-08-06T09:04:50.802Z - normal: Finish spawn build-worker
+2018-08-06T09:04:50.802Z - normal: Start init build-worker
+2018-08-06T09:04:52.798Z - normal: 1.9.3
+2018-08-06T09:04:52.912Z - normal: Finish init build-worker
+2018-08-06T09:04:52.912Z - normal: Start build-assets in worker
+2018-08-06T09:04:53.551Z - normal: Finish build-assets in worker
+2018-08-06T09:04:53.554Z - normal: Finish building assets
+2018-08-06T09:04:53.573Z - normal: Start building raw assets
+2018-08-06T09:04:53.574Z - normal: Start building plugin scripts
+2018-08-06T09:04:53.691Z - normal: Finish building raw assets
+2018-08-06T09:04:53.701Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
+2018-08-06T09:04:53.713Z - normal: Generating html from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/web-mobile/template/index.html
+2018-08-06T09:04:53.724Z - normal: Built to "/Users/likeke/Documents/pro/projects/classifyShip1/build/web-mobile" successfully

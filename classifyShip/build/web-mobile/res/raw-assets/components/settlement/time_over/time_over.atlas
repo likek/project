@@ -1,0 +1,174 @@
+
+time_over.png
+size: 1366,394
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+body
+  rotate: false
+  xy: 213, 93
+  size: 297, 297
+  orig: 297, 297
+  offset: 0, 0
+  index: -1
+clock
+  rotate: false
+  xy: 671, 162
+  size: 525, 228
+  orig: 525, 228
+  offset: 0, 0
+  index: -1
+clock_leg_l
+  rotate: false
+  xy: 1201, 162
+  size: 36, 27
+  orig: 36, 27
+  offset: 0, 0
+  index: -1
+cloud_b
+  rotate: true
+  xy: 5, 10
+  size: 380, 203
+  orig: 380, 203
+  offset: 0, 0
+  index: -1
+cloud_s
+  rotate: false
+  xy: 213, 4
+  size: 160, 85
+  orig: 160, 85
+  offset: 0, 0
+  index: -1
+dao
+  rotate: false
+  xy: 982, 30
+  size: 112, 128
+  orig: 112, 128
+  offset: 0, 0
+  index: -1
+ear_l
+  rotate: true
+  xy: 551, 18
+  size: 78, 164
+  orig: 78, 164
+  offset: 0, 0
+  index: -1
+ear_r
+  rotate: true
+  xy: 378, 10
+  size: 79, 168
+  orig: 79, 168
+  offset: 0, 0
+  index: -1
+eye
+  rotate: false
+  xy: 1213, 53
+  size: 66, 65
+  orig: 66, 65
+  offset: 0, 0
+  index: -1
+eyeball
+  rotate: false
+  xy: 1314, 139
+  size: 35, 35
+  orig: 35, 35
+  offset: 0, 0
+  index: -1
+eyelid_l
+  rotate: false
+  xy: 1213, 10
+  size: 50, 28
+  orig: 50, 28
+  offset: 0, 0
+  index: -1
+eyelid_r
+  rotate: true
+  xy: 705, 103
+  size: 55, 25
+  orig: 55, 25
+  offset: 0, 0
+  index: -1
+grass_1
+  rotate: true
+  xy: 515, 100
+  size: 290, 151
+  orig: 290, 151
+  offset: 0, 0
+  index: -1
+grass_2
+  rotate: true
+  xy: 1201, 193
+  size: 197, 115
+  orig: 197, 115
+  offset: 0, 0
+  index: -1
+hand
+  rotate: false
+  xy: 1284, 42
+  size: 60, 60
+  orig: 60, 60
+  offset: 0, 0
+  index: -1
+jian
+  rotate: false
+  xy: 1099, 33
+  size: 109, 125
+  orig: 109, 125
+  offset: 0, 0
+  index: -1
+la
+  rotate: false
+  xy: 735, 25
+  size: 121, 133
+  orig: 121, 133
+  offset: 0, 0
+  index: -1
+mouth_k
+  rotate: true
+  xy: 671, 103
+  size: 55, 29
+  orig: 55, 29
+  offset: 0, 0
+  index: -1
+palm
+  rotate: false
+  xy: 1314, 106
+  size: 32, 29
+  orig: 32, 29
+  offset: 0, 0
+  index: -1
+period1
+  rotate: false
+  xy: 1321, 350
+  size: 40, 40
+  orig: 40, 40
+  offset: 0, 0
+  index: -1
+rain
+  rotate: true
+  xy: 1099, 5
+  size: 24, 48
+  orig: 24, 48
+  offset: 0, 0
+  index: -1
+shadows
+  rotate: true
+  xy: 1321, 178
+  size: 168, 36
+  orig: 168, 36
+  offset: 0, 0
+  index: -1
+shi
+  rotate: false
+  xy: 861, 30
+  size: 116, 128
+  orig: 116, 128
+  offset: 0, 0
+  index: -1
+tail
+  rotate: false
+  xy: 1242, 122
+  size: 67, 67
+  orig: 67, 67
+  offset: 0, 0
+  index: -1

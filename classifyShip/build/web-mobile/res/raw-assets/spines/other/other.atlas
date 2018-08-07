@@ -1,0 +1,69 @@
+
+other.png
+size: 714,168
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+flower_orange
+  rotate: false
+  xy: 546, 85
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
+flower_yellow
+  rotate: false
+  xy: 546, 2
+  size: 94, 81
+  orig: 94, 81
+  offset: 0, 0
+  index: -1
+flowerbed
+  rotate: false
+  xy: 2, 24
+  size: 542, 142
+  orig: 542, 142
+  offset: 0, 0
+  index: -1
+leaf
+  rotate: false
+  xy: 164, 6
+  size: 40, 16
+  orig: 40, 16
+  offset: 0, 0
+  index: -1
+leaf2
+  rotate: false
+  xy: 206, 6
+  size: 39, 16
+  orig: 39, 16
+  offset: 0, 0
+  index: -1
+rhizome
+  rotate: true
+  xy: 2, 4
+  size: 18, 160
+  orig: 18, 160
+  offset: 0, 0
+  index: -1
+stamen_1
+  rotate: false
+  xy: 642, 11
+  size: 62, 68
+  orig: 62, 68
+  offset: 0, 0
+  index: -1
+stamen_2
+  rotate: false
+  xy: 643, 98
+  size: 63, 68
+  orig: 63, 68
+  offset: 0, 0
+  index: -1
+water
+  rotate: false
+  xy: 643, 81
+  size: 69, 15
+  orig: 69, 15
+  offset: 0, 0
+  index: -1

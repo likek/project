@@ -1,0 +1,7 @@
+{
+  "ver": "1.0.0",
+  "uuid": "5a386651-5c42-4779-8702-d225d71ed57b",
+  "atlasJson": "{\"imagePath\":\"penguin_tex.png\",\"SubTexture\":[{\"x\":1,\"y\":198,\"width\":161,\"name\":\"shadow\",\"height\":56},{\"x\":218,\"y\":1,\"width\":28,\"name\":\"hand_l\",\"height\":34},{\"x\":1,\"y\":1,\"width\":177,\"name\":\"body\",\"height\":195},{\"x\":180,\"y\":111,\"width\":38,\"name\":\"foot_r\",\"height\":27},{\"x\":180,\"y\":80,\"width\":39,\"name\":\"foot_l\",\"height\":29},{\"x\":180,\"y\":1,\"width\":36,\"name\":\"hand_r\",\"height\":37},{\"x\":180,\"y\":195,\"width\":14,\"name\":\"eye_l\",\"height\":15},{\"x\":164,\"y\":198,\"width\":14,\"name\":\"eye_r\",\"height\":15},{\"x\":164,\"y\":215,\"width\":17,\"name\":\"eye_x\",\"height\":12},{\"x\":180,\"y\":140,\"width\":29,\"name\":\"eyeball_r\",\"height\":26},{\"x\":180,\"y\":168,\"width\":26,\"name\":\"eyeball_l\",\"height\":25},{\"x\":180,\"y\":40,\"width\":31,\"name\":\"tears\",\"height\":38}],\"width\":248,\"name\":\"penguin\",\"height\":256}",
+  "texture": "1dec71b1-8cbc-48af-be1d-beb786805a05",
+  "subMetas": {}
+}

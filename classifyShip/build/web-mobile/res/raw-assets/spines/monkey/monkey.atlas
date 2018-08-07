@@ -1,0 +1,181 @@
+
+monkey.png
+size: 743,511
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+biscuits
+  rotate: false
+  xy: 398, 340
+  size: 198, 169
+  orig: 198, 169
+  offset: 0, 0
+  index: -1
+eye_happy_m
+  rotate: false
+  xy: 561, 273
+  size: 16, 12
+  orig: 16, 12
+  offset: 0, 0
+  index: -1
+monkey_arm_l
+  rotate: true
+  xy: 673, 182
+  size: 89, 41
+  orig: 89, 41
+  offset: 0, 0
+  index: -1
+monkey_arm_r
+  rotate: false
+  xy: 398, 159
+  size: 124, 51
+  orig: 124, 51
+  offset: 0, 0
+  index: -1
+monkey_body
+  rotate: true
+  xy: 598, 273
+  size: 113, 115
+  orig: 113, 115
+  offset: 0, 0
+  index: -1
+monkey_bos
+  rotate: false
+  xy: 2, 159
+  size: 394, 350
+  orig: 394, 350
+  offset: 0, 0
+  index: -1
+monkey_car
+  rotate: false
+  xy: 2, 84
+  size: 521, 73
+  orig: 521, 73
+  offset: 0, 0
+  index: -1
+monkey_ear_l
+  rotate: true
+  xy: 525, 92
+  size: 67, 76
+  orig: 67, 76
+  offset: 0, 0
+  index: -1
+monkey_ear_r
+  rotate: false
+  xy: 603, 97
+  size: 65, 62
+  orig: 65, 62
+  offset: 0, 0
+  index: -1
+monkey_eye_l
+  rotate: false
+  xy: 29, 2
+  size: 19, 19
+  orig: 19, 19
+  offset: 0, 0
+  index: -1
+monkey_eye_r
+  rotate: false
+  xy: 50, 2
+  size: 19, 19
+  orig: 19, 19
+  offset: 0, 0
+  index: -1
+monkey_eyeball_l
+  rotate: true
+  xy: 673, 141
+  size: 39, 45
+  orig: 39, 45
+  offset: 0, 0
+  index: -1
+monkey_eyeball_r
+  rotate: false
+  xy: 670, 97
+  size: 41, 42
+  orig: 41, 42
+  offset: 0, 0
+  index: -1
+monkey_foot_l
+  rotate: false
+  xy: 674, 4
+  size: 37, 34
+  orig: 37, 34
+  offset: 0, 0
+  index: -1
+monkey_hand_l
+  rotate: false
+  xy: 713, 105
+  size: 28, 34
+  orig: 28, 34
+  offset: 0, 0
+  index: -1
+monkey_hand_r
+  rotate: true
+  xy: 524, 182
+  size: 28, 35
+  orig: 28, 35
+  offset: 0, 0
+  index: -1
+monkey_head
+  rotate: false
+  xy: 398, 212
+  size: 161, 126
+  orig: 161, 126
+  offset: 0, 0
+  index: -1
+monkey_leg_l-
+  rotate: true
+  xy: 721, 466
+  size: 43, 18
+  orig: 43, 18
+  offset: 0, 0
+  index: -1
+monkey_mouth
+  rotate: false
+  xy: 2, 2
+  size: 25, 19
+  orig: 25, 19
+  offset: 0, 0
+  index: -1
+monkey_pedal
+  rotate: false
+  xy: 561, 287
+  size: 35, 51
+  orig: 35, 51
+  offset: 0, 0
+  index: -1
+monkey_shadows
+  rotate: false
+  xy: 2, 23
+  size: 632, 59
+  orig: 632, 59
+  offset: 0, 0
+  index: -1
+monkey_shank_l
+  rotate: true
+  xy: 674, 40
+  size: 55, 51
+  orig: 55, 51
+  offset: 0, 0
+  index: -1
+monkey_tail
+  rotate: true
+  xy: 636, 8
+  size: 87, 36
+  orig: 87, 36
+  offset: 0, 0
+  index: -1
+monkey_wheel_r
+  rotate: false
+  xy: 598, 388
+  size: 121, 121
+  orig: 121, 121
+  offset: 0, 0
+  index: -1
+monkey_wheel_v
+  rotate: false
+  xy: 561, 161
+  size: 110, 110
+  orig: 110, 110
+  offset: 0, 0
+  index: -1

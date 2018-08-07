@@ -1,0 +1,160 @@
+
+giraffe.png
+size: 1469,356
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ball
+  rotate: false
+  xy: 1221, 59
+  size: 176, 176
+  orig: 176, 176
+  offset: 0, 0
+  index: -1
+eye_happy_g
+  rotate: false
+  xy: 1221, 45
+  size: 16, 12
+  orig: 16, 12
+  offset: 0, 0
+  index: -1
+giraffe__ear
+  rotate: false
+  xy: 431, 8
+  size: 86, 45
+  orig: 86, 45
+  offset: 0, 0
+  index: -1
+giraffe__mouth
+  rotate: false
+  xy: 1304, 237
+  size: 26, 17
+  orig: 26, 17
+  offset: 0, 0
+  index: -1
+giraffe_angle
+  rotate: true
+  xy: 433, 55
+  size: 63, 100
+  orig: 63, 100
+  offset: 0, 0
+  index: -1
+giraffe_body_down
+  rotate: false
+  xy: 935, 43
+  size: 284, 192
+  orig: 284, 192
+  offset: 0, 0
+  index: -1
+giraffe_body_up
+  rotate: true
+  xy: 2, 120
+  size: 234, 535
+  orig: 234, 535
+  offset: 0, 0
+  index: -1
+giraffe_box
+  rotate: false
+  xy: 539, 4
+  size: 394, 350
+  orig: 394, 350
+  offset: 0, 0
+  index: -1
+giraffe_eye_l
+  rotate: false
+  xy: 1083, 14
+  size: 25, 27
+  orig: 25, 27
+  offset: 0, 0
+  index: -1
+giraffe_eye_r
+  rotate: false
+  xy: 1399, 71
+  size: 25, 27
+  orig: 25, 27
+  offset: 0, 0
+  index: -1
+giraffe_eyeball_l
+  rotate: false
+  xy: 1399, 100
+  size: 38, 40
+  orig: 38, 40
+  offset: 0, 0
+  index: -1
+giraffe_eyeball_r
+  rotate: false
+  xy: 1429, 314
+  size: 38, 40
+  orig: 38, 40
+  offset: 0, 0
+  index: -1
+giraffe_horsehair
+  rotate: true
+  xy: 935, 237
+  size: 117, 367
+  orig: 117, 367
+  offset: 0, 0
+  index: -1
+giraffe_leg1
+  rotate: false
+  xy: 1304, 256
+  size: 123, 98
+  orig: 123, 98
+  offset: 0, 0
+  index: -1
+giraffe_leg2
+  rotate: true
+  xy: 2, 2
+  size: 54, 141
+  orig: 54, 141
+  offset: 0, 0
+  index: -1
+giraffe_leg3
+  rotate: true
+  xy: 145, 6
+  size: 50, 141
+  orig: 50, 141
+  offset: 0, 0
+  index: -1
+giraffe_leg4
+  rotate: true
+  xy: 288, 7
+  size: 49, 141
+  orig: 49, 141
+  offset: 0, 0
+  index: -1
+giraffe_nose_l
+  rotate: false
+  xy: 519, 44
+  size: 9, 9
+  orig: 9, 9
+  offset: 0, 0
+  index: -1
+giraffe_nose_r
+  rotate: false
+  xy: 519, 44
+  size: 9, 9
+  orig: 9, 9
+  offset: 0, 0
+  index: -1
+giraffe_shadows
+  rotate: false
+  xy: 2, 58
+  size: 429, 60
+  orig: 429, 60
+  offset: 0, 0
+  index: -1
+giraffe_straps
+  rotate: false
+  xy: 935, 8
+  size: 146, 33
+  orig: 146, 33
+  offset: 0, 0
+  index: -1
+giraffe_tail
+  rotate: true
+  xy: 1399, 142
+  size: 112, 63
+  orig: 112, 63
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "weiwancheng",
+    "texture": "25ebdd79-9558-418d-9c17-e94697f95e69",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      82,
+      80
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      82,
+      80
+    ]
+  }
+}
