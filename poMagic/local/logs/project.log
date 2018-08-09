@@ -1,0 +1,113 @@
+2018-08-09T03:16:10.847Z - normal: Load ~/.CocosCreator/settings.json
+2018-08-09T03:16:10.852Z - normal: checking language setting...
+2018-08-09T03:16:10.852Z - normal: Language: zh
+2018-08-09T03:16:11.565Z - success: protocol editor-framework registered
+2018-08-09T03:16:11.565Z - success: protocol app registered
+2018-08-09T03:16:11.565Z - success: protocol theme registered
+2018-08-09T03:16:11.565Z - success: protocol packages registered
+2018-08-09T03:16:11.566Z - success: protocol unpack registerred
+2018-08-09T03:16:11.566Z - success: protocol disable-commonjs registerred
+2018-08-09T03:16:10.925Z - normal: Load ~/.CocosCreator/settings.json
+2018-08-09T03:16:10.930Z - normal: checking language setting...
+2018-08-09T03:16:10.930Z - normal: Language: zh
+2018-08-09T03:16:11.596Z - success: protocol editor-framework registered
+2018-08-09T03:16:11.596Z - success: protocol app registered
+2018-08-09T03:16:11.596Z - success: protocol theme registered
+2018-08-09T03:16:11.596Z - success: protocol packages registered
+2018-08-09T03:16:11.596Z - success: protocol unpack registerred
+2018-08-09T03:16:11.597Z - success: protocol disable-commonjs registerred
+2018-08-09T03:16:12.114Z - warn: 会话不存在或已过期
+2018-08-09T03:16:12.121Z - normal: connected!
+2018-08-09T03:16:12.120Z - normal: connected!
+2018-08-09T03:16:12.122Z - normal: Check project /Users/likeke/Documents/testServer/poMagic
+2018-08-09T03:16:12.123Z - normal: Check project /Users/likeke/Documents/testServer/poMagic
+2018-08-09T03:16:12.124Z - normal: Initializing Cocos2d
+2018-08-09T03:16:12.125Z - normal: Initializing Cocos2d
+2018-08-09T03:16:12.301Z - normal: Initializing Asset Database
+2018-08-09T03:16:12.301Z - normal: Initializing Asset Database
+2018-08-09T03:16:12.337Z - success: protocol uuid registerred
+2018-08-09T03:16:12.337Z - success: protocol db registerred
+2018-08-09T03:16:12.337Z - success: protocol thumbnail registerred
+2018-08-09T03:16:12.337Z - success: protocol uuid registerred
+2018-08-09T03:16:12.337Z - success: protocol db registerred
+2018-08-09T03:16:12.337Z - success: protocol thumbnail registerred
+2018-08-09T03:16:12.337Z - normal: Loading editor/builtin packages
+2018-08-09T03:16:12.337Z - normal: Loading editor/builtin packages
+2018-08-09T03:16:12.357Z - success: anysdk loaded
+2018-08-09T03:16:12.357Z - success: anysdk loaded
+2018-08-09T03:16:12.474Z - success: assets loaded
+2018-08-09T03:16:12.475Z - success: assets loaded
+2018-08-09T03:16:12.479Z - success: builder loaded
+2018-08-09T03:16:12.480Z - success: builder loaded
+2018-08-09T03:16:12.481Z - success: cocos-analytics loaded
+2018-08-09T03:16:12.482Z - success: cocos-analytics loaded
+2018-08-09T03:16:12.486Z - success: console loaded
+2018-08-09T03:16:12.486Z - success: console loaded
+2018-08-09T03:16:12.519Z - success: fb-instant-games loaded
+2018-08-09T03:16:12.519Z - success: fb-instant-games loaded
+2018-08-09T03:16:12.523Z - success: hierarchy loaded
+2018-08-09T03:16:12.523Z - success: hierarchy loaded
+2018-08-09T03:16:12.528Z - success: inspector loaded
+2018-08-09T03:16:12.528Z - success: inspector loaded
+2018-08-09T03:16:12.530Z - success: keystore loaded
+2018-08-09T03:16:12.530Z - success: keystore loaded
+2018-08-09T03:16:12.534Z - success: node-library loaded
+2018-08-09T03:16:12.534Z - success: node-library loaded
+2018-08-09T03:16:12.536Z - success: package-asset loaded
+2018-08-09T03:16:12.536Z - success: package-asset loaded
+2018-08-09T03:16:12.538Z - success: preferences loaded
+2018-08-09T03:16:12.538Z - success: preferences loaded
+2018-08-09T03:16:12.541Z - success: project-exporter loaded
+2018-08-09T03:16:12.541Z - success: project-exporter loaded
+2018-08-09T03:16:12.558Z - success: project-importer loaded
+2018-08-09T03:16:12.558Z - success: project-importer loaded
+2018-08-09T03:16:12.561Z - success: project-settings loaded
+2018-08-09T03:16:12.561Z - success: project-settings loaded
+2018-08-09T03:16:12.565Z - success: ui-kit loaded
+2018-08-09T03:16:12.566Z - success: ui-kit loaded
+2018-08-09T03:16:12.570Z - success: ui-grid loaded
+2018-08-09T03:16:12.571Z - success: ui-grid loaded
+2018-08-09T03:16:12.575Z - success: scene loaded
+2018-08-09T03:16:12.575Z - success: scene loaded
+2018-08-09T03:16:12.576Z - success: sprite-editor loaded
+2018-08-09T03:16:12.576Z - success: sprite-editor loaded
+2018-08-09T03:16:12.580Z - success: store loaded
+2018-08-09T03:16:12.580Z - success: store loaded
+2018-08-09T03:16:12.586Z - success: timeline loaded
+2018-08-09T03:16:12.586Z - success: timeline loaded
+2018-08-09T03:16:12.586Z - normal: Loading builtin packages
+2018-08-09T03:16:12.586Z - normal: Loading builtin packages
+2018-08-09T03:16:12.590Z - success: asset-db-debugger loaded
+2018-08-09T03:16:12.590Z - success: asset-db-debugger loaded
+2018-08-09T03:16:12.591Z - success: color-picker loaded
+2018-08-09T03:16:12.591Z - success: color-picker loaded
+2018-08-09T03:16:12.595Z - success: package-manager loaded
+2018-08-09T03:16:12.595Z - success: package-manager loaded
+2018-08-09T03:16:12.596Z - success: qqplay-adapter loaded
+2018-08-09T03:16:12.596Z - success: qqplay-adapter loaded
+2018-08-09T03:16:12.603Z - success: sdkbox loaded
+2018-08-09T03:16:12.603Z - success: sdkbox loaded
+2018-08-09T03:16:12.607Z - success: tester loaded
+2018-08-09T03:16:12.607Z - success: tester loaded
+2018-08-09T03:16:12.611Z - success: ui-kit-preview-extra loaded
+2018-08-09T03:16:12.611Z - success: ui-kit-preview-extra loaded
+2018-08-09T03:16:12.615Z - success: ui-kit-preview loaded
+2018-08-09T03:16:12.615Z - success: ui-kit-preview loaded
+2018-08-09T03:16:12.619Z - success: ui-tree loaded
+2018-08-09T03:16:12.619Z - success: ui-tree loaded
+2018-08-09T03:16:12.621Z - success: weapp-adapter loaded
+2018-08-09T03:16:12.621Z - success: weapp-adapter loaded
+2018-08-09T03:16:13.637Z - normal: Initializing project /Users/likeke/Documents/testServer/poMagic
+2018-08-09T03:16:13.641Z - normal: Initializing project /Users/likeke/Documents/testServer/poMagic
+2018-08-09T03:16:13.646Z - normal: Loading packages
+2018-08-09T03:16:13.646Z - normal: Loading packages
+2018-08-09T03:16:13.651Z - normal: Watching packages
+2018-08-09T03:16:13.651Z - normal: Watching packages
+2018-08-09T03:16:13.778Z - normal: Run Application
+2018-08-09T03:16:13.780Z - normal: Run Application
+2018-08-09T03:16:15.598Z - success: preview server running at http://localhost:7457
+2018-08-09T03:16:15.600Z - success: preview server running at http://localhost:7458
+2018-08-09T03:16:20.505Z - normal: 1.9.3
+2018-08-09T03:16:20.564Z - normal: 1.9.3
+2018-08-09T03:33:27.527Z - info: shutdown preview server
+2018-08-09T03:39:24.675Z - info: shutdown preview server

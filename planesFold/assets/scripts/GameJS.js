@@ -44,23 +44,10 @@ cc.Class({
             var scaleRatio = THREE.getScaleRatio();
             var height = 460 * scaleRatio,width = window.innerWidth;
             this.renderer.setSize(width, height);
-            this.renderer.setPixelRatio(window.devicePixelRatio||1);
+            this.renderer.setPixelRatio( window.devicePixelRatio);
             this.renderer.domElement.style.left = window.innerWidth/2 - width / 2 + "px";
             this.renderer.domElement.style.top = window.innerHeight/2 - height / 2 + "px";
-            this.renderer.domElement.width = window.innerWidth ;
-            this.renderer.domElement.height = window.innerHeight ;
-
-            console.log("scaleRatio : " + scaleRatio);
-            console.log("height : " + height);
-            console.log("window.innerWidth : " + window.innerWidth);
-            console.log("width : " + width);
-            console.log("window.devicePixelRati: "+window.devicePixelRati);
-            console.log("navigator.userAgent : " + navigator.userAgent);
-
-            console.log("this.renderer.domElement.style.left : " + this.renderer.domElement.style.left);
-            console.log("this.renderer.domElement.style.top : " + this.renderer.domElement.style.top);
         }
-        console.log(navigator);
     },
     //初始化toast框
     initToast: function () {
@@ -377,6 +364,8 @@ function Box(renderer) {
                 }
             }
         }
+        controls["enableZoom"] = false;
+        controls["enablePan"] = false;
     }
     this.update = function(){
         if(resume && controls){

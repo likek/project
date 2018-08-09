@@ -1,0 +1,77 @@
+{   
+    "objstouchType": {
+        "dragmove": 0,
+        "click": 1,
+        "dragslide": 2,
+        "none": 3
+    },
+    "grouptype":{
+        "grid": 0,
+        "custom": 1
+    },
+    "objstype": {
+        "option": 0,
+        "target": 1,
+        "default": 2,
+        "title": 3,
+        "optionarea": 4,
+        "none": 5
+    },
+    "prefabtype":{
+        "title": 0,
+        "number": 1
+    },
+    "groups": {
+        "title": {
+            "id": "title",
+            "type": "grid",
+            "colNum": -1,  
+            "horizontalSpace": 1200,
+            "verticalSpace": 120,
+            "osizew": 1200,
+            "osizeh": 120,
+            "objstype": "default",
+            "prefabtype": "title",
+            "objstouchType": "none",
+            "x": -520,
+            "y": 600,
+            "width": 0,
+            "height": 0
+        },
+        "options": {
+            "id": "options",
+            "type": "custom",
+            "colNum": -1,  
+            "horizontalSpace": 250,
+            "verticalSpace": 200,
+            "osizew": 220,
+            "osizeh": 180,
+            "objstype": "option",
+            "prefabtype": "number",
+            "objstouchType": "click",
+            "x": 0,
+            "y": 0,
+            "width": 10,
+            "height": 10,
+            "infinite": false,
+            "state": [],
+            "verify": true,
+            "ruletype": "singlechoiceclick",
+            "tipnextstep": true
+        }
+    },
+    "rules": {
+        "singlechoice" : {
+            "type": 0
+        },
+        "judgment" : {
+            "type": 1
+        },
+        "singlechoiceclick" : {
+            "type": 2
+        },
+        "judgmentclick" : {
+            "type": 3
+        }
+    }
+}

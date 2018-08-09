@@ -1,0 +1,95 @@
+[{
+    "queType": 1,
+    "qescont": "1+2=?",
+    "quescontimg": [
+    ],
+    "optionandanswers": [
+        {
+            "rightanswer": "C",
+            "options": [
+                {
+                    "optionno": "A",
+                    "optioncontent": "1",
+                    "optioncontimg": ""
+                },
+                {
+                    "optionno": "B",
+                    "optioncontent": "2",
+                    "optioncontimg": ""
+                },
+                {
+                    "optionno": "C",
+                    "optioncontent": "3",
+                    "optioncontimg": null
+                },
+                {
+                    "optionno": "D",
+                    "optioncontent": "4",
+                    "optioncontimg": null
+                }
+            ]
+        }
+    ],
+    "interactiveJson": {
+        "annotations": "",
+        "timerType": 0,
+        "time": 60,
+        "groups": [
+        ],
+        "rules": [
+        ],
+        "steps": [
+            {
+                "totalduration": 3,
+                "objs": ["C", "hand"],
+                "pre": {
+                    "C": {
+                        "parentzIndex": 1,
+                        "zIndex": 1
+                    },
+                    "hand": {
+                        "zIndex": 2,
+                        "position": "C",
+                        "offsetx": 131,
+                        "offsety": -0
+                    }
+                },
+                "actions": {
+                    "hand": [
+                        {
+                            "type":"scaleto",
+                            "duration": 0.3,
+                            "target": 0.9
+                        },
+                        {
+                            "type":"scaleto",
+                            "duration": 0.2,
+                            "target": 1
+                        },{
+                            "type":"scaleto",
+                            "duration": 0.3,
+                            "target": 0.9
+                        },
+                        {
+                            "type":"scaleto",
+                            "duration": 0.2,
+                            "target": 1
+                        },{
+                            "type":"scaleto",
+                            "duration": 0.3,
+                            "target": 0.9
+                        },
+                        {
+                            "type":"scaleto",
+                            "duration": 0.2,
+                            "target": 1
+                        }
+                    ]
+                },
+                "post": {
+                    "hand":["scale"]
+                }
+            }
+        ]
+    }
+}]

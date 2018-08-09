@@ -1,0 +1,27 @@
+{
+  "version": 3,
+  "sources": [
+    "unknown"
+  ],
+  "names": [
+    "cc",
+    "Class",
+    "extends",
+    "Component",
+    "properties",
+    "paopao",
+    "Node",
+    "onLoad",
+    "scale",
+    "Math",
+    "random",
+    "update",
+    "dt",
+    "y"
+  ],
+  "mappings": ";;AAAAA,GAAGC,KAAH,CAAS;AACLC,aAASF,GAAGG,SADP;;AAGLC,gBAAY;AACRC,gBAAQL,GAAGM;AADH,KAHP;;AAOL;AACAC,YAAQ,kBAAY;AAChB,aAAKF,MAAL,CAAYG,KAAZ,GAAoBC,KAAKC,MAAL,KAAgB,GAAhB,GAAsB,GAA1C;AACA;AACH,KAXI;;AAaL;AACAC,YAAQ,gBAAUC,EAAV,EAAc;AAClB;AACA,aAAKP,MAAL,CAAYQ,CAAZ,IAAiB,GAAjB;AACA,YAAI,KAAKR,MAAL,CAAYQ,CAAZ,IAAiB,IAArB,EAA2B;AACvB,iBAAKR,MAAL,CAAYG,KAAZ,GAAoBC,KAAKC,MAAL,KAAgB,GAAhB,GAAsB,GAA1C;AACA,iBAAKL,MAAL,CAAYQ,CAAZ,GAAgB,GAAhB;AACH;AACJ;AArBI,CAAT",
+  "file": "unknown",
+  "sourcesContent": [
+    "cc.Class({\n    extends: cc.Component,\n\n    properties: {\n        paopao: cc.Node,\n    },\n\n    // use this for initialization\n    onLoad: function () {\n        this.paopao.scale = Math.random() * 0.7 + 0.3;\n        // this.offsetX = (Math.random() * 2 - 1) * 0.1;\n    },\n\n    // called every frame, uncomment this function to activate update callback\n    update: function (dt) {\n        // this.paopao.x += this.offsetX;\n        this.paopao.y += 2.0;\n        if (this.paopao.y >= 1012) {\n            this.paopao.scale = Math.random() * 0.7 + 0.3;\n            this.paopao.y = 0.0;\n        }\n    },\n});\n"
+  ]
+}

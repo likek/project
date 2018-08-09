@@ -336,7 +336,7 @@ cc.Class({
         }
 
         this.playBGMAudio();
-        this.playBasinAudio();
+        this.playTimuAudio();
         this.BasicAni();
     },
     requestAllUrls: function requestAllUrls() {

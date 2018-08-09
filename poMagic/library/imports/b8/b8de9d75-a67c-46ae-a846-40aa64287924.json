@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "penguin_tex",
+    "texture": "1dec71b1-8cbc-48af-be1d-beb786805a05",
+    "atlas": "",
+    "rect": [
+      1,
+      1,
+      245,
+      253
+    ],
+    "offset": [
+      -0.5,
+      0.5
+    ],
+    "originalSize": [
+      248,
+      256
+    ]
+  }
+}

@@ -45,11 +45,10 @@ cc.Class({
         if(rightThing)rightThing.removeFromParent();    
     },
     thingTouchStart:function(event){
+        console.log("start");
         if(this.gameJS.tipsNode && this.node.parent === this.gameJS.tipsSource){
             this.gameJS.tipsHand.opacity = 0;
-            this.gameJS.moveThing.opacity = 0;
             this.gameJS.tipsHand.pauseAllActions();
-            this.gameJS.moveThing.pauseAllActions();
             this.node.opacity = 255;
             touchStart.call(this);
         }else if(!this.gameJS.tipsNode){
@@ -59,6 +58,7 @@ cc.Class({
             this.gameJS.BasicAni();//重新计时
             this.moveAble = this.getMoveAble(this.node.__optionID);
             if(!this.moveAble)return;
+            this.node.stopAllActions();
     
             AUDIO_OPEN && this.gameJS.playOptionAudio();
             var touchPos = this.node.convertToWorldSpaceAR(cc.p(0,0));
@@ -153,26 +153,20 @@ cc.Class({
     resetPosition:function(){
         this.moveAble = false;
         cc.log(this.node.__optionID+'reset');
-        // var originPos = this.node.originParent.convertToWorldSpaceAR(cc.v2(0,0));
-        // originPos = this.gameJS.scaleNode.convertToNodeSpaceAR(originPos);
         var currPos = this.node.convertToWorldSpaceAR(cc.v2(0,0));
         currPos = this.node.originParent.convertToNodeSpaceAR(currPos);
-        // var offsetX = originPos.x - currPos.x,offsetY = originPos.y - currPos.y;
 
         this.node.parent = this.node.originParent;
         this.node.setPosition(currPos);
 
-        //var move = cc.moveBy(this.calculateAnimTime(),offsetX,offsetY);
         var move = cc.moveTo(this.calculateAnimTime(), cc.p(this.startx, this.starty));
 
         var moveDown = cc.moveBy(0.4,0,-46);//.easing(cc.easeCubicActionOut());
         var moveUp = cc.moveBy(0.5,0,46);//.easing(cc.easeCubicActionIn());
             this.node.stopAllActions();
-            this.node.runAction(cc.sequence(
+        this.node.runAction(cc.sequence(
             move,
             cc.callFunc(()=>{
-                // this.node.parent = this.node.originParent;
-                // this.node.x = this.node.y = 0;
                this.gameJS.beltNode.zIndex = 0;
                 this.node.parent.getChildByName('leaf').getComponent("sp.Skeleton").setAnimation(0,"error",false);
             },this),
@@ -185,10 +179,7 @@ cc.Class({
                 if(this.gameJS.tipsNode && this.node.parent === this.gameJS.tipsSource){//引导未结束
                     this.gameJS.tipsHandAnimation.call(this.gameJS,1);
                     this.gameJS.tipsHand.resumeAllActions();
-                    this.gameJS.moveThing.resumeAllActions();
                 }
-                //zindex
-                // if(typeof callback === "function")callback();
         })),this);
     },
     hasSameTypeThing:function(tag){

@@ -1,0 +1,434 @@
+[{
+    "queType": 1,
+    "qescont": "每次最多烙两张饼，每烙一面需要一分钟，烙完三张饼最少需要多久_měi cì zuì duō lào liǎng zhāng bǐng ， měi lào yī miàn xū yào yī fèn zhōng ， lào wán sān zhāng bǐng zuì shǎo xū yào duō jiǔ ",
+    "quescontimg": [
+    ],
+    "optionandanswers": [
+        {
+            "rightanswer": "",
+            "options": [
+            ]
+        }
+    ],
+    "interactiveJson": {
+        "annotations": "",
+        "timerType": 1,
+        "time": 100,
+        "flapjackcount": 3,
+        "cooktime": 4,
+        "steps": [
+            {
+                "totalduration": 3,
+                "objs": ["f0","hand", "pan"],
+                "pre": {
+                    "f0": {
+                        "parentzIndex": 0,
+                        "zIndex": 0
+                    },
+                    "pan": {
+                        "zIndex": 0
+                    },
+                    "hand": {
+                        "zIndex": 2,
+                        "position": "f0",
+                        "offsetx": 87,
+                        "offsety": -64
+                    }
+                },
+                "actions": {
+                    "f0": [
+                        {
+                            "type":"moveto",
+                            "duration": 2,
+                            "target": "target"
+                        }
+                    ],
+                    "hand": [
+                        {
+                            "type":"moveto",
+                            "duration": 2,
+                            "target": "target",
+                            "offsetx": 87,
+                            "offsety": -64
+                        }
+                    ]
+                },
+                "post": {
+                    "f0": ["position"],
+                    "hand":["position"]
+                }
+            },
+            {
+                "totalduration": 3,
+                "objs": ["f1","hand", "pan"],
+                "pre": {
+                    "f1": {
+                        "parentzIndex": 0,
+                        "zIndex": 0
+                    },
+                    "hand": {
+                        "zIndex": 2,
+                        "position": "f1",
+                        "offsetx": 87,
+                        "offsety": -64
+                    }
+                },
+                "actions": {
+                    "f1": [
+                        {
+                            "type":"moveto",
+                            "duration": 2,
+                            "target": "target"
+                        }
+                    ],
+                    "hand": [
+                        {
+                            "type":"moveto",
+                            "duration": 2,
+                            "target": "target",
+                            "offsetx": 87,
+                            "offsety": -64
+                        }
+                    ]
+                },
+                "post": {
+                    "f1": ["position"],
+                    "hand":["position"]
+                }
+            },{
+                "totalduration": 3,
+                "objs": ["hand", "panel"],
+                "pre": {
+                    "hand": {
+                        "zIndex": 2,
+                        "position": "panel",
+                        "offsetx": 87,
+                        "offsety": -94
+                    },
+                    "panel": {
+                        "active": true
+                    }
+                },
+                "actions": {
+                    "hand": [
+                        {
+                            "type":"scaleto",
+                            "duration": 0.2,
+                            "target": 0.95
+                        },
+                        {
+                            "type":"scaleto",
+                            "duration": 0.3,
+                            "target": 1
+                        },
+                        {
+                            "type":"scaleto",
+                            "duration": 0.2,
+                            "target": 0.95
+                        },
+                        {
+                            "type":"scaleto",
+                            "duration": 0.3,
+                            "target": 1
+                        },
+                        {
+                            "type":"scaleto",
+                            "duration": 0.2,
+                            "target": 0.95
+                        },
+                        {
+                            "type":"scaleto",
+                            "duration": 0.3,
+                            "target": 1
+                        }
+                    ]
+                },
+                "post": {
+                    "hand":["position"]
+                }
+            },
+            {
+                "totalduration": 3,
+                "objs": ["p2","hand", "plate"],
+                "pre": {
+                    "p2": {
+                        "parentzIndex": 0,
+                        "zIndex": 0,
+                        "parentparentzIndex": 1
+                    },
+                    "plate": {
+                        "zIndex": 0,
+                        "parentzIndex": 0
+                    },
+                    "hand": {
+                        "zIndex": 2,
+                        "position": "p2",
+                        "offsetx": 87,
+                        "offsety": -64
+                    }
+                },
+                "actions": {
+                    "p2": [
+                        {
+                            "type":"moveto",
+                            "duration": 2,
+                            "target": "plate"
+                        }
+                    ],
+                    "hand": [
+                        {
+                            "type":"moveto",
+                            "duration": 2,
+                            "target": "plate",
+                            "offsetx": 87,
+                            "offsety": -64
+                        }
+                    ]
+                },
+                "post": {
+                    "p2": ["position"],
+                    "hand":["position"]
+                }
+            },
+            {
+                "totalduration": 3,
+                "objs": ["f2","hand", "pan"],
+                "pre": {
+                    "f2": {
+                        "parentzIndex": 0,
+                        "zIndex": 0,
+                        "parentparentzIndex": 1
+                    },
+                    "pan": {
+                        "zIndex": 0
+                    },
+                    "hand": {
+                        "zIndex": 2,
+                        "position": "f2",
+                        "offsetx": 87,
+                        "offsety": -64
+                    }
+                },
+                "actions": {
+                    "f2": [
+                        {
+                            "type":"moveto",
+                            "duration": 2,
+                            "target": "target"
+                        }
+                    ],
+                    "hand": [
+                        {
+                            "type":"moveto",
+                            "duration": 2,
+                            "target": "target",
+                            "offsetx": 87,
+                            "offsety": -64
+                        }
+                    ]
+                },
+                "post": {
+                    "f2": ["position"],
+                    "hand":["position"]
+                }
+            },{
+                "totalduration": 3,
+                "objs": ["hand", "panel"],
+                "pre": {
+                    "hand": {
+                        "zIndex": 2,
+                        "position": "panel",
+                        "offsetx": 87,
+                        "offsety": -94
+                    },
+                    "panel": {
+                        "active": true
+                    }
+                },
+                "actions": {
+                    "hand": [
+                        {
+                            "type":"scaleto",
+                            "duration": 0.2,
+                            "target": 0.95
+                        },
+                        {
+                            "type":"scaleto",
+                            "duration": 0.3,
+                            "target": 1
+                        },
+                        {
+                            "type":"scaleto",
+                            "duration": 0.2,
+                            "target": 0.95
+                        },
+                        {
+                            "type":"scaleto",
+                            "duration": 0.3,
+                            "target": 1
+                        },
+                        {
+                            "type":"scaleto",
+                            "duration": 0.2,
+                            "target": 0.95
+                        },
+                        {
+                            "type":"scaleto",
+                            "duration": 0.3,
+                            "target": 1
+                        }
+                    ]
+                },
+                "post": {
+                    "hand":["position"]
+                }
+            }
+            ,
+            {
+                "totalduration": 3,
+                "objs": ["f1","hand", "pan"],
+                "pre": {
+                    "f1": {
+                        "parentzIndex": 0,
+                        "zIndex": 0
+                    },
+                    "hand": {
+                        "zIndex": 2,
+                        "position": "f1",
+                        "offsetx": 87,
+                        "offsety": -64
+                    }
+                },
+                "actions": {
+                    "f1": [
+                        {
+                            "type":"moveto",
+                            "duration": 2,
+                            "target": "target"
+                        }
+                    ],
+                    "hand": [
+                        {
+                            "type":"moveto",
+                            "duration": 2,
+                            "target": "target",
+                            "offsetx": 87,
+                            "offsety": -64
+                        }
+                    ]
+                },
+                "post": {
+                    "f1": ["position"],
+                    "hand":["position"]
+                }
+            }
+            ,{
+                "totalduration": 3,
+                "objs": ["hand", "panel"],
+                "pre": {
+                    "hand": {
+                        "zIndex": 2,
+                        "position": "panel",
+                        "offsetx": 87,
+                        "offsety": -94
+                    },
+                    "panel": {
+                        "active": true
+                    }
+                },
+                "actions": {
+                    "hand": [
+                        {
+                            "type":"scaleto",
+                            "duration": 0.2,
+                            "target": 0.95
+                        },
+                        {
+                            "type":"scaleto",
+                            "duration": 0.3,
+                            "target": 1
+                        },
+                        {
+                            "type":"scaleto",
+                            "duration": 0.2,
+                            "target": 0.95
+                        },
+                        {
+                            "type":"scaleto",
+                            "duration": 0.3,
+                            "target": 1
+                        },
+                        {
+                            "type":"scaleto",
+                            "duration": 0.2,
+                            "target": 0.95
+                        },
+                        {
+                            "type":"scaleto",
+                            "duration": 0.3,
+                            "target": 1
+                        }
+                    ]
+                },
+                "post": {
+                    "hand":["position"]
+                }
+            }
+            ,{
+                "totalduration": 3,
+                "objs": ["hand", "commit", "panel"],
+                "pre": {
+                    "commit":{
+                        "zIndex": 0
+                    },
+                    "hand": {
+                        "zIndex": 2,
+                        "position": "commit",
+                        "offsetx": 87,
+                        "offsety": -64
+                    },
+                    "panel": {
+                        "active": true
+                    }
+                },
+                "actions": {
+                    "hand": [
+                        {
+                            "type":"scaleto",
+                            "duration": 0.2,
+                            "target": 0.95
+                        },
+                        {
+                            "type":"scaleto",
+                            "duration": 0.3,
+                            "target": 1
+                        },
+                        {
+                            "type":"scaleto",
+                            "duration": 0.2,
+                            "target": 0.95
+                        },
+                        {
+                            "type":"scaleto",
+                            "duration": 0.3,
+                            "target": 1
+                        },
+                        {
+                            "type":"scaleto",
+                            "duration": 0.2,
+                            "target": 0.95
+                        },
+                        {
+                            "type":"scaleto",
+                            "duration": 0.3,
+                            "target": 1
+                        }
+                    ]
+                },
+                "post": {
+                    "hand":["position"]
+                }
+            }
+        ]
+    }
+}]

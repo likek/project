@@ -1,0 +1,50 @@
+{
+  "version": 3,
+  "sources": [
+    "unknown"
+  ],
+  "names": [
+    "FeedbackType",
+    "cc",
+    "Enum",
+    "First",
+    "Congratulations",
+    "Refuel",
+    "TimeOver",
+    "Default",
+    "Class",
+    "extends",
+    "Component",
+    "properties",
+    "fishFeedNode",
+    "Node",
+    "rightBoard",
+    "wrongBoard",
+    "timeOverBoard",
+    "fish",
+    "starAnim",
+    "Animation",
+    "fishSprite",
+    "Sprite",
+    "defaultFish",
+    "SpriteFrame",
+    "winFish",
+    "lostFish",
+    "onLoad",
+    "feedbackType",
+    "fishAnim",
+    "getComponent",
+    "firstShowFeedback",
+    "target",
+    "play",
+    "firstFeedbackFinish",
+    "showFeedback",
+    "spriteFrame",
+    "feedbackFinish"
+  ],
+  "mappings": ";;AAAA,IAAIA,eAAeC,GAAGC,IAAH,CAAQ;AACvBC,WAAO,CADgB;AAEvBC,qBAAiB,CAFM;AAGvBC,YAAQ,CAHe;AAIvBC,cAAU,CAJa;AAKvBC,aAAS;;AALc,CAAR,CAAnB;;AASAN,GAAGO,KAAH,CAAS;AACLC,aAASR,GAAGS,SADP;;AAGLC,gBAAY;AACRC,sBAAcX,GAAGY,IADT;AAERC,oBAAYb,GAAGY,IAFP;AAGRE,oBAAYd,GAAGY,IAHP;AAIRG,uBAAef,GAAGY,IAJV;AAKRI,cAAMhB,GAAGY,IALD;AAMRK,kBAAUjB,GAAGkB,SANL;AAORC,oBAAYnB,GAAGoB,MAPP;AAQRC,qBAAarB,GAAGsB,WARR;AASRC,iBAASvB,GAAGsB,WATJ;AAURE,kBAAUxB,GAAGsB;AAVL,KAHP;;AAgBL;AACAG,YAAQ,kBAAY;AAChB,aAAKC,YAAL,GAAoB3B,aAAaG,KAAjC;;AAEA,aAAKyB,QAAL,GAAgB,KAAKX,IAAL,CAAUY,YAAV,CAAuB5B,GAAGkB,SAA1B,CAAhB;AACH,KArBI;;AAuBL;AACAW,uBAAmB,2BAAUC,MAAV,EAAkBJ,YAAlB,EAAgC;AAC/C,aAAKI,MAAL,GAAcA,MAAd;AACA,aAAKJ,YAAL,GAAoBA,YAApB;;AAEA,aAAKC,QAAL,CAAcI,IAAd,CAAmB,YAAnB;AACH,KA7BI;;AA+BL;AACAC,yBAAqB,+BAAY;AAC7B,aAAKC,YAAL,CAAkB,KAAKH,MAAvB,EAA+B,KAAKJ,YAApC;;AAEA,YAAI,KAAKI,MAAT,EAAiB;AACb,iBAAKA,MAAL,CAAYE,mBAAZ;AACH;AACJ,KAtCI;;AAwCL;AACAC,kBAAc,sBAAUH,MAAV,EAAkBJ,YAAlB,EAAgC;AAC1C,aAAKI,MAAL,GAAcA,MAAd;AACA,aAAKJ,YAAL,GAAoBA,YAApB;;AAEA,YAAIA,iBAAiB3B,aAAaI,eAAlC,EAAmD;AAC/C;AACA,iBAAKgB,UAAL,CAAgBe,WAAhB,GAA8B,KAAKX,OAAnC;;AAEA,iBAAKI,QAAL,CAAcI,IAAd,CAAmB,qBAAnB;;AAEA,iBAAKd,QAAL,CAAcc,IAAd;;AAEA,iBAAKlB,UAAL,CAAgBe,YAAhB,CAA6B5B,GAAGkB,SAAhC,EAA2Ca,IAA3C;AACH,SATD,MASO,IAAIL,iBAAiB3B,aAAaK,MAAlC,EAA0C;AAC7C;AACA,iBAAKe,UAAL,CAAgBe,WAAhB,GAA8B,KAAKV,QAAnC;;AAEA,iBAAKG,QAAL,CAAcI,IAAd,CAAmB,YAAnB;;AAEA,iBAAKjB,UAAL,CAAgBc,YAAhB,CAA6B5B,GAAGkB,SAAhC,EAA2Ca,IAA3C;AACH,SAPM,MAOA,IAAIL,iBAAiB3B,aAAaO,OAAlC,EAA2C;AAC9C;AACA,iBAAKa,UAAL,CAAgBe,WAAhB,GAA8B,KAAKb,WAAnC;;AAEA,iBAAKM,QAAL,CAAcI,IAAd,CAAmB,aAAnB;AACH,SALM,MAKA,IAAIL,iBAAiB3B,aAAaM,QAAlC,EAA4C;AAC/C;AACA,iBAAKc,UAAL,CAAgBe,WAAhB,GAA8B,KAAKV,QAAnC;;AAEA,iBAAKG,QAAL,CAAcI,IAAd,CAAmB,YAAnB;AACA,iBAAKhB,aAAL,CAAmBa,YAAnB,CAAgC5B,GAAGkB,SAAnC,EAA8Ca,IAA9C;AACH;AACJ,KAzEI;;AA2EL;AACAI,oBAAgB,0BAAY;AACxB;AACA,aAAKF,YAAL,CAAkB,KAAKH,MAAvB,EAA+B/B,aAAaO,OAA5C;;AAEA,YAAI,KAAKwB,MAAT,EAAiB;AACb,iBAAKA,MAAL,CAAYK,cAAZ;AACH;AACJ;;AAnFI,CAAT",
+  "file": "unknown",
+  "sourcesContent": [
+    "var FeedbackType = cc.Enum({\n    First: 0,\n    Congratulations: 1,\n    Refuel: 2,\n    TimeOver: 3,\n    Default: 4,\n\n});\n\ncc.Class({\n    extends: cc.Component,\n\n    properties: {\n        fishFeedNode: cc.Node,\n        rightBoard: cc.Node,\n        wrongBoard: cc.Node,\n        timeOverBoard: cc.Node,\n        fish: cc.Node,\n        starAnim: cc.Animation,\n        fishSprite: cc.Sprite,\n        defaultFish: cc.SpriteFrame,\n        winFish: cc.SpriteFrame,\n        lostFish: cc.SpriteFrame,\n    },\n\n    // use this for initialization\n    onLoad: function () {\n        this.feedbackType = FeedbackType.First;\n\n        this.fishAnim = this.fish.getComponent(cc.Animation);\n    },\n\n    //入场\n    firstShowFeedback: function (target, feedbackType) {\n        this.target = target;\n        this.feedbackType = feedbackType;\n\n        this.fishAnim.play('fishOnLoad');\n    },\n\n    //入场结束\n    firstFeedbackFinish: function () {\n        this.showFeedback(this.target, this.feedbackType);\n\n        if (this.target) {\n            this.target.firstFeedbackFinish();\n        }\n    },\n\n    //开始动画\n    showFeedback: function (target, feedbackType) {\n        this.target = target;\n        this.feedbackType = feedbackType;\n\n        if (feedbackType === FeedbackType.Congratulations) {\n            //答对了\n            this.fishSprite.spriteFrame = this.winFish;\n\n            this.fishAnim.play('fishCongratulations');\n\n            this.starAnim.play();\n\n            this.rightBoard.getComponent(cc.Animation).play();\n        } else if (feedbackType === FeedbackType.Refuel) {\n            //答错了\n            this.fishSprite.spriteFrame = this.lostFish;\n\n            this.fishAnim.play('fishRefuel');\n\n            this.wrongBoard.getComponent(cc.Animation).play();\n        } else if (feedbackType === FeedbackType.Default) {\n            //default\n            this.fishSprite.spriteFrame = this.defaultFish;\n\n            this.fishAnim.play('fishdefault');\n        } else if (feedbackType === FeedbackType.TimeOver) {\n            //时间到\n            this.fishSprite.spriteFrame = this.lostFish;\n\n            this.fishAnim.play('fishRefuel');\n            this.timeOverBoard.getComponent(cc.Animation).play();\n        }\n    },\n\n    //动画结束\n    feedbackFinish: function () {\n        //播放漂浮动画\n        this.showFeedback(this.target, FeedbackType.Default);\n\n        if (this.target) {\n            this.target.feedbackFinish();\n        }\n    },\n\n    // called every frame, uncomment this function to activate update callback\n    // update: function (dt) {\n\n    // },\n});\n"
+  ]
+}

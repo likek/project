@@ -11,7 +11,6 @@ cc.Class({
 
         beltContainer:cc.Node,
         leafContainer:cc.Prefab,
-        moveThing:cc.Node,
         progress:cc.Node,
         backBtn:cc.Node,
         tipsHand:cc.Node,
@@ -29,8 +28,11 @@ cc.Class({
         option_outAudio: cc.AudioClip,
         carMoveAudio: cc.AudioClip,
         flyStarAudio: cc.AudioClip,
-        wrongAudio:cc.AudioClip,
-        rightAudio: cc.AudioClip,
+        timeUpAudio: cc.AudioClip,
+        oneStarAudio: cc.AudioClip,
+        twoStarAudio:cc.AudioClip,
+        threeStarAudio: cc.AudioClip,
+        timuAudio: cc.AudioClip,
     },
     onLoadChild: function () {
         this._super();
@@ -98,6 +100,7 @@ cc.Class({
     timeout: function () {
         this.progress.getComponent("ProgressJs").setStarTypeByIndex(this.nowQuestionID,2);
         this.settlementJs.playTimeUpAnim();
+        this.playTimeUpAudio();
     },
 
     //移除当前所有选项
@@ -151,7 +154,7 @@ cc.Class({
         this.monkey.active = question.monkey.isShow;
         this.frog.active = question.frog.isShow;
         this.giraffe.active = question.giraffe.isShow;
-        this.moveThing.opacity = 0;//touchEnd
+        // this.moveThing.opacity = 0;//touchEnd
 
         this.monkey.getChildByName("collisionNode").tag = question.monkey.isShow ? 3:-1;
         this.frog.getChildByName("collisionNode").tag = question.frog.isShow ? 1 : -1;
@@ -169,7 +172,7 @@ cc.Class({
         this.collideAble = false;
         this.updateAble = true;
         this.currTouchOption = null;
-        this.moveThing.opacity = 0;
+        // this.moveThing.opacity = 0;
         if (this.nowQuestionID > 0) {
             !this.isIts && this.showSchedule();
             isTotalCd && (this.lastAnswerTime = this.answerTime);
@@ -275,36 +278,21 @@ cc.Class({
 
                 handNode.x = nodePosition.x + 120;
                 handNode.y = nodePosition.y - 110;
-                this.moveThing.x = nodePosition.x;
-                this.moveThing.y = nodePosition.y;
-                this.moveThing.opacity = 255;
-                sourseThing.opacity = 0;
-                this.moveThing.tag = sourseThing.tag;
-                this.moveThing.getComponent(cc.Sprite).spriteFrame = sourseThing.getComponent(cc.Sprite).spriteFrame;
 
                 handNode.stopAllActions();
-                this.moveThing.stopAllActions();
                 var runTime = 2;
                 var move = cc.moveTo(runTime,newPosition.x + 120,newPosition.y - 110);
                 handNode.runAction(cc.sequence(move,cc.callFunc(()=>{
                     handNode.x = nodePosition.x + 120;
                     handNode.y = nodePosition.y - 110;
                 })),this).repeatForever();
-
-                var move1 = cc.moveTo(runTime,newPosition.x,newPosition.y);
-                this.moveThing.runAction(cc.sequence(move1,cc.callFunc(()=>{
-                    this.moveThing.x = nodePosition.x;
-                    this.moveThing.y = nodePosition.y;
-                })),this).repeatForever();
             },timeOut||3000);
         }
     },
     stopTipsAnimation: function(){
         this.tipsHand.stopAllActions();
-        this.moveThing.stopAllActions();
         this.tipsHand.removeFromParent();
         this.tipsHand = null;
-        this.moveThing.opacity = 0;
         this.updateAble = true;
         this.collideAble = true;//是否可碰撞
         this.tipsNode.removeFromParent();
@@ -349,16 +337,16 @@ cc.Class({
         },this);
         if(rightNum/totalNum >=0.8){
             if (CONSOLE_LOG_OPEN) cc.log('>=0.8');
-            AUDIO_OPEN && this.playWinAudio();
+            AUDIO_OPEN && this.playThreeStarAudio();
             this.settlementJs.playWinAnim();
         }else if (rightNum/totalNum >=0.6){
             if (CONSOLE_LOG_OPEN) cc.log('>=0.6');
-            AUDIO_OPEN && this.playLoseAudio();
+            AUDIO_OPEN && this.playTwoStarAudio();
             this.settlementJs.playTwoStarAnim();
 
         }else{
             if (CONSOLE_LOG_OPEN) cc.log('<0.6');
-            AUDIO_OPEN && this.playLoseAudio();
+            AUDIO_OPEN && this.playOneStarAudio();
             this.settlementJs.playLoseAnim();
 
         }
@@ -442,7 +430,6 @@ cc.Class({
     playWinAudio: function () {
         this.playAudio(this.winAudio);
     },
-
     playLoseAudio: function () {
         this.playAudio(this.loseAudio);
     },
@@ -455,17 +442,23 @@ cc.Class({
     playOptionOutAudio: function () {
         this.playAudio(this.option_outAudio);
     },
-    playRightAudio:function(){
-        this.playAudio(this.rightAudio);
-    },
-    playRightAudio:function(){
-        this.playAudio(this.wrongAudio);
-    },
     playCarMoveAudio:function(){
         this.playAudio(this.carMoveAudio);
     },
     playFlyStarAudio:function(){
         this.playAudio(this.flyStarAudio);
+    },
+    playTimeUpAudio:function(){
+        this.playAudio(this.timeUpAudio);
+    },
+    playOneStarAudio:function(){
+        this.playAudio(this.oneStarAudio);
+    },
+    playTwoStarAudio:function(){
+        this.playAudio(this.twoStarAudio);
+    },
+    playThreeStarAudio:function(){
+        this.playAudio(this.threeStarAudio);
     },
      /* 循环规则音,点击后重置 */
      BasicAni: function () {
@@ -485,6 +478,14 @@ cc.Class({
         this.basinCallback = BasinCallbackFunc();
         var question = this.questionArr[this.nowQuestionID];
         this.schedule(this.basinCallback, question.gap?parseInt(question.gap):40);
+    },
+    playTimuAudio: function () {
+        var self = this;
+        let audio = cc.audioEngine.play(this.timuAudio, false, 1);
+        cc.audioEngine.setFinishCallback(audio, function () {
+            cc.audioEngine.stop(audio);
+            self.playBasinAudio();
+        })
     },
     playBasinAudio: function () {
         //this.playAudio(this.basinAudio);

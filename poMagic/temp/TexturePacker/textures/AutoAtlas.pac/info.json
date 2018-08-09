@@ -1,0 +1,16 @@
+{
+  "packedTextures": [
+    {
+      "path": "/Users/lisong/ips-h5/3_互动游戏/2017秋季/公共/CocosGameXD_ITS/temp/TexturePacker/textures/AutoAtlas.pac/AutoAtlas-1.png",
+      "name": "AutoAtlas-1.png",
+      "size": "512x1024"
+    }
+  ],
+  "unpackedTextures": [
+    {
+      "path": "/Users/lisong/ips-h5/3_互动游戏/2017秋季/公共/CocosGameXD_ITS/assets/textures/bg.jpg",
+      "name": "bg.jpg",
+      "size": "2052x1540"
+    }
+  ]
+}

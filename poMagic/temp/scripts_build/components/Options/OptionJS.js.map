@@ -1,0 +1,38 @@
+{
+  "version": 3,
+  "sources": [
+    "unknown"
+  ],
+  "names": [
+    "cc",
+    "Class",
+    "extends",
+    "Component",
+    "properties",
+    "option_node",
+    "Node",
+    "label",
+    "Label",
+    "init",
+    "gameJS",
+    "option",
+    "optionLength",
+    "string",
+    "optionContent",
+    "optionNo",
+    "optionClick",
+    "self",
+    "updateState",
+    "scheduleOnce",
+    "selectAnswer",
+    "interactable",
+    "buttonCom",
+    "getComponent",
+    "Button"
+  ],
+  "mappings": ";;AAAAA,GAAGC,KAAH,CAAS;AACLC,aAASF,GAAGG,SADP;;AAGLC,gBAAY;AACRC,qBAAaL,GAAGM,IADR;AAERC,eAAOP,GAAGQ;AAFF,KAHP;;AAQLC,UAAM,cAAUC,MAAV,EAAkBC,MAAlB,EAA0BC,YAA1B,EAAwC;AAC1C,aAAKF,MAAL,GAAcA,MAAd;AACA,aAAKC,MAAL,GAAcA,MAAd,CAF0C,CAErB;AACrB,aAAKJ,KAAL,CAAWM,MAAX,GAAoBF,OAAOG,aAA3B,CAH0C,CAGD;AACzC,aAAKC,QAAL,GAAgBJ,OAAOI,QAAvB;AACH,KAbI;;AAeLC,iBAAa,uBAAY;AACrB,YAAIC,OAAO,IAAX;AACAA,aAAKC,WAAL,CAAiB,KAAjB;AACA,aAAKC,YAAL,CAAkB,YAAY;AAC1BF,iBAAKP,MAAL,CAAYU,YAAZ,CAAyBH,KAAKN,MAA9B;AACH,SAFD,EAEG,GAFH;AAGH,KArBI;AAsBL;AACAO,iBAAa,qBAAUG,YAAV,EAAwB;AACjC,YAAIC,YAAY,KAAKjB,WAAL,CAAiBkB,YAAjB,CAA8BvB,GAAGwB,MAAjC,CAAhB;AACAF,kBAAUD,YAAV,GAAyBA,YAAzB;AACH;AA1BI,CAAT",
+  "file": "unknown",
+  "sourcesContent": [
+    "cc.Class({\n    extends: cc.Component,\n\n    properties: {\n        option_node: cc.Node,\n        label: cc.Label\n    },\n\n    init: function (gameJS, option, optionLength) {\n        this.gameJS = gameJS;\n        this.option = option;//选项（选项，选项答案）\n        this.label.string = option.optionContent;//读取选项答案\n        this.optionNo = option.optionNo;\n    },\n\n    optionClick: function () {\n        var self = this;\n        self.updateState(false);\n        this.scheduleOnce(function () {\n            self.gameJS.selectAnswer(self.option);\n        }, 0.2);\n    },\n    //按钮是否可点击\n    updateState: function (interactable) {\n        var buttonCom = this.option_node.getComponent(cc.Button);\n        buttonCom.interactable = interactable;\n    },\n});\n"
+  ]
+}

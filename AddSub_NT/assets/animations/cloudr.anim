@@ -1,0 +1,91 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "cloud",
+  "_objFlags": 0,
+  "_rawFiles": null,
+  "_duration": 1.4,
+  "sample": 30,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "props": {
+      "scaleX": [
+        {
+          "frame": 0,
+          "value": 0.7
+        },
+        {
+          "frame": 0.23333333333333334,
+          "value": 1.15
+        },
+        {
+          "frame": 0.4,
+          "value": 0.85
+        },
+        {
+          "frame": 0.5666666666666667,
+          "value": 1.08
+        },
+        {
+          "frame": 0.7333333333333333,
+          "value": 0.92
+        },
+        {
+          "frame": 0.9,
+          "value": 1.04
+        },
+        {
+          "frame": 1.0666666666666667,
+          "value": 0.98
+        },
+        {
+          "frame": 1.2333333333333334,
+          "value": 1.02
+        },
+        {
+          "frame": 1.4,
+          "value": 1
+        }
+      ],
+      "scaleY": [
+        {
+          "frame": 0,
+          "value": 0.7
+        },
+        {
+          "frame": 0.23333333333333334,
+          "value": 1.15
+        },
+        {
+          "frame": 0.4,
+          "value": 0.85
+        },
+        {
+          "frame": 0.5666666666666667,
+          "value": 1.08
+        },
+        {
+          "frame": 0.7333333333333333,
+          "value": 0.92
+        },
+        {
+          "frame": 0.9,
+          "value": 1.04
+        },
+        {
+          "frame": 1.0666666666666667,
+          "value": 0.98
+        },
+        {
+          "frame": 1.2333333333333334,
+          "value": 1.02
+        },
+        {
+          "frame": 1.4,
+          "value": 1
+        }
+      ]
+    }
+  },
+  "events": []
+}

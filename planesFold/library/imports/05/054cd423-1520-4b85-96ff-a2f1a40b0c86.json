@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "numBg",
+    "texture": "a970b8d8-d76b-4c79-ada8-2a299786a030",
+    "atlas": "",
+    "rect": [
+      13,
+      13,
+      54,
+      54
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      80,
+      80
+    ]
+  }
+}

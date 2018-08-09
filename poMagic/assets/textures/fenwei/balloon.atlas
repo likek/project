@@ -1,0 +1,104 @@
+
+balloon.png
+size: 233,141
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+elated_b
+  rotate: false
+  xy: 137, 17
+  size: 43, 48
+  orig: 43, 48
+  offset: 0, 0
+  index: -1
+elated_g
+  rotate: true
+  xy: 185, 32
+  size: 37, 41
+  orig: 37, 41
+  offset: 0, 0
+  index: -1
+elated_r
+  rotate: true
+  xy: 5, 4
+  size: 55, 61
+  orig: 55, 61
+  offset: 0, 0
+  index: -1
+elated_w
+  rotate: true
+  xy: 176, 94
+  size: 43, 48
+  orig: 43, 48
+  offset: 0, 0
+  index: -1
+elated_y
+  rotate: false
+  xy: 5, 63
+  size: 66, 74
+  orig: 66, 74
+  offset: 0, 0
+  index: -1
+elated_y_2
+  rotate: true
+  xy: 71, 4
+  size: 55, 61
+  orig: 55, 61
+  offset: 0, 0
+  index: -1
+spot1
+  rotate: true
+  xy: 185, 4
+  size: 24, 19
+  orig: 24, 19
+  offset: 0, 0
+  index: -1
+spot2
+  rotate: false
+  xy: 138, 70
+  size: 24, 17
+  orig: 24, 17
+  offset: 0, 0
+  index: -1
+spot3
+  rotate: false
+  xy: 192, 76
+  size: 19, 14
+  orig: 19, 14
+  offset: 0, 0
+  index: -1
+spot4
+  rotate: false
+  xy: 209, 14
+  size: 19, 14
+  orig: 19, 14
+  offset: 0, 0
+  index: -1
+spot5
+  rotate: false
+  xy: 167, 73
+  size: 20, 14
+  orig: 20, 14
+  offset: 0, 0
+  index: -1
+spot_b
+  rotate: false
+  xy: 76, 91
+  size: 45, 46
+  orig: 45, 46
+  offset: 0, 0
+  index: -1
+spot_g
+  rotate: false
+  xy: 126, 91
+  size: 45, 46
+  orig: 45, 46
+  offset: 0, 0
+  index: -1
+spot_o
+  rotate: false
+  xy: 76, 69
+  size: 57, 18
+  orig: 57, 18
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,56 @@
+2018-08-09T02:36:00.579Z - normal: Load ~/.CocosCreator/settings.json
+2018-08-09T02:36:00.583Z - normal: checking language setting...
+2018-08-09T02:36:00.583Z - normal: Language: zh
+2018-08-09T02:36:01.219Z - success: protocol editor-framework registered
+2018-08-09T02:36:01.219Z - success: protocol app registered
+2018-08-09T02:36:01.219Z - success: protocol theme registered
+2018-08-09T02:36:01.219Z - success: protocol packages registered
+2018-08-09T02:36:01.219Z - success: protocol unpack registerred
+2018-08-09T02:36:01.220Z - success: protocol disable-commonjs registerred
+2018-08-09T02:36:01.867Z - normal: connected!
+2018-08-09T02:36:01.868Z - normal: Check project /Users/likeke/Documents/pro/projects/planesFold
+2018-08-09T02:36:01.869Z - normal: Initializing Cocos2d
+2018-08-09T02:36:02.033Z - normal: Initializing Asset Database
+2018-08-09T02:36:02.068Z - success: protocol uuid registerred
+2018-08-09T02:36:02.068Z - success: protocol db registerred
+2018-08-09T02:36:02.068Z - success: protocol thumbnail registerred
+2018-08-09T02:36:02.068Z - normal: Loading editor/builtin packages
+2018-08-09T02:36:02.087Z - success: anysdk loaded
+2018-08-09T02:36:02.205Z - success: assets loaded
+2018-08-09T02:36:02.210Z - success: builder loaded
+2018-08-09T02:36:02.211Z - success: cocos-analytics loaded
+2018-08-09T02:36:02.215Z - success: console loaded
+2018-08-09T02:36:02.252Z - success: fb-instant-games loaded
+2018-08-09T02:36:02.256Z - success: hierarchy loaded
+2018-08-09T02:36:02.261Z - success: inspector loaded
+2018-08-09T02:36:02.263Z - success: keystore loaded
+2018-08-09T02:36:02.267Z - success: node-library loaded
+2018-08-09T02:36:02.269Z - success: package-asset loaded
+2018-08-09T02:36:02.271Z - success: preferences loaded
+2018-08-09T02:36:02.274Z - success: project-exporter loaded
+2018-08-09T02:36:02.291Z - success: project-importer loaded
+2018-08-09T02:36:02.294Z - success: project-settings loaded
+2018-08-09T02:36:02.299Z - success: ui-kit loaded
+2018-08-09T02:36:02.306Z - success: ui-grid loaded
+2018-08-09T02:36:02.310Z - success: scene loaded
+2018-08-09T02:36:02.311Z - success: sprite-editor loaded
+2018-08-09T02:36:02.315Z - success: store loaded
+2018-08-09T02:36:02.322Z - success: timeline loaded
+2018-08-09T02:36:02.322Z - normal: Loading builtin packages
+2018-08-09T02:36:02.326Z - success: asset-db-debugger loaded
+2018-08-09T02:36:02.328Z - success: color-picker loaded
+2018-08-09T02:36:02.332Z - success: package-manager loaded
+2018-08-09T02:36:02.333Z - success: qqplay-adapter loaded
+2018-08-09T02:36:02.340Z - success: sdkbox loaded
+2018-08-09T02:36:02.344Z - success: tester loaded
+2018-08-09T02:36:02.348Z - success: ui-kit-preview-extra loaded
+2018-08-09T02:36:02.351Z - success: ui-kit-preview loaded
+2018-08-09T02:36:02.355Z - success: ui-tree loaded
+2018-08-09T02:36:02.356Z - success: weapp-adapter loaded
+2018-08-09T02:36:03.371Z - normal: Initializing project /Users/likeke/Documents/pro/projects/planesFold
+2018-08-09T02:36:03.375Z - normal: Loading packages
+2018-08-09T02:36:03.381Z - normal: Watching packages
+2018-08-09T02:36:03.505Z - normal: Run Application
+2018-08-09T02:36:04.442Z - success: preview server running at http://localhost:7457
+2018-08-09T02:36:08.699Z - normal: 1.9.3
+2018-08-09T02:49:11.260Z - info: shutdown preview server

@@ -1,0 +1,34 @@
+{
+  "version": 3,
+  "sources": [
+    "unknown"
+  ],
+  "names": [
+    "NetworkJS",
+    "require",
+    "cc",
+    "Class",
+    "extends",
+    "properties",
+    "analysisDict",
+    "questionDict",
+    "interactiveJson",
+    "length",
+    "gameLoadFailed",
+    "JSON",
+    "parse",
+    "question",
+    "answerTime",
+    "levelQuestionDetailID",
+    "questionid",
+    "leveLQuestionDetailNum",
+    "orderid",
+    "qescont",
+    "removeSpan"
+  ],
+  "mappings": ";;AAAA,IAAIA,YAAYC,QAAQ,WAAR,CAAhB;;AAEAC,GAAGC,KAAH,CAAS;AACLC,UAASJ,SADJ;;AAGLK,aAAY,EAHP;;AAML;AACHC,eAAc,sBAAUC,YAAV,EAAwB;AACrC,MAAIC,kBAAkBD,aAAaC,eAAnC;AACA,MAAI,CAACA,eAAD,IAAoBA,gBAAgBC,MAAhB,IAA0B,CAAlD,EAAqD;AACpD;AACA,QAAKC,cAAL,CAAoB,CAApB;AACA;AACA,GAJD,MAIO,IAAI,OAAOF,eAAP,IAA0B,QAA9B,EAAwC;AAC9CA,qBAAkBG,KAAKC,KAAL,CAAWJ,eAAX,CAAlB;AACA;AACD;AACA,MAAIK,WAAW;AACdC,eAAY,GADE,EACE;AAChBC,0BAAuBR,aAAaS,UAFtB,EAEiC;AAC/CC,2BAAwBV,aAAaW,OAHvB,EAG+B;AAC7CC,YAAS,KAAKC,UAAL,CAAgBb,aAAaY,OAA7B,CAJK,EAIiC;AAC/CX,oBAAiBA,eALH,EAAf;;AAQA,SAAOK,QAAP;AACA;AA1BO,CAAT",
+  "file": "unknown",
+  "sourcesContent": [
+    "var NetworkJS = require(\"NetworkJS\");\n\ncc.Class({\n    extends: NetworkJS,\n\n    properties: {\n\t},\n\n    //解析转换每一条数据\n\tanalysisDict: function (questionDict) {\n\t\tvar interactiveJson = questionDict.interactiveJson;\n\t\tif (!interactiveJson || interactiveJson.length == 0) {\n\t\t\t//容错不录json的情况\n\t\t\tthis.gameLoadFailed(2);\n\t\t\treturn;\n\t\t} else if (typeof interactiveJson == 'string') {\n\t\t\tinteractiveJson = JSON.parse(interactiveJson);\n\t\t}\n\t\t//每一道小题内容\n\t\tvar question = {\n\t\t\tanswerTime: '0',//答题时间\n\t\t\tlevelQuestionDetailID: questionDict.questionid,//IPS题目（小题） ID\n\t\t\tleveLQuestionDetailNum: questionDict.orderid,//IPS题目（小题）序号\n\t\t\tqescont: this.removeSpan(questionDict.qescont),//题干\n\t\t\tinteractiveJson: interactiveJson,//格外配置json\n\t\t};\n\n\t\treturn question;\n\t},\n});\n"
+  ]
+}

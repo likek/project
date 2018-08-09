@@ -1,0 +1,270 @@
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "clamp",
+  "_objFlags": 0,
+  "_rawFiles": [
+    "raw-skeleton.json"
+  ],
+  "_skeletonJson": {
+    "skeleton": {
+      "hash": "u+MQmKUcN/aLv4ES9nhPFMjuz0I",
+      "spine": "3.6.53",
+      "width": 332,
+      "height": 1369.29,
+      "images": "./images/"
+    },
+    "bones": [
+      {
+        "name": "root"
+      },
+      {
+        "name": "all",
+        "parent": "root",
+        "length": 314.5
+      },
+      {
+        "name": "pole",
+        "parent": "root"
+      },
+      {
+        "name": "clamp_l",
+        "parent": "pole",
+        "length": 9.13,
+        "x": -69.13,
+        "y": -613.06
+      },
+      {
+        "name": "clamp_r",
+        "parent": "pole",
+        "length": 9.13,
+        "x": 69.92,
+        "y": -613.06
+      },
+      {
+        "name": "pedestal",
+        "parent": "pole",
+        "length": 12.83,
+        "x": -1.1,
+        "y": -580.52
+      }
+    ],
+    "slots": [
+      {
+        "name": "clamp_L",
+        "bone": "clamp_l",
+        "attachment": "clamp_L"
+      },
+      {
+        "name": "clamp_r",
+        "bone": "clamp_r",
+        "attachment": "clamp_r"
+      },
+      {
+        "name": "pole",
+        "bone": "pole",
+        "attachment": "pole_"
+      },
+      {
+        "name": "pedestal",
+        "bone": "pedestal",
+        "attachment": "pedestal"
+      }
+    ],
+    "skins": {
+      "default": {},
+      "pink": {
+        "clamp_L": {
+          "clamp_L": {
+            "x": -48.37,
+            "y": -68.94,
+            "width": 97,
+            "height": 164
+          }
+        },
+        "clamp_r": {
+          "clamp_r": {
+            "x": 47.58,
+            "y": -69.44,
+            "width": 97,
+            "height": 165
+          }
+        },
+        "pedestal": {
+          "pedestal": {
+            "x": 1.6,
+            "y": -21.98,
+            "width": 219,
+            "height": 81
+          }
+        },
+        "pole": {
+          "pole_": {
+            "name": "pole_yellow",
+            "y": -49.71,
+            "width": 156,
+            "height": 1308
+          }
+        }
+      },
+      "yellow": {
+        "clamp_L": {
+          "clamp_L": {
+            "name": "clamp_l_pink",
+            "x": -48.37,
+            "y": -68.94,
+            "width": 97,
+            "height": 164
+          }
+        },
+        "clamp_r": {
+          "clamp_r": {
+            "name": "clamp_r_pink",
+            "x": 47.58,
+            "y": -68.94,
+            "width": 97,
+            "height": 165
+          }
+        },
+        "pedestal": {
+          "pedestal": {
+            "name": "pedestal_pink",
+            "x": 1.6,
+            "y": -21.98,
+            "width": 219,
+            "height": 81
+          }
+        },
+        "pole": {
+          "pole_": {
+            "name": "pole_pink",
+            "y": -49.71,
+            "width": 156,
+            "height": 1308
+          }
+        }
+      }
+    },
+    "animations": {
+      "put": {
+        "bones": {
+          "clamp_l": {
+            "rotate": [
+              {
+                "time": 0,
+                "angle": 30,
+                "curve": [
+                  0,
+                  0.12,
+                  0.398,
+                  1
+                ]
+              },
+              {
+                "time": 0.3333,
+                "angle": 0
+              }
+            ]
+          },
+          "clamp_r": {
+            "rotate": [
+              {
+                "time": 0,
+                "angle": -30,
+                "curve": [
+                  0,
+                  0.12,
+                  0.398,
+                  1
+                ]
+              },
+              {
+                "time": 0.3333,
+                "angle": 0
+              }
+            ]
+          }
+        }
+      },
+      "scratch": {
+        "bones": {
+          "clamp_l": {
+            "rotate": [
+              {
+                "time": 0,
+                "angle": 0,
+                "curve": [
+                  0,
+                  0.12,
+                  0.398,
+                  1
+                ]
+              },
+              {
+                "time": 0.5,
+                "angle": -50,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.8333,
+                "angle": -50,
+                "curve": [
+                  0,
+                  0.12,
+                  0.398,
+                  1
+                ]
+              },
+              {
+                "time": 1.3333,
+                "angle": 30
+              }
+            ]
+          },
+          "clamp_r": {
+            "rotate": [
+              {
+                "time": 0,
+                "angle": 0,
+                "curve": [
+                  0,
+                  0.12,
+                  0.398,
+                  1
+                ]
+              },
+              {
+                "time": 0.5,
+                "angle": 50,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.8333,
+                "angle": 50,
+                "curve": [
+                  0,
+                  0.12,
+                  0.398,
+                  1
+                ]
+              },
+              {
+                "time": 1.3333,
+                "angle": -30
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "_atlasText": "\nclamp.png\nsize: 1694,332\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\nclamp_L\n  rotate: false\n  xy: 177, 164\n  size: 97, 164\n  orig: 97, 164\n  offset: 0, 0\n  index: -1\nclamp_l_pink\n  rotate: false\n  xy: 279, 164\n  size: 97, 164\n  orig: 97, 164\n  offset: 0, 0\n  index: -1\nclamp_r\n  rotate: true\n  xy: 5, 8\n  size: 97, 165\n  orig: 97, 165\n  offset: 0, 0\n  index: -1\nclamp_r_pink\n  rotate: true\n  xy: 175, 8\n  size: 97, 165\n  orig: 97, 165\n  offset: 0, 0\n  index: -1\npedestal\n  rotate: true\n  xy: 91, 109\n  size: 219, 81\n  orig: 219, 81\n  offset: 0, 0\n  index: -1\npedestal_pink\n  rotate: true\n  xy: 5, 109\n  size: 219, 81\n  orig: 219, 81\n  offset: 0, 0\n  index: -1\npole_pink\n  rotate: true\n  xy: 345, 4\n  size: 156, 1308\n  orig: 156, 1308\n  offset: 0, 0\n  index: -1\npole_yellow\n  rotate: true\n  xy: 381, 172\n  size: 156, 1308\n  orig: 156, 1308\n  offset: 0, 0\n  index: -1\n",
+  "atlasUrl": {
+    "__uuid__": "5d354bdf-815c-416d-989a-6bf58773d41e"
+  },
+  "textures": [
+    {
+      "__uuid__": "34fa9e41-6be7-44c6-a646-0f3a9e20dd69"
+    }
+  ],
+  "scale": 1
+}

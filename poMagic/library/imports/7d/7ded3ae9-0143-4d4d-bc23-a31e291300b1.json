@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "clamp",
+    "texture": "34fa9e41-6be7-44c6-a646-0f3a9e20dd69",
+    "atlas": "",
+    "rect": [
+      5,
+      4,
+      1684,
+      324
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      1694,
+      332
+    ]
+  }
+}

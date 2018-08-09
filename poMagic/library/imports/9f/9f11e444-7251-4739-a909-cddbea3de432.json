@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "wuyan",
+    "texture": "7b42dbd0-037e-4def-868a-56c9ce139ede",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      3328,
+      111
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      3328,
+      111
+    ]
+  }
+}

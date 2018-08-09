@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "bg_rounded",
+    "texture": "a355fcec-9e8f-4411-8ab4-e5514776cfa6",
+    "atlas": "",
+    "rect": [
+      5,
+      4,
+      220,
+      220
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      230,
+      228
+    ]
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "number",
+  "_objFlags": 0,
+  "_rawFiles": null,
+  "_duration": 2.67,
+  "sample": 15,
+  "speed": 1,
+  "wrapMode": 2,
+  "curveData": {
+    "paths": {
+      "parachute": {
+        "props": {
+          "rotation": [
+            {
+              "frame": 0,
+              "value": 0,
+              "curve": "cubicOut"
+            },
+            {
+              "frame": 0.6666666666666666,
+              "value": 10,
+              "curve": "quadIn"
+            },
+            {
+              "frame": 1.3333333333333333,
+              "value": 0,
+              "curve": "quadOut"
+            },
+            {
+              "frame": 2,
+              "value": -10,
+              "curve": "quadIn"
+            },
+            {
+              "frame": 2.6666666666666665,
+              "value": 0
+            }
+          ]
+        }
+      },
+      "container": {
+        "props": {
+          "rotation": [
+            {
+              "frame": 0,
+              "value": 0,
+              "curve": "quadOut"
+            },
+            {
+              "frame": 0.6666666666666666,
+              "value": 6,
+              "curve": "quadIn"
+            },
+            {
+              "frame": 1.3333333333333333,
+              "value": 0,
+              "curve": "quadOut"
+            },
+            {
+              "frame": 2,
+              "value": -6,
+              "curve": "quadIn"
+            },
+            {
+              "frame": 2.6666666666666665,
+              "value": 0
+            }
+          ]
+        }
+      }
+    }
+  },
+  "events": []
+}

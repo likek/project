@@ -1,0 +1,113 @@
+[
+  {
+    "__type__": "cc.Prefab",
+    "_name": "",
+    "_objFlags": 0,
+    "_rawFiles": null,
+    "data": {
+      "__id__": 1
+    }
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "numSpineNode",
+    "_objFlags": 0,
+    "_parent": null,
+    "_children": [],
+    "_tag": -1,
+    "_active": true,
+    "_components": [
+      {
+        "__id__": 2
+      }
+    ],
+    "_prefab": {
+      "__id__": 3
+    },
+    "_id": "",
+    "_opacity": 255,
+    "_color": {
+      "__type__": "cc.Color",
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255
+    },
+    "_cascadeOpacityEnabled": true,
+    "_anchorPoint": {
+      "__type__": "cc.Vec2",
+      "x": 0.5,
+      "y": 0.5
+    },
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 0,
+      "height": 0
+    },
+    "_rotationX": 0,
+    "_rotationY": 0,
+    "_scaleX": 1,
+    "_scaleY": 1,
+    "_position": {
+      "__type__": "cc.Vec2",
+      "x": -110,
+      "y": -20
+    },
+    "_skewX": 0,
+    "_skewY": 0,
+    "_localZOrder": 0,
+    "_globalZOrder": 0,
+    "_opacityModifyRGB": false,
+    "groupIndex": 0
+  },
+  {
+    "__type__": "afcf96cYgpP45hqtNCxA5Jy",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 1
+    },
+    "_enabled": true,
+    "spine0": {
+      "__uuid__": "ea460bd9-f178-4ac2-900d-c00ccea359e5"
+    },
+    "spine1": {
+      "__uuid__": "fecb2192-c053-4e95-9ee3-f7cabb9a90ac"
+    },
+    "spine2": {
+      "__uuid__": "46446932-5d91-4d7a-8d40-9d27b2d460bc"
+    },
+    "spine3": {
+      "__uuid__": "3d90012c-6643-45bf-8934-9a860a277dab"
+    },
+    "spine4": {
+      "__uuid__": "4df19267-9105-4e17-99b6-9be4031cde2f"
+    },
+    "spine5": {
+      "__uuid__": "b84b47f8-dea7-4fef-8a2f-8de8beb8b5d3"
+    },
+    "spine6": {
+      "__uuid__": "ca85a295-9d83-4ef6-9fbd-ca7db083f6b2"
+    },
+    "spine7": {
+      "__uuid__": "08e89faa-d24d-45c1-b89e-8544b44ef52e"
+    },
+    "spine8": {
+      "__uuid__": "3be3833e-c66e-4391-99b7-c28fd62585e5"
+    },
+    "spine9": {
+      "__uuid__": "6842b1c2-b733-4949-b21c-1e0adaa6f931"
+    }
+  },
+  {
+    "__type__": "cc.PrefabInfo",
+    "root": {
+      "__id__": 1
+    },
+    "asset": {
+      "__uuid__": "96401908-aa41-4131-8be9-8273f347ca58"
+    },
+    "fileId": "8barCwCxJMRK+IYaZ6Kftz",
+    "sync": false
+  }
+]

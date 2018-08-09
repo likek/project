@@ -1,0 +1,62 @@
+
+clamp.png
+size: 1694,332
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+clamp_L
+  rotate: false
+  xy: 177, 164
+  size: 97, 164
+  orig: 97, 164
+  offset: 0, 0
+  index: -1
+clamp_l_pink
+  rotate: false
+  xy: 279, 164
+  size: 97, 164
+  orig: 97, 164
+  offset: 0, 0
+  index: -1
+clamp_r
+  rotate: true
+  xy: 5, 8
+  size: 97, 165
+  orig: 97, 165
+  offset: 0, 0
+  index: -1
+clamp_r_pink
+  rotate: true
+  xy: 175, 8
+  size: 97, 165
+  orig: 97, 165
+  offset: 0, 0
+  index: -1
+pedestal
+  rotate: true
+  xy: 91, 109
+  size: 219, 81
+  orig: 219, 81
+  offset: 0, 0
+  index: -1
+pedestal_pink
+  rotate: true
+  xy: 5, 109
+  size: 219, 81
+  orig: 219, 81
+  offset: 0, 0
+  index: -1
+pole_pink
+  rotate: true
+  xy: 345, 4
+  size: 156, 1308
+  orig: 156, 1308
+  offset: 0, 0
+  index: -1
+pole_yellow
+  rotate: true
+  xy: 381, 172
+  size: 156, 1308
+  orig: 156, 1308
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "halfCircle",
+    "texture": "5b1bec4d-3ec8-4820-b507-6939c1d8e799",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      653,
+      1308
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      653,
+      1308
+    ]
+  }
+}

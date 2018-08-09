@@ -1,0 +1,107 @@
+{
+  "version": "1.1.1",
+  "windows": {
+    "main": {
+      "main": true,
+      "url": "app://editor/index.html",
+      "windowType": "dockable",
+      "x": 0,
+      "y": 23,
+      "width": 1440,
+      "height": 827,
+      "layout": {
+        "children": [
+          {
+            "children": [
+              {
+                "active": 0,
+                "children": [
+                  "hierarchy"
+                ],
+                "height": 358,
+                "type": "panel",
+                "width": 208
+              },
+              {
+                "active": 0,
+                "children": [
+                  "assets"
+                ],
+                "height": 375,
+                "type": "panel",
+                "width": 208
+              }
+            ],
+            "height": 736,
+            "type": "dock-v",
+            "width": 208
+          },
+          {
+            "children": [
+              {
+                "active": 0,
+                "children": [
+                  "scene"
+                ],
+                "height": 457,
+                "type": "panel",
+                "width": 752
+              },
+              {
+                "active": 0,
+                "children": [
+                  "console",
+                  "timeline"
+                ],
+                "height": 276,
+                "type": "panel",
+                "width": 752
+              }
+            ],
+            "height": 736,
+            "type": "dock-v",
+            "width": 752
+          },
+          {
+            "active": 0,
+            "children": [
+              "inspector"
+            ],
+            "height": 736,
+            "type": "panel",
+            "width": 468
+          }
+        ],
+        "type": "dock-h"
+      },
+      "panels": [
+        "console",
+        "timeline",
+        "inspector",
+        "hierarchy",
+        "assets",
+        "scene"
+      ]
+    }
+  },
+  "panels": {
+    "preferences": {
+      "x": 440,
+      "y": 155,
+      "width": 564,
+      "height": 548
+    },
+    "project-settings": {
+      "x": 437,
+      "y": 63,
+      "width": 584,
+      "height": 548
+    },
+    "builder": {
+      "x": 356,
+      "y": 23,
+      "width": 500,
+      "height": 722
+    }
+  }
+}

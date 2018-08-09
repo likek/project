@@ -4,13 +4,9 @@ cc._RF.push(module, 'd92c8sRpIBMBKs/RzLIjTLN', 'GameJS');
 
 'use strict';
 
-var _cc$Class;
-
-function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
-
 var BaseGameJS = require("BaseGameJS");
 
-cc.Class((_cc$Class = {
+cc.Class({
     extends: BaseGameJS,
 
     properties: {
@@ -21,7 +17,6 @@ cc.Class((_cc$Class = {
 
         beltContainer: cc.Node,
         leafContainer: cc.Prefab,
-        moveThing: cc.Node,
         progress: cc.Node,
         backBtn: cc.Node,
         tipsHand: cc.Node,
@@ -39,8 +34,11 @@ cc.Class((_cc$Class = {
         option_outAudio: cc.AudioClip,
         carMoveAudio: cc.AudioClip,
         flyStarAudio: cc.AudioClip,
-        wrongAudio: cc.AudioClip,
-        rightAudio: cc.AudioClip
+        timeUpAudio: cc.AudioClip,
+        oneStarAudio: cc.AudioClip,
+        twoStarAudio: cc.AudioClip,
+        threeStarAudio: cc.AudioClip,
+        timuAudio: cc.AudioClip
     },
     onLoadChild: function onLoadChild() {
         this._super();
@@ -106,6 +104,7 @@ cc.Class((_cc$Class = {
     timeout: function timeout() {
         this.progress.getComponent("ProgressJs").setStarTypeByIndex(this.nowQuestionID, 2);
         this.settlementJs.playTimeUpAnim();
+        this.playTimeUpAudio();
     },
 
     //移除当前所有选项
@@ -157,7 +156,7 @@ cc.Class((_cc$Class = {
         this.monkey.active = question.monkey.isShow;
         this.frog.active = question.frog.isShow;
         this.giraffe.active = question.giraffe.isShow;
-        this.moveThing.opacity = 0; //touchEnd
+        // this.moveThing.opacity = 0;//touchEnd
 
         this.monkey.getChildByName("collisionNode").tag = question.monkey.isShow ? 3 : -1;
         this.frog.getChildByName("collisionNode").tag = question.frog.isShow ? 1 : -1;
@@ -175,7 +174,7 @@ cc.Class((_cc$Class = {
         this.collideAble = false;
         this.updateAble = true;
         this.currTouchOption = null;
-        this.moveThing.opacity = 0;
+        // this.moveThing.opacity = 0;
         if (this.nowQuestionID > 0) {
             !this.isIts && this.showSchedule();
             isTotalCd && (this.lastAnswerTime = this.answerTime);
@@ -288,36 +287,21 @@ cc.Class((_cc$Class = {
 
                 handNode.x = nodePosition.x + 120;
                 handNode.y = nodePosition.y - 110;
-                _this.moveThing.x = nodePosition.x;
-                _this.moveThing.y = nodePosition.y;
-                _this.moveThing.opacity = 255;
-                sourseThing.opacity = 0;
-                _this.moveThing.tag = sourseThing.tag;
-                _this.moveThing.getComponent(cc.Sprite).spriteFrame = sourseThing.getComponent(cc.Sprite).spriteFrame;
 
                 handNode.stopAllActions();
-                _this.moveThing.stopAllActions();
                 var runTime = 2;
                 var move = cc.moveTo(runTime, newPosition.x + 120, newPosition.y - 110);
                 handNode.runAction(cc.sequence(move, cc.callFunc(function () {
                     handNode.x = nodePosition.x + 120;
                     handNode.y = nodePosition.y - 110;
                 })), _this).repeatForever();
-
-                var move1 = cc.moveTo(runTime, newPosition.x, newPosition.y);
-                _this.moveThing.runAction(cc.sequence(move1, cc.callFunc(function () {
-                    _this.moveThing.x = nodePosition.x;
-                    _this.moveThing.y = nodePosition.y;
-                })), _this).repeatForever();
             }, timeOut || 3000);
         }
     },
     stopTipsAnimation: function stopTipsAnimation() {
         this.tipsHand.stopAllActions();
-        this.moveThing.stopAllActions();
         this.tipsHand.removeFromParent();
         this.tipsHand = null;
-        this.moveThing.opacity = 0;
         this.updateAble = true;
         this.collideAble = true; //是否可碰撞
         this.tipsNode.removeFromParent();
@@ -364,15 +348,15 @@ cc.Class((_cc$Class = {
         }, this);
         if (rightNum / totalNum >= 0.8) {
             if (CONSOLE_LOG_OPEN) cc.log('>=0.8');
-            AUDIO_OPEN && this.playWinAudio();
+            AUDIO_OPEN && this.playThreeStarAudio();
             this.settlementJs.playWinAnim();
         } else if (rightNum / totalNum >= 0.6) {
             if (CONSOLE_LOG_OPEN) cc.log('>=0.6');
-            AUDIO_OPEN && this.playLoseAudio();
+            AUDIO_OPEN && this.playTwoStarAudio();
             this.settlementJs.playTwoStarAnim();
         } else {
             if (CONSOLE_LOG_OPEN) cc.log('<0.6');
-            AUDIO_OPEN && this.playLoseAudio();
+            AUDIO_OPEN && this.playOneStarAudio();
             this.settlementJs.playLoseAnim();
         }
     },
@@ -457,7 +441,6 @@ cc.Class((_cc$Class = {
     playWinAudio: function playWinAudio() {
         this.playAudio(this.winAudio);
     },
-
     playLoseAudio: function playLoseAudio() {
         this.playAudio(this.loseAudio);
     },
@@ -470,75 +453,101 @@ cc.Class((_cc$Class = {
     playOptionOutAudio: function playOptionOutAudio() {
         this.playAudio(this.option_outAudio);
     },
-    playRightAudio: function playRightAudio() {
-        this.playAudio(this.rightAudio);
-    }
-}, _defineProperty(_cc$Class, 'playRightAudio', function playRightAudio() {
-    this.playAudio(this.wrongAudio);
-}), _defineProperty(_cc$Class, 'playCarMoveAudio', function playCarMoveAudio() {
-    this.playAudio(this.carMoveAudio);
-}), _defineProperty(_cc$Class, 'playFlyStarAudio', function playFlyStarAudio() {
-    this.playAudio(this.flyStarAudio);
-}), _defineProperty(_cc$Class, 'BasicAni', function BasicAni() {
-    //倒计时回调
-    var BasinCallbackFunc = function BasinCallbackFunc() {
-        var basincb = function basincb() {
-            if (this.isShowFeed) {
-                return;
-            }
-            if (CONSOLE_LOG_OPEN) console.log('gagagagga');
-            this.playBasinAudio();
+    playCarMoveAudio: function playCarMoveAudio() {
+        this.playAudio(this.carMoveAudio);
+    },
+    playFlyStarAudio: function playFlyStarAudio() {
+        this.playAudio(this.flyStarAudio);
+    },
+    playTimeUpAudio: function playTimeUpAudio() {
+        this.playAudio(this.timeUpAudio);
+    },
+    playOneStarAudio: function playOneStarAudio() {
+        this.playAudio(this.oneStarAudio);
+    },
+    playTwoStarAudio: function playTwoStarAudio() {
+        this.playAudio(this.twoStarAudio);
+    },
+    playThreeStarAudio: function playThreeStarAudio() {
+        this.playAudio(this.threeStarAudio);
+    },
+    /* 循环规则音,点击后重置 */
+    BasicAni: function BasicAni() {
+        //倒计时回调
+        var BasinCallbackFunc = function BasinCallbackFunc() {
+            var basincb = function basincb() {
+                if (this.isShowFeed) {
+                    return;
+                }
+                if (CONSOLE_LOG_OPEN) console.log('gagagagga');
+                this.playBasinAudio();
+            };
+            return basincb;
         };
-        return basincb;
-    };
 
-    this.unschedule(this.basinCallback);
-    this.basinCallback = BasinCallbackFunc();
-    var question = this.questionArr[this.nowQuestionID];
-    this.schedule(this.basinCallback, question.gap ? parseInt(question.gap) : 40);
-}), _defineProperty(_cc$Class, 'playBasinAudio', function playBasinAudio() {
-    //this.playAudio(this.basinAudio);
-    var question = this.questionArr[this.nowQuestionID];
+        this.unschedule(this.basinCallback);
+        this.basinCallback = BasinCallbackFunc();
+        var question = this.questionArr[this.nowQuestionID];
+        this.schedule(this.basinCallback, question.gap ? parseInt(question.gap) : 40);
+    },
+    playTimuAudio: function playTimuAudio() {
+        var self = this;
+        var audio = cc.audioEngine.play(this.timuAudio, false, 1);
+        cc.audioEngine.setFinishCallback(audio, function () {
+            cc.audioEngine.stop(audio);
+            self.playBasinAudio();
+        });
+    },
+    playBasinAudio: function playBasinAudio() {
+        //this.playAudio(this.basinAudio);
+        var question = this.questionArr[this.nowQuestionID];
 
-    question.cndybasinAudio && cc.loader.load(question.cndybasinAudio, function (err, audio) {
-        if (!err) {
-            cc.audioEngine.play(audio, false, 1);
-            cc.loader.releaseAsset(audio);
-        }
-    });
-}), _defineProperty(_cc$Class, 'playBGMAudio', function playBGMAudio() {
-    var self = this;
-    var question = this.questionArr[this.nowQuestionID];
-
-    question.bgm_candyAudio && cc.loader.load(question.bgm_candyAudio, function (err, audio) {
-        if (!err) {
-            cc.audioEngine.play(audio, true, 1);
-            cc.loader.releaseAsset(audio);
-        }
-    });
-}), _defineProperty(_cc$Class, 'playAudio', function playAudio(audio) {
-    if (AUDIO_OPEN) {
-        cc.audioEngine.play(audio, false, 1);
-    }
-}), _defineProperty(_cc$Class, 'update', function update() {
-    try {
-        if (this.updateAble && this.questionArr.length > 0) {
-            var question = this.questionArr[this.nowQuestionID];
-            var viewWidth = cc.winSize.width;
-            var beltLeft = this.beltContainer.getChildByName("beltLeft");
-            var beltRight = this.beltContainer.getChildByName("beltRight");
-            if (this.beltContainer.x > -3 * beltLeft.width / 2 + viewWidth / 2) {
-                this.beltContainer.x -= question.belt.moveSpeed;
-            } else {
-                this.beltContainer.x = -(beltLeft.width - viewWidth) / 2 - question.belt.moveSpeed;
-                var beltLeftPos = beltLeft.getPosition();
-                beltLeft.x = beltRight.x;
-                beltRight.x = beltLeftPos.x;
+        question.cndybasinAudio && cc.loader.load(question.cndybasinAudio, function (err, audio) {
+            if (!err) {
+                cc.audioEngine.play(audio, false, 1);
+                cc.loader.releaseAsset(audio);
             }
+        });
+    },
+    playBGMAudio: function playBGMAudio() {
+        var self = this;
+        var question = this.questionArr[this.nowQuestionID];
+
+        question.bgm_candyAudio && cc.loader.load(question.bgm_candyAudio, function (err, audio) {
+            if (!err) {
+                cc.audioEngine.play(audio, true, 1);
+                cc.loader.releaseAsset(audio);
+            }
+        });
+    }, //播放音效
+    //播放音效
+    playAudio: function playAudio(audio) {
+        if (AUDIO_OPEN) {
+            cc.audioEngine.play(audio, false, 1);
         }
-    } catch (e) {
-        // console.warn(e);
+    },
+
+    update: function update() {
+        try {
+            if (this.updateAble && this.questionArr.length > 0) {
+                var question = this.questionArr[this.nowQuestionID];
+                var viewWidth = cc.winSize.width;
+                var beltLeft = this.beltContainer.getChildByName("beltLeft");
+                var beltRight = this.beltContainer.getChildByName("beltRight");
+                if (this.beltContainer.x > -3 * beltLeft.width / 2 + viewWidth / 2) {
+                    this.beltContainer.x -= question.belt.moveSpeed;
+                } else {
+                    this.beltContainer.x = -(beltLeft.width - viewWidth) / 2 - question.belt.moveSpeed;
+                    var beltLeftPos = beltLeft.getPosition();
+                    beltLeft.x = beltRight.x;
+                    beltRight.x = beltLeftPos.x;
+                }
+            }
+        } catch (e) {
+            // console.warn(e);
+        }
     }
-}), _cc$Class));
+
+});
 
 cc._RF.pop();

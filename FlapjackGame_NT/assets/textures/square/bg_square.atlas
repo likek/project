@@ -1,0 +1,13 @@
+
+bg_square.png
+size: 226,225
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+square
+  rotate: true
+  xy: 5, 4
+  size: 217, 216
+  orig: 217, 217
+  offset: 0, 1
+  index: -1

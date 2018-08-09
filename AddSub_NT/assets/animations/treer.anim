@@ -1,0 +1,99 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "treer",
+  "_objFlags": 0,
+  "_rawFiles": null,
+  "_duration": 0.72,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "paths": {
+      "bottom": {
+        "props": {
+          "scaleY": [
+            {
+              "frame": 0,
+              "value": 0.7
+            },
+            {
+              "frame": 0.13333333333333333,
+              "value": 1.15
+            },
+            {
+              "frame": 0.21666666666666667,
+              "value": 0.85
+            },
+            {
+              "frame": 0.3,
+              "value": 1.08
+            },
+            {
+              "frame": 0.38333333333333336,
+              "value": 0.92
+            },
+            {
+              "frame": 0.4666666666666667,
+              "value": 1.04
+            },
+            {
+              "frame": 0.55,
+              "value": 0.98
+            },
+            {
+              "frame": 0.6333333333333333,
+              "value": 1.02
+            },
+            {
+              "frame": 0.7166666666666667,
+              "value": 1
+            }
+          ]
+        }
+      },
+      "bottom/top": {
+        "props": {
+          "rotation": [
+            {
+              "frame": 0,
+              "value": 0
+            },
+            {
+              "frame": 0.13333333333333333,
+              "value": 10
+            },
+            {
+              "frame": 0.21666666666666667,
+              "value": -10
+            },
+            {
+              "frame": 0.3,
+              "value": 5
+            },
+            {
+              "frame": 0.38333333333333336,
+              "value": -5
+            },
+            {
+              "frame": 0.4666666666666667,
+              "value": 3
+            },
+            {
+              "frame": 0.55,
+              "value": -2
+            },
+            {
+              "frame": 0.6333333333333333,
+              "value": 1
+            },
+            {
+              "frame": 0.7166666666666667,
+              "value": 0
+            }
+          ]
+        }
+      }
+    }
+  },
+  "events": []
+}
