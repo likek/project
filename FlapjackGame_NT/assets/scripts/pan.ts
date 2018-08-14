@@ -66,6 +66,7 @@ export default class Pan extends cc.Component{
     }
 
     cook(){
+        if(this.touchHandler.touchId)return;
         this.game.eventBus.dispatchEvent('handled', null);
         if(this.data&&this.data.length>0){
             var id = this.game.playFireAudio();
@@ -75,22 +76,37 @@ export default class Pan extends cc.Component{
             this.fire.addAnimation(0, 'start', false);
             this.fire.addAnimation(0, 'stand', false);
             this.fire.addAnimation(0, 'stand', false);
-            this.fire.addAnimation(0, 'stand', false);
+            // this.fire.addAnimation(0, 'stand', false);
             this.fire.addAnimation(0, 'end', false);
             this.fireDot.active = true;
     
             var count=0;
             this.fire.setCompleteListener(function(){
                 count++;
-                if(count===5){
+                if(count===4){
+                    var flapjack0 = this.flapjackList[0].unitjs.data;
+                    var flapjack1 = this.flapjackList[1].unitjs.data;
+                    if((flapjack0 && flapjack0["bg"] === 2)||(flapjack1 && flapjack1["bg"] === 2)){
+                        setTimeout(()=>{
+                            //需要等待饼子飞出去
+                            callFunc.call(this);
+                        },1300);
+                    }else{
+                        callFunc.call(this);
+                    }
+                    setTimeout(()=>{
+                        //让音频完整播完
+                        this.game.stopAudio(id);
+                    },400);
+                }
+                function callFunc(){
                     this.fireDot.active = false;
-                    this.cookBtn.interactable = true;
                     this.node.parent.parent.resumeSystemEvents(true);
                     this.refresh();
                     this.game.eventBus.dispatchEvent('btnstatechanged', null, this.node.parent.parent);
                     this.game.eventBus.dispatchEvent('handled', null);
                     this.game.eventBus.dispatchEvent('tipnextstep', null, this.node.parent.parent);
-                    this.game.stopAudio(id);
+                    this.cookBtn.interactable = true;
                 }
             }.bind(this));
     

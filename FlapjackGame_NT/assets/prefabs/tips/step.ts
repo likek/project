@@ -80,8 +80,6 @@ export default abstract class AbsStep {
 
 export class Step extends AbsStep {
 
-    data
-
     setData(data){
         this.data = data;
     }
@@ -110,6 +108,8 @@ export class Step extends AbsStep {
             e.getComponent('touchobj')&&e.getComponent('touchobj').data&&(e.getComponent('touchobj').data['cantouch'] = false);
         });
         this.pan.getChildByName('panpanel').active = false;
+        this.game.progressJs.pan.leftl.string = this.tips.pan.leftl.string;
+        this.game.progressJs.pan.reftl.string = this.tips.pan.reftl.string;
 
         this.data['objs'].forEach(function(element, index){
             if(this.data['pre'][element]){

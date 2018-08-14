@@ -28,7 +28,7 @@
   "renderMode": "0",
   "startScene": "9f19ea0a-378f-44c5-aded-96bd18526f19",
   "title": "FlapjackGame_NT",
-  "webOrientation": "landscape",
+  "webOrientation": "auto",
   "wechatgame": {
     "appid": "",
     "orientation": "portrait"

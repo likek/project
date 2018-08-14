@@ -28,7 +28,7 @@ export default class TouchHandler extends cc.Component {
     dragoptionJs = null
 
     /** 触碰id */
-    private touchId: number
+    public touchId: number
     /** 触碰节点 */
     private touchNodes = new Array<TouchOne>()
     /** 当前触碰节点 */

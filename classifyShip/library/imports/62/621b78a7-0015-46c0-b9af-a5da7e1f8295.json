@@ -190,8 +190,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 40,
-      "height": 36
+      "width": 189,
+      "height": 189
     },
     "_rotationX": 0,
     "_rotationY": 0,
@@ -257,7 +257,7 @@
       "x": 0,
       "y": 0
     },
-    "_radius": 40
+    "_radius": 65.20000000000084
   },
   {
     "__type__": "cc.PrefabInfo",

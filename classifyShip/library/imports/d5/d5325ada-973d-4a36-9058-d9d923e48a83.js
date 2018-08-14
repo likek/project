@@ -154,7 +154,7 @@ cc.Class({
 
     //龙虾反馈完成
     feedbackFinish: function feedbackFinish() {
-        this.nowQuestionID += 1;
+        !this.isIts && (this.nowQuestionID += 1);
         //答题条数大于总条数  或者  时间用完
         var isTotalCd = this.questionArr[0].interactiveJson.totalcd;
         if (this.nowQuestionID >= this.questionArr.length || this.countDown - this.answerTime <= 0 && isTotalCd) {

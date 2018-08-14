@@ -67,6 +67,7 @@ export default class Settlement extends AbsSettlement {
 
         var anim = this.node.getComponent(cc.Animation);
 
+        
         this.scheduleOnce(function(){
             callback&&callback.call(that.game);
         }, 2);

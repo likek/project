@@ -14,7 +14,6 @@ cc.Class({
         this.node.on(cc.Node.EventType.TOUCH_CANCEL, this.moveThingTouchCanCel.bind(this), this);
         this.startx = this.node.x;
         this.starty = this.node.y;
-
     },
     start () {
 
@@ -45,13 +44,12 @@ cc.Class({
         if(rightThing)rightThing.removeFromParent();    
     },
     thingTouchStart:function(event){
-        console.log("start");
-        if(this.gameJS.tipsNode && this.node.parent === this.gameJS.tipsSource){
+        if(this.gameJS.tipsNode && this.node.parent === this.gameJS.tipsSource && this.gameJS.nowQuestionID === 0){
             this.gameJS.tipsHand.opacity = 0;
             this.gameJS.tipsHand.pauseAllActions();
             this.node.opacity = 255;
             touchStart.call(this);
-        }else if(!this.gameJS.tipsNode){
+        }else if(!this.gameJS.tipsNode || this.gameJS.nowQuestionID !== 0){
             touchStart.call(this);
         }
         function touchStart(){
@@ -77,7 +75,7 @@ cc.Class({
         this.node.y += delta.y;
         //出屏还原
         var touches = event.getTouches();
-        var parentNode = this.gameJS.scaleNode;
+        var parentNode = this.gameJS.scaleNode.parent;
         var judgePos = parentNode.convertTouchToNodeSpaceAR(touches[0]);
         if (Math.abs(judgePos.x) < (parentNode.width / 2 - 50) &&
             Math.abs(judgePos.y) < (parentNode.height / 2 - 20)) {
@@ -110,7 +108,7 @@ cc.Class({
     optionClick:function(){
         var _t = this;
         this.rightAnimation(this.othercollider,_t,()=>{
-            if(this.gameJS.tipsNode){
+            if(this.gameJS.tipsNode && this.gameJS.nowQuestionID === 0){
                 this.gameJS.stopTipsAnimation.call(this.gameJS);
             }
             this.updateState(true);
@@ -167,7 +165,7 @@ cc.Class({
         this.node.runAction(cc.sequence(
             move,
             cc.callFunc(()=>{
-               this.gameJS.beltNode.zIndex = 0;
+                this.gameJS.beltNode.zIndex = 0;
                 this.node.parent.getChildByName('leaf').getComponent("sp.Skeleton").setAnimation(0,"error",false);
             },this),
             moveDown,

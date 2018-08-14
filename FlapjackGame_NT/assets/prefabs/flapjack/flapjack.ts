@@ -83,6 +83,8 @@ export default class Flapjack extends cc.Component {
                 }.bind(this))
             ));
         }else if(this.data['bg']===1){
+            var moveTime = 1/800*cc.pDistance(this.node.convertToWorldSpaceAR(cc.p(0, 0)), this.data['opos']);
+            var targetPos = this.node.parent.convertToNodeSpaceAR(this.data['opos']);
             this.node.runAction(cc.sequence(
                 cc.tintTo(3.4, 243, 191, 102),
                 cc.scaleTo(0.333, 0.9, -0.9).easing(cc.easeCubicActionInOut()),
@@ -95,20 +97,17 @@ export default class Flapjack extends cc.Component {
                     this.refresh();
                     this.node.parent.parent.zIndex = 999;
                 }, this),
-                cc.delayTime(0.2),
+                cc.delayTime(0.8),
                 cc.callFunc(function(){
                     this.game.playToInitAudio();
                 },this),
-                cc.moveTo(
-                    1/800*cc.pDistance(this.node.convertToWorldSpaceAR(cc.p(0, 0)), this.data['opos']),
-                    this.node.parent.convertToNodeSpaceAR(this.data['opos'])
-                ),
+                cc.moveTo(moveTime,targetPos),
                 cc.callFunc(function(){
                     this.data['targetJs'].node.getComponent('cjs').unitjs['changeCookState'](2, this.node.scaleY);
                     this.data['targetJs'].node.active = true;
                     this.node.parent.parent.zIndex = 0;
-                    this.node.active = false;
                     this.node.parent.parent.getComponent('pan').removeAFlapjack(this.data['id']);
+                    this.node.active = false;
                     if(typeof callback === 'function'){
                         setTimeout(()=>{
                             callback();

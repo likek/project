@@ -53,6 +53,10 @@ cc.Class({
         this.beltNode = this.scaleNode.getChildByName('beltNode');
         var manager = cc.director.getCollisionManager();
         manager.enabled = true;
+
+        this.monkey.active = false;
+        this.giraffe.active = false;
+        this.frog.active = false;
     },
     //初始化toast框
     initToast: function initToast() {
@@ -126,6 +130,7 @@ cc.Class({
 
     //开始加载选项
     startloadOption: function startloadOption() {
+        this.tipsHand && (this.tipsHand.opacity = 0);
         this.updateGameState(true);
         this.isIts && this.questionNumListJS.changeOptionDisable();
         var question = this.questionArr[this.nowQuestionID];
@@ -179,6 +184,7 @@ cc.Class({
             !this.isIts && this.showSchedule();
             isTotalCd && (this.lastAnswerTime = this.answerTime);
         } else {
+            this.tipsHand && (this.tipsHand.opacity = 255);
             this.tipsHandAnimation();
         }
     },
@@ -196,6 +202,7 @@ cc.Class({
         var leafWidth = this.leafContainer.data.width;
         var offset = itemWidth - leafWidth;
         var beltWidth = viewWidth;
+        this.beltContainer.x = 0;
 
         if (offset < minOffset) {
             itemWidth = minOffset * 2 + leafWidth;
@@ -250,7 +257,10 @@ cc.Class({
         if (frog.active && frog.getChildByName("collisionNode").tag !== -1) {
             frog.getComponent("sp.Skeleton").setAnimation(0, type, false);
         }
-        setTimeout(function () {
+        if (this.runAnimation.__lastRun) {
+            clearTimeout(this.runAnimation.__lastRun);
+        }
+        this.runAnimation.__lastRun = setTimeout(function () {
             bear.getComponent("sp.Skeleton").setAnimation(0, "stand", true);
             if (giraffe.active && giraffe.getChildByName("collisionNode").tag !== -1) {
                 giraffe.getComponent("sp.Skeleton").setAnimation(0, "stand", true);
@@ -270,12 +280,15 @@ cc.Class({
 
         var sourceNode = this.tipsSource = this.beltContainer.getChildByName("beltLeft").children[0];
         var handNode = this.tipsHand;
-        handNode.opacity = 0;
+        handNode && (handNode.opacity = 0);
         if (sourceNode) {
             this.collideAble = false; //是否可碰撞
             this.updateAble = false;
             var sourseThing = sourceNode.getChildByName('thing');
-            setTimeout(function () {
+            if (this.tipsHandAnimation.__lastRun) {
+                clearTimeout(this.tipsHandAnimation.__lastRun);
+            }
+            this.tipsHandAnimation.__lastRun = setTimeout(function () {
                 if (!handNode) return;
                 handNode.opacity = 255;
                 var targetNode = _this.monkey.getChildByName("collisionNode").tag === sourseThing.tag ? _this.monkey.getChildByName("collisionNode") : _this.frog.getChildByName("collisionNode").tag === sourseThing.tag ? _this.frog.getChildByName("collisionNode") : _this.giraffe.getChildByName("collisionNode");
@@ -291,6 +304,7 @@ cc.Class({
                 handNode.stopAllActions();
                 var runTime = 2;
                 var move = cc.moveTo(runTime, newPosition.x + 120, newPosition.y - 110);
+                handNode.stopAllActions();
                 handNode.runAction(cc.sequence(move, cc.callFunc(function () {
                     handNode.x = nodePosition.x + 120;
                     handNode.y = nodePosition.y - 110;

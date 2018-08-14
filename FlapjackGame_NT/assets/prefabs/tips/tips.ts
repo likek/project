@@ -46,9 +46,14 @@ export default class Tips extends AbsTips {
         override: true,
         type: cc.Node
     })
+
+    @property(cc.Node)
+    blockInputEventsNode: cc.Node = null;
+    
     scale: cc.Node = null;
 
     showTipTime: number = 0;
+
 
     load(){
     };
@@ -110,8 +115,14 @@ export default class Tips extends AbsTips {
      */
     showStep(){
         var step = this.tipSteps[this.stepIndex];
-
         step.start();
+        this.game.progressJs.commitBtn.interactable = true;
+        this.game.progressJs.resetBtn.interactable = true;
+        if(this.stepIndex === this.tipSteps.length - 1){
+            //倒数第二步
+            this.commitBtn.interactable = true;
+            this.pan.node.getChildByName('panpanel').active = false;
+        }
     }
 
     handled(){
@@ -133,11 +144,15 @@ export default class Tips extends AbsTips {
     finish(){
         this.game.playBtnAudio();
         this.game.showSettle();
+        this.touchHandler.disable();
         this.game.showWin(function(){
             this.node.active = false;
             this.game.hideSettle();
             this.game.startTimer();
             this.game.showGame();
+            this.touchHandler.enable();
+            this.touchHandler.active = true;
+            this.blockInputEventsNode.removeFromParent();
         }.bind(this));
     };
 
@@ -145,11 +160,12 @@ export default class Tips extends AbsTips {
      * 跳过引导
      */
     skip(){
-        if(this.touchHandler.isCooking)return;
+        if(this.touchHandler.isCooking || this.touchHandler.touchId)return;
         this.game.playBtnAudio();
         this.node.active = false;
         this.game.startTimer();
         this.game.showGame();
+        this.blockInputEventsNode.removeFromParent();
     };
 
     /**

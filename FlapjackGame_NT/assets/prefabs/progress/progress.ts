@@ -58,8 +58,12 @@ export default class Progress extends AbsProgress {
         }
        
         this.title.setData(this.data.qescont);
+        this.pan.touchHandler = this.touchHandler;
         this.pan.reset();
         this.plates.setData(this.data.interactiveJson['flapjackcount']);
+        //初次进来禁用提交按钮
+        this.commitBtn.interactable = false;
+        this.resetBtn.interactable = false;
     };
 
     pause(){
@@ -82,20 +86,28 @@ export default class Progress extends AbsProgress {
      */
     isRight(): boolean {
         var r = this.pan.getResult();
-        return r===this.data.interactiveJson['cooktime'];
+        return r===this.data.interactiveJson['cooktime'] && this.isFinish();
     };
 
     /**
      * 是否需要重置
      */
     isNeedReset(): boolean{
-        return this.plates.isNeedReset()||this.pan.isNeedReset();
+        // return this.plates.isNeedReset()||this.pan.isNeedReset();
+        return true;
     };
 
     /**
      * 是否完成
      */
     isFinish(): boolean {
+        var objs = this.plates.objs,objData;
+        for(var i = 0; i < objs.length; i++){
+            objData = objs[i].unitjs.data;
+            if(!objData || objData.bg !== 2){
+                return false;
+            }
+        }
         return true;
     };
 
@@ -103,11 +115,14 @@ export default class Progress extends AbsProgress {
      * 重置
      */
     reset(): boolean {
+        if(this.touchHandler.touchId)return;
         this.game.playBtnAudio();
         if(this.isNeedReset()){
             this.plates.reset();
             this.pan.reset();
-            this.btnStateChanged();
+            // this.btnStateChanged();
+            this.commitBtn.interactable = false;
+            this.resetBtn.interactable = false;
             return true;
         }
         return false;
@@ -130,6 +145,7 @@ export default class Progress extends AbsProgress {
      * 提交
      */
     commit(){
+        if(this.touchHandler.touchId)return;
         this.game.playBtnAudio();
         this.node.pauseSystemEvents(true);
         this.game.stopTimer();

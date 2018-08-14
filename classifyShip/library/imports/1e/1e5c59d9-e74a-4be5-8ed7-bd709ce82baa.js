@@ -50,13 +50,12 @@ cc.Class({
         if (rightThing) rightThing.removeFromParent();
     },
     thingTouchStart: function thingTouchStart(event) {
-        console.log("start");
-        if (this.gameJS.tipsNode && this.node.parent === this.gameJS.tipsSource) {
+        if (this.gameJS.tipsNode && this.node.parent === this.gameJS.tipsSource && this.gameJS.nowQuestionID === 0) {
             this.gameJS.tipsHand.opacity = 0;
             this.gameJS.tipsHand.pauseAllActions();
             this.node.opacity = 255;
             touchStart.call(this);
-        } else if (!this.gameJS.tipsNode) {
+        } else if (!this.gameJS.tipsNode || this.gameJS.nowQuestionID !== 0) {
             touchStart.call(this);
         }
         function touchStart() {
@@ -82,7 +81,7 @@ cc.Class({
         this.node.y += delta.y;
         //出屏还原
         var touches = event.getTouches();
-        var parentNode = this.gameJS.scaleNode;
+        var parentNode = this.gameJS.scaleNode.parent;
         var judgePos = parentNode.convertTouchToNodeSpaceAR(touches[0]);
         if (Math.abs(judgePos.x) < parentNode.width / 2 - 50 && Math.abs(judgePos.y) < parentNode.height / 2 - 20) {} else {
             if (CONSOLE_LOG_OPEN) cc.log('出屏了');
@@ -114,7 +113,7 @@ cc.Class({
 
         var _t = this;
         this.rightAnimation(this.othercollider, _t, function () {
-            if (_this.gameJS.tipsNode) {
+            if (_this.gameJS.tipsNode && _this.gameJS.nowQuestionID === 0) {
                 _this.gameJS.stopTipsAnimation.call(_this.gameJS);
             }
             _this.updateState(true);
