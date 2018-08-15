@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "恐龙",
+    "texture": "b6a8d749-dbd2-4826-a87c-0706de643b6d",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      924,
+      924
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      924,
+      924
+    ]
+  }
+}

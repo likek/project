@@ -245,8 +245,8 @@
     "relativePath": "components"
   },
   "c0e4e3a0-b011-41b6-82d6-c31f202631fe": {
-    "asset": 1534311288963,
-    "meta": 1534311288972,
+    "asset": 1534336429690,
+    "meta": 1534336429705,
     "relativePath": "CocosGame.fire"
   },
   "a2fc7679-24e1-4d33-a14f-862c47fbec71": {
@@ -530,8 +530,8 @@
     "relativePath": "components/Options/ColliderListener.js"
   },
   "260f79b9-6c6c-4946-b486-f29b38d6d7be": {
-    "asset": 1534311143635,
-    "meta": 1534311143641,
+    "asset": 1534328893317,
+    "meta": 1534328893323,
     "relativePath": "components/Options/option.prefab"
   },
   "cec4f065-189d-4dc3-9433-8ebd49ceb471": {
@@ -694,11 +694,6 @@
     "meta": 1532069617000,
     "relativePath": "components/settlement/failure/failure.atlas"
   },
-  "0201e2c5-1f24-4456-b474-ec1c56ffa74d": {
-    "asset": 1532069617000,
-    "meta": 1534300040372,
-    "relativePath": "components/settlement/settlement.js"
-  },
   "7b86cf9c-2faf-40da-808a-8437590548b4": {
     "asset": 1532070662000,
     "meta": 1534300040378,
@@ -823,11 +818,6 @@
     "asset": 1532570141889,
     "meta": 1521611757000,
     "relativePath": "scripts"
-  },
-  "bffa6b54-6044-43d6-b3b1-641e2bdbba0e": {
-    "asset": 1534300038495,
-    "meta": 1534300040556,
-    "relativePath": "script/ProgressJs.js"
   },
   "52143e30-ba92-4702-a65e-bce0953b25a5": {
     "asset": 1521603721000,
@@ -1024,11 +1014,6 @@
     "meta": 1534301260049,
     "relativePath": "textures/cattle/cattle.png"
   },
-  "6af1ae9a-5193-42d4-bf6b-c754566ba4c9": {
-    "asset": 1534303351439,
-    "meta": 1534303486713,
-    "relativePath": "scripts/Cattle.js"
-  },
   "8feba05d-73a6-4d30-ae8d-9c77b752965b": {
     "asset": 1534303954260,
     "meta": 1534305082139,
@@ -1045,23 +1030,68 @@
     "relativePath": "base/NetworkJS.js"
   },
   "d40df340-2d28-481c-a51e-661cd8e11b12": {
-    "asset": 1534310312307,
-    "meta": 1534310312312,
+    "asset": 1534334850629,
+    "meta": 1534334850638,
     "relativePath": "prefabs/answer.prefab"
   },
+  "559c5a5e-0cbb-4086-b2a0-3c3797774b2e": {
+    "asset": 1534313590404,
+    "meta": 1534313590408,
+    "relativePath": "prefabs/node2x3.prefab"
+  },
+  "5255b73e-54bb-4276-a7aa-8ad31e40d247": {
+    "asset": 1534313659045,
+    "meta": 1534313659047,
+    "relativePath": "prefabs/node2x2.prefab"
+  },
+  "c01bdb46-1fd8-4619-945f-461c41019ce2": {
+    "asset": 1534313700009,
+    "meta": 1534313700011,
+    "relativePath": "prefabs/node3x3.prefab"
+  },
+  "bffa6b54-6044-43d6-b3b1-641e2bdbba0e": {
+    "asset": 1534321238175,
+    "meta": 1534321358083,
+    "relativePath": "script/ProgressJs.js"
+  },
+  "0201e2c5-1f24-4456-b474-ec1c56ffa74d": {
+    "asset": 1534323461713,
+    "meta": 1534323466806,
+    "relativePath": "components/settlement/settlement.js"
+  },
+  "7f91244a-aee4-4cf9-99ca-b2dc721b7412": {
+    "asset": 1534327072810,
+    "meta": 1534327079509,
+    "relativePath": "textures/border.png"
+  },
   "49399a48-6651-4324-96cf-a4dd724ca052": {
-    "asset": 1534311138589,
-    "meta": 1534311143611,
+    "asset": 1534328858201,
+    "meta": 1534328893228,
     "relativePath": "scripts/Flags.js"
   },
   "d92c8b11-a480-4c04-ab3f-4732c88d32cd": {
-    "asset": 1534311227647,
-    "meta": 1534311229663,
+    "asset": 1534329211800,
+    "meta": 1534329526555,
     "relativePath": "scripts/GameJS.js"
   },
+  "8a608ccf-a273-4c20-ac57-ad3fda2220f9": {
+    "asset": 1534330269027,
+    "meta": 1534330269061,
+    "relativePath": "textures/t.png"
+  },
+  "ca872893-9ab0-4dcf-a31b-85df81312dce": {
+    "asset": 1534335296710,
+    "meta": 1534335368199,
+    "relativePath": "scripts/AnswerContainer.js"
+  },
+  "b6a8d749-dbd2-4826-a87c-0706de643b6d": {
+    "asset": 1534335865649,
+    "meta": 1534335865726,
+    "relativePath": "textures/恐龙.png"
+  },
   "ea4b5411-ed87-4554-a26e-4bca32a96dfc": {
-    "asset": 1534311247060,
-    "meta": 1534311249205,
+    "asset": 1534336426844,
+    "meta": 1534336429620,
     "relativePath": "components/Options/OptionJS.js"
   }
 }

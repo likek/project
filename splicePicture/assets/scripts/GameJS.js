@@ -16,7 +16,11 @@ cc.Class({
 
         flags: cc.Node,//旗子
         cattle: cc.Node,//牛
+        answerContainer: cc.Node,//框框
 
+        progress: cc.Node,
+
+        rightNum:0,//答对数量(用来判断是否答完))
     },
 
     onLoadChild: function () {
@@ -30,8 +34,14 @@ cc.Class({
         this.changeMoveTag(0);
         this.initToast();
 
-        this.flagsJs = this.flags.getComponent("Flags");
-        this.cattleJS = this.cattle.getComponent("Cattle");
+        let manager  = cc.director.getCollisionManager();
+        manager.enabled = true;
+        // manager.enabledDebugDraw = true;
+
+        this.flagsJs = this.flags.getComponent("Flags");//旗子
+        // this.cattleJS = this.cattle.getComponent("Cattle");//牛
+        this.answerContainerJS = this.answerContainer.getComponent("AnswerContainer");//牛
+        this.answerContainerJS.gameJS = this;
     },
     //初始化toast框
     initToast: function () {
@@ -89,7 +99,8 @@ cc.Class({
     /*超时处理 
      */
     timeout: function () {
-
+        this.progress.getComponent("ProgressJs").setStarTypeByIndex(this.nowQuestionID,2);
+        this.progress.getComponent("ProgressJs").playFlayStar(new cc.v2(0,0),this.nowQuestionID,2);
     },
 
     //移除当前所有选项
@@ -134,9 +145,12 @@ cc.Class({
 
             this.timeLabel.string = this.timeFormat(this.countDown);
         }
+        if(this.nowQuestionID === 0){
+            this.progress.getComponent("ProgressJs").init(this.questionArr.length);
+        }
         // if (this.nowQuestionID > 0) {
-            !this.isIts && this.showSchedule();
-            isTotalCd && (this.lastAnswerTime = this.answerTime);
+        !this.isIts && this.showSchedule();
+        isTotalCd && (this.lastAnswerTime = this.answerTime);
         // }
         this.isIts && this.questionNumListJS.changeOptionEnable();
         this.isShowFeed = false;
@@ -151,8 +165,10 @@ cc.Class({
                 case 9: matrixType = "3x3";break;
             }
         }
+        this.rightNum = 0;
         this.flagsJs.initData(question.optionsArr,this);
-        this.cattleJS.initData(matrixType,this);
+        this.answerContainerJS.initData(matrixType,this);
+        this.setCattleAnimationOnce("stand");
     },
 
     //选中答案
@@ -185,7 +201,6 @@ cc.Class({
             AUDIO_OPEN && this.playLoseAudio();
             this.settlementJs.playLoseAnim(this.feedbackFinish);
         } else if (type === 3) { //时间到逻辑
-
             //出发
             AUDIO_OPEN && this.playLoseAudio();
             this.settlementJs.playTimeUpAnim(this.feedbackFinish);
@@ -291,5 +306,20 @@ cc.Class({
         }
     },
 
+    isWin(){
+        var question = this.questionArr[this.nowQuestionID];
+        if(this.rightNum === question.optionsArr.length){
+            this.progress.getComponent("ProgressJs").setStarTypeByIndex(this.nowQuestionID,1);
+            this.progress.getComponent("ProgressJs").playFlayStar(new cc.v2(0,0),this.nowQuestionID,1);
+            this.setCattleAnimationOnce("happy");
+            this.selectAnswer(true);
+        }
+    },
+    setCattleAnimationOnce(animation,timeOut){
+        this.cattle.getComponent("sp.Skeleton").setAnimation(0,animation,false);
+        setTimeout(()=>{
+            this.cattle.getComponent("sp.Skeleton").setAnimation(0,"stand",true);
+        },timeOut||2600);
+    }
 
 });

@@ -6,7 +6,6 @@ cc.Class({
     properties: {
         parent_node: cc.Node,
         canMove: false,
-        exchangeParent: false,
     },
     onLoad: function () {
         this.node.on(cc.Node.EventType.TOUCH_START, this.touch_start.bind(this), this.node);
@@ -21,6 +20,17 @@ cc.Class({
         });
     },
 
+    onCollisionEnter: function (other, self) {
+        this.isRight = other.node.__optionId === this.option.optionContent;
+        this.sheepNode = other.node;
+        console.log(other.node.__optionId + "   " + this.option.optionContent);
+    },
+    
+    onCollisionExit: function (other, self) {
+         this.isRight = false;
+         this.sheepNode = null;
+    },
+
     init: function (gameJS, option, optionLength) {
         this.node.opacity = 255;
         this.startx = this.node.x;
@@ -32,32 +42,46 @@ cc.Class({
 
     },
     touch_start: function (evt) {
+        let border = this.node.getChildByName('border');
+        border.opacity = 255;
         this.canMove = this.gameJS.changeMoveTag(this.node.tag);
-        if (!this.canMove) {
+        if (!this.canMove || this.node.parent !== this.parent_node) {
             return;
         }
-       
         this.gameJS.playOptionAudio();
         this.dragX = this.node.x;
         this.dragY = this.node.y;
         this.parent_node.zIndex = 1;
     },
     touch_end: function (evt) {
-        if (!this.canMove) {
+        let border = this.node.getChildByName('border');
+        border.opacity = 0;
+        if (!this.canMove || this.node.parent !== this.parent_node) {
             return;
         }
-      
         this.gameJS.playOptionOutAudio();
         this.node.opacity = 255;
-        var isTouch = this.check();
-        if (isTouch) {
+        var isRight = this.check();
+        if (isRight) {
+            console.log("right");
             this.optionClick();
         } else {
-            this.reloadState();
+            console.log("wrong");
+            if(!this.sheepNode||this.sheepNode.getChildByName("button_bg")){
+                this.reloadState(); 
+            }else{
+                let move1 = cc.moveBy(0.1,28,-35);
+                let move2 = cc.moveBy(0.1,-38,4);
+                let move3 = cc.moveBy(0.1,24,18);
+                let move4 = cc.moveBy(0.1,-14,-10);
+                this.node.runAction(cc.sequence(cc.delayTime(0.1),move1,move2,move3,move4,cc.delayTime(0.1),cc.callFunc(()=>{
+                    this.reloadState();
+                })))
+            }
         }
     },
     touch_move: function (evt) {
-        if (!this.canMove) {
+        if (!this.canMove || this.node.parent !== this.parent_node) {
             return;
         }
         var delta = evt.touch.getDelta();
@@ -77,25 +101,16 @@ cc.Class({
         }
     },
     touch_cancel: function (evt) {
-        if (!this.canMove) {
+        let border = this.node.getChildByName('border');
+        border.opacity = 0;
+        if (!this.canMove || this.node.parent !== this.parent_node) {
             return;
         }
         this.reloadState();
     },
 
     check: function () {
-        if (CONSOLE_LOG_OPEN) cc.log('this.node.isCollisioned=' + this.node.isCollisioned);
-        // return this.node.isCollisioned;
-        let pos = this.node.convertToWorldSpaceAR(cc.p(0, 0));
-        //不需要转世界坐标,锚点在腿部位
-            let areaNode = this.gameJS.areaNode;
-            let isInside = false;
-            let box = areaNode.getBoundingBoxToWorld();
-            if (cc.rectContainsPoint(box, pos)) {
-                isInside = true;
-            }
-            return isInside;
-    
+        return this.isRight;
     },
 
     /* 切换后台恢复位置 */
@@ -130,18 +145,18 @@ cc.Class({
     },
 
     optionClick: function () {
-        if (this.exchangeParent) {
-            let nodePosition = this.node.convertToWorldSpaceAR(cc.p(0, 0));
-            this.setZindex(this.node);
-            this.node.parent = this.sheepNode;
-            let newPosition = this.node.parent.convertToNodeSpaceAR(nodePosition);
-            this.node.setPosition(newPosition);
-        }
-
+        this.node.parent = this.sheepNode;
+        this.node.setPosition(0,0);
         this.node.parent.zIndex = 0;
         this.canMove = false;
         this.gameJS.changeMoveTag(0);
+        this.gameJS.rightNum++;
 
+        let action = cc.spawn(cc.rotateBy(0.33,360), cc.scaleTo(0.33,0.978));
+        this.node.runAction(cc.sequence(action,cc.callFunc(()=>{
+            this.node.zIndex = -1;
+            this.gameJS.isWin.call(this.gameJS);
+        })))
     },
     /*node禁止触摸事件 
      */
