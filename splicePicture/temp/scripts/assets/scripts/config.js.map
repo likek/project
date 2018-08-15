@@ -1,0 +1,15 @@
+{
+  "version": 3,
+  "sources": [
+    "unknown"
+  ],
+  "names": [
+    "window",
+    "CONSOLE_LOG_OPEN"
+  ],
+  "mappings": ";;AAAA;AACAA,OAAOC,gBAAP,GAA0B,KAA1B",
+  "file": "unknown",
+  "sourcesContent": [
+    "//log日志开关\nwindow.CONSOLE_LOG_OPEN = false;"
+  ]
+}

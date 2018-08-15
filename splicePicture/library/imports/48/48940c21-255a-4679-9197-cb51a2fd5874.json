@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "erro",
+    "texture": "6c6d8bd7-bec2-4000-b5c1-d35f7d791d6b",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      78,
+      76
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      78,
+      76
+    ]
+  }
+}

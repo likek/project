@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "游戏中-星星",
+    "texture": "7c662c80-2e42-4e74-9d6b-8eb36f6df1d4",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      78,
+      76
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      78,
+      76
+    ]
+  }
+}

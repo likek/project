@@ -1,0 +1,40 @@
+{
+  "packedTextures": [
+    {
+      "path": "/Users/lisong/ips-h5/3_互动游戏/2017秋季/公共/CocosGameXD_ITS/temp/TexturePacker/components/AutoAtlas.pac/AutoAtlas-1.png",
+      "name": "AutoAtlas-1.png",
+      "size": "1024x1024"
+    },
+    {
+      "path": "/Users/lisong/ips-h5/3_互动游戏/2017秋季/公共/CocosGameXD_ITS/temp/TexturePacker/components/AutoAtlas.pac/AutoAtlas-2.png",
+      "name": "AutoAtlas-2.png",
+      "size": "1024x1024"
+    },
+    {
+      "path": "/Users/lisong/ips-h5/3_互动游戏/2017秋季/公共/CocosGameXD_ITS/temp/TexturePacker/components/AutoAtlas.pac/AutoAtlas-3.png",
+      "name": "AutoAtlas-3.png",
+      "size": "1024x1024"
+    },
+    {
+      "path": "/Users/lisong/ips-h5/3_互动游戏/2017秋季/公共/CocosGameXD_ITS/temp/TexturePacker/components/AutoAtlas.pac/AutoAtlas-4.png",
+      "name": "AutoAtlas-4.png",
+      "size": "1024x1024"
+    },
+    {
+      "path": "/Users/lisong/ips-h5/3_互动游戏/2017秋季/公共/CocosGameXD_ITS/temp/TexturePacker/components/AutoAtlas.pac/AutoAtlas-5.png",
+      "name": "AutoAtlas-5.png",
+      "size": "1024x1024"
+    },
+    {
+      "path": "/Users/lisong/ips-h5/3_互动游戏/2017秋季/公共/CocosGameXD_ITS/temp/TexturePacker/components/AutoAtlas.pac/AutoAtlas-6.png",
+      "name": "AutoAtlas-6.png",
+      "size": "1024x1024"
+    },
+    {
+      "path": "/Users/lisong/ips-h5/3_互动游戏/2017秋季/公共/CocosGameXD_ITS/temp/TexturePacker/components/AutoAtlas.pac/AutoAtlas-7.png",
+      "name": "AutoAtlas-7.png",
+      "size": "512x1024"
+    }
+  ],
+  "unpackedTextures": []
+}

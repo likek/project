@@ -1,0 +1,37 @@
+{
+  "version": 3,
+  "sources": [
+    "unknown"
+  ],
+  "names": [
+    "cc",
+    "Class",
+    "extends",
+    "Component",
+    "properties",
+    "label",
+    "Label",
+    "selected_node",
+    "Node",
+    "onLoad",
+    "isSelect",
+    "sp",
+    "node",
+    "getComponent",
+    "init",
+    "gameJS",
+    "idx",
+    "str",
+    "string",
+    "opacity",
+    "onClick",
+    "changQustion",
+    "setSelected",
+    "val"
+  ],
+  "mappings": ";;AAAAA,GAAGC,KAAH,CAAS;AACLC,aAASF,GAAGG,SADP;;AAGLC,gBAAY;AACRC,eAAOL,GAAGM,KADF;AAERC,uBAAeP,GAAGQ;AAFV,KAHP;AAOLC,YAAQ,kBAAW;AACf,aAAKC,QAAL,GAAgB,KAAhB;AACA,aAAKC,EAAL,GAAU,KAAKC,IAAL,CAAUC,YAAV,CAAuB,WAAvB,CAAV;AACH,KAVI;AAWLC,UAAM,cAASC,MAAT,EAAiBC,GAAjB,EAAqB;AACvB,aAAKD,MAAL,GAAcA,MAAd;AACA,aAAKC,GAAL,GAAWA,GAAX;AACA,YAAIC,MAAM,MAAOD,MAAM,CAAb,IAAmB,EAA7B;AACA,aAAKX,KAAL,CAAWa,MAAX,GAAoBD,GAApB;AACA,aAAKV,aAAL,CAAmBY,OAAnB,GAA6B,CAA7B;AACH,KAjBI;;AAmBLC,aAAS,mBAAU;AACf,aAAKL,MAAL,CAAYM,YAAZ,CAAyB,KAAKL,GAA9B;AACH,KArBI;;AAuBLM,iBAAa,qBAASC,GAAT,EAAa;AACtB,aAAKb,QAAL,GAAgBa,GAAhB;AACA,aAAKhB,aAAL,CAAmBY,OAAnB,GAA6BI,MAAM,GAAN,GAAY,CAAzC;AACH;;AA1BI,CAAT",
+  "file": "unknown",
+  "sourcesContent": [
+    "cc.Class({\n    extends: cc.Component,\n\n    properties: {\n        label: cc.Label,\n        selected_node: cc.Node\n    },\n    onLoad: function() {\n        this.isSelect = false;\n        this.sp = this.node.getComponent(\"cc.Sprite\");\n    },\n    init: function(gameJS, idx){  \n        this.gameJS = gameJS;\n        this.idx = idx;\n        var str = \"\" + ( idx + 1 ) + \"\";\n        this.label.string = str;\n        this.selected_node.opacity = 0;\n    },\n\n    onClick: function(){\n        this.gameJS.changQustion(this.idx);\n    },\n\n    setSelected: function(val){\n        this.isSelect = val;\n        this.selected_node.opacity = val ? 255 : 0;\n    },\n\n});\n"
+  ]
+}

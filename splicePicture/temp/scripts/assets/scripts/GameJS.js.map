@@ -1,0 +1,50 @@
+{
+  "version": 3,
+  "sources": [
+    "unknown"
+  ],
+  "names": [
+    "BaseGameJS",
+    "require",
+    "cc",
+    "Class",
+    "extends",
+    "properties",
+    "onLoadChild",
+    "_super",
+    "deleteOption",
+    "createOption",
+    "interactiveJson",
+    "startloadOption",
+    "isIts",
+    "questionNumListJS",
+    "changeOptionDisable",
+    "question",
+    "questionArr",
+    "nowQuestionID",
+    "timeLabel",
+    "string",
+    "timeFormat",
+    "countDown",
+    "answerTime",
+    "showSchedule",
+    "changeOptionEnable",
+    "isShowFeed",
+    "selectAnswer",
+    "isRight",
+    "isShowLossTime",
+    "unschedule",
+    "timeCallback",
+    "CONSOLE_LOG_OPEN",
+    "console",
+    "log",
+    "createAnswerInfo",
+    "scheduleOnce",
+    "showFeedback"
+  ],
+  "mappings": ";;AAAA,IAAIA,aAAaC,QAAQ,YAAR,CAAjB;;AAEAC,GAAGC,KAAH,CAAS;AACLC,aAASJ,UADJ;;AAGLK,gBAAY,EAHP;;AAOLC,iBAAa,uBAAY;AACrB,aAAKC,MAAL;AACA;AACH,KAVI;;AAYL;AACAC,kBAAc,wBAAY,CAEzB,CAfI;;AAiBL;AACAC,kBAAc,sBAAUC,eAAV,EAA2B,CAExC,CApBI;;AAsBL;AACAC,qBAAiB,2BAAY;AACzB,aAAKC,KAAL,IAAc,KAAKC,iBAAL,CAAuBC,mBAAvB,EAAd;;AAEA,YAAIC,WAAW,KAAKC,WAAL,CAAiB,KAAKC,aAAtB,CAAf;AACA;;;AAGA,aAAKC,SAAL,CAAeC,MAAf,GAAwB,KAAKC,UAAL,CAAgB,KAAKC,SAArB,CAAxB;AACA,aAAKC,UAAL,GAAkB,CAAlB;;AAEA,SAAC,KAAKV,KAAN,IAAe,KAAKW,YAAL,EAAf;AACA,aAAKX,KAAL,IAAc,KAAKC,iBAAL,CAAuBW,kBAAvB,EAAd;AACA,aAAKC,UAAL,GAAkB,KAAlB;AACH,KApCI;;AAsCL;AACAC,kBAAc,sBAAUC,OAAV,EAAmB;AAC7B;AACA,YAAI,KAAKF,UAAL,IAAmB,KAAKG,cAA5B,EAA4C;AACxC;AACH;AACD,aAAKC,UAAL,CAAgB,KAAKC,YAArB;AACA,aAAKL,UAAL,GAAkB,IAAlB;;AAEA,YAAIE,OAAJ,EAAa;AACT,gBAAII,gBAAJ,EAAsBC,QAAQC,GAAR,CAAY,KAAZ;AACtB,iBAAKC,gBAAL,CAAsB,GAAtB;AACA,iBAAKC,YAAL,CAAkB,YAAY;AAC1B,qBAAKC,YAAL,CAAkB,CAAlB;AACH,aAFD,EAEG,GAFH;AAGH,SAND,MAMO;AACH,gBAAIL,gBAAJ,EAAsBC,QAAQC,GAAR,CAAY,KAAZ;AACtB,iBAAKC,gBAAL,CAAsB,GAAtB;AACA,iBAAKE,YAAL,CAAkB,CAAlB;AACH;AACJ;;AA1DI,CAAT",
+  "file": "unknown",
+  "sourcesContent": [
+    "var BaseGameJS = require(\"BaseGameJS\");\n\ncc.Class({\n    extends: BaseGameJS,\n\n    properties: {\n        \n    },\n\n    onLoadChild: function () {\n        this._super();\n        //cc.director.setDisplayStats(true);\n    },      \n\n    //移除当前所有选项\n    deleteOption: function () {\n\n    },\n\n    //创建选项按钮\n    createOption: function (interactiveJson) {\n\n    },\n\n    //开始加载选项\n    startloadOption: function () {\n        this.isIts && this.questionNumListJS.changeOptionDisable();\n        \n        var question = this.questionArr[this.nowQuestionID];\n        //启动业务初始化\n        \n        \n        this.timeLabel.string = this.timeFormat(this.countDown);\n        this.answerTime = 0;\n\n        !this.isIts && this.showSchedule();\n        this.isIts && this.questionNumListJS.changeOptionEnable();\n        this.isShowFeed = false;\n    },\n    \n    //选中答案\n    selectAnswer: function (isRight) {\n        //显示状态过程中不接收事件\n        if (this.isShowFeed || this.isShowLossTime) {\n            return;\n        }\n        this.unschedule(this.timeCallback);\n        this.isShowFeed = true;\n\n        if (isRight) {\n            if (CONSOLE_LOG_OPEN) console.log('答对了');\n            this.createAnswerInfo('1');\n            this.scheduleOnce(function () {\n                this.showFeedback(1);\n            }, 1.0);\n        } else {\n            if (CONSOLE_LOG_OPEN) console.log('答错了');\n            this.createAnswerInfo('2');\n            this.showFeedback(2);\n        }\n    },\n    \n});"
+  ]
+}

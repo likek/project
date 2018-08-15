@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "btnLast",
+    "texture": "5e908ce9-90e6-43b8-88c3-4f671116558d",
+    "atlas": "",
+    "rect": [
+      14,
+      20,
+      51,
+      40
+    ],
+    "offset": [
+      -0.5,
+      0
+    ],
+    "originalSize": [
+      80,
+      80
+    ]
+  }
+}

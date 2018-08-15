@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "yinying",
+    "texture": "d143cadb-3333-4a56-beb3-aa9418330b39",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      245,
+      107
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      245,
+      107
+    ]
+  }
+}

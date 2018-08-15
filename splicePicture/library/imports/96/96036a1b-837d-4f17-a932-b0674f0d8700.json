@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "color_strip",
+    "texture": "3e738c1c-7320-4b9d-beb7-c2ed5898ae4c",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      628,
+      8
+    ],
+    "offset": [
+      0,
+      4
+    ],
+    "originalSize": [
+      628,
+      16
+    ]
+  }
+}

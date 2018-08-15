@@ -1,0 +1,102 @@
+2018-08-15T02:12:19.772Z - normal: Load ~/.CocosCreator/settings.json
+2018-08-15T02:12:19.776Z - normal: checking language setting...
+2018-08-15T02:12:19.776Z - normal: Language: zh
+2018-08-15T02:12:20.331Z - success: protocol editor-framework registered
+2018-08-15T02:12:20.331Z - success: protocol app registered
+2018-08-15T02:12:20.331Z - success: protocol theme registered
+2018-08-15T02:12:20.332Z - success: protocol packages registered
+2018-08-15T02:12:20.332Z - success: protocol unpack registerred
+2018-08-15T02:12:20.332Z - success: protocol disable-commonjs registerred
+2018-08-15T02:12:20.439Z - normal: connected!
+2018-08-15T02:12:20.442Z - normal: Check project /Users/likeke/Documents/pro/projects/splicePicture
+2018-08-15T02:12:20.444Z - normal: Initializing Cocos2d
+2018-08-15T02:12:20.616Z - normal: Initializing Asset Database
+2018-08-15T02:12:20.643Z - success: protocol uuid registerred
+2018-08-15T02:12:20.643Z - success: protocol db registerred
+2018-08-15T02:12:20.644Z - success: protocol thumbnail registerred
+2018-08-15T02:12:20.644Z - normal: Loading editor/builtin packages
+2018-08-15T02:12:20.661Z - success: anysdk loaded
+2018-08-15T02:12:20.765Z - success: assets loaded
+2018-08-15T02:12:20.768Z - success: builder loaded
+2018-08-15T02:12:20.770Z - success: cocos-analytics loaded
+2018-08-15T02:12:20.774Z - success: console loaded
+2018-08-15T02:12:20.805Z - success: fb-instant-games loaded
+2018-08-15T02:12:20.809Z - success: hierarchy loaded
+2018-08-15T02:12:20.812Z - success: inspector loaded
+2018-08-15T02:12:20.814Z - success: keystore loaded
+2018-08-15T02:12:20.818Z - success: node-library loaded
+2018-08-15T02:12:20.819Z - success: package-asset loaded
+2018-08-15T02:12:20.821Z - success: preferences loaded
+2018-08-15T02:12:20.824Z - success: project-exporter loaded
+2018-08-15T02:12:20.838Z - success: project-importer loaded
+2018-08-15T02:12:20.841Z - success: project-settings loaded
+2018-08-15T02:12:20.845Z - success: ui-kit loaded
+2018-08-15T02:12:20.849Z - success: ui-grid loaded
+2018-08-15T02:12:20.852Z - success: scene loaded
+2018-08-15T02:12:20.854Z - success: sprite-editor loaded
+2018-08-15T02:12:20.858Z - success: store loaded
+2018-08-15T02:12:20.864Z - success: timeline loaded
+2018-08-15T02:12:20.864Z - normal: Loading builtin packages
+2018-08-15T02:12:20.867Z - success: asset-db-debugger loaded
+2018-08-15T02:12:20.868Z - success: color-picker loaded
+2018-08-15T02:12:20.871Z - success: package-manager loaded
+2018-08-15T02:12:20.872Z - success: qqplay-adapter loaded
+2018-08-15T02:12:20.877Z - success: sdkbox loaded
+2018-08-15T02:12:20.881Z - success: tester loaded
+2018-08-15T02:12:20.884Z - success: ui-kit-preview-extra loaded
+2018-08-15T02:12:20.886Z - success: ui-kit-preview loaded
+2018-08-15T02:12:20.889Z - success: ui-tree loaded
+2018-08-15T02:12:20.891Z - success: weapp-adapter loaded
+2018-08-15T02:12:21.786Z - normal: Initializing project /Users/likeke/Documents/pro/projects/splicePicture
+2018-08-15T02:12:21.790Z - normal: Loading packages
+2018-08-15T02:12:21.795Z - normal: Watching packages
+2018-08-15T02:12:21.903Z - normal: Run Application
+2018-08-15T02:12:24.772Z - success: preview server running at http://localhost:7456
+2018-08-15T02:12:28.715Z - normal: 1.9.3
+2018-08-15T02:42:00.273Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:28501
+2018-08-15T02:49:41.880Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:36511
+2018-08-15T02:49:41.882Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:36513
+2018-08-15T02:49:41.883Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:36514
+2018-08-15T03:18:33.756Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:66128
+2018-08-15T03:21:42.060Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:68919
+2018-08-15T03:21:42.062Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:68921
+2018-08-15T03:53:28.577Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:77105
+2018-08-15T03:53:28.579Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:77106
+2018-08-15T03:57:27.293Z - failed: [db-task][sync-changes] Failed to import asset /Users/likeke/Documents/pro/projects/splicePicture/assets/scripts/Flags.js, message: Compile error: SyntaxError: /Users/likeke/Documents/pro/projects/splicePicture/assets/scripts/Flags.js: Unexpected token (26:8)
+  24 |         for(let i= 0;i<data.length;i++){
+  25 |             let 
+> 26 |         }
+     |         ^
+  27 |     },
+  28 | 
+  29 |     checkInitData(initData){
+    at Parser.pp$5.raise (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:4454:13)
+    at Parser.pp.unexpected (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:1761:8)
+    at Parser.pp$2.parseBindingAtom (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3090:12)
+    at Parser.pp$1.parseVarHead (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:2355:18)
+    at Parser.pp$1.parseVar (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:2338:10)
+    at Parser.pp$1.parseVarStatement (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:2169:8)
+    at Parser.pp$1.parseStatement (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:1861:19)
+    at Parser.pp$1.parseBlockBody (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:2268:21)
+    at Parser.pp$1.parseBlock (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:2247:8)
+    at Parser.pp$1.parseStatement (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:1868:19)
+2018-08-15T03:58:45.015Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:82687
+2018-08-15T03:58:45.017Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:82689
+2018-08-15T03:58:45.018Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:82690
+2018-08-15T03:58:45.018Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:82691
+2018-08-15T04:03:30.262Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:87308
+2018-08-15T04:03:30.264Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:87310
+2018-08-15T04:03:30.264Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:87311
+2018-08-15T04:03:30.265Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:87312
+2018-08-15T04:03:30.266Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:87313
+2018-08-15T04:03:30.266Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:87314
+2018-08-15T04:04:27.955Z - warn: The Prefab used is missing. Detailed information:
+Missing uuid: "8b55829a-08b7-42ed-9b01-1202df15477f"
+
+2018-08-15T04:08:12.255Z - warn: The Asset used by component "cc.Sprite" is missing. Detailed information:
+Node path: "Canvas/scalebg/test"
+Missing uuid: "8b55829a-08b7-42ed-9b01-1202df15477f"
+
+2018-08-15T05:15:28.857Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:157688
+2018-08-15T05:15:28.859Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:157690
+2018-08-15T05:15:28.860Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:157691

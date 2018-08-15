@@ -1,0 +1,20 @@
+
+color_strip.png
+size: 628,16
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+strip1
+  rotate: false
+  xy: 0, 0
+  size: 627, 3
+  orig: 627, 3
+  offset: 0, 0
+  index: -1
+strip2
+  rotate: false
+  xy: 0, 5
+  size: 628, 3
+  orig: 628, 3
+  offset: 0, 0
+  index: -1
