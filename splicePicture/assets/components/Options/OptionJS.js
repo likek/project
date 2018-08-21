@@ -57,6 +57,7 @@ cc.Class({
         this.dragX = this.node.x;
         this.dragY = this.node.y;
         this.parent_node.zIndex = 1;
+        this.parent_node.parent.zIndex = 1;
     },
     touch_end: function (evt) {
         let border = this.node.getChildByName('border');
@@ -64,12 +65,8 @@ cc.Class({
         if (!this.canMove || this.node.parent !== this.parent_node) {
             return;
         }
-        // if(!this.gameJS.tipsFinished && this.gameJS.nowQuestionID === 0){
-        //     this.gameJS.tipsHand.active = true;
-        // }
         this.gameJS.playOptionOutAudio();
         this.node.opacity = 255;
-        console.log("touchEnd");
         this.isRightOrWrong();
     },
     touch_move: function (evt) {
@@ -98,10 +95,6 @@ cc.Class({
         if (!this.canMove || this.node.parent !== this.parent_node) {
             return;
         }
-        // if(!this.gameJS.tipsFinished && this.gameJS.nowQuestionID === 0){
-        //     this.gameJS.tipsHand.active = true;
-        // }
-        console.log("touchcancel");
         this.isRightOrWrong();
     },
 
@@ -113,19 +106,15 @@ cc.Class({
         if (isRight) {
             CONSOLE_LOG_OPEN && console.log("right");
             this.gameJS.playRightAudio();
-            this.optionClick();
+            this.rightCall();
         } else {
             CONSOLE_LOG_OPEN && console.log("wrong");
             this.gameJS.playWrongAudio();
             if(!this.sheepNode||this.sheepNode.getChildByName("button_bg")){
                 this.reloadState(); 
             }else{
-                let move1 = cc.moveBy(0.1,28,-35);
-                let move2 = cc.moveBy(0.1,-38,4);
-                let move3 = cc.moveBy(0.1,24,18);
-                let move4 = cc.moveBy(0.1,-14,-10);
                 this.gameJS.setCattleAnimationOnce("sad");
-                this.node.runAction(cc.sequence(cc.delayTime(0.1),move1,move2,move3,move4,cc.delayTime(0.1),cc.callFunc(()=>{
+                this.node.runAction(cc.sequence(cc.delayTime(0.1),cc.moveBy(0.1,28,-35),cc.moveBy(0.1,-38,4),cc.moveBy(0.1,24,18),cc.moveBy(0.1,-14,-10),cc.delayTime(0.1),cc.callFunc(()=>{
                     this.reloadState();
                 })))
             }
@@ -135,7 +124,6 @@ cc.Class({
     /* 切换后台恢复位置 */
     resetState: function () {
         //this.node.getComponent(cc.Button)._pressed = false;
-
     },
     reloadState: function () {
         this.canMove = false; //防止超屏多次触发
@@ -153,13 +141,13 @@ cc.Class({
         this.node.runAction(cc.sequence(moveAction, cc.callFunc(function () {
             this.node.setPosition(this.startx, this.starty);
             this.parent_node.zIndex = 0;
+            this.parent_node.parent.zIndex = 0;
             this.updateState(true);
-
-            if(this.gameJS.tipsFinished){
-                this.gameJS.changeMoveTag(0);
-            }
             if(!this.gameJS.tipsFinished && this.gameJS.nowQuestionID === 0){
                 this.gameJS.tipsHand.active = true;
+                this.gameJS.tipsAnimation.call(this.gameJS);
+            }else{
+                this.gameJS.changeMoveTag(0);
             }
         }, this)));
     },
@@ -171,7 +159,7 @@ cc.Class({
         return s * 0.3;
     },
 
-    optionClick: function () {
+    rightCall: function () {
         if(this.gameJS.nowQuestionID === 0){
             this.gameJS.tipsFinished = true;
         }

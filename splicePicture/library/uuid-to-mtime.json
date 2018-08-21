@@ -50,13 +50,13 @@
     "relativePath": "base/LocalSaveJS.js"
   },
   "558fbe73-31b6-47c1-9716-4570148540a3": {
-    "asset": 1532570141879,
+    "asset": 1534830146365,
     "meta": 1532071058000,
     "relativePath": "components"
   },
   "c0e4e3a0-b011-41b6-82d6-c31f202631fe": {
-    "asset": 1534831303451,
-    "meta": 1534831303462,
+    "asset": 1534844636148,
+    "meta": 1534844636163,
     "relativePath": "CocosGame.fire"
   },
   "a2fc7679-24e1-4d33-a14f-862c47fbec71": {
@@ -115,7 +115,7 @@
     "relativePath": "components/numTitlePre/texts/numbers.png"
   },
   "d1ae1137-419f-4e28-8cfa-39229d8d7cbd": {
-    "asset": 1532570141797,
+    "asset": 1534830146318,
     "meta": 1525335402000,
     "relativePath": "components/Options"
   },
@@ -503,11 +503,6 @@
     "asset": 1534404499274,
     "meta": 1534404499276,
     "relativePath": "resources/audios/timu.mp3"
-  },
-  "ea4b5411-ed87-4554-a26e-4bca32a96dfc": {
-    "asset": 1534411186150,
-    "meta": 1534411191809,
-    "relativePath": "components/Options/OptionJS.js"
   },
   "71561142-4c83-4933-afca-cb7a17f67053": {
     "asset": 1530675298000,
@@ -1090,13 +1085,18 @@
     "relativePath": "scripts/Flags.js"
   },
   "ca872893-9ab0-4dcf-a31b-85df81312dce": {
-    "asset": 1534831215444,
-    "meta": 1534831217288,
+    "asset": 1534833561975,
+    "meta": 1534833713788,
     "relativePath": "scripts/AnswerContainer.js"
   },
+  "ea4b5411-ed87-4554-a26e-4bca32a96dfc": {
+    "asset": 1534844570572,
+    "meta": 1534844634292,
+    "relativePath": "components/Options/OptionJS.js"
+  },
   "d92c8b11-a480-4c04-ab3f-4732c88d32cd": {
-    "asset": 1534831156268,
-    "meta": 1534831217289,
+    "asset": 1534844632104,
+    "meta": 1534844634293,
     "relativePath": "scripts/GameJS.js"
   }
 }

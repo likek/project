@@ -175,6 +175,7 @@ cc.Class({
         }
         if(this.nowQuestionID === 0){
             this.tipsHand.active = true;
+            this.tipsFinished = false;
             this.tipsAnimation();
         }else{
             this.tipsHand.active = false;
@@ -344,7 +345,7 @@ cc.Class({
 
     tipsAnimation(){
         let flagL = this.flags.getChildByName("flagL");
-        let optionNode = flagL.children[0];
+        let optionNode = flagL.children[flagL.children.length - 1];//必须取最后一个子元素，因为可能有父元素交换操作
         if(!optionNode)return;
         let optionJS = optionNode.getChildByName("button_bg").getComponent("OptionJS");
         let optionID = optionJS.option.optionContent;
