@@ -328,6 +328,9 @@ cc.Class({
         } else {
             this.startloadOption();
         }
+        this.playBGMAudio();
+        this.playTimuAudio();
+        this.BasicAni();
     },
     requestAllUrls: function requestAllUrls() {
         var urls = [];

@@ -40,9 +40,6 @@ cc.Class({
         this.renderer = new THREE.WebGLRenderer({ alpha: true, antialias: true });
         this.renderer.setClearColor(0xFFFFFF, 0);
         this.renderer.domElement.style.position = "absolute";
-        this.renderer.domElement.style.overflow = "visible";
-        this.renderer.domElement.style.transform = "translateZ(0)";
-        this.renderer.domElement.style.webkitTransform = "translateZ(0)";
         // this.renderer.domElement.style.borderRadius = "50%";
         setRendererSize.call(this);
         this.box = new Box(this.renderer);

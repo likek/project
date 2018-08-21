@@ -13,12 +13,18 @@ cc.Class({
         resetAudio: cc.AudioClip,
         optionAudio: cc.AudioClip,
         option_outAudio: cc.AudioClip,
+        rightAudio: cc.AudioClip,
+        wrongAudio: cc.AudioClip,
+        timuAudio: cc.AudioClip,
 
         flags: cc.Node,//旗子
         cattle: cc.Node,//牛
         answerContainer: cc.Node,//框框
+        glow: cc.Node,//闪动龙骨
+        colorStrip: cc.Node,// 彩带
+        tipsHand: cc.Node,
 
-        progress: cc.Node,
+        progress: cc.Node,//进度条
 
         rightNum:0,//答对数量(用来判断是否答完))
     },
@@ -39,16 +45,16 @@ cc.Class({
         // manager.enabledDebugDraw = true;
 
         this.flagsJs = this.flags.getComponent("Flags");//旗子
-        // this.cattleJS = this.cattle.getComponent("Cattle");//牛
-        this.answerContainerJS = this.answerContainer.getComponent("AnswerContainer");//牛
+        this.answerContainerJS = this.answerContainer.getComponent("AnswerContainer");//可碰撞区
         this.answerContainerJS.gameJS = this;
+        this.progressJS = this.progress.getComponent("ProgressJs");
+        this.tipsHand.active = false;
     },
     //初始化toast框
     initToast: function () {
         var efailed = this.node.getChildByName('scale').getChildByName('efailed');
         this.efailedJs = efailed.getComponent('efailed');
         this.efailedJs.game = this;
-
     },
 
     tipsClick: function () {
@@ -93,14 +99,13 @@ cc.Class({
         submitButton.hoverSprite = this.commitBtnNSF;
         resetButton.normalSprite = this.resetBtnNSF;
         resetButton.hoverSprite = this.resetBtnNSF;
-
     },
 
     /*超时处理 
      */
     timeout: function () {
-        this.progress.getComponent("ProgressJs").setStarTypeByIndex(this.nowQuestionID,2);
         this.progress.getComponent("ProgressJs").playFlayStar(new cc.v2(0,0),this.nowQuestionID,2);
+        this.progress.getComponent("ProgressJs").setStarTypeByIndex(this.nowQuestionID,2);
     },
 
     //移除当前所有选项
@@ -145,9 +150,6 @@ cc.Class({
 
             this.timeLabel.string = this.timeFormat(this.countDown);
         }
-        if(this.nowQuestionID === 0){
-            this.progress.getComponent("ProgressJs").init(this.questionArr.length);
-        }
         // if (this.nowQuestionID > 0) {
         !this.isIts && this.showSchedule();
         isTotalCd && (this.lastAnswerTime = this.answerTime);
@@ -169,6 +171,18 @@ cc.Class({
         this.flagsJs.initData(question.optionsArr,this);
         this.answerContainerJS.initData(matrixType,this);
         this.setCattleAnimationOnce("stand");
+
+        if(!this.progressJS.__hasInit){
+            this.progressJS.init(this.questionArr.length);
+            this.progressJS.__hasInit = true;
+        }
+        if(this.nowQuestionID === 0){
+            this.tipsHand.active = true;
+            this.tipsAnimation();
+        }else{
+            this.tipsHand.active = false;
+        }
+        this.progressJS.showStarFlag(this.progressJS.getStarPosByIndex(this.nowQuestionID));
     },
 
     //选中答案
@@ -195,7 +209,21 @@ cc.Class({
         if (type === 1) {
             //出发
             AUDIO_OPEN && this.playWinAudio();
-            this.settlementJs.playWinAnim(this.feedbackFinish);
+            // this.settlementJs.playWinAnim(this.feedbackFinish);
+            let answers = this.answerContainer.children[0].children;
+            for(let i= 0;i<answers.length;i++){
+                answers[i].getChildByName("button_bg").setScale(1);
+            }
+            this.progress.getComponent("ProgressJs").setStarTypeByIndex(this.nowQuestionID,1);
+            this.progress.getComponent("ProgressJs").playFlayStar(new cc.v2(0,0),this.nowQuestionID,1);
+            this.scheduleOnce(()=>{
+                this.colorStrip.getComponent("sp.Skeleton").setAnimation(0,"in",false);
+                this.glow.getComponent("sp.Skeleton").setAnimation(0,"in",false);
+                this.setCattleAnimationOnce("happy");
+                this.scheduleOnce(()=>{
+                    this.feedbackFinish();
+                },1.7);
+            },0.3);
         } else if (type === 2) {
             //出发
             AUDIO_OPEN && this.playLoseAudio();
@@ -223,65 +251,6 @@ cc.Class({
             return;
         }
     },
-    /* 再来一次 */
-    resetClicked: function () {
-        let cb = () => {
-            let array = this.option_node.children;
-            array.forEach((obj, idx) => {
-                let optionJS = obj.getComponent('OptionJS');
-                optionJS && optionJS.reloadState();
-            }, this);
-
-        };
-        this.playCancelAudio();
-
-        if (this.isShowFeed || this.isShowAnim) {
-            return;
-        }
-
-        cb();
-    },
-    /* 确认 */
-    confirmClicked: function () {
-
-        let cb = () => {
-            let array = this.option_node.children;
-            let isEqual = true;
-            array.forEach((obj, idx) => {
-                let optionJS = obj.getComponent('OptionJS');
-                if (this.rightAry.indexOf(idx.toString()) != -1) {
-                    if (optionJS && optionJS.state != 2) {
-                        isEqual = false;
-                    }
-                } else { //错误区为正确时
-                    if (optionJS && optionJS.state == 2) {
-                        isEqual = false;
-                    }
-                }
-            }, this);
-
-            this.selectAnswer(isEqual);
-        };
-       this.playCancelAudio();
-        //this.isShowAnim
-        if (this.isShowFeed || this.checkIsEmpty()) {
-            return;
-        }
-
-        cb();
-    },
-    checkIsEmpty: function () {
-        let array = this.option_node.children;
-        let isEmpty = true;
-        array.forEach((obj, idx) => {
-            let optionJS = obj.getComponent('OptionJS');
-            //正确区不为正确时
-            if (optionJS && optionJS.state > 1) {
-                isEmpty = false;
-            }
-        }, this);
-        return isEmpty;
-    },
     playWinAudio: function () {
         this.playAudio(this.winAudio);
     },
@@ -298,7 +267,61 @@ cc.Class({
     playOptionOutAudio: function () {
         this.playAudio(this.option_outAudio);
     },
+    playRightAudio(){
+        this.playAudio(this.rightAudio);
+    },
+    playWrongAudio(){
+        this.playAudio(this.wrongAudio);
+    },
+    /* 循环规则音,点击后重置 */
+    BasicAni: function () {
+        //倒计时回调
+        let BasinCallbackFunc = function () {
+            var basincb = function () {
+                if (this.isShowFeed) {
+                    return;
+                }
+                if (CONSOLE_LOG_OPEN) console.log('gagagagga');
+                this.playBasinAudio();
+            }
+            return basincb;
+        }
 
+        this.unschedule(this.basinCallback);
+        this.basinCallback = BasinCallbackFunc();
+        var question = this.questionArr[this.nowQuestionID];
+        this.schedule(this.basinCallback, question.gap?parseInt(question.gap):40);
+    },
+    playTimuAudio: function () {
+        var self = this;
+        let audio = cc.audioEngine.play(this.timuAudio, false, 1);
+        cc.audioEngine.setFinishCallback(audio, function () {
+            cc.audioEngine.stop(audio);
+            self.playBasinAudio();
+        })
+    },
+    playBasinAudio: function () {
+        //this.playAudio(this.basinAudio);
+        var question = this.questionArr[this.nowQuestionID];
+
+        question.cndybasinAudio && cc.loader.load(question.cndybasinAudio, function (err, audio) {
+            if (!err) {
+                cc.audioEngine.play(audio, false, 1);
+                cc.loader.releaseAsset(audio);
+            }
+        });
+    },
+    playBGMAudio: function () {
+        var self = this;
+        var question = this.questionArr[this.nowQuestionID];
+
+        question.bgm_candyAudio && cc.loader.load(question.bgm_candyAudio, function (err, audio) {
+            if (!err) {
+                cc.audioEngine.play(audio, true, 1);
+                cc.loader.releaseAsset(audio);
+            }
+        });
+    },
     //播放音效
     playAudio: function (audio) {
         if (AUDIO_OPEN) {
@@ -309,9 +332,6 @@ cc.Class({
     isWin(){
         var question = this.questionArr[this.nowQuestionID];
         if(this.rightNum === question.optionsArr.length){
-            this.progress.getComponent("ProgressJs").setStarTypeByIndex(this.nowQuestionID,1);
-            this.progress.getComponent("ProgressJs").playFlayStar(new cc.v2(0,0),this.nowQuestionID,1);
-            this.setCattleAnimationOnce("happy");
             this.selectAnswer(true);
         }
     },
@@ -320,6 +340,46 @@ cc.Class({
         setTimeout(()=>{
             this.cattle.getComponent("sp.Skeleton").setAnimation(0,"stand",true);
         },timeOut||2600);
+    },
+    gameBackAction:function(){
+        window.location.href = 'optionBlank://xmaGameBackAction?status=1';
+    },
+
+    tipsAnimation(){
+        let flagL = this.flags.getChildByName("flagL");
+        let optionNode = flagL.children[0];
+        if(!optionNode)return;
+        let optionJS = optionNode.getChildByName("button_bg").getComponent("OptionJS");
+        let optionID = optionJS.option.optionContent;
+
+        let answers = this.answerContainer.children[0].children;
+        let rightAnswerNode = null;
+        for(let i= 0;i<answers.length;i++){
+            if(answers[i].__optionId === optionID){
+                rightAnswerNode = answers[i];
+            }
+        }
+        if(!rightAnswerNode) return;
+
+        let startPos,endPos;
+        startPos = optionNode.convertToWorldSpaceAR(cc.p(0, 0));
+        startPos = this.scaleNode.convertToNodeSpaceAR(startPos);
+        startPos.x += this.tipsHand.width/3;//手向右下移一点点
+        startPos.y -= this.tipsHand.height/3;
+        endPos = rightAnswerNode.convertToWorldSpaceAR(cc.p(0, 0));
+        endPos = this.scaleNode.convertToNodeSpaceAR(endPos);
+        endPos.x += this.tipsHand.width/3;//手向右下移一点点
+        endPos.y -= this.tipsHand.height/3;
+
+        this.tipsHand.setPosition(startPos);
+        
+        let tipsAction = cc.moveTo(1.6,endPos);
+        this.tipsHand.stopAllActions();
+        this.tipsHand.runAction(cc.sequence(tipsAction,cc.callFunc(()=>{
+            this.tipsHand.setPosition(startPos);
+        },this)),this).repeatForever();
+
+        this.changeMoveTag(optionNode.getChildByName("button_bg").tag);
     }
 
 });

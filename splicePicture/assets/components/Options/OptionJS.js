@@ -20,10 +20,9 @@ cc.Class({
         });
     },
 
-    onCollisionEnter: function (other, self) {
+    onCollisionStay: function (other, self) {
         this.isRight = other.node.__optionId === this.option.optionContent;
         this.sheepNode = other.node;
-        console.log(other.node.__optionId + "   " + this.option.optionContent);
     },
     
     onCollisionExit: function (other, self) {
@@ -42,12 +41,18 @@ cc.Class({
 
     },
     touch_start: function (evt) {
-        let border = this.node.getChildByName('border');
-        border.opacity = 255;
-        this.canMove = this.gameJS.changeMoveTag(this.node.tag);
-        if (!this.canMove || this.node.parent !== this.parent_node) {
+        this.gameJS.BasicAni();//重新计时
+        this.gameJS.playOptionAudio();
+        if (this.node.parent !== this.parent_node) {
             return;
         }
+        this.canMove = this.gameJS.changeMoveTag(this.node.tag);
+        if(!this.canMove)return;
+        if(!this.gameJS.tipsFinished && this.gameJS.nowQuestionID === 0){
+            this.gameJS.tipsHand.active = false;
+        }
+        let border = this.node.getChildByName('border');
+        border.opacity = 255;
         this.gameJS.playOptionAudio();
         this.dragX = this.node.x;
         this.dragY = this.node.y;
@@ -59,26 +64,13 @@ cc.Class({
         if (!this.canMove || this.node.parent !== this.parent_node) {
             return;
         }
+        // if(!this.gameJS.tipsFinished && this.gameJS.nowQuestionID === 0){
+        //     this.gameJS.tipsHand.active = true;
+        // }
         this.gameJS.playOptionOutAudio();
         this.node.opacity = 255;
-        var isRight = this.check();
-        if (isRight) {
-            console.log("right");
-            this.optionClick();
-        } else {
-            console.log("wrong");
-            if(!this.sheepNode||this.sheepNode.getChildByName("button_bg")){
-                this.reloadState(); 
-            }else{
-                let move1 = cc.moveBy(0.1,28,-35);
-                let move2 = cc.moveBy(0.1,-38,4);
-                let move3 = cc.moveBy(0.1,24,18);
-                let move4 = cc.moveBy(0.1,-14,-10);
-                this.node.runAction(cc.sequence(cc.delayTime(0.1),move1,move2,move3,move4,cc.delayTime(0.1),cc.callFunc(()=>{
-                    this.reloadState();
-                })))
-            }
-        }
+        console.log("touchEnd");
+        this.isRightOrWrong();
     },
     touch_move: function (evt) {
         if (!this.canMove || this.node.parent !== this.parent_node) {
@@ -106,11 +98,38 @@ cc.Class({
         if (!this.canMove || this.node.parent !== this.parent_node) {
             return;
         }
-        this.reloadState();
+        // if(!this.gameJS.tipsFinished && this.gameJS.nowQuestionID === 0){
+        //     this.gameJS.tipsHand.active = true;
+        // }
+        console.log("touchcancel");
+        this.isRightOrWrong();
     },
 
     check: function () {
         return this.isRight;
+    },
+    isRightOrWrong(){
+        var isRight = this.check();
+        if (isRight) {
+            CONSOLE_LOG_OPEN && console.log("right");
+            this.gameJS.playRightAudio();
+            this.optionClick();
+        } else {
+            CONSOLE_LOG_OPEN && console.log("wrong");
+            this.gameJS.playWrongAudio();
+            if(!this.sheepNode||this.sheepNode.getChildByName("button_bg")){
+                this.reloadState(); 
+            }else{
+                let move1 = cc.moveBy(0.1,28,-35);
+                let move2 = cc.moveBy(0.1,-38,4);
+                let move3 = cc.moveBy(0.1,24,18);
+                let move4 = cc.moveBy(0.1,-14,-10);
+                this.gameJS.setCattleAnimationOnce("sad");
+                this.node.runAction(cc.sequence(cc.delayTime(0.1),move1,move2,move3,move4,cc.delayTime(0.1),cc.callFunc(()=>{
+                    this.reloadState();
+                })))
+            }
+        }
     },
 
     /* 切换后台恢复位置 */
@@ -120,6 +139,8 @@ cc.Class({
     },
     reloadState: function () {
         this.canMove = false; //防止超屏多次触发
+        let border = this.node.getChildByName('border');
+        border.opacity = 0;
         //父类变换时还原父类使用
         if (this.exchangeParent) {
             let nodePosition = this.node.convertToWorldSpaceAR(cc.p(0, 0));
@@ -133,7 +154,13 @@ cc.Class({
             this.node.setPosition(this.startx, this.starty);
             this.parent_node.zIndex = 0;
             this.updateState(true);
-            this.gameJS.changeMoveTag(0);
+
+            if(this.gameJS.tipsFinished){
+                this.gameJS.changeMoveTag(0);
+            }
+            if(!this.gameJS.tipsFinished && this.gameJS.nowQuestionID === 0){
+                this.gameJS.tipsHand.active = true;
+            }
         }, this)));
     },
     //计算复位动画执行时间
@@ -145,6 +172,12 @@ cc.Class({
     },
 
     optionClick: function () {
+        if(this.gameJS.nowQuestionID === 0){
+            this.gameJS.tipsFinished = true;
+        }
+        if(this.gameJS.tipsHand){
+            this.gameJS.tipsHand.active = false;
+        }
         this.node.parent = this.sheepNode;
         this.node.setPosition(0,0);
         this.node.parent.zIndex = 0;
@@ -152,7 +185,14 @@ cc.Class({
         this.gameJS.changeMoveTag(0);
         this.gameJS.rightNum++;
 
-        let action = cc.spawn(cc.rotateBy(0.33,360), cc.scaleTo(0.33,0.978));
+        this.node.setRotation(0);
+        // let innerBorderWidth = 24;//缝隙的宽
+        // let answersLayout = this.gameJS.answerContainerJS.layoutType.split("x");
+        // let col = answersLayout[0],row = answersLayout[1];
+        // let scaleX = this.gameJS.answerContainer.children[0].width/(this.gameJS.answerContainer.children[0].width + innerBorderWidth * (col - 1));
+        // let scaleY = this.gameJS.answerContainer.children[0].height/(this.gameJS.answerContainer.children[0].height + innerBorderWidth * (row - 1));
+        // let action = cc.spawn(cc.rotateBy(0.33,360), cc.scaleTo(0.33,scaleX,scaleY));
+        let action = cc.spawn(cc.rotateBy(0.33,360), cc.scaleTo(0.33,1));
         this.node.runAction(cc.sequence(action,cc.callFunc(()=>{
             this.node.zIndex = -1;
             this.gameJS.isWin.call(this.gameJS);

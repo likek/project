@@ -6,8 +6,8 @@ cc._RF.push(module, 'cf7e7Hjl8pBApNKVzaPXR0c', 'config');
 
 //log日志开关
 window.CONSOLE_LOG_OPEN = true;
-window.AUDIO_OPEN = false;
-window.REQUEST_URL = false;
+window.AUDIO_OPEN = true;
+window.REQUEST_URL = true;
 
 //从小到大排序
 function _sortNumber(a, b) {

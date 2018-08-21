@@ -17,21 +17,12 @@ cc.Class({
     // update (dt) {},
 
     initData(data){
-        this.setBoxs(this.node,data);
-        // this.setBoxs(this.bottomNode,data);
-
-        // var items = this.bottomNode.children[0].children[0];//底部所有片段
-        // for(let i = 0;i<items;i++){
-           
-        // }
-    },
-
-    setBoxs(container,data){
-        container.removeAllChildren();
+        this.node.removeAllChildren();
         if(!this.checkData(data))return;
+        this.layoutType = data;
         let parent = data === "2x2" ? this.node2x2 : (data === "2x3"? this.node2x3 : this.node3x3);
         parent = cc.instantiate(parent);
-        container.addChild(parent);
+        this.node.addChild(parent);
         data = data.split("x");
         let col = data[0];
         let row = data[1];
@@ -59,13 +50,7 @@ cc.Class({
                 answerCopy.y = answer.y;
 
                 var option = this.getOptionByAnswer(answer.__optionId);
-                cc.loader.load(option.optioncontimg,(err,res)=>{
-                    if (!err) {
-                        var spriteFrame = new cc.SpriteFrame(res);
-                        answerCopy.getComponent(cc.Sprite).spriteFrame = spriteFrame;
-                        cc.loader.releaseAsset(res);
-                    }
-                });
+                answerCopy.getComponent(cc.Sprite).spriteFrame = this.gameJS.getSpriteFrame(option.optioncontimg);
             }
         }
     },

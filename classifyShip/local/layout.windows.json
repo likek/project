@@ -5,8 +5,8 @@
       "main": true,
       "url": "app://editor/index.html",
       "windowType": "dockable",
-      "x": 152,
-      "y": 54,
+      "x": 1,
+      "y": 23,
       "width": 1440,
       "height": 877,
       "layout": {
@@ -18,7 +18,7 @@
                 "children": [
                   "hierarchy"
                 ],
-                "height": 372,
+                "height": 374,
                 "type": "panel",
                 "width": 273
               },
@@ -27,7 +27,7 @@
                 "children": [
                   "assets"
                 ],
-                "height": 410.984375,
+                "height": 409,
                 "type": "panel",
                 "width": 273
               }
@@ -82,8 +82,7 @@
         "assets",
         "scene"
       ]
-    },
-    "window-1534163631099": {}
+    }
   },
   "panels": {
     "package-asset.import": {

@@ -22,22 +22,12 @@ cc.Class({
     // update (dt) {},
 
     initData: function initData(data) {
-        this.setBoxs(this.node, data);
-        // this.setBoxs(this.bottomNode,data);
-
-        // var items = this.bottomNode.children[0].children[0];//底部所有片段
-        // for(let i = 0;i<items;i++){
-
-        // }
-    },
-    setBoxs: function setBoxs(container, data) {
-        var _this = this;
-
-        container.removeAllChildren();
+        this.node.removeAllChildren();
         if (!this.checkData(data)) return;
+        this.layoutType = data;
         var parent = data === "2x2" ? this.node2x2 : data === "2x3" ? this.node2x3 : this.node3x3;
         parent = cc.instantiate(parent);
-        container.addChild(parent);
+        this.node.addChild(parent);
         data = data.split("x");
         var col = data[0];
         var row = data[1];
@@ -46,8 +36,8 @@ cc.Class({
         var itemWidth = avaliWidth / col;
         var itemHeight = availHeight / row;
         for (var r = 0; r < row; r++) {
-            var _loop = function _loop(c) {
-                var answer = cc.instantiate(_this.answer);
+            for (var c = 0; c < col; c++) {
+                var answer = cc.instantiate(this.answer);
                 parent.addChild(answer);
                 answer.width = itemWidth;
                 answer.height = itemHeight;
@@ -58,27 +48,14 @@ cc.Class({
 
                 var answerCopy = new cc.Node();
                 answerCopy.addComponent(cc.Sprite);
-                _this.bottomNode.addChild(answerCopy);
+                this.bottomNode.addChild(answerCopy);
                 answerCopy.width = answer.width;
                 answerCopy.height = answer.height;
                 answerCopy.x = answer.x;
                 answerCopy.y = answer.y;
 
-                option = _this.getOptionByAnswer(answer.__optionId);
-
-                cc.loader.load(option.optioncontimg, function (err, res) {
-                    if (!err) {
-                        var spriteFrame = new cc.SpriteFrame(res);
-                        answerCopy.getComponent(cc.Sprite).spriteFrame = spriteFrame;
-                        cc.loader.releaseAsset(res);
-                    }
-                });
-            };
-
-            for (var c = 0; c < col; c++) {
-                var option;
-
-                _loop(c);
+                var option = this.getOptionByAnswer(answer.__optionId);
+                answerCopy.getComponent(cc.Sprite).spriteFrame = this.gameJS.getSpriteFrame(option.optioncontimg);
             }
         }
     },

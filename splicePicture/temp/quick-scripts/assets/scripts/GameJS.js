@@ -19,12 +19,18 @@ cc.Class({
         resetAudio: cc.AudioClip,
         optionAudio: cc.AudioClip,
         option_outAudio: cc.AudioClip,
+        rightAudio: cc.AudioClip,
+        wrongAudio: cc.AudioClip,
+        timuAudio: cc.AudioClip,
 
         flags: cc.Node, //旗子
         cattle: cc.Node, //牛
         answerContainer: cc.Node, //框框
+        glow: cc.Node, //闪动龙骨
+        colorStrip: cc.Node, // 彩带
+        tipsHand: cc.Node,
 
-        progress: cc.Node,
+        progress: cc.Node, //进度条
 
         rightNum: 0 //答对数量(用来判断是否答完))
     },
@@ -45,9 +51,10 @@ cc.Class({
         // manager.enabledDebugDraw = true;
 
         this.flagsJs = this.flags.getComponent("Flags"); //旗子
-        // this.cattleJS = this.cattle.getComponent("Cattle");//牛
-        this.answerContainerJS = this.answerContainer.getComponent("AnswerContainer"); //牛
+        this.answerContainerJS = this.answerContainer.getComponent("AnswerContainer"); //可碰撞区
         this.answerContainerJS.gameJS = this;
+        this.progressJS = this.progress.getComponent("ProgressJs");
+        this.tipsHand.active = false;
     },
     //初始化toast框
     initToast: function initToast() {
@@ -102,8 +109,8 @@ cc.Class({
     /*超时处理 
      */
     timeout: function timeout() {
-        this.progress.getComponent("ProgressJs").setStarTypeByIndex(this.nowQuestionID, 2);
         this.progress.getComponent("ProgressJs").playFlayStar(new cc.v2(0, 0), this.nowQuestionID, 2);
+        this.progress.getComponent("ProgressJs").setStarTypeByIndex(this.nowQuestionID, 2);
     },
 
     //移除当前所有选项
@@ -147,9 +154,6 @@ cc.Class({
 
             this.timeLabel.string = this.timeFormat(this.countDown);
         }
-        if (this.nowQuestionID === 0) {
-            this.progress.getComponent("ProgressJs").init(this.questionArr.length);
-        }
         // if (this.nowQuestionID > 0) {
         !this.isIts && this.showSchedule();
         isTotalCd && (this.lastAnswerTime = this.answerTime);
@@ -174,6 +178,18 @@ cc.Class({
         this.flagsJs.initData(question.optionsArr, this);
         this.answerContainerJS.initData(matrixType, this);
         this.setCattleAnimationOnce("stand");
+
+        if (!this.progressJS.__hasInit) {
+            this.progressJS.init(this.questionArr.length);
+            this.progressJS.__hasInit = true;
+        }
+        if (this.nowQuestionID === 0) {
+            this.tipsHand.active = true;
+            this.tipsAnimation();
+        } else {
+            this.tipsHand.active = false;
+        }
+        this.progressJS.showStarFlag(this.progressJS.getStarPosByIndex(this.nowQuestionID));
     },
 
     //选中答案
@@ -197,10 +213,26 @@ cc.Class({
     },
     //反馈
     showFeedback: function showFeedback(type) {
+        var _this = this;
+
         if (type === 1) {
             //出发
             AUDIO_OPEN && this.playWinAudio();
-            this.settlementJs.playWinAnim(this.feedbackFinish);
+            // this.settlementJs.playWinAnim(this.feedbackFinish);
+            var answers = this.answerContainer.children[0].children;
+            for (var i = 0; i < answers.length; i++) {
+                answers[i].getChildByName("button_bg").setScale(1);
+            }
+            this.progress.getComponent("ProgressJs").setStarTypeByIndex(this.nowQuestionID, 1);
+            this.progress.getComponent("ProgressJs").playFlayStar(new cc.v2(0, 0), this.nowQuestionID, 1);
+            this.scheduleOnce(function () {
+                _this.colorStrip.getComponent("sp.Skeleton").setAnimation(0, "in", false);
+                _this.glow.getComponent("sp.Skeleton").setAnimation(0, "in", false);
+                _this.setCattleAnimationOnce("happy");
+                _this.scheduleOnce(function () {
+                    _this.feedbackFinish();
+                }, 1.7);
+            }, 0.3);
         } else if (type === 2) {
             //出发
             AUDIO_OPEN && this.playLoseAudio();
@@ -228,68 +260,6 @@ cc.Class({
             return;
         }
     },
-    /* 再来一次 */
-    resetClicked: function resetClicked() {
-        var _this = this;
-
-        var cb = function cb() {
-            var array = _this.option_node.children;
-            array.forEach(function (obj, idx) {
-                var optionJS = obj.getComponent('OptionJS');
-                optionJS && optionJS.reloadState();
-            }, _this);
-        };
-        this.playCancelAudio();
-
-        if (this.isShowFeed || this.isShowAnim) {
-            return;
-        }
-
-        cb();
-    },
-    /* 确认 */
-    confirmClicked: function confirmClicked() {
-        var _this2 = this;
-
-        var cb = function cb() {
-            var array = _this2.option_node.children;
-            var isEqual = true;
-            array.forEach(function (obj, idx) {
-                var optionJS = obj.getComponent('OptionJS');
-                if (_this2.rightAry.indexOf(idx.toString()) != -1) {
-                    if (optionJS && optionJS.state != 2) {
-                        isEqual = false;
-                    }
-                } else {
-                    //错误区为正确时
-                    if (optionJS && optionJS.state == 2) {
-                        isEqual = false;
-                    }
-                }
-            }, _this2);
-
-            _this2.selectAnswer(isEqual);
-        };
-        this.playCancelAudio();
-        //this.isShowAnim
-        if (this.isShowFeed || this.checkIsEmpty()) {
-            return;
-        }
-
-        cb();
-    },
-    checkIsEmpty: function checkIsEmpty() {
-        var array = this.option_node.children;
-        var isEmpty = true;
-        array.forEach(function (obj, idx) {
-            var optionJS = obj.getComponent('OptionJS');
-            //正确区不为正确时
-            if (optionJS && optionJS.state > 1) {
-                isEmpty = false;
-            }
-        }, this);
-        return isEmpty;
-    },
     playWinAudio: function playWinAudio() {
         this.playAudio(this.winAudio);
     },
@@ -306,7 +276,62 @@ cc.Class({
     playOptionOutAudio: function playOptionOutAudio() {
         this.playAudio(this.option_outAudio);
     },
+    playRightAudio: function playRightAudio() {
+        this.playAudio(this.rightAudio);
+    },
+    playWrongAudio: function playWrongAudio() {
+        this.playAudio(this.wrongAudio);
+    },
 
+    /* 循环规则音,点击后重置 */
+    BasicAni: function BasicAni() {
+        //倒计时回调
+        var BasinCallbackFunc = function BasinCallbackFunc() {
+            var basincb = function basincb() {
+                if (this.isShowFeed) {
+                    return;
+                }
+                if (CONSOLE_LOG_OPEN) console.log('gagagagga');
+                this.playBasinAudio();
+            };
+            return basincb;
+        };
+
+        this.unschedule(this.basinCallback);
+        this.basinCallback = BasinCallbackFunc();
+        var question = this.questionArr[this.nowQuestionID];
+        this.schedule(this.basinCallback, question.gap ? parseInt(question.gap) : 40);
+    },
+    playTimuAudio: function playTimuAudio() {
+        var self = this;
+        var audio = cc.audioEngine.play(this.timuAudio, false, 1);
+        cc.audioEngine.setFinishCallback(audio, function () {
+            cc.audioEngine.stop(audio);
+            self.playBasinAudio();
+        });
+    },
+    playBasinAudio: function playBasinAudio() {
+        //this.playAudio(this.basinAudio);
+        var question = this.questionArr[this.nowQuestionID];
+
+        question.cndybasinAudio && cc.loader.load(question.cndybasinAudio, function (err, audio) {
+            if (!err) {
+                cc.audioEngine.play(audio, false, 1);
+                cc.loader.releaseAsset(audio);
+            }
+        });
+    },
+    playBGMAudio: function playBGMAudio() {
+        var self = this;
+        var question = this.questionArr[this.nowQuestionID];
+
+        question.bgm_candyAudio && cc.loader.load(question.bgm_candyAudio, function (err, audio) {
+            if (!err) {
+                cc.audioEngine.play(audio, true, 1);
+                cc.loader.releaseAsset(audio);
+            }
+        });
+    },
     //播放音效
     playAudio: function playAudio(audio) {
         if (AUDIO_OPEN) {
@@ -317,19 +342,60 @@ cc.Class({
     isWin: function isWin() {
         var question = this.questionArr[this.nowQuestionID];
         if (this.rightNum === question.optionsArr.length) {
-            this.progress.getComponent("ProgressJs").setStarTypeByIndex(this.nowQuestionID, 1);
-            this.progress.getComponent("ProgressJs").playFlayStar(new cc.v2(0, 0), this.nowQuestionID, 1);
-            this.setCattleAnimationOnce("happy");
             this.selectAnswer(true);
         }
     },
     setCattleAnimationOnce: function setCattleAnimationOnce(animation, timeOut) {
-        var _this3 = this;
+        var _this2 = this;
 
         this.cattle.getComponent("sp.Skeleton").setAnimation(0, animation, false);
         setTimeout(function () {
-            _this3.cattle.getComponent("sp.Skeleton").setAnimation(0, "stand", true);
+            _this2.cattle.getComponent("sp.Skeleton").setAnimation(0, "stand", true);
         }, timeOut || 2600);
+    },
+
+    gameBackAction: function gameBackAction() {
+        window.location.href = 'optionBlank://xmaGameBackAction?status=1';
+    },
+
+    tipsAnimation: function tipsAnimation() {
+        var _this3 = this;
+
+        var flagL = this.flags.getChildByName("flagL");
+        var optionNode = flagL.children[0];
+        if (!optionNode) return;
+        var optionJS = optionNode.getChildByName("button_bg").getComponent("OptionJS");
+        var optionID = optionJS.option.optionContent;
+
+        var answers = this.answerContainer.children[0].children;
+        var rightAnswerNode = null;
+        for (var i = 0; i < answers.length; i++) {
+            if (answers[i].__optionId === optionID) {
+                rightAnswerNode = answers[i];
+            }
+        }
+        if (!rightAnswerNode) return;
+
+        var startPos = void 0,
+            endPos = void 0;
+        startPos = optionNode.convertToWorldSpaceAR(cc.p(0, 0));
+        startPos = this.scaleNode.convertToNodeSpaceAR(startPos);
+        startPos.x += this.tipsHand.width / 3; //手向右下移一点点
+        startPos.y -= this.tipsHand.height / 3;
+        endPos = rightAnswerNode.convertToWorldSpaceAR(cc.p(0, 0));
+        endPos = this.scaleNode.convertToNodeSpaceAR(endPos);
+        endPos.x += this.tipsHand.width / 3; //手向右下移一点点
+        endPos.y -= this.tipsHand.height / 3;
+
+        this.tipsHand.setPosition(startPos);
+
+        var tipsAction = cc.moveTo(1.6, endPos);
+        this.tipsHand.stopAllActions();
+        this.tipsHand.runAction(cc.sequence(tipsAction, cc.callFunc(function () {
+            _this3.tipsHand.setPosition(startPos);
+        }, this)), this).repeatForever();
+
+        this.changeMoveTag(optionNode.getChildByName("button_bg").tag);
     }
 });
 

@@ -26,9 +26,7 @@ cc.Class({
         let that = this 
         this.scheduleOnce(function(){
             callback.call(that.game);
-        },2.5);
-
-        
+        },2.5); 
     }, 
 
     //播放失败动画

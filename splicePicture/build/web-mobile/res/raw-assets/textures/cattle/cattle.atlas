@@ -1,0 +1,132 @@
+
+cattle.png
+size: 875,589
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+TV
+  rotate: true
+  xy: 0, 3
+  size: 586, 566
+  orig: 586, 566
+  offset: 0, 0
+  index: -1
+ear_l
+  rotate: false
+  xy: 730, 331
+  size: 140, 128
+  orig: 140, 128
+  offset: 0, 0
+  index: -1
+ear_r
+  rotate: false
+  xy: 730, 461
+  size: 141, 128
+  orig: 141, 128
+  offset: 0, 0
+  index: -1
+eye_l
+  rotate: false
+  xy: 568, 88
+  size: 86, 106
+  orig: 86, 106
+  offset: 0, 0
+  index: -1
+eye_r
+  rotate: true
+  xy: 568, 0
+  size: 86, 106
+  orig: 86, 106
+  offset: 0, 0
+  index: -1
+eye_s_l
+  rotate: true
+  xy: 676, 14
+  size: 85, 67
+  orig: 85, 67
+  offset: 0, 0
+  index: -1
+eye_s_r
+  rotate: false
+  xy: 780, 0
+  size: 84, 66
+  orig: 84, 66
+  offset: 0, 0
+  index: -1
+eye_x_l
+  rotate: false
+  xy: 656, 101
+  size: 60, 30
+  orig: 60, 30
+  offset: 0, 0
+  index: -1
+eye_x_r
+  rotate: false
+  xy: 656, 101
+  size: 60, 30
+  orig: 60, 30
+  offset: 0, 0
+  index: -1
+face
+  rotate: true
+  xy: 568, 260
+  size: 329, 160
+  orig: 329, 160
+  offset: 0, 0
+  index: -1
+hole_l
+  rotate: true
+  xy: 718, 102
+  size: 29, 37
+  orig: 29, 37
+  offset: 0, 0
+  index: -1
+hole_r
+  rotate: true
+  xy: 718, 102
+  size: 29, 37
+  orig: 29, 37
+  offset: 0, 0
+  index: -1
+horn_l
+  rotate: false
+  xy: 782, 68
+  size: 53, 126
+  orig: 53, 126
+  offset: 0, 0
+  index: -1
+horn_r
+  rotate: true
+  xy: 656, 133
+  size: 61, 124
+  orig: 61, 124
+  offset: 0, 0
+  index: -1
+line_l
+  rotate: true
+  xy: 757, 62
+  size: 69, 21
+  orig: 69, 21
+  offset: 0, 0
+  index: -1
+line_r
+  rotate: true
+  xy: 837, 124
+  size: 70, 20
+  orig: 70, 20
+  offset: 0, 0
+  index: -1
+mouth_x
+  rotate: false
+  xy: 730, 264
+  size: 129, 65
+  orig: 129, 65
+  offset: 0, 0
+  index: -1
+nose
+  rotate: false
+  xy: 568, 196
+  size: 307, 62
+  orig: 307, 62
+  offset: 0, 0
+  index: -1

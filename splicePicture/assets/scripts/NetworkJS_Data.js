@@ -39,6 +39,7 @@ cc.Class({
 			optionsArr.push(temp);
 		}
 		var quescontimg = questionDict.quescontimg;
+		var qescontsound = questionDict.qescontsound;
 			
 		if(!interactiveJson.rightAry || !interactiveJson.questionAry || !interactiveJson.optionCount || !interactiveJson.countDown){
 			this.gameLoadFailed(2);			
@@ -58,6 +59,8 @@ cc.Class({
 				question_img : quescontimg.length>0&&quescontimg[0],
 				answer_img : quescontimg.length>1&&quescontimg[1],
 				answer_finish : quescontimg.length>2&&quescontimg[2],
+				bgm_candyAudio : qescontsound.length>0&&qescontsound[0],
+				cndybasinAudio : qescontsound.length>1&&qescontsound[1],
 
 				interactiveJson: interactiveJson,//格外配置json	
 				matrixType: interactiveJson.matrixType,//备用(可选)字段,阵列形式(2X3,3x3等)
