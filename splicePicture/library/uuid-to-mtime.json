@@ -55,8 +55,8 @@
     "relativePath": "components"
   },
   "c0e4e3a0-b011-41b6-82d6-c31f202631fe": {
-    "asset": 1534413665145,
-    "meta": 1534413665160,
+    "asset": 1534817820772,
+    "meta": 1534817820787,
     "relativePath": "CocosGame.fire"
   },
   "a2fc7679-24e1-4d33-a14f-862c47fbec71": {
@@ -605,7 +605,7 @@
     "relativePath": "prefabs/starNode.prefab"
   },
   "cd1ec6e0-e5e2-4d93-8f63-fc785bfcb7e4": {
-    "asset": 1532069642000,
+    "asset": 1534401385829,
     "meta": 1525335402000,
     "relativePath": "resources"
   },
@@ -620,7 +620,7 @@
     "relativePath": "components/Title/biaotikuang-zhong.png"
   },
   "aac537d9-ab9e-48ec-ac02-c0cc4abf54bf": {
-    "asset": 1534326739280,
+    "asset": 1534401291598,
     "meta": 1521611757000,
     "relativePath": "scripts"
   },
@@ -630,7 +630,7 @@
     "relativePath": "scripts/scale.js"
   },
   "5f2e94ee-4b52-4210-8206-f792d547c69c": {
-    "asset": 1534335865657,
+    "asset": 1534387635641,
     "meta": 1534300038500,
     "relativePath": "textures"
   },
@@ -850,7 +850,7 @@
     "relativePath": "components/settlement/settlement.js"
   },
   "e3fcfc36-1615-495d-9aea-530f7dc3382b": {
-    "asset": 1534401317730,
+    "asset": 1534404509790,
     "meta": 1534401317733,
     "relativePath": "resources/audios"
   },
@@ -873,11 +873,6 @@
     "asset": 1534401498031,
     "meta": 1534401498032,
     "relativePath": "resources/audios/sfx_correct3.mp3"
-  },
-  "d5325ada-973d-4a36-9058-d9d923e48a83": {
-    "asset": 1534402480797,
-    "meta": 1534402505847,
-    "relativePath": "base/BaseGameJS.js"
   },
   "8feba05d-73a6-4d30-ae8d-9c77b752965b": {
     "asset": 1534403338851,
@@ -903,11 +898,6 @@
     "asset": 1534407515397,
     "meta": 1534407731467,
     "relativePath": "scripts/AnswerContainer.js"
-  },
-  "d92c8b11-a480-4c04-ab3f-4732c88d32cd": {
-    "asset": 1534410900884,
-    "meta": 1534410927601,
-    "relativePath": "scripts/GameJS.js"
   },
   "ea4b5411-ed87-4554-a26e-4bca32a96dfc": {
     "asset": 1534411186150,
@@ -1098,5 +1088,15 @@
     "asset": 1530675298000,
     "meta": 1534414016995,
     "relativePath": "prefab/webview.prefab"
+  },
+  "d5325ada-973d-4a36-9058-d9d923e48a83": {
+    "asset": 1534817780405,
+    "meta": 1534817819263,
+    "relativePath": "base/BaseGameJS.js"
+  },
+  "d92c8b11-a480-4c04-ab3f-4732c88d32cd": {
+    "asset": 1534817815179,
+    "meta": 1534817819264,
+    "relativePath": "scripts/GameJS.js"
   }
 }

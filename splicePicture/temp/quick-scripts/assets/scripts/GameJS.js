@@ -300,7 +300,7 @@ cc.Class({
         this.unschedule(this.basinCallback);
         this.basinCallback = BasinCallbackFunc();
         var question = this.questionArr[this.nowQuestionID];
-        this.schedule(this.basinCallback, question.gap ? parseInt(question.gap) : 40);
+        question && this.schedule(this.basinCallback, question.gap ? parseInt(question.gap) : 40);
     },
     playTimuAudio: function playTimuAudio() {
         var self = this;

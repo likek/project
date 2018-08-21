@@ -5,7 +5,7 @@
       "main": true,
       "url": "app://editor/index.html",
       "windowType": "dockable",
-      "x": 14,
+      "x": 0,
       "y": 23,
       "width": 1440,
       "height": 877,
@@ -18,23 +18,23 @@
                 "children": [
                   "hierarchy"
                 ],
-                "height": 336,
+                "height": 372.125,
                 "type": "panel",
-                "width": 259
+                "width": 272.953125
               },
               {
                 "active": 0,
                 "children": [
                   "assets"
                 ],
-                "height": 371,
+                "height": 410.875,
                 "type": "panel",
-                "width": 259
+                "width": 272.953125
               }
             ],
-            "height": 710,
+            "height": 786,
             "type": "dock-v",
-            "width": 259
+            "width": 272.953125
           },
           {
             "children": [
@@ -43,9 +43,9 @@
                 "children": [
                   "scene"
                 ],
-                "height": 441,
+                "height": 488.40625,
                 "type": "panel",
-                "width": 710
+                "width": 748.25
               },
               {
                 "active": 0,
@@ -53,23 +53,23 @@
                   "console",
                   "timeline"
                 ],
-                "height": 266,
+                "height": 294.59375,
                 "type": "panel",
-                "width": 710
+                "width": 748.25
               }
             ],
-            "height": 710,
+            "height": 786,
             "type": "dock-v",
-            "width": 710
+            "width": 748.25
           },
           {
             "active": 0,
             "children": [
               "inspector"
             ],
-            "height": 710,
+            "height": 786,
             "type": "panel",
-            "width": 386
+            "width": 406.796875
           }
         ],
         "type": "dock-h"
@@ -83,7 +83,6 @@
         "scene"
       ]
     },
-    "window-1534386696308": {},
     "window-1534387109904": {
       "main": false,
       "url": "unpack://static/window.html",
