@@ -83,32 +83,8 @@
         "scene"
       ]
     },
-    "window-1534387109904": {
-      "main": false,
-      "url": "unpack://static/window.html",
-      "windowType": "dockable",
-      "x": 311,
-      "y": 123,
-      "width": 584,
-      "height": 548,
-      "layout": {
-        "children": [
-          {
-            "active": 0,
-            "children": [
-              "project-settings"
-            ],
-            "height": 526,
-            "type": "panel",
-            "width": 584
-          }
-        ],
-        "type": "dock-v"
-      },
-      "panels": [
-        "project-settings"
-      ]
-    }
+    "window-1534819076300": {},
+    "worker": {}
   },
   "panels": {
     "package-asset.import": {
@@ -130,8 +106,8 @@
       "height": 548
     },
     "builder": {
-      "x": 385,
-      "y": 109,
+      "x": 336,
+      "y": 23,
       "width": 500,
       "height": 722
     }

@@ -50,7 +50,7 @@ cc.Class({
                 answerCopy.y = answer.y;
 
                 var option = this.getOptionByAnswer(answer.__optionId);
-                answerCopy.getComponent(cc.Sprite).spriteFrame = this.gameJS.getSpriteFrame(option.optioncontimg);
+                option && (answerCopy.getComponent(cc.Sprite).spriteFrame = this.gameJS.getSpriteFrame(option.optioncontimg));
             }
         }
     },
@@ -65,6 +65,7 @@ cc.Class({
         for(let i=0;i<options.length;i++){
             if(options[i].optionContent === optionID){
                 res = options[i];
+                break;
             }
         }
         return res;

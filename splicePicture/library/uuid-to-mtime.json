@@ -55,8 +55,8 @@
     "relativePath": "components"
   },
   "c0e4e3a0-b011-41b6-82d6-c31f202631fe": {
-    "asset": 1534817820772,
-    "meta": 1534817820787,
+    "asset": 1534831303451,
+    "meta": 1534831303462,
     "relativePath": "CocosGame.fire"
   },
   "a2fc7679-24e1-4d33-a14f-862c47fbec71": {
@@ -74,215 +74,10 @@
     "meta": 1534300039537,
     "relativePath": "components/efailed/efailed.prefab"
   },
-  "e7782842-72ed-4178-8d02-5bda57ba7c81": {
-    "asset": 1532071058000,
-    "meta": 1532071058000,
-    "relativePath": "components/Number"
-  },
-  "f11140ca-359e-45ad-b3d7-94af7897b448": {
-    "asset": 1532071058000,
-    "meta": 1532071058000,
-    "relativePath": "components/Number/eight"
-  },
-  "c69fa683-167a-4bb8-8f61-4333ef75d740": {
-    "asset": 1532071058000,
-    "meta": 1532071058000,
-    "relativePath": "components/Number/eight/eight.atlas"
-  },
   "174e1bee-a172-4290-8a23-c4d111200a7e": {
     "asset": 1525330078000,
     "meta": 1534300039556,
     "relativePath": "components/efailed/efailed.png"
-  },
-  "c9825b4e-2cd3-4e1a-baeb-e68f727a6a0e": {
-    "asset": 1532071058000,
-    "meta": 1532071058000,
-    "relativePath": "components/Number/five"
-  },
-  "0b571c09-a2b7-4a34-99fa-18c9681cfdf0": {
-    "asset": 1532071058000,
-    "meta": 1532071058000,
-    "relativePath": "components/Number/five/five.atlas"
-  },
-  "6711bfc7-ac03-4387-95bb-d6e136533c7d": {
-    "asset": 1532071058000,
-    "meta": 1534300041344,
-    "relativePath": "components/Number/eight/eight.json"
-  },
-  "ea6fd0f6-470d-45a4-bcbb-99c4bdf954ab": {
-    "asset": 1532071058000,
-    "meta": 1534300039573,
-    "relativePath": "components/Number/eight/eight.png"
-  },
-  "795b09ee-001d-49a7-830b-e38718d528b2": {
-    "asset": 1532071058000,
-    "meta": 1532071058000,
-    "relativePath": "components/Number/four"
-  },
-  "0201833f-e40d-4352-8742-762a0b7871ea": {
-    "asset": 1532071058000,
-    "meta": 1532071058000,
-    "relativePath": "components/Number/four/four.atlas"
-  },
-  "a0db4305-c4fd-4f21-99ef-837d382ee02c": {
-    "asset": 1532071058000,
-    "meta": 1534300041360,
-    "relativePath": "components/Number/five/five.json"
-  },
-  "c123426f-a4da-4669-aab6-710049ceda56": {
-    "asset": 1532071058000,
-    "meta": 1534300039606,
-    "relativePath": "components/Number/five/five.png"
-  },
-  "bd6ec556-0981-4882-bb35-4bf41d6a781c": {
-    "asset": 1532071058000,
-    "meta": 1532071058000,
-    "relativePath": "components/Number/nine"
-  },
-  "09b99d5a-811e-4ff9-a162-787a675793c1": {
-    "asset": 1532071058000,
-    "meta": 1532071058000,
-    "relativePath": "components/Number/nine/nine.atlas"
-  },
-  "d812b27e-d758-4de0-b9e3-ab8578ab8e76": {
-    "asset": 1532071058000,
-    "meta": 1534300039614,
-    "relativePath": "components/Number/four/four.png"
-  },
-  "2eaef65b-e6e6-4cd9-a135-d3737c0ddda4": {
-    "asset": 1532071058000,
-    "meta": 1534300041379,
-    "relativePath": "components/Number/four/four.json"
-  },
-  "90e5ff4f-cc35-414f-82bd-ffeb6be81ab0": {
-    "asset": 1532071058000,
-    "meta": 1532071058000,
-    "relativePath": "components/Number/one"
-  },
-  "083f434d-a337-4b2c-b9e5-a3f56479d1c7": {
-    "asset": 1532071058000,
-    "meta": 1532071058000,
-    "relativePath": "components/Number/one/one.atlas"
-  },
-  "fd4d5854-33d1-42b2-8556-1952f8d04323": {
-    "asset": 1532071058000,
-    "meta": 1534300041390,
-    "relativePath": "components/Number/nine/nine.json"
-  },
-  "5530fd31-09d7-4b92-888a-582b1ce5dc12": {
-    "asset": 1532071058000,
-    "meta": 1534300039640,
-    "relativePath": "components/Number/nine/nine.png"
-  },
-  "287b42da-1e78-4015-ac6b-929a11b5f5b8": {
-    "asset": 1532071058000,
-    "meta": 1534300041396,
-    "relativePath": "components/Number/one/one.json"
-  },
-  "4e3aa8b1-96e8-4852-8177-4494aa15e153": {
-    "asset": 1532071058000,
-    "meta": 1532071058000,
-    "relativePath": "components/Number/seven"
-  },
-  "0ece1407-1c4a-4594-b4cf-70c5629dd933": {
-    "asset": 1532071058000,
-    "meta": 1532071058000,
-    "relativePath": "components/Number/seven/seven.atlas"
-  },
-  "4554543f-e5e6-4c93-a71b-66866a8b5f59": {
-    "asset": 1532071058000,
-    "meta": 1534300039658,
-    "relativePath": "components/Number/one/one.png"
-  },
-  "bd6cd213-d4a8-46de-aaca-3b9e20bb6fbe": {
-    "asset": 1532071058000,
-    "meta": 1532071058000,
-    "relativePath": "components/Number/six"
-  },
-  "e9d6bb77-b88a-4511-ab4f-2e09fa6c31a7": {
-    "asset": 1532071058000,
-    "meta": 1532071058000,
-    "relativePath": "components/Number/six/six.atlas"
-  },
-  "b34dd092-2df2-473d-b86b-aae4edd92bb6": {
-    "asset": 1532071058000,
-    "meta": 1534300041408,
-    "relativePath": "components/Number/seven/seven.json"
-  },
-  "b028f260-c843-4383-93c4-831d141aa1dc": {
-    "asset": 1532071058000,
-    "meta": 1534300039674,
-    "relativePath": "components/Number/seven/seven.png"
-  },
-  "d1063c04-bfd6-4442-9c90-f39a0f04e775": {
-    "asset": 1532071058000,
-    "meta": 1532071058000,
-    "relativePath": "components/Number/three"
-  },
-  "e6d9d1ad-d06c-42c3-8ffa-327d2201f594": {
-    "asset": 1532071058000,
-    "meta": 1532071058000,
-    "relativePath": "components/Number/three/three.atlas"
-  },
-  "38b59fe8-0d16-413f-a943-fdab3aef503e": {
-    "asset": 1532071058000,
-    "meta": 1534300041416,
-    "relativePath": "components/Number/six/six.json"
-  },
-  "1fbf463a-0944-42cd-841a-dbcbe44071f4": {
-    "asset": 1532071058000,
-    "meta": 1534300039692,
-    "relativePath": "components/Number/six/six.png"
-  },
-  "48bc2dfe-bbee-4f23-9485-12ab36815067": {
-    "asset": 1532071058000,
-    "meta": 1532071058000,
-    "relativePath": "components/Number/two"
-  },
-  "ff8affd3-ae1d-4319-8c58-a76e9f51834b": {
-    "asset": 1532071058000,
-    "meta": 1532071058000,
-    "relativePath": "components/Number/two/two.atlas"
-  },
-  "567e8054-ea0f-49f2-8ed5-ce98a61313da": {
-    "asset": 1532071058000,
-    "meta": 1534300039808,
-    "relativePath": "components/Number/three/three.png"
-  },
-  "af368e7c-daaf-4f23-9b51-992bb7b097d4": {
-    "asset": 1532071058000,
-    "meta": 1534300041429,
-    "relativePath": "components/Number/three/three.json"
-  },
-  "b874f543-3bd1-4131-b9be-8aa681286cac": {
-    "asset": 1532071058000,
-    "meta": 1532071058000,
-    "relativePath": "components/Number/zero"
-  },
-  "802f55f6-2f4a-4ae7-86ca-187b02bd17b5": {
-    "asset": 1532071058000,
-    "meta": 1532071058000,
-    "relativePath": "components/Number/zero/zero.atlas"
-  },
-  "994fbbce-c36c-4c5d-bd64-6d892580dc33": {
-    "asset": 1532071058000,
-    "meta": 1534300041440,
-    "relativePath": "components/Number/two/two.json"
-  },
-  "f0ad0c57-acdc-45b7-ba35-a4408c04526d": {
-    "asset": 1532071058000,
-    "meta": 1534300039837,
-    "relativePath": "components/Number/two/two.png"
-  },
-  "46053fab-4ef3-4d72-8840-296c21febdc3": {
-    "asset": 1532071058000,
-    "meta": 1534300041446,
-    "relativePath": "components/Number/zero/zero.json"
-  },
-  "96401908-aa41-4131-8be9-8273f347ca58": {
-    "asset": 1532071146000,
-    "meta": 1534300039839,
-    "relativePath": "components/numSpineNode.prefab"
   },
   "ba61de19-1186-4e39-8284-57dc6ac15f21": {
     "asset": 1532070210000,
@@ -293,11 +88,6 @@
     "asset": 1532070210000,
     "meta": 1532070210000,
     "relativePath": "components/numTitlePre/js"
-  },
-  "763019fd-9004-4049-89c7-2fce3aba73c0": {
-    "asset": 1532071058000,
-    "meta": 1534300039880,
-    "relativePath": "components/Number/zero/zero.png"
   },
   "d58c4aad-575e-4c35-86da-9f0c8e4c7bcb": {
     "asset": 1532070210000,
@@ -334,165 +124,25 @@
     "meta": 1534300039936,
     "relativePath": "components/numTitlePre/timubg.png"
   },
-  "b0b46e9d-3c51-48d5-9083-3047b0837aa4": {
-    "asset": 1525332478000,
-    "meta": 1534300039938,
-    "relativePath": "components/Options/ColliderListener.js"
-  },
   "260f79b9-6c6c-4946-b486-f29b38d6d7be": {
     "asset": 1534328893317,
     "meta": 1534328893323,
     "relativePath": "components/Options/option.prefab"
-  },
-  "cec4f065-189d-4dc3-9433-8ebd49ceb471": {
-    "asset": 1525334687000,
-    "meta": 1534300040055,
-    "relativePath": "components/Options/OptionJS1.js"
   },
   "69fd494b-7c30-4981-9559-81be76fd6e26": {
     "asset": 1525331994000,
     "meta": 1525335402000,
     "relativePath": "components/panel"
   },
-  "a6e4a82f-f6aa-4c5a-aecc-107337220da2": {
-    "asset": 1532071058000,
-    "meta": 1532071058000,
-    "relativePath": "components/prefabs"
-  },
   "518c6132-8265-45ed-a67e-374194a42f7e": {
     "asset": 1525338422000,
     "meta": 1534300040087,
     "relativePath": "components/panel/question_panel.js"
   },
-  "ea460bd9-f178-4ac2-900d-c00ccea359e5": {
-    "asset": 1532071058000,
-    "meta": 1534300040088,
-    "relativePath": "components/prefabs/numSpine0.prefab"
-  },
-  "fecb2192-c053-4e95-9ee3-f7cabb9a90ac": {
-    "asset": 1532071058000,
-    "meta": 1534300040090,
-    "relativePath": "components/prefabs/numSpine1.prefab"
-  },
-  "46446932-5d91-4d7a-8d40-9d27b2d460bc": {
-    "asset": 1532071058000,
-    "meta": 1534300040091,
-    "relativePath": "components/prefabs/numSpine2.prefab"
-  },
-  "3d90012c-6643-45bf-8934-9a860a277dab": {
-    "asset": 1532071058000,
-    "meta": 1534300040092,
-    "relativePath": "components/prefabs/numSpine3.prefab"
-  },
-  "4df19267-9105-4e17-99b6-9be4031cde2f": {
-    "asset": 1532071058000,
-    "meta": 1534300040093,
-    "relativePath": "components/prefabs/numSpine4.prefab"
-  },
-  "b84b47f8-dea7-4fef-8a2f-8de8beb8b5d3": {
-    "asset": 1532071058000,
-    "meta": 1534300040095,
-    "relativePath": "components/prefabs/numSpine5.prefab"
-  },
-  "ca85a295-9d83-4ef6-9fbd-ca7db083f6b2": {
-    "asset": 1532071058000,
-    "meta": 1534300040096,
-    "relativePath": "components/prefabs/numSpine6.prefab"
-  },
-  "08e89faa-d24d-45c1-b89e-8544b44ef52e": {
-    "asset": 1532071058000,
-    "meta": 1534300040097,
-    "relativePath": "components/prefabs/numSpine7.prefab"
-  },
-  "3be3833e-c66e-4391-99b7-c28fd62585e5": {
-    "asset": 1532071058000,
-    "meta": 1534300040099,
-    "relativePath": "components/prefabs/numSpine8.prefab"
-  },
-  "6842b1c2-b733-4949-b21c-1e0adaa6f931": {
-    "asset": 1532071058000,
-    "meta": 1534300040101,
-    "relativePath": "components/prefabs/numSpine9.prefab"
-  },
-  "ac1ee8ca-292d-4826-9620-34634fd19c4b": {
-    "asset": 1509099324000,
-    "meta": 1525335402000,
-    "relativePath": "components/QuestionList"
-  },
-  "d143cadb-3333-4a56-beb3-aa9418330b39": {
-    "asset": 1532071058000,
-    "meta": 1534300040147,
-    "relativePath": "components/prefabs/yinying.png"
-  },
-  "5e908ce9-90e6-43b8-88c3-4f671116558d": {
-    "asset": 1506067093000,
-    "meta": 1534300040148,
-    "relativePath": "components/QuestionList/btnLast.png"
-  },
-  "500e5f62-b976-48d5-989e-9bbc19f083de": {
-    "asset": 1506067093000,
-    "meta": 1534300040177,
-    "relativePath": "components/QuestionList/btnLast1.png"
-  },
-  "b39f0f1b-0f7a-4478-8883-c94324f0a926": {
-    "asset": 1506067093000,
-    "meta": 1534300040178,
-    "relativePath": "components/QuestionList/btnNext.png"
-  },
-  "ee535342-837c-413b-b66d-5994ba0b3ea8": {
-    "asset": 1509099324000,
-    "meta": 1525335402000,
-    "relativePath": "components/QuestionList/QuestionNum"
-  },
-  "eb372505-4dd5-4235-bf42-c76b970da81b": {
-    "asset": 1506067093000,
-    "meta": 1534300040199,
-    "relativePath": "components/QuestionList/btnNext1.png"
-  },
-  "a970b8d8-d76b-4c79-ada8-2a299786a030": {
-    "asset": 1509099324000,
-    "meta": 1534300040206,
-    "relativePath": "components/QuestionList/QuestionNum/numBg.png"
-  },
-  "6e8f92f9-4a65-4236-b44b-b1d4836d3cf1": {
-    "asset": 1509099324000,
-    "meta": 1534300040208,
-    "relativePath": "components/QuestionList/QuestionNum/questionNum.prefab"
-  },
-  "784e417a-0d2c-47e9-bdb2-e6592f54da67": {
-    "asset": 1509099324000,
-    "meta": 1534300040219,
-    "relativePath": "components/QuestionList/QuestionNum/numBg1.png"
-  },
-  "511cc9d4-84f7-4457-9b0c-4479263cd7f6": {
-    "asset": 1509099324000,
-    "meta": 1534300040252,
-    "relativePath": "components/QuestionList/QuestionNum/QuestionNumJS.js"
-  },
-  "7a656236-dee9-402b-b903-01281aedfd17": {
-    "asset": 1506067093000,
-    "meta": 1534300040255,
-    "relativePath": "components/QuestionList/QuestionNumListJS.js"
-  },
-  "863edd2d-5490-4b92-be03-43fe80afd4fe": {
-    "asset": 1532071058000,
-    "meta": 1532071058000,
-    "relativePath": "components/script"
-  },
-  "676a0999-88dd-4521-a251-00753c191f88": {
-    "asset": 1506067093000,
-    "meta": 1534300040298,
-    "relativePath": "components/QuestionList/questionNumScrollView_node.prefab"
-  },
   "90ec7e65-850e-4518-bccc-2aa95826acc0": {
     "asset": 1532069617000,
     "meta": 1532069617000,
     "relativePath": "components/settlement"
-  },
-  "afcf9e9c-620a-4fe3-986a-b4d0b1039272": {
-    "asset": 1532071058000,
-    "meta": 1534300040320,
-    "relativePath": "components/script/numSpineJs.js"
   },
   "3f53c923-a810-4715-a78a-3719964df42d": {
     "asset": 1532069617000,
@@ -554,16 +204,6 @@
     "meta": 1534300041496,
     "relativePath": "components/settlement/time_over/time_over.json"
   },
-  "9e730b2f-ee25-4c08-9644-c3c058858a26": {
-    "asset": 1532070188000,
-    "meta": 1532070188000,
-    "relativePath": "components/textures"
-  },
-  "57879d65-5a88-41ed-bb8c-7a483c31ab09": {
-    "asset": 1532070188000,
-    "meta": 1534300040488,
-    "relativePath": "components/textures/time.png"
-  },
   "2e9c15aa-7027-4b3d-9745-f6f9f2944624": {
     "asset": 1532070188000,
     "meta": 1534300040490,
@@ -573,21 +213,6 @@
     "asset": 1532069617000,
     "meta": 1534300040491,
     "relativePath": "components/settlement/time_over/time_over.png"
-  },
-  "20bdc4ce-9217-478c-8cb5-5fd1b5a4bb37": {
-    "asset": 1525759936000,
-    "meta": 1525770336000,
-    "relativePath": "components/Title"
-  },
-  "4ea10a77-9487-4472-9031-096e4c89bc6b": {
-    "asset": 1506067093000,
-    "meta": 1534300040493,
-    "relativePath": "components/Title/title_node.prefab"
-  },
-  "5b283222-47f0-4180-b90d-fb36b3262829": {
-    "asset": 1506067093000,
-    "meta": 1534300040499,
-    "relativePath": "components/Title/TitleJS.js"
   },
   "c24e08b2-93b6-40d1-89fc-995ed083346a": {
     "asset": 1534313700011,
@@ -613,11 +238,6 @@
     "asset": 1534300038503,
     "meta": 1534300040505,
     "relativePath": "rightAction.anim"
-  },
-  "aa6169f2-8bfe-4c75-9dcd-0507c1a17cf7": {
-    "asset": 1506067093000,
-    "meta": 1534300040548,
-    "relativePath": "components/Title/biaotikuang-zhong.png"
   },
   "aac537d9-ab9e-48ec-ac02-c0cc4abf54bf": {
     "asset": 1534401291598,
@@ -874,11 +494,6 @@
     "meta": 1534401498032,
     "relativePath": "resources/audios/sfx_correct3.mp3"
   },
-  "8feba05d-73a6-4d30-ae8d-9c77b752965b": {
-    "asset": 1534403338851,
-    "meta": 1534403340705,
-    "relativePath": "scripts/NetworkJS_Data.js"
-  },
   "cf7e71e3-97ca-4102-934a-57368f5d1d1c": {
     "asset": 1534403521054,
     "meta": 1534403546531,
@@ -888,16 +503,6 @@
     "asset": 1534404499274,
     "meta": 1534404499276,
     "relativePath": "resources/audios/timu.mp3"
-  },
-  "49399a48-6651-4324-96cf-a4dd724ca052": {
-    "asset": 1534405751407,
-    "meta": 1534406036607,
-    "relativePath": "scripts/Flags.js"
-  },
-  "ca872893-9ab0-4dcf-a31b-85df81312dce": {
-    "asset": 1534407515397,
-    "meta": 1534407731467,
-    "relativePath": "scripts/AnswerContainer.js"
   },
   "ea4b5411-ed87-4554-a26e-4bca32a96dfc": {
     "asset": 1534411186150,
@@ -1094,9 +699,404 @@
     "meta": 1534817819263,
     "relativePath": "base/BaseGameJS.js"
   },
+  "8feba05d-73a6-4d30-ae8d-9c77b752965b": {
+    "asset": 1534823676573,
+    "meta": 1534823706859,
+    "relativePath": "scripts/NetworkJS_Data.js"
+  },
+  "e7782842-72ed-4178-8d02-5bda57ba7c81": {
+    "asset": 1534830146364,
+    "meta": 1534830146365,
+    "relativePath": "components/Number"
+  },
+  "f11140ca-359e-45ad-b3d7-94af7897b448": {
+    "asset": 1534830146364,
+    "meta": 1534830146364,
+    "relativePath": "components/Number/eight"
+  },
+  "c69fa683-167a-4bb8-8f61-4333ef75d740": {
+    "asset": 1534830146364,
+    "meta": 1534830146364,
+    "relativePath": "components/Number/eight/eight.atlas"
+  },
+  "c9825b4e-2cd3-4e1a-baeb-e68f727a6a0e": {
+    "asset": 1534830146359,
+    "meta": 1534830146360,
+    "relativePath": "components/Number/five"
+  },
+  "0b571c09-a2b7-4a34-99fa-18c9681cfdf0": {
+    "asset": 1534830146360,
+    "meta": 1534830146359,
+    "relativePath": "components/Number/five/five.atlas"
+  },
+  "6711bfc7-ac03-4387-95bb-d6e136533c7d": {
+    "asset": 1534830146363,
+    "meta": 1534830178000,
+    "relativePath": "components/Number/eight/eight.json"
+  },
+  "ea6fd0f6-470d-45a4-bcbb-99c4bdf954ab": {
+    "asset": 1534830146362,
+    "meta": 1534830177445,
+    "relativePath": "components/Number/eight/eight.png"
+  },
+  "a0db4305-c4fd-4f21-99ef-837d382ee02c": {
+    "asset": 1534830146359,
+    "meta": 1534830178012,
+    "relativePath": "components/Number/five/five.json"
+  },
+  "795b09ee-001d-49a7-830b-e38718d528b2": {
+    "asset": 1534830146355,
+    "meta": 1534830146356,
+    "relativePath": "components/Number/four"
+  },
+  "0201833f-e40d-4352-8742-762a0b7871ea": {
+    "asset": 1534830146355,
+    "meta": 1534830146355,
+    "relativePath": "components/Number/four/four.atlas"
+  },
+  "c123426f-a4da-4669-aab6-710049ceda56": {
+    "asset": 1534830146357,
+    "meta": 1534830177463,
+    "relativePath": "components/Number/five/five.png"
+  },
+  "bd6ec556-0981-4882-bb35-4bf41d6a781c": {
+    "asset": 1534830146351,
+    "meta": 1534830146352,
+    "relativePath": "components/Number/nine"
+  },
+  "09b99d5a-811e-4ff9-a162-787a675793c1": {
+    "asset": 1534830146351,
+    "meta": 1534830146350,
+    "relativePath": "components/Number/nine/nine.atlas"
+  },
+  "2eaef65b-e6e6-4cd9-a135-d3737c0ddda4": {
+    "asset": 1534830146355,
+    "meta": 1534830178024,
+    "relativePath": "components/Number/four/four.json"
+  },
+  "d812b27e-d758-4de0-b9e3-ab8578ab8e76": {
+    "asset": 1534830146353,
+    "meta": 1534830177482,
+    "relativePath": "components/Number/four/four.png"
+  },
+  "90e5ff4f-cc35-414f-82bd-ffeb6be81ab0": {
+    "asset": 1534830146345,
+    "meta": 1534830146346,
+    "relativePath": "components/Number/one"
+  },
+  "083f434d-a337-4b2c-b9e5-a3f56479d1c7": {
+    "asset": 1534830146346,
+    "meta": 1534830146345,
+    "relativePath": "components/Number/one/one.atlas"
+  },
+  "fd4d5854-33d1-42b2-8556-1952f8d04323": {
+    "asset": 1534830146350,
+    "meta": 1534830178040,
+    "relativePath": "components/Number/nine/nine.json"
+  },
+  "5530fd31-09d7-4b92-888a-582b1ce5dc12": {
+    "asset": 1534830146347,
+    "meta": 1534830177505,
+    "relativePath": "components/Number/nine/nine.png"
+  },
+  "4e3aa8b1-96e8-4852-8177-4494aa15e153": {
+    "asset": 1534830146341,
+    "meta": 1534830146342,
+    "relativePath": "components/Number/seven"
+  },
+  "0ece1407-1c4a-4594-b4cf-70c5629dd933": {
+    "asset": 1534830146341,
+    "meta": 1534830146341,
+    "relativePath": "components/Number/seven/seven.atlas"
+  },
+  "4554543f-e5e6-4c93-a71b-66866a8b5f59": {
+    "asset": 1534830146343,
+    "meta": 1534830177514,
+    "relativePath": "components/Number/one/one.png"
+  },
+  "287b42da-1e78-4015-ac6b-929a11b5f5b8": {
+    "asset": 1534830146344,
+    "meta": 1534830178047,
+    "relativePath": "components/Number/one/one.json"
+  },
+  "bd6cd213-d4a8-46de-aaca-3b9e20bb6fbe": {
+    "asset": 1534830146337,
+    "meta": 1534830146337,
+    "relativePath": "components/Number/six"
+  },
+  "e9d6bb77-b88a-4511-ab4f-2e09fa6c31a7": {
+    "asset": 1534830146337,
+    "meta": 1534830146336,
+    "relativePath": "components/Number/six/six.atlas"
+  },
+  "b34dd092-2df2-473d-b86b-aae4edd92bb6": {
+    "asset": 1534830146340,
+    "meta": 1534830178061,
+    "relativePath": "components/Number/seven/seven.json"
+  },
+  "b028f260-c843-4383-93c4-831d141aa1dc": {
+    "asset": 1534830146339,
+    "meta": 1534830177539,
+    "relativePath": "components/Number/seven/seven.png"
+  },
+  "38b59fe8-0d16-413f-a943-fdab3aef503e": {
+    "asset": 1534830146336,
+    "meta": 1534830178065,
+    "relativePath": "components/Number/six/six.json"
+  },
+  "d1063c04-bfd6-4442-9c90-f39a0f04e775": {
+    "asset": 1534830146332,
+    "meta": 1534830146333,
+    "relativePath": "components/Number/three"
+  },
+  "e6d9d1ad-d06c-42c3-8ffa-327d2201f594": {
+    "asset": 1534830146332,
+    "meta": 1534830146332,
+    "relativePath": "components/Number/three/three.atlas"
+  },
+  "1fbf463a-0944-42cd-841a-dbcbe44071f4": {
+    "asset": 1534830146334,
+    "meta": 1534830177557,
+    "relativePath": "components/Number/six/six.png"
+  },
+  "48bc2dfe-bbee-4f23-9485-12ab36815067": {
+    "asset": 1534830146328,
+    "meta": 1534830146329,
+    "relativePath": "components/Number/two"
+  },
+  "ff8affd3-ae1d-4319-8c58-a76e9f51834b": {
+    "asset": 1534830146328,
+    "meta": 1534830146328,
+    "relativePath": "components/Number/two/two.atlas"
+  },
+  "af368e7c-daaf-4f23-9b51-992bb7b097d4": {
+    "asset": 1534830146331,
+    "meta": 1534830178076,
+    "relativePath": "components/Number/three/three.json"
+  },
+  "567e8054-ea0f-49f2-8ed5-ce98a61313da": {
+    "asset": 1534830146330,
+    "meta": 1534830177576,
+    "relativePath": "components/Number/three/three.png"
+  },
+  "b874f543-3bd1-4131-b9be-8aa681286cac": {
+    "asset": 1534830146323,
+    "meta": 1534830146324,
+    "relativePath": "components/Number/zero"
+  },
+  "802f55f6-2f4a-4ae7-86ca-187b02bd17b5": {
+    "asset": 1534830146324,
+    "meta": 1534830146323,
+    "relativePath": "components/Number/zero/zero.atlas"
+  },
+  "994fbbce-c36c-4c5d-bd64-6d892580dc33": {
+    "asset": 1534830146327,
+    "meta": 1534830178083,
+    "relativePath": "components/Number/two/two.json"
+  },
+  "f0ad0c57-acdc-45b7-ba35-a4408c04526d": {
+    "asset": 1534830146326,
+    "meta": 1534830177592,
+    "relativePath": "components/Number/two/two.png"
+  },
+  "96401908-aa41-4131-8be9-8273f347ca58": {
+    "asset": 1534830146319,
+    "meta": 1534830177594,
+    "relativePath": "components/numSpineNode.prefab"
+  },
+  "763019fd-9004-4049-89c7-2fce3aba73c0": {
+    "asset": 1534830146321,
+    "meta": 1534830177639,
+    "relativePath": "components/Number/zero/zero.png"
+  },
+  "46053fab-4ef3-4d72-8840-296c21febdc3": {
+    "asset": 1534830146323,
+    "meta": 1534830178091,
+    "relativePath": "components/Number/zero/zero.json"
+  },
+  "b0b46e9d-3c51-48d5-9083-3047b0837aa4": {
+    "asset": 1534830146318,
+    "meta": 1534830177675,
+    "relativePath": "components/Options/ColliderListener.js"
+  },
+  "cec4f065-189d-4dc3-9433-8ebd49ceb471": {
+    "asset": 1534830146317,
+    "meta": 1534830177675,
+    "relativePath": "components/Options/OptionJS1.js"
+  },
+  "a6e4a82f-f6aa-4c5a-aecc-107337220da2": {
+    "asset": 1534830146315,
+    "meta": 1534830146316,
+    "relativePath": "components/prefabs"
+  },
+  "ea460bd9-f178-4ac2-900d-c00ccea359e5": {
+    "asset": 1534830146316,
+    "meta": 1534830177677,
+    "relativePath": "components/prefabs/numSpine0.prefab"
+  },
+  "fecb2192-c053-4e95-9ee3-f7cabb9a90ac": {
+    "asset": 1534830146314,
+    "meta": 1534830177678,
+    "relativePath": "components/prefabs/numSpine1.prefab"
+  },
+  "46446932-5d91-4d7a-8d40-9d27b2d460bc": {
+    "asset": 1534830146313,
+    "meta": 1534830177679,
+    "relativePath": "components/prefabs/numSpine2.prefab"
+  },
+  "3d90012c-6643-45bf-8934-9a860a277dab": {
+    "asset": 1534830146312,
+    "meta": 1534830177680,
+    "relativePath": "components/prefabs/numSpine3.prefab"
+  },
+  "4df19267-9105-4e17-99b6-9be4031cde2f": {
+    "asset": 1534830146311,
+    "meta": 1534830177681,
+    "relativePath": "components/prefabs/numSpine4.prefab"
+  },
+  "b84b47f8-dea7-4fef-8a2f-8de8beb8b5d3": {
+    "asset": 1534830146310,
+    "meta": 1534830177690,
+    "relativePath": "components/prefabs/numSpine5.prefab"
+  },
+  "ca85a295-9d83-4ef6-9fbd-ca7db083f6b2": {
+    "asset": 1534830146309,
+    "meta": 1534830177691,
+    "relativePath": "components/prefabs/numSpine6.prefab"
+  },
+  "08e89faa-d24d-45c1-b89e-8544b44ef52e": {
+    "asset": 1534830146308,
+    "meta": 1534830177692,
+    "relativePath": "components/prefabs/numSpine7.prefab"
+  },
+  "3be3833e-c66e-4391-99b7-c28fd62585e5": {
+    "asset": 1534830146307,
+    "meta": 1534830177693,
+    "relativePath": "components/prefabs/numSpine8.prefab"
+  },
+  "6842b1c2-b733-4949-b21c-1e0adaa6f931": {
+    "asset": 1534830146306,
+    "meta": 1534830177694,
+    "relativePath": "components/prefabs/numSpine9.prefab"
+  },
+  "ac1ee8ca-292d-4826-9620-34634fd19c4b": {
+    "asset": 1534830146302,
+    "meta": 1534830146303,
+    "relativePath": "components/QuestionList"
+  },
+  "5e908ce9-90e6-43b8-88c3-4f671116558d": {
+    "asset": 1534830146302,
+    "meta": 1534830177731,
+    "relativePath": "components/QuestionList/btnLast.png"
+  },
+  "d143cadb-3333-4a56-beb3-aa9418330b39": {
+    "asset": 1534830146304,
+    "meta": 1534830177732,
+    "relativePath": "components/prefabs/yinying.png"
+  },
+  "500e5f62-b976-48d5-989e-9bbc19f083de": {
+    "asset": 1534830146301,
+    "meta": 1534830177770,
+    "relativePath": "components/QuestionList/btnLast1.png"
+  },
+  "b39f0f1b-0f7a-4478-8883-c94324f0a926": {
+    "asset": 1534830146300,
+    "meta": 1534830177773,
+    "relativePath": "components/QuestionList/btnNext.png"
+  },
+  "ee535342-837c-413b-b66d-5994ba0b3ea8": {
+    "asset": 1534830146297,
+    "meta": 1534830146298,
+    "relativePath": "components/QuestionList/QuestionNum"
+  },
+  "eb372505-4dd5-4235-bf42-c76b970da81b": {
+    "asset": 1534830146299,
+    "meta": 1534830177799,
+    "relativePath": "components/QuestionList/btnNext1.png"
+  },
+  "a970b8d8-d76b-4c79-ada8-2a299786a030": {
+    "asset": 1534830146297,
+    "meta": 1534830177806,
+    "relativePath": "components/QuestionList/QuestionNum/numBg.png"
+  },
+  "6e8f92f9-4a65-4236-b44b-b1d4836d3cf1": {
+    "asset": 1534830146295,
+    "meta": 1534830177808,
+    "relativePath": "components/QuestionList/QuestionNum/questionNum.prefab"
+  },
+  "784e417a-0d2c-47e9-bdb2-e6592f54da67": {
+    "asset": 1534830146296,
+    "meta": 1534830177828,
+    "relativePath": "components/QuestionList/QuestionNum/numBg1.png"
+  },
+  "511cc9d4-84f7-4457-9b0c-4479263cd7f6": {
+    "asset": 1534830146294,
+    "meta": 1534830177857,
+    "relativePath": "components/QuestionList/QuestionNum/QuestionNumJS.js"
+  },
+  "7a656236-dee9-402b-b903-01281aedfd17": {
+    "asset": 1534830146294,
+    "meta": 1534830177857,
+    "relativePath": "components/QuestionList/QuestionNumListJS.js"
+  },
+  "863edd2d-5490-4b92-be03-43fe80afd4fe": {
+    "asset": 1534830146291,
+    "meta": 1534830146291,
+    "relativePath": "components/script"
+  },
+  "676a0999-88dd-4521-a251-00753c191f88": {
+    "asset": 1534830146292,
+    "meta": 1534830177936,
+    "relativePath": "components/QuestionList/questionNumScrollView_node.prefab"
+  },
+  "9e730b2f-ee25-4c08-9644-c3c058858a26": {
+    "asset": 1534830146289,
+    "meta": 1534830146290,
+    "relativePath": "components/textures"
+  },
+  "afcf9e9c-620a-4fe3-986a-b4d0b1039272": {
+    "asset": 1534830146291,
+    "meta": 1534830177939,
+    "relativePath": "components/script/numSpineJs.js"
+  },
+  "20bdc4ce-9217-478c-8cb5-5fd1b5a4bb37": {
+    "asset": 1534830146288,
+    "meta": 1534830146289,
+    "relativePath": "components/Title"
+  },
+  "57879d65-5a88-41ed-bb8c-7a483c31ab09": {
+    "asset": 1534830146290,
+    "meta": 1534830177964,
+    "relativePath": "components/textures/time.png"
+  },
+  "4ea10a77-9487-4472-9031-096e4c89bc6b": {
+    "asset": 1534830146287,
+    "meta": 1534830177966,
+    "relativePath": "components/Title/title_node.prefab"
+  },
+  "aa6169f2-8bfe-4c75-9dcd-0507c1a17cf7": {
+    "asset": 1534830146288,
+    "meta": 1534830177973,
+    "relativePath": "components/Title/biaotikuang-zhong.png"
+  },
+  "5b283222-47f0-4180-b90d-fb36b3262829": {
+    "asset": 1534830146286,
+    "meta": 1534830177974,
+    "relativePath": "components/Title/TitleJS.js"
+  },
+  "49399a48-6651-4324-96cf-a4dd724ca052": {
+    "asset": 1534830720539,
+    "meta": 1534830736824,
+    "relativePath": "scripts/Flags.js"
+  },
+  "ca872893-9ab0-4dcf-a31b-85df81312dce": {
+    "asset": 1534831215444,
+    "meta": 1534831217288,
+    "relativePath": "scripts/AnswerContainer.js"
+  },
   "d92c8b11-a480-4c04-ab3f-4732c88d32cd": {
-    "asset": 1534817815179,
-    "meta": 1534817819264,
+    "asset": 1534831156268,
+    "meta": 1534831217289,
     "relativePath": "scripts/GameJS.js"
   }
 }

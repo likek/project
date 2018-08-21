@@ -111,6 +111,7 @@ cc.Class({
     timeout: function timeout() {
         this.progress.getComponent("ProgressJs").playFlayStar(new cc.v2(0, 0), this.nowQuestionID, 2);
         this.progress.getComponent("ProgressJs").setStarTypeByIndex(this.nowQuestionID, 2);
+        this.tipsFinished = true;
     },
 
     //移除当前所有选项
@@ -126,11 +127,6 @@ cc.Class({
         this.option_node.removeAllChildren(true);
         //移除question_node内容
     },
-
-    //创建选项按钮
-    // createOption: function (optionsArr) {
-
-    // },
 
     //开始加载选项
     startloadOption: function startloadOption() {
@@ -174,6 +170,7 @@ cc.Class({
                     matrixType = "3x3";break;
             }
         }
+        this.matrixType = matrixType;
         this.rightNum = 0;
         this.flagsJs.initData(question.optionsArr, this);
         this.answerContainerJS.initData(matrixType, this);
@@ -340,8 +337,8 @@ cc.Class({
     },
 
     isWin: function isWin() {
-        var question = this.questionArr[this.nowQuestionID];
-        if (this.rightNum === question.optionsArr.length) {
+        var matrixType = this.matrixType.split("x");
+        if (this.rightNum === matrixType[0] * matrixType[1]) {
             this.selectAnswer(true);
         }
     },
@@ -389,9 +386,8 @@ cc.Class({
 
         this.tipsHand.setPosition(startPos);
 
-        var tipsAction = cc.moveTo(1.6, endPos);
         this.tipsHand.stopAllActions();
-        this.tipsHand.runAction(cc.sequence(tipsAction, cc.callFunc(function () {
+        this.tipsHand.runAction(cc.sequence(cc.delayTime(0.3), cc.moveTo(1.6, endPos), cc.delayTime(0.3), cc.callFunc(function () {
             _this3.tipsHand.setPosition(startPos);
         }, this)), this).repeatForever();
 

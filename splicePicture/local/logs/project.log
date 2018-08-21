@@ -53,3 +53,836 @@
 2018-08-21T01:54:17.281Z - normal: Run Application
 2018-08-21T01:54:18.020Z - success: preview server running at http://localhost:7456
 2018-08-21T01:54:22.925Z - normal: 1.9.3
+2018-08-21T02:38:02.311Z - normal: Start building with options : {
+  "androidStudio": true,
+  "apiLevel": "",
+  "appABIs": [],
+  "appKey": "",
+  "appSecret": "",
+  "buildPath": "/Users/likeke/Documents/pro/projects/splicePicture/build",
+  "debug": false,
+  "dest": "/Users/likeke/Documents/pro/projects/splicePicture/build/web-mobile",
+  "encryptJs": true,
+  "excludeScenes": [],
+  "excludedModules": [
+    "Mask",
+    "TiledMap",
+    "ProgressBar",
+    "ScrollBar",
+    "ScrollView",
+    "Toggle",
+    "PageView",
+    "PageViewIndicator",
+    "Slider",
+    "EditorBox",
+    "VideoPlayer",
+    "RichText",
+    "AudioSource",
+    "MotionStreak",
+    "StudioComponent"
+  ],
+  "fb-instant-games": {},
+  "includeAnySDK": false,
+  "includeEruda": false,
+  "includeSDKBox": false,
+  "inlineSpriteFrames": true,
+  "inlineSpriteFrames_native": true,
+  "jailbreakPlatform": false,
+  "md5Cache": false,
+  "mergeStartScene": false,
+  "oauthLoginServer": "",
+  "optimizeHotUpdate": false,
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "org.cocos2d.ZhuoXiaoYu",
+  "platform": "web-mobile",
+  "previewHeight": "720",
+  "previewWidth": "1280",
+  "privateKey": "",
+  "qqplay": {
+    "REMOTE_SERVER_ROOT": "",
+    "orientation": "portrait"
+  },
+  "renderMode": "0",
+  "scenes": [
+    "c0e4e3a0-b011-41b6-82d6-c31f202631fe"
+  ],
+  "sourceMaps": false,
+  "startScene": "c0e4e3a0-b011-41b6-82d6-c31f202631fe",
+  "template": "link",
+  "title": "splicePicture",
+  "useDebugKeystore": true,
+  "vsVersion": "auto",
+  "webOrientation": "auto",
+  "wechatgame": {
+    "REMOTE_SERVER_ROOT": "",
+    "appid": "wx6ac3f5090a6b99c5",
+    "isSubdomain": false,
+    "orientation": "portrait",
+    "subContext": ""
+  },
+  "xxteaKey": "7b2835cc-766f-41",
+  "zipCompressJs": true,
+  "project": "/Users/likeke/Documents/pro/projects/splicePicture",
+  "projectName": "splicePicture",
+  "debugBuildWorker": false
+}
+2018-08-21T02:38:02.314Z - normal: Building /Users/likeke/Documents/pro/projects/splicePicture
+2018-08-21T02:38:02.314Z - normal: Destination /Users/likeke/Documents/pro/projects/splicePicture/build/web-mobile
+2018-08-21T02:38:02.678Z - normal: Delete /Users/likeke/Documents/pro/projects/splicePicture/build/web-mobile/**/*
+2018-08-21T02:38:54.708Z - error: Window "worker" unresponsive: [object Object]
+    at BrowserWindow.Window.nativeWin.on.e (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/main/window.js:1:2470)
+    at emitOne (events.js:96:13)
+    at BrowserWindow.emit (events.js:191:7)
+2018-08-21T02:39:13.254Z - normal: Compiled project javascript file successfully
+2018-08-21T02:39:13.255Z - normal: Start building assets
+2018-08-21T02:39:13.255Z - normal: Start spawn build-worker
+2018-08-21T02:39:13.956Z - normal: Finish spawn build-worker
+2018-08-21T02:39:13.959Z - normal: Start init build-worker
+2018-08-21T02:39:15.855Z - normal: 1.9.3
+2018-08-21T02:39:15.960Z - normal: Finish init build-worker
+2018-08-21T02:39:15.960Z - normal: Start build-assets in worker
+2018-08-21T02:39:16.582Z - normal: Finish build-assets in worker
+2018-08-21T02:39:16.587Z - normal: Finish building assets
+2018-08-21T02:39:16.610Z - normal: Start building raw assets
+2018-08-21T02:39:16.611Z - normal: Start building plugin scripts
+2018-08-21T02:39:16.687Z - normal: Finish building raw assets
+2018-08-21T02:39:16.700Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
+2018-08-21T02:39:16.711Z - normal: Generating html from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/web-mobile/template/index.html
+2018-08-21T02:39:16.722Z - normal: Built to "/Users/likeke/Documents/pro/projects/splicePicture/build/web-mobile" successfully
+2018-08-21T03:35:15.725Z - normal: Start building with options : {
+  "androidStudio": true,
+  "apiLevel": "",
+  "appABIs": [],
+  "appKey": "",
+  "appSecret": "",
+  "buildPath": "/Users/likeke/Documents/pro/projects/splicePicture/build",
+  "debug": false,
+  "dest": "/Users/likeke/Documents/pro/projects/splicePicture/build/web-mobile",
+  "encryptJs": true,
+  "excludeScenes": [],
+  "excludedModules": [
+    "Mask",
+    "TiledMap",
+    "ProgressBar",
+    "ScrollBar",
+    "ScrollView",
+    "Toggle",
+    "PageView",
+    "PageViewIndicator",
+    "Slider",
+    "EditorBox",
+    "VideoPlayer",
+    "RichText",
+    "AudioSource",
+    "MotionStreak",
+    "StudioComponent"
+  ],
+  "fb-instant-games": {},
+  "includeAnySDK": false,
+  "includeEruda": false,
+  "includeSDKBox": false,
+  "inlineSpriteFrames": true,
+  "inlineSpriteFrames_native": true,
+  "jailbreakPlatform": false,
+  "md5Cache": false,
+  "mergeStartScene": false,
+  "oauthLoginServer": "",
+  "optimizeHotUpdate": false,
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "org.cocos2d.ZhuoXiaoYu",
+  "platform": "web-mobile",
+  "previewHeight": "720",
+  "previewWidth": "1280",
+  "privateKey": "",
+  "qqplay": {
+    "REMOTE_SERVER_ROOT": "",
+    "orientation": "portrait"
+  },
+  "renderMode": "0",
+  "scenes": [
+    "c0e4e3a0-b011-41b6-82d6-c31f202631fe"
+  ],
+  "sourceMaps": false,
+  "startScene": "c0e4e3a0-b011-41b6-82d6-c31f202631fe",
+  "template": "link",
+  "title": "splicePicture",
+  "useDebugKeystore": true,
+  "vsVersion": "auto",
+  "webOrientation": "auto",
+  "wechatgame": {
+    "REMOTE_SERVER_ROOT": "",
+    "appid": "wx6ac3f5090a6b99c5",
+    "isSubdomain": false,
+    "orientation": "portrait",
+    "subContext": ""
+  },
+  "xxteaKey": "7b2835cc-766f-41",
+  "zipCompressJs": true,
+  "project": "/Users/likeke/Documents/pro/projects/splicePicture",
+  "projectName": "splicePicture",
+  "debugBuildWorker": false
+}
+2018-08-21T03:35:15.734Z - normal: Building /Users/likeke/Documents/pro/projects/splicePicture
+2018-08-21T03:35:15.735Z - normal: Destination /Users/likeke/Documents/pro/projects/splicePicture/build/web-mobile
+2018-08-21T03:35:15.735Z - normal: Delete /Users/likeke/Documents/pro/projects/splicePicture/build/web-mobile/**/*
+2018-08-21T03:35:18.182Z - normal: Compiled project javascript file successfully
+2018-08-21T03:35:18.183Z - normal: Start building assets
+2018-08-21T03:35:18.183Z - normal: Start spawn build-worker
+2018-08-21T03:35:18.882Z - normal: Finish spawn build-worker
+2018-08-21T03:35:18.882Z - normal: Start init build-worker
+2018-08-21T03:35:20.986Z - normal: 1.9.3
+2018-08-21T03:35:21.096Z - normal: Finish init build-worker
+2018-08-21T03:35:21.096Z - normal: Start build-assets in worker
+2018-08-21T03:35:21.725Z - normal: Finish build-assets in worker
+2018-08-21T03:35:21.728Z - normal: Finish building assets
+2018-08-21T03:35:21.745Z - normal: Start building raw assets
+2018-08-21T03:35:21.746Z - normal: Start building plugin scripts
+2018-08-21T03:35:21.828Z - normal: Finish building raw assets
+2018-08-21T03:35:21.837Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
+2018-08-21T03:35:21.847Z - normal: Generating html from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/web-mobile/template/index.html
+2018-08-21T03:35:21.857Z - normal: Built to "/Users/likeke/Documents/pro/projects/splicePicture/build/web-mobile" successfully
+2018-08-21T03:58:11.671Z - normal: Start building with options : {
+  "androidStudio": true,
+  "apiLevel": "",
+  "appABIs": [],
+  "appKey": "",
+  "appSecret": "",
+  "buildPath": "/Users/likeke/Documents/pro/projects/splicePicture/build",
+  "debug": false,
+  "dest": "/Users/likeke/Documents/pro/projects/splicePicture/build/web-mobile",
+  "encryptJs": true,
+  "excludeScenes": [],
+  "excludedModules": [
+    "Mask",
+    "TiledMap",
+    "ProgressBar",
+    "ScrollBar",
+    "ScrollView",
+    "Toggle",
+    "PageView",
+    "PageViewIndicator",
+    "Slider",
+    "EditorBox",
+    "VideoPlayer",
+    "RichText",
+    "AudioSource",
+    "MotionStreak",
+    "StudioComponent"
+  ],
+  "fb-instant-games": {},
+  "includeAnySDK": false,
+  "includeEruda": false,
+  "includeSDKBox": false,
+  "inlineSpriteFrames": true,
+  "inlineSpriteFrames_native": true,
+  "jailbreakPlatform": false,
+  "md5Cache": false,
+  "mergeStartScene": false,
+  "oauthLoginServer": "",
+  "optimizeHotUpdate": false,
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "org.cocos2d.ZhuoXiaoYu",
+  "platform": "web-mobile",
+  "previewHeight": "720",
+  "previewWidth": "1280",
+  "privateKey": "",
+  "qqplay": {
+    "REMOTE_SERVER_ROOT": "",
+    "orientation": "portrait"
+  },
+  "renderMode": "0",
+  "scenes": [
+    "c0e4e3a0-b011-41b6-82d6-c31f202631fe"
+  ],
+  "sourceMaps": false,
+  "startScene": "c0e4e3a0-b011-41b6-82d6-c31f202631fe",
+  "template": "link",
+  "title": "splicePicture",
+  "useDebugKeystore": true,
+  "vsVersion": "auto",
+  "webOrientation": "auto",
+  "wechatgame": {
+    "REMOTE_SERVER_ROOT": "",
+    "appid": "wx6ac3f5090a6b99c5",
+    "isSubdomain": false,
+    "orientation": "portrait",
+    "subContext": ""
+  },
+  "xxteaKey": "7b2835cc-766f-41",
+  "zipCompressJs": true,
+  "project": "/Users/likeke/Documents/pro/projects/splicePicture",
+  "projectName": "splicePicture",
+  "debugBuildWorker": false
+}
+2018-08-21T03:58:11.679Z - normal: Building /Users/likeke/Documents/pro/projects/splicePicture
+2018-08-21T03:58:11.680Z - normal: Destination /Users/likeke/Documents/pro/projects/splicePicture/build/web-mobile
+2018-08-21T03:58:11.680Z - normal: Delete /Users/likeke/Documents/pro/projects/splicePicture/build/web-mobile/**/*
+2018-08-21T03:58:14.611Z - normal: Compiled project javascript file successfully
+2018-08-21T03:58:14.612Z - normal: Start building assets
+2018-08-21T03:58:14.612Z - normal: Start spawn build-worker
+2018-08-21T03:58:15.262Z - normal: Finish spawn build-worker
+2018-08-21T03:58:15.262Z - normal: Start init build-worker
+2018-08-21T03:58:17.171Z - normal: 1.9.3
+2018-08-21T03:58:17.280Z - normal: Finish init build-worker
+2018-08-21T03:58:17.280Z - normal: Start build-assets in worker
+2018-08-21T03:58:17.880Z - normal: Finish build-assets in worker
+2018-08-21T03:58:17.887Z - normal: Finish building assets
+2018-08-21T03:58:17.904Z - normal: Start building raw assets
+2018-08-21T03:58:17.905Z - normal: Start building plugin scripts
+2018-08-21T03:58:17.996Z - normal: Finish building raw assets
+2018-08-21T03:58:18.006Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
+2018-08-21T03:58:18.013Z - normal: Generating html from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/web-mobile/template/index.html
+2018-08-21T03:58:18.022Z - normal: Built to "/Users/likeke/Documents/pro/projects/splicePicture/build/web-mobile" successfully
+2018-08-21T04:00:15.699Z - normal: Start building with options : {
+  "androidStudio": true,
+  "apiLevel": "",
+  "appABIs": [],
+  "appKey": "",
+  "appSecret": "",
+  "buildPath": "/Users/likeke/Documents/pro/projects/splicePicture/build",
+  "debug": false,
+  "dest": "/Users/likeke/Documents/pro/projects/splicePicture/build/web-mobile",
+  "encryptJs": true,
+  "excludeScenes": [],
+  "excludedModules": [
+    "Mask",
+    "TiledMap",
+    "ProgressBar",
+    "ScrollBar",
+    "ScrollView",
+    "Toggle",
+    "PageView",
+    "PageViewIndicator",
+    "Slider",
+    "EditorBox",
+    "VideoPlayer",
+    "RichText",
+    "AudioSource",
+    "MotionStreak",
+    "StudioComponent"
+  ],
+  "fb-instant-games": {},
+  "includeAnySDK": false,
+  "includeEruda": false,
+  "includeSDKBox": false,
+  "inlineSpriteFrames": true,
+  "inlineSpriteFrames_native": true,
+  "jailbreakPlatform": false,
+  "md5Cache": false,
+  "mergeStartScene": false,
+  "oauthLoginServer": "",
+  "optimizeHotUpdate": false,
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "org.cocos2d.ZhuoXiaoYu",
+  "platform": "web-mobile",
+  "previewHeight": "720",
+  "previewWidth": "1280",
+  "privateKey": "",
+  "qqplay": {
+    "REMOTE_SERVER_ROOT": "",
+    "orientation": "portrait"
+  },
+  "renderMode": "0",
+  "scenes": [
+    "c0e4e3a0-b011-41b6-82d6-c31f202631fe"
+  ],
+  "sourceMaps": false,
+  "startScene": "c0e4e3a0-b011-41b6-82d6-c31f202631fe",
+  "template": "link",
+  "title": "splicePicture",
+  "useDebugKeystore": true,
+  "vsVersion": "auto",
+  "webOrientation": "auto",
+  "wechatgame": {
+    "REMOTE_SERVER_ROOT": "",
+    "appid": "wx6ac3f5090a6b99c5",
+    "isSubdomain": false,
+    "orientation": "portrait",
+    "subContext": ""
+  },
+  "xxteaKey": "7b2835cc-766f-41",
+  "zipCompressJs": true,
+  "project": "/Users/likeke/Documents/pro/projects/splicePicture",
+  "projectName": "splicePicture",
+  "debugBuildWorker": false
+}
+2018-08-21T04:00:15.711Z - normal: Building /Users/likeke/Documents/pro/projects/splicePicture
+2018-08-21T04:00:15.712Z - normal: Destination /Users/likeke/Documents/pro/projects/splicePicture/build/web-mobile
+2018-08-21T04:00:15.714Z - normal: Delete /Users/likeke/Documents/pro/projects/splicePicture/build/web-mobile/**/*
+2018-08-21T04:00:18.008Z - normal: Compiled project javascript file successfully
+2018-08-21T04:00:18.008Z - normal: Start building assets
+2018-08-21T04:00:18.008Z - normal: Start spawn build-worker
+2018-08-21T04:00:18.625Z - normal: Finish spawn build-worker
+2018-08-21T04:00:18.625Z - normal: Start init build-worker
+2018-08-21T04:00:20.411Z - normal: 1.9.3
+2018-08-21T04:00:20.521Z - normal: Finish init build-worker
+2018-08-21T04:00:20.521Z - normal: Start build-assets in worker
+2018-08-21T04:00:21.077Z - normal: Finish build-assets in worker
+2018-08-21T04:00:21.080Z - normal: Finish building assets
+2018-08-21T04:00:21.103Z - normal: Start building raw assets
+2018-08-21T04:00:21.104Z - normal: Start building plugin scripts
+2018-08-21T04:00:21.164Z - normal: Finish building raw assets
+2018-08-21T04:00:21.173Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
+2018-08-21T04:00:21.179Z - normal: Generating html from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/web-mobile/template/index.html
+2018-08-21T04:00:21.189Z - normal: Built to "/Users/likeke/Documents/pro/projects/splicePicture/build/web-mobile" successfully
+2018-08-21T05:39:11.359Z - warn: The Prefab used is missing. Detailed information:
+Missing uuid: "676a0999-88dd-4521-a251-00753c191f88"
+
+2018-08-21T05:39:11.361Z - warn: The SpriteFrame used by component "cc.Sprite" is missing. Detailed information:
+Node path: "Content/questionNumScrollView_node/btnLast/btnLast"
+Missing uuid: "8e231831-ecb3-4e69-87d4-9c748adcb69e"
+
+2018-08-21T05:39:11.362Z - warn: The SpriteFrame used by component "cc.Sprite" is missing. Detailed information:
+Node path: "Content/questionNumScrollView_node/btnLast/btnLast1"
+Missing uuid: "c88f63b5-03d9-4081-9382-998c3df83fa4"
+
+2018-08-21T05:39:11.362Z - warn: The SpriteFrame used by component "cc.Sprite" is missing. Detailed information:
+Node path: "Content/questionNumScrollView_node/btnNext/btnNext"
+Missing uuid: "502bede1-0c01-4b2f-9710-abebffa15ac5"
+
+2018-08-21T05:39:11.362Z - warn: The SpriteFrame used by component "cc.Sprite" is missing. Detailed information:
+Node path: "Content/questionNumScrollView_node/btnNext/btnNext1"
+Missing uuid: "c1c500c1-c479-45ed-92ce-0c7d053b4b05"
+
+2018-08-21T05:39:11.362Z - warn: The Prefab used by component "QuestionNumListJS" is missing. Detailed information:
+Node path: "Content/questionNumScrollView_node"
+Missing uuid: "6e8f92f9-4a65-4236-b44b-b1d4836d3cf1"
+
+2018-08-21T05:39:11.363Z - warn: The Prefab used is missing. Detailed information:
+Missing uuid: "4ea10a77-9487-4472-9031-096e4c89bc6b"
+
+2018-08-21T05:39:11.363Z - warn: The SpriteFrame used by component "cc.Sprite" is missing. Detailed information:
+Node path: "Content/title_node/biaotikuang-zhong"
+Missing uuid: "b06d5caa-bfb3-4526-9c8a-7f4b48aa70c3"
+
+2018-08-21T05:39:15.251Z - warn: The Prefab used is missing. Detailed information:
+Missing uuid: "676a0999-88dd-4521-a251-00753c191f88"
+
+2018-08-21T05:39:15.252Z - warn: The SpriteFrame used by component "cc.Sprite" is missing. Detailed information:
+Node path: "Content/questionNumScrollView_node/btnLast/btnLast"
+Missing uuid: "8e231831-ecb3-4e69-87d4-9c748adcb69e"
+
+2018-08-21T05:39:15.252Z - warn: The SpriteFrame used by component "cc.Sprite" is missing. Detailed information:
+Node path: "Content/questionNumScrollView_node/btnLast/btnLast1"
+Missing uuid: "c88f63b5-03d9-4081-9382-998c3df83fa4"
+
+2018-08-21T05:39:15.252Z - warn: The SpriteFrame used by component "cc.Sprite" is missing. Detailed information:
+Node path: "Content/questionNumScrollView_node/btnNext/btnNext"
+Missing uuid: "502bede1-0c01-4b2f-9710-abebffa15ac5"
+
+2018-08-21T05:39:15.252Z - warn: The SpriteFrame used by component "cc.Sprite" is missing. Detailed information:
+Node path: "Content/questionNumScrollView_node/btnNext/btnNext1"
+Missing uuid: "c1c500c1-c479-45ed-92ce-0c7d053b4b05"
+
+2018-08-21T05:39:15.252Z - warn: The Prefab used by component "QuestionNumListJS" is missing. Detailed information:
+Node path: "Content/questionNumScrollView_node"
+Missing uuid: "6e8f92f9-4a65-4236-b44b-b1d4836d3cf1"
+
+2018-08-21T05:39:15.252Z - warn: The Prefab used is missing. Detailed information:
+Missing uuid: "4ea10a77-9487-4472-9031-096e4c89bc6b"
+
+2018-08-21T05:39:15.253Z - warn: The SpriteFrame used by component "cc.Sprite" is missing. Detailed information:
+Node path: "Content/title_node/biaotikuang-zhong"
+Missing uuid: "b06d5caa-bfb3-4526-9c8a-7f4b48aa70c3"
+
+2018-08-21T05:39:15.944Z - warn: The Prefab used is missing. Detailed information:
+Missing uuid: "676a0999-88dd-4521-a251-00753c191f88"
+
+2018-08-21T05:39:15.944Z - warn: The SpriteFrame used by component "cc.Sprite" is missing. Detailed information:
+Node path: "Content/questionNumScrollView_node/btnLast/btnLast"
+Missing uuid: "8e231831-ecb3-4e69-87d4-9c748adcb69e"
+
+2018-08-21T05:39:15.944Z - warn: The SpriteFrame used by component "cc.Sprite" is missing. Detailed information:
+Node path: "Content/questionNumScrollView_node/btnLast/btnLast1"
+Missing uuid: "c88f63b5-03d9-4081-9382-998c3df83fa4"
+
+2018-08-21T05:39:15.945Z - warn: The SpriteFrame used by component "cc.Sprite" is missing. Detailed information:
+Node path: "Content/questionNumScrollView_node/btnNext/btnNext"
+Missing uuid: "502bede1-0c01-4b2f-9710-abebffa15ac5"
+
+2018-08-21T05:39:15.945Z - warn: The SpriteFrame used by component "cc.Sprite" is missing. Detailed information:
+Node path: "Content/questionNumScrollView_node/btnNext/btnNext1"
+Missing uuid: "c1c500c1-c479-45ed-92ce-0c7d053b4b05"
+
+2018-08-21T05:39:15.945Z - warn: The Prefab used by component "QuestionNumListJS" is missing. Detailed information:
+Node path: "Content/questionNumScrollView_node"
+Missing uuid: "6e8f92f9-4a65-4236-b44b-b1d4836d3cf1"
+
+2018-08-21T05:39:15.946Z - warn: The Prefab used is missing. Detailed information:
+Missing uuid: "4ea10a77-9487-4472-9031-096e4c89bc6b"
+
+2018-08-21T05:39:15.946Z - warn: The SpriteFrame used by component "cc.Sprite" is missing. Detailed information:
+Node path: "Content/title_node/biaotikuang-zhong"
+Missing uuid: "b06d5caa-bfb3-4526-9c8a-7f4b48aa70c3"
+
+2018-08-21T05:39:18.328Z - warn: The Prefab used is missing. Detailed information:
+Missing uuid: "676a0999-88dd-4521-a251-00753c191f88"
+
+2018-08-21T05:39:18.328Z - warn: The SpriteFrame used by component "cc.Sprite" is missing. Detailed information:
+Node path: "Content/questionNumScrollView_node/btnLast/btnLast"
+Missing uuid: "8e231831-ecb3-4e69-87d4-9c748adcb69e"
+
+2018-08-21T05:39:18.328Z - warn: The SpriteFrame used by component "cc.Sprite" is missing. Detailed information:
+Node path: "Content/questionNumScrollView_node/btnLast/btnLast1"
+Missing uuid: "c88f63b5-03d9-4081-9382-998c3df83fa4"
+
+2018-08-21T05:39:18.329Z - warn: The SpriteFrame used by component "cc.Sprite" is missing. Detailed information:
+Node path: "Content/questionNumScrollView_node/btnNext/btnNext"
+Missing uuid: "502bede1-0c01-4b2f-9710-abebffa15ac5"
+
+2018-08-21T05:39:18.329Z - warn: The SpriteFrame used by component "cc.Sprite" is missing. Detailed information:
+Node path: "Content/questionNumScrollView_node/btnNext/btnNext1"
+Missing uuid: "c1c500c1-c479-45ed-92ce-0c7d053b4b05"
+
+2018-08-21T05:39:18.329Z - warn: The Prefab used by component "QuestionNumListJS" is missing. Detailed information:
+Node path: "Content/questionNumScrollView_node"
+Missing uuid: "6e8f92f9-4a65-4236-b44b-b1d4836d3cf1"
+
+2018-08-21T05:39:18.329Z - warn: The Prefab used is missing. Detailed information:
+Missing uuid: "4ea10a77-9487-4472-9031-096e4c89bc6b"
+
+2018-08-21T05:39:18.330Z - warn: The SpriteFrame used by component "cc.Sprite" is missing. Detailed information:
+Node path: "Content/title_node/biaotikuang-zhong"
+Missing uuid: "b06d5caa-bfb3-4526-9c8a-7f4b48aa70c3"
+
+2018-08-21T05:39:58.194Z - warn: The Prefab used is missing. Detailed information:
+Missing uuid: "676a0999-88dd-4521-a251-00753c191f88"
+
+2018-08-21T05:39:58.195Z - warn: The SpriteFrame used by component "cc.Sprite" is missing. Detailed information:
+Node path: "Content/questionNumScrollView_node/btnLast/btnLast"
+Missing uuid: "8e231831-ecb3-4e69-87d4-9c748adcb69e"
+
+2018-08-21T05:39:58.195Z - warn: The SpriteFrame used by component "cc.Sprite" is missing. Detailed information:
+Node path: "Content/questionNumScrollView_node/btnLast/btnLast1"
+Missing uuid: "c88f63b5-03d9-4081-9382-998c3df83fa4"
+
+2018-08-21T05:39:58.195Z - warn: The SpriteFrame used by component "cc.Sprite" is missing. Detailed information:
+Node path: "Content/questionNumScrollView_node/btnNext/btnNext"
+Missing uuid: "502bede1-0c01-4b2f-9710-abebffa15ac5"
+
+2018-08-21T05:39:58.195Z - warn: The SpriteFrame used by component "cc.Sprite" is missing. Detailed information:
+Node path: "Content/questionNumScrollView_node/btnNext/btnNext1"
+Missing uuid: "c1c500c1-c479-45ed-92ce-0c7d053b4b05"
+
+2018-08-21T05:39:58.196Z - warn: The Prefab used by component "QuestionNumListJS" is missing. Detailed information:
+Node path: "Content/questionNumScrollView_node"
+Missing uuid: "6e8f92f9-4a65-4236-b44b-b1d4836d3cf1"
+
+2018-08-21T05:39:58.196Z - warn: The Prefab used is missing. Detailed information:
+Missing uuid: "4ea10a77-9487-4472-9031-096e4c89bc6b"
+
+2018-08-21T05:39:58.196Z - warn: The SpriteFrame used by component "cc.Sprite" is missing. Detailed information:
+Node path: "Content/title_node/biaotikuang-zhong"
+Missing uuid: "b06d5caa-bfb3-4526-9c8a-7f4b48aa70c3"
+
+2018-08-21T05:52:33.770Z - normal: Start building with options : {
+  "androidStudio": true,
+  "apiLevel": "",
+  "appABIs": [],
+  "appKey": "",
+  "appSecret": "",
+  "buildPath": "/Users/likeke/Documents/pro/projects/splicePicture/build",
+  "debug": false,
+  "dest": "/Users/likeke/Documents/pro/projects/splicePicture/build/web-mobile",
+  "encryptJs": true,
+  "excludeScenes": [],
+  "excludedModules": [
+    "Mask",
+    "TiledMap",
+    "ProgressBar",
+    "ScrollBar",
+    "ScrollView",
+    "Toggle",
+    "PageView",
+    "PageViewIndicator",
+    "Slider",
+    "EditorBox",
+    "VideoPlayer",
+    "RichText",
+    "AudioSource",
+    "MotionStreak",
+    "StudioComponent"
+  ],
+  "fb-instant-games": {},
+  "includeAnySDK": false,
+  "includeEruda": false,
+  "includeSDKBox": false,
+  "inlineSpriteFrames": true,
+  "inlineSpriteFrames_native": true,
+  "jailbreakPlatform": false,
+  "md5Cache": false,
+  "mergeStartScene": false,
+  "oauthLoginServer": "",
+  "optimizeHotUpdate": false,
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "org.cocos2d.ZhuoXiaoYu",
+  "platform": "web-mobile",
+  "previewHeight": "720",
+  "previewWidth": "1280",
+  "privateKey": "",
+  "qqplay": {
+    "REMOTE_SERVER_ROOT": "",
+    "orientation": "portrait"
+  },
+  "renderMode": "0",
+  "scenes": [
+    "c0e4e3a0-b011-41b6-82d6-c31f202631fe"
+  ],
+  "sourceMaps": false,
+  "startScene": "c0e4e3a0-b011-41b6-82d6-c31f202631fe",
+  "template": "link",
+  "title": "splicePicture",
+  "useDebugKeystore": true,
+  "vsVersion": "auto",
+  "webOrientation": "auto",
+  "wechatgame": {
+    "REMOTE_SERVER_ROOT": "",
+    "appid": "wx6ac3f5090a6b99c5",
+    "isSubdomain": false,
+    "orientation": "portrait",
+    "subContext": ""
+  },
+  "xxteaKey": "7b2835cc-766f-41",
+  "zipCompressJs": true,
+  "project": "/Users/likeke/Documents/pro/projects/splicePicture",
+  "projectName": "splicePicture",
+  "debugBuildWorker": false
+}
+2018-08-21T05:52:33.780Z - normal: Building /Users/likeke/Documents/pro/projects/splicePicture
+2018-08-21T05:52:33.781Z - normal: Destination /Users/likeke/Documents/pro/projects/splicePicture/build/web-mobile
+2018-08-21T05:52:33.781Z - normal: Delete /Users/likeke/Documents/pro/projects/splicePicture/build/web-mobile/**/*
+2018-08-21T05:52:36.188Z - normal: Compiled project javascript file successfully
+2018-08-21T05:52:36.188Z - normal: Start building assets
+2018-08-21T05:52:36.188Z - normal: Start spawn build-worker
+2018-08-21T05:52:36.841Z - normal: Finish spawn build-worker
+2018-08-21T05:52:36.841Z - normal: Start init build-worker
+2018-08-21T05:52:38.783Z - normal: 1.9.3
+2018-08-21T05:52:38.887Z - normal: Finish init build-worker
+2018-08-21T05:52:38.887Z - normal: Start build-assets in worker
+2018-08-21T05:52:39.498Z - normal: Finish build-assets in worker
+2018-08-21T05:52:39.500Z - normal: Finish building assets
+2018-08-21T05:52:39.515Z - normal: Start building raw assets
+2018-08-21T05:52:39.515Z - normal: Start building plugin scripts
+2018-08-21T05:52:39.602Z - normal: Finish building raw assets
+2018-08-21T05:52:39.619Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
+2018-08-21T05:52:39.642Z - normal: Generating html from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/web-mobile/template/index.html
+2018-08-21T05:52:39.690Z - normal: Built to "/Users/likeke/Documents/pro/projects/splicePicture/build/web-mobile" successfully
+2018-08-21T06:02:02.561Z - normal: Start building with options : {
+  "androidStudio": true,
+  "apiLevel": "",
+  "appABIs": [],
+  "appKey": "",
+  "appSecret": "",
+  "buildPath": "/Users/likeke/Documents/pro/projects/splicePicture/build",
+  "debug": false,
+  "dest": "/Users/likeke/Documents/pro/projects/splicePicture/build/web-mobile",
+  "encryptJs": true,
+  "excludeScenes": [],
+  "excludedModules": [
+    "Mask",
+    "TiledMap",
+    "ProgressBar",
+    "ScrollBar",
+    "ScrollView",
+    "Toggle",
+    "PageView",
+    "PageViewIndicator",
+    "Slider",
+    "EditorBox",
+    "VideoPlayer",
+    "RichText",
+    "AudioSource",
+    "MotionStreak",
+    "StudioComponent"
+  ],
+  "fb-instant-games": {},
+  "includeAnySDK": false,
+  "includeEruda": false,
+  "includeSDKBox": false,
+  "inlineSpriteFrames": true,
+  "inlineSpriteFrames_native": true,
+  "jailbreakPlatform": false,
+  "md5Cache": false,
+  "mergeStartScene": false,
+  "oauthLoginServer": "",
+  "optimizeHotUpdate": false,
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "org.cocos2d.ZhuoXiaoYu",
+  "platform": "web-mobile",
+  "previewHeight": "720",
+  "previewWidth": "1280",
+  "privateKey": "",
+  "qqplay": {
+    "REMOTE_SERVER_ROOT": "",
+    "orientation": "portrait"
+  },
+  "renderMode": "0",
+  "scenes": [
+    "c0e4e3a0-b011-41b6-82d6-c31f202631fe"
+  ],
+  "sourceMaps": false,
+  "startScene": "c0e4e3a0-b011-41b6-82d6-c31f202631fe",
+  "template": "link",
+  "title": "splicePicture",
+  "useDebugKeystore": true,
+  "vsVersion": "auto",
+  "webOrientation": "auto",
+  "wechatgame": {
+    "REMOTE_SERVER_ROOT": "",
+    "appid": "wx6ac3f5090a6b99c5",
+    "isSubdomain": false,
+    "orientation": "portrait",
+    "subContext": ""
+  },
+  "xxteaKey": "7b2835cc-766f-41",
+  "zipCompressJs": true,
+  "project": "/Users/likeke/Documents/pro/projects/splicePicture",
+  "projectName": "splicePicture",
+  "debugBuildWorker": false
+}
+2018-08-21T06:02:02.569Z - normal: Building /Users/likeke/Documents/pro/projects/splicePicture
+2018-08-21T06:02:02.570Z - normal: Destination /Users/likeke/Documents/pro/projects/splicePicture/build/web-mobile
+2018-08-21T06:02:02.571Z - normal: Delete /Users/likeke/Documents/pro/projects/splicePicture/build/web-mobile/**/*
+2018-08-21T06:02:05.037Z - normal: Compiled project javascript file successfully
+2018-08-21T06:02:05.037Z - normal: Start building assets
+2018-08-21T06:02:05.038Z - normal: Start spawn build-worker
+2018-08-21T06:02:05.690Z - normal: Finish spawn build-worker
+2018-08-21T06:02:05.690Z - normal: Start init build-worker
+2018-08-21T06:02:07.620Z - normal: 1.9.3
+2018-08-21T06:02:07.733Z - normal: Finish init build-worker
+2018-08-21T06:02:07.733Z - normal: Start build-assets in worker
+2018-08-21T06:02:08.588Z - normal: Finish build-assets in worker
+2018-08-21T06:02:08.592Z - normal: Finish building assets
+2018-08-21T06:02:08.617Z - normal: Start building raw assets
+2018-08-21T06:02:08.618Z - normal: Start building plugin scripts
+2018-08-21T06:02:08.693Z - normal: Finish building raw assets
+2018-08-21T06:02:08.702Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
+2018-08-21T06:02:08.721Z - normal: Generating html from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/web-mobile/template/index.html
+2018-08-21T06:02:08.735Z - normal: Built to "/Users/likeke/Documents/pro/projects/splicePicture/build/web-mobile" successfully
+2018-08-21T06:02:57.341Z - normal: Start building with options : {
+  "androidStudio": true,
+  "apiLevel": "",
+  "appABIs": [],
+  "appKey": "",
+  "appSecret": "",
+  "buildPath": "/Users/likeke/Documents/pro/projects/splicePicture/build",
+  "debug": false,
+  "dest": "/Users/likeke/Documents/pro/projects/splicePicture/build/web-mobile",
+  "encryptJs": true,
+  "excludeScenes": [],
+  "excludedModules": [
+    "Mask",
+    "TiledMap",
+    "ProgressBar",
+    "ScrollBar",
+    "ScrollView",
+    "Toggle",
+    "PageView",
+    "PageViewIndicator",
+    "Slider",
+    "EditorBox",
+    "VideoPlayer",
+    "RichText",
+    "AudioSource",
+    "MotionStreak",
+    "StudioComponent"
+  ],
+  "fb-instant-games": {},
+  "includeAnySDK": false,
+  "includeEruda": false,
+  "includeSDKBox": false,
+  "inlineSpriteFrames": true,
+  "inlineSpriteFrames_native": true,
+  "jailbreakPlatform": false,
+  "md5Cache": false,
+  "mergeStartScene": false,
+  "oauthLoginServer": "",
+  "optimizeHotUpdate": false,
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "org.cocos2d.ZhuoXiaoYu",
+  "platform": "web-mobile",
+  "previewHeight": "720",
+  "previewWidth": "1280",
+  "privateKey": "",
+  "qqplay": {
+    "REMOTE_SERVER_ROOT": "",
+    "orientation": "portrait"
+  },
+  "renderMode": "0",
+  "scenes": [
+    "c0e4e3a0-b011-41b6-82d6-c31f202631fe"
+  ],
+  "sourceMaps": false,
+  "startScene": "c0e4e3a0-b011-41b6-82d6-c31f202631fe",
+  "template": "link",
+  "title": "splicePicture",
+  "useDebugKeystore": true,
+  "vsVersion": "auto",
+  "webOrientation": "auto",
+  "wechatgame": {
+    "REMOTE_SERVER_ROOT": "",
+    "appid": "wx6ac3f5090a6b99c5",
+    "isSubdomain": false,
+    "orientation": "portrait",
+    "subContext": ""
+  },
+  "xxteaKey": "7b2835cc-766f-41",
+  "zipCompressJs": true,
+  "project": "/Users/likeke/Documents/pro/projects/splicePicture",
+  "projectName": "splicePicture",
+  "debugBuildWorker": false
+}
+2018-08-21T06:02:57.345Z - normal: Building /Users/likeke/Documents/pro/projects/splicePicture
+2018-08-21T06:02:57.345Z - normal: Destination /Users/likeke/Documents/pro/projects/splicePicture/build/web-mobile
+2018-08-21T06:02:57.346Z - normal: Delete /Users/likeke/Documents/pro/projects/splicePicture/build/web-mobile/**/*
+2018-08-21T06:03:00.372Z - normal: Compiled project javascript file successfully
+2018-08-21T06:03:00.372Z - normal: Start building assets
+2018-08-21T06:03:00.372Z - normal: Start spawn build-worker
+2018-08-21T06:03:01.074Z - normal: Finish spawn build-worker
+2018-08-21T06:03:01.075Z - normal: Start init build-worker
+2018-08-21T06:03:03.134Z - normal: 1.9.3
+2018-08-21T06:03:03.257Z - normal: Finish init build-worker
+2018-08-21T06:03:03.257Z - normal: Start build-assets in worker
+2018-08-21T06:03:04.003Z - normal: Finish build-assets in worker
+2018-08-21T06:03:04.018Z - normal: Finish building assets
+2018-08-21T06:03:04.043Z - normal: Start building raw assets
+2018-08-21T06:03:04.044Z - normal: Start building plugin scripts
+2018-08-21T06:03:04.161Z - normal: Finish building raw assets
+2018-08-21T06:03:04.169Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
+2018-08-21T06:03:04.175Z - normal: Generating html from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/web-mobile/template/index.html
+2018-08-21T06:03:04.189Z - normal: Built to "/Users/likeke/Documents/pro/projects/splicePicture/build/web-mobile" successfully

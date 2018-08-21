@@ -44,7 +44,7 @@ cc.Class({
             border.width = imgNode.width + 12;
             border.height = imgNode.height + 12;
             option.x = 0;
-            option.y = offset * (i % len) + offset / 2 - sizeY / 2;
+            option.y = offset * (i % len) + offset / 2 - sizeY / 2 - parent.height * 0.046;
             imgNode.getComponent(cc.CircleCollider).radius = Math.min(imgNode.height, imgNode.width) * 0.248 * 1 / 0.7;
             var rotateDirection = Math.random() < 0.5 ? 1 : -1;
             var rotateDegree = Math.random() * 20 * rotateDirection;

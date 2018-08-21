@@ -11,11 +11,17 @@ cc.Class({
 
 	properties: {},
 	/* 
- ** questionPositon: 右边题目位置四种情况:leftTop,rightTop,leftBottom,rightBottom  左上,右上,左下,右下.
- ** optioncontent: 配置偏移度,没有则null. 四种.flipX,flipY,flip90,-flip90 水平翻转,垂直翻转,右翻90度,左翻90度. 
- ** quescontimg: 3张图片链接,分别为左边整图,右边题目图,拼接完成图
- 	
+ ** optioncontent: 该图片的正确位置标号，位置标号规则如下
+ ** quescontimg: 该图片链接
  */
+	/* 3x3位置标号规则(2x2和2x3同理)：
+  0-0 | 0-1 | 0-2
+  1-0 | 1-1 | 1-2
+  2-0 | 2-1 | 2-2
+ */
+	/* 其他说明：
+ 	*/
+
 	analysisDict: function analysisDict(questionDict) {
 		var interactiveJson = questionDict.interactiveJson;
 		if (!interactiveJson || interactiveJson.length == 0) {
