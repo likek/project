@@ -1,0 +1,30 @@
+{
+  "ver": "1.0.0",
+  "uuid": "cb90bba8-bd77-49cd-88ae-0aabdc2df0c7",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "subMetas": {
+    "jiesuan_qingwa_hand_l": {
+      "ver": "1.0.3",
+      "uuid": "2eaa5e82-2245-4cc2-a6c8-70208d84d975",
+      "rawTextureUuid": "cb90bba8-bd77-49cd-88ae-0aabdc2df0c7",
+      "trimType": "custom",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 63,
+      "height": 126,
+      "rawWidth": 63,
+      "rawHeight": 126,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

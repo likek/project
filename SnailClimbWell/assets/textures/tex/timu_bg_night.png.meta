@@ -1,0 +1,30 @@
+{
+  "ver": "1.0.0",
+  "uuid": "f88ec1a2-5691-4ecf-9cfc-23aa5571dede",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "subMetas": {
+    "timu_bg_night": {
+      "ver": "1.0.3",
+      "uuid": "e2f4b78d-065f-4aa7-ac06-00e8381b7e4e",
+      "rawTextureUuid": "f88ec1a2-5691-4ecf-9cfc-23aa5571dede",
+      "trimType": "custom",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 1364,
+      "height": 275,
+      "rawWidth": 1364,
+      "rawHeight": 275,
+      "borderTop": 50,
+      "borderBottom": 50,
+      "borderLeft": 50,
+      "borderRight": 50,
+      "subMetas": {}
+    }
+  }
+}

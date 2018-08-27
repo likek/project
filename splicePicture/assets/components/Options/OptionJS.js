@@ -160,8 +160,11 @@ cc.Class({
     },
 
     rightCall: function () {
-        if(this.gameJS.nowQuestionID === 0){
+        if(this.gameJS.nowQuestionID === 0){ //引导完成
             this.gameJS.tipsFinished = true;
+            !this.gameJS.isIts && this.gameJS.showSchedule();
+            let isTotalCd = this.gameJS.questionArr[0].interactiveJson.totalcd;
+            isTotalCd && (this.gameJS.lastAnswerTime = this.gameJS.answerTime);
         }
         if(this.gameJS.tipsHand){
             this.gameJS.tipsHand.active = false;

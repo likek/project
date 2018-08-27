@@ -1,6 +1,6 @@
 (function() {"use strict";var __module = CC_EDITOR ? module : {exports:{}};var __filename = 'preview-scripts/assets/scripts/ProgressJs.js';var __require = CC_EDITOR ? function (request) {return cc.require(request, require);} : function (request) {return cc.require(request, __filename);};function __define (exports, require, module) {"use strict";
 cc._RF.push(module, 'bffa6tUYERD1rOxZB4r27oO', 'ProgressJs', __filename);
-// script/ProgressJs.js
+// scripts/ProgressJs.js
 
 "use strict";
 
@@ -41,7 +41,7 @@ cc.Class({
             starPre.parent = this.node;
             starPre.position = cc.p(-numCount / 2 * (blockWidth + miWidth) + i * (blockWidth + miWidth) + miWidth / 2 + blockWidth / 2, 710);
             if (!this.starData) {
-                thi.starData = [];
+                this.starData = [];
             }
             this.starData.push(starPre);
         }

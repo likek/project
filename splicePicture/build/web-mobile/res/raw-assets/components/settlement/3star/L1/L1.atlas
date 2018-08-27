@@ -1,0 +1,83 @@
+
+L1.png
+size: 223,136
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+body
+  rotate: false
+  xy: 5, 4
+  size: 132, 128
+  orig: 132, 128
+  offset: 0, 0
+  index: -1
+eye_l
+  rotate: false
+  xy: 181, 69
+  size: 23, 22
+  orig: 23, 22
+  offset: 0, 0
+  index: -1
+eye_r
+  rotate: false
+  xy: 181, 43
+  size: 23, 22
+  orig: 23, 22
+  offset: 0, 0
+  index: -1
+eyeball_l
+  rotate: false
+  xy: 181, 95
+  size: 37, 37
+  orig: 37, 37
+  offset: 0, 0
+  index: -1
+eyeball_r
+  rotate: false
+  xy: 181, 95
+  size: 37, 37
+  orig: 37, 37
+  offset: 0, 0
+  index: -1
+heart
+  rotate: false
+  xy: 142, 12
+  size: 27, 24
+  orig: 27, 24
+  offset: 0, 0
+  index: -1
+leg_l
+  rotate: false
+  xy: 209, 62
+  size: 9, 29
+  orig: 9, 29
+  offset: 0, 0
+  index: -1
+leg_r
+  rotate: false
+  xy: 174, 7
+  size: 15, 29
+  orig: 15, 29
+  offset: 0, 0
+  index: -1
+mouth
+  rotate: true
+  xy: 194, 19
+  size: 20, 10
+  orig: 20, 10
+  offset: 0, 0
+  index: -1
+wing_l
+  rotate: false
+  xy: 142, 88
+  size: 34, 44
+  orig: 34, 44
+  offset: 0, 0
+  index: -1
+wing_r
+  rotate: false
+  xy: 142, 40
+  size: 34, 44
+  orig: 34, 44
+  offset: 0, 0
+  index: -1

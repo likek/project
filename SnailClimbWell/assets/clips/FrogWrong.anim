@@ -1,0 +1,31 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "FrogWrong",
+  "_objFlags": 0,
+  "_rawFiles": null,
+  "_duration": 0.4,
+  "sample": 5,
+  "speed": 1,
+  "wrapMode": 2,
+  "curveData": {
+    "comps": {
+      "cc.Sprite": {
+        "spriteFrame": [
+          {
+            "frame": 0,
+            "value": {
+              "__uuid__": "c87978cb-3003-492c-a184-98aaf6aecdbb"
+            }
+          },
+          {
+            "frame": 0.2,
+            "value": {
+              "__uuid__": "3546a6a4-7ad2-43b9-a831-82f4b8981f5a"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "events": []
+}

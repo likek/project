@@ -167,9 +167,12 @@ cc.Class({
                 this.nowQuestionID += 1;
             }
             //清除反馈
-            this.isIts && this.settlementJs.reset();
-
-            this.network.gameOver(this.answerInfoArr);
+            this.gameOverSettlement();
+            //清除反馈
+            this.scheduleOnce(function () {
+                this.isIts && this.settlementJs.reset();
+                this.network.gameOver(this.answerInfoArr);
+            }, 2.5);
         } else {
             //显示进度
             this.network.gameLoadProgress(this.nowQuestionID + 1, this.questionArr.length);
@@ -224,6 +227,8 @@ cc.Class({
     //倒计时回调
     timeCallbackFunc: function timeCallbackFunc() {
         var timeCallback = function timeCallback() {
+            var _this = this;
+
             //用户答题时间
             this.answerTime += 1;
             //倒计时次数
@@ -242,7 +247,9 @@ cc.Class({
 
                 this.createAnswerInfo('2');
 
-                this.showFeedback(3);
+                setTimeout(function () {
+                    _this.showFeedback(3);
+                }, 2500);
 
                 //是减时间，取消定时器,放在showFeedback，要不然会不执行scheduleOnce
                 if (this.answerTime > this.scheduleTime) {

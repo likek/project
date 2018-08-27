@@ -1,6 +1,6 @@
 "use strict";
 cc._RF.push(module, 'bffa6tUYERD1rOxZB4r27oO', 'ProgressJs');
-// script/ProgressJs.js
+// scripts/ProgressJs.js
 
 "use strict";
 
@@ -41,7 +41,7 @@ cc.Class({
             starPre.parent = this.node;
             starPre.position = cc.p(-numCount / 2 * (blockWidth + miWidth) + i * (blockWidth + miWidth) + miWidth / 2 + blockWidth / 2, 710);
             if (!this.starData) {
-                thi.starData = [];
+                this.starData = [];
             }
             this.starData.push(starPre);
         }

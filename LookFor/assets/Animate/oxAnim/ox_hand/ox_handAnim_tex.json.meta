@@ -1,0 +1,7 @@
+{
+  "ver": "1.0.0",
+  "uuid": "993b5272-2fbc-4653-83e2-a922c02137ee",
+  "atlasJson": "{\"width\":256,\"imagePath\":\"ox_handAnim_tex.png\",\"height\":256,\"name\":\"ox_handAnim\",\"SubTexture\":[{\"frameX\":-23,\"frameHeight\":260,\"y\":1,\"frameY\":-46,\"frameWidth\":260,\"width\":214,\"height\":167,\"name\":\"hand\",\"x\":1}]}",
+  "texture": "a88cada2-9964-4cbd-b1dc-a67e76c178df",
+  "subMetas": {}
+}

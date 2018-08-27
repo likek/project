@@ -1,0 +1,48 @@
+
+flag.png
+size: 432,264
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+blue
+  rotate: true
+  xy: 2, 185
+  size: 77, 213
+  orig: 77, 213
+  offset: 0, 0
+  index: -1
+orange
+  rotate: true
+  xy: 217, 185
+  size: 77, 213
+  orig: 77, 213
+  offset: 0, 0
+  index: -1
+red
+  rotate: true
+  xy: 2, 106
+  size: 77, 213
+  orig: 77, 213
+  offset: 0, 0
+  index: -1
+symbol
+  rotate: true
+  xy: 217, 2
+  size: 102, 157
+  orig: 102, 157
+  offset: 0, 0
+  index: -1
+white
+  rotate: true
+  xy: 217, 106
+  size: 77, 213
+  orig: 77, 213
+  offset: 0, 0
+  index: -1
+yellow
+  rotate: true
+  xy: 2, 27
+  size: 77, 213
+  orig: 77, 213
+  offset: 0, 0
+  index: -1

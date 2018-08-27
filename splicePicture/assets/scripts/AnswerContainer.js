@@ -18,7 +18,8 @@ cc.Class({
 
     initData(data){
         this.node.removeAllChildren();
-        if(!this.checkData(data))return;
+        this.bottomNode.removeAllChildren();
+        if(!this.checkInitData(data))return;
         this.layoutType = data;
         let parent = data === "2x2" ? this.node2x2 : (data === "2x3"? this.node2x3 : this.node3x3);
         parent = cc.instantiate(parent);
@@ -41,6 +42,7 @@ cc.Class({
                 answer.__optionId = row-1-r + "-" + c;
                 answer.getComponent(cc.CircleCollider).radius = Math.min(answer.height,answer.width) * 0.248;
 
+
                 let answerCopy = new cc.Node();
                 answerCopy.addComponent(cc.Sprite);
                 this.bottomNode.addChild(answerCopy);
@@ -54,7 +56,7 @@ cc.Class({
             }
         }
     },
-    checkData(data){
+    checkInitData(data){
         return typeof data === "string" && /\d+x\d+/.test(data);
     },
 

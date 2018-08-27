@@ -1,0 +1,30 @@
+{
+  "ver": "1.0.0",
+  "uuid": "24f6709a-92ab-4512-bd11-3077ceb5dcc9",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "subMetas": {
+    "woniu_pa_00006": {
+      "ver": "1.0.3",
+      "uuid": "aaa738bc-30de-4a95-a0a2-a9c6fea4c1f7",
+      "rawTextureUuid": "24f6709a-92ab-4512-bd11-3077ceb5dcc9",
+      "trimType": "custom",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 288,
+      "height": 288,
+      "rawWidth": 288,
+      "rawHeight": 288,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

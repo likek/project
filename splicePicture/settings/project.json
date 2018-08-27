@@ -36,7 +36,6 @@
     "EditorBox",
     "VideoPlayer",
     "RichText",
-    "AudioSource",
     "MotionStreak",
     "StudioComponent"
   ],

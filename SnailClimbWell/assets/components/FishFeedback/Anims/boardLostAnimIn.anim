@@ -1,0 +1,97 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "boardLostAnimIn",
+  "_objFlags": 0,
+  "_rawFiles": null,
+  "_duration": 2.12,
+  "sample": 25,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "props": {
+      "rotation": [
+        {
+          "frame": 1.04,
+          "value": 0
+        },
+        {
+          "frame": 1.32,
+          "value": 13
+        },
+        {
+          "frame": 1.6,
+          "value": -7
+        },
+        {
+          "frame": 1.84,
+          "value": 0
+        }
+      ],
+      "scaleX": [
+        {
+          "frame": 0,
+          "value": 0,
+          "curve": "linear"
+        },
+        {
+          "frame": 0.28,
+          "value": 1.26
+        },
+        {
+          "frame": 0.48,
+          "value": 1
+        },
+        {
+          "frame": 1.84,
+          "value": 1
+        },
+        {
+          "frame": 1.96,
+          "value": 1.26
+        },
+        {
+          "frame": 2.12,
+          "value": 0
+        }
+      ],
+      "scaleY": [
+        {
+          "frame": 0,
+          "value": 0
+        },
+        {
+          "frame": 0.28,
+          "value": 1.26
+        },
+        {
+          "frame": 0.48,
+          "value": 1
+        },
+        {
+          "frame": 1.84,
+          "value": 1
+        },
+        {
+          "frame": 1.96,
+          "value": 1.26
+        },
+        {
+          "frame": 2.12,
+          "value": 0
+        }
+      ],
+      "opacity": [
+        {
+          "frame": 0,
+          "value": 255,
+          "curve": "constant"
+        },
+        {
+          "frame": 2.12,
+          "value": 0
+        }
+      ]
+    }
+  },
+  "events": []
+}

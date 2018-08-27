@@ -1,0 +1,59 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "fishRefuel",
+  "_objFlags": 0,
+  "_rawFiles": null,
+  "_duration": 2.12,
+  "sample": 25,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "comps": {
+      "cc.Sprite": {}
+    },
+    "props": {
+      "rotation": [
+        {
+          "frame": 0,
+          "value": 0,
+          "curve": "cubicInOut"
+        },
+        {
+          "frame": 0.28,
+          "value": 20,
+          "curve": "cubicInOut"
+        },
+        {
+          "frame": 0.52,
+          "value": -9,
+          "curve": "cubicInOut"
+        },
+        {
+          "frame": 0.76,
+          "value": 9.1,
+          "curve": "cubicInOut"
+        },
+        {
+          "frame": 0.96,
+          "value": 0
+        }
+      ],
+      "position": [
+        {
+          "frame": 0,
+          "value": [
+            1865,
+            95
+          ]
+        }
+      ]
+    }
+  },
+  "events": [
+    {
+      "frame": 2.12,
+      "func": "feedbackFinish",
+      "params": []
+    }
+  ]
+}

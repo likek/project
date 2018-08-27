@@ -23,7 +23,8 @@ cc.Class({
 
     initData: function initData(data) {
         this.node.removeAllChildren();
-        if (!this.checkData(data)) return;
+        this.bottomNode.removeAllChildren();
+        if (!this.checkInitData(data)) return;
         this.layoutType = data;
         var parent = data === "2x2" ? this.node2x2 : data === "2x3" ? this.node2x3 : this.node3x3;
         parent = cc.instantiate(parent);
@@ -59,7 +60,7 @@ cc.Class({
             }
         }
     },
-    checkData: function checkData(data) {
+    checkInitData: function checkInitData(data) {
         return typeof data === "string" && /\d+x\d+/.test(data);
     },
     getOptionByAnswer: function getOptionByAnswer(optionID) {

@@ -1,0 +1,30 @@
+{
+  "ver": "1.0.0",
+  "uuid": "966527c3-b310-434a-8c32-b65759f69ae9",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "subMetas": {
+    "qingwa_fennu_2": {
+      "ver": "1.0.3",
+      "uuid": "3546a6a4-7ad2-43b9-a831-82f4b8981f5a",
+      "rawTextureUuid": "966527c3-b310-434a-8c32-b65759f69ae9",
+      "trimType": "custom",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 300,
+      "height": 360,
+      "rawWidth": 300,
+      "rawHeight": 360,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

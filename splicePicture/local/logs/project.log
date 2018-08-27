@@ -1,55 +1,151 @@
-2018-08-21T09:41:20.623Z - normal: Load ~/.CocosCreator/settings.json
-2018-08-21T09:41:20.626Z - normal: checking language setting...
-2018-08-21T09:41:20.626Z - normal: Language: zh
-2018-08-21T09:41:21.313Z - success: protocol editor-framework registered
-2018-08-21T09:41:21.314Z - success: protocol app registered
-2018-08-21T09:41:21.314Z - success: protocol theme registered
-2018-08-21T09:41:21.314Z - success: protocol packages registered
-2018-08-21T09:41:21.314Z - success: protocol unpack registerred
-2018-08-21T09:41:21.315Z - success: protocol disable-commonjs registerred
-2018-08-21T09:41:21.459Z - normal: connected!
-2018-08-21T09:41:21.461Z - normal: Check project /Users/likeke/Documents/pro/projects/splicePicture
-2018-08-21T09:41:21.462Z - normal: Initializing Cocos2d
-2018-08-21T09:41:21.665Z - normal: Initializing Asset Database
-2018-08-21T09:41:21.697Z - success: protocol uuid registerred
-2018-08-21T09:41:21.698Z - success: protocol db registerred
-2018-08-21T09:41:21.698Z - success: protocol thumbnail registerred
-2018-08-21T09:41:21.698Z - normal: Loading editor/builtin packages
-2018-08-21T09:41:21.717Z - success: anysdk loaded
-2018-08-21T09:41:21.832Z - success: assets loaded
-2018-08-21T09:41:21.838Z - success: builder loaded
-2018-08-21T09:41:21.840Z - success: cocos-analytics loaded
-2018-08-21T09:41:21.844Z - success: console loaded
-2018-08-21T09:41:21.876Z - success: fb-instant-games loaded
-2018-08-21T09:41:21.880Z - success: hierarchy loaded
-2018-08-21T09:41:21.884Z - success: inspector loaded
-2018-08-21T09:41:21.886Z - success: keystore loaded
-2018-08-21T09:41:21.890Z - success: node-library loaded
-2018-08-21T09:41:21.892Z - success: package-asset loaded
-2018-08-21T09:41:21.894Z - success: preferences loaded
-2018-08-21T09:41:21.897Z - success: project-exporter loaded
-2018-08-21T09:41:21.913Z - success: project-importer loaded
-2018-08-21T09:41:21.915Z - success: project-settings loaded
-2018-08-21T09:41:21.921Z - success: ui-kit loaded
-2018-08-21T09:41:21.926Z - success: ui-grid loaded
-2018-08-21T09:41:21.929Z - success: scene loaded
-2018-08-21T09:41:21.930Z - success: sprite-editor loaded
-2018-08-21T09:41:21.934Z - success: store loaded
-2018-08-21T09:41:21.940Z - success: timeline loaded
-2018-08-21T09:41:21.940Z - normal: Loading builtin packages
-2018-08-21T09:41:21.945Z - success: asset-db-debugger loaded
-2018-08-21T09:41:21.946Z - success: color-picker loaded
-2018-08-21T09:41:21.951Z - success: package-manager loaded
-2018-08-21T09:41:21.953Z - success: qqplay-adapter loaded
-2018-08-21T09:41:21.960Z - success: sdkbox loaded
-2018-08-21T09:41:21.964Z - success: tester loaded
-2018-08-21T09:41:21.968Z - success: ui-kit-preview-extra loaded
-2018-08-21T09:41:21.972Z - success: ui-kit-preview loaded
-2018-08-21T09:41:21.975Z - success: ui-tree loaded
-2018-08-21T09:41:21.977Z - success: weapp-adapter loaded
-2018-08-21T09:41:22.924Z - normal: Initializing project /Users/likeke/Documents/pro/projects/splicePicture
-2018-08-21T09:41:22.926Z - normal: Loading packages
-2018-08-21T09:41:22.931Z - normal: Watching packages
-2018-08-21T09:41:23.040Z - normal: Run Application
-2018-08-21T09:41:23.774Z - success: preview server running at http://localhost:7456
-2018-08-21T09:41:28.399Z - normal: 1.9.3
+2018-08-24T12:43:51.516Z - normal: Load ~/.CocosCreator/settings.json
+2018-08-24T12:43:51.519Z - normal: checking language setting...
+2018-08-24T12:43:51.519Z - normal: Language: zh
+2018-08-24T12:43:52.290Z - success: protocol editor-framework registered
+2018-08-24T12:43:52.290Z - success: protocol app registered
+2018-08-24T12:43:52.290Z - success: protocol theme registered
+2018-08-24T12:43:52.290Z - success: protocol packages registered
+2018-08-24T12:43:52.291Z - success: protocol unpack registerred
+2018-08-24T12:43:52.291Z - success: protocol disable-commonjs registerred
+2018-08-24T12:43:52.412Z - normal: connected!
+2018-08-24T12:43:52.414Z - normal: Check project /Users/likeke/Documents/pro/projects/splicePicture
+2018-08-24T12:43:52.416Z - normal: Initializing Cocos2d
+2018-08-24T12:43:52.633Z - normal: Initializing Asset Database
+2018-08-24T12:43:52.667Z - success: protocol uuid registerred
+2018-08-24T12:43:52.668Z - success: protocol db registerred
+2018-08-24T12:43:52.668Z - success: protocol thumbnail registerred
+2018-08-24T12:43:52.668Z - normal: Loading editor/builtin packages
+2018-08-24T12:43:52.691Z - success: anysdk loaded
+2018-08-24T12:43:52.819Z - success: assets loaded
+2018-08-24T12:43:52.823Z - success: builder loaded
+2018-08-24T12:43:52.825Z - success: cocos-analytics loaded
+2018-08-24T12:43:52.829Z - success: console loaded
+2018-08-24T12:43:52.861Z - success: fb-instant-games loaded
+2018-08-24T12:43:52.866Z - success: hierarchy loaded
+2018-08-24T12:43:52.871Z - success: inspector loaded
+2018-08-24T12:43:52.873Z - success: keystore loaded
+2018-08-24T12:43:52.877Z - success: node-library loaded
+2018-08-24T12:43:52.879Z - success: package-asset loaded
+2018-08-24T12:43:52.881Z - success: preferences loaded
+2018-08-24T12:43:52.884Z - success: project-exporter loaded
+2018-08-24T12:43:52.902Z - success: project-importer loaded
+2018-08-24T12:43:52.905Z - success: project-settings loaded
+2018-08-24T12:43:52.909Z - success: ui-kit loaded
+2018-08-24T12:43:52.914Z - success: ui-grid loaded
+2018-08-24T12:43:52.919Z - success: scene loaded
+2018-08-24T12:43:52.920Z - success: sprite-editor loaded
+2018-08-24T12:43:52.924Z - success: store loaded
+2018-08-24T12:43:52.931Z - success: timeline loaded
+2018-08-24T12:43:52.931Z - normal: Loading builtin packages
+2018-08-24T12:43:52.939Z - success: asset-db-debugger loaded
+2018-08-24T12:43:52.940Z - success: color-picker loaded
+2018-08-24T12:43:52.944Z - success: package-manager loaded
+2018-08-24T12:43:52.945Z - success: qqplay-adapter loaded
+2018-08-24T12:43:52.952Z - success: sdkbox loaded
+2018-08-24T12:43:52.957Z - success: tester loaded
+2018-08-24T12:43:52.960Z - success: ui-kit-preview-extra loaded
+2018-08-24T12:43:52.965Z - success: ui-kit-preview loaded
+2018-08-24T12:43:52.969Z - success: ui-tree loaded
+2018-08-24T12:43:52.970Z - success: weapp-adapter loaded
+2018-08-24T12:43:54.017Z - normal: Initializing project /Users/likeke/Documents/pro/projects/splicePicture
+2018-08-24T12:43:54.020Z - normal: Loading packages
+2018-08-24T12:43:54.024Z - normal: Watching packages
+2018-08-24T12:43:54.145Z - normal: Run Application
+2018-08-24T12:43:55.325Z - success: preview server running at http://localhost:7456
+2018-08-24T12:43:59.956Z - normal: 1.9.3
+2018-08-24T13:02:02.885Z - normal: Start building with options : {
+  "androidStudio": true,
+  "apiLevel": "",
+  "appABIs": [],
+  "appKey": "",
+  "appSecret": "",
+  "buildPath": "/Users/likeke/Documents/pro/projects/splicePicture/build",
+  "debug": false,
+  "dest": "/Users/likeke/Documents/pro/projects/splicePicture/build/web-mobile",
+  "encryptJs": true,
+  "excludeScenes": [],
+  "excludedModules": [
+    "Mask",
+    "TiledMap",
+    "ProgressBar",
+    "ScrollBar",
+    "ScrollView",
+    "Toggle",
+    "PageView",
+    "PageViewIndicator",
+    "Slider",
+    "EditorBox",
+    "VideoPlayer",
+    "RichText",
+    "MotionStreak",
+    "StudioComponent"
+  ],
+  "fb-instant-games": {},
+  "includeAnySDK": false,
+  "includeEruda": false,
+  "includeSDKBox": false,
+  "inlineSpriteFrames": true,
+  "inlineSpriteFrames_native": true,
+  "jailbreakPlatform": false,
+  "md5Cache": false,
+  "mergeStartScene": false,
+  "oauthLoginServer": "",
+  "optimizeHotUpdate": false,
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "org.cocos2d.ZhuoXiaoYu",
+  "platform": "web-mobile",
+  "previewHeight": "720",
+  "previewWidth": "1280",
+  "privateKey": "",
+  "qqplay": {
+    "REMOTE_SERVER_ROOT": "",
+    "orientation": "portrait"
+  },
+  "renderMode": "0",
+  "scenes": [
+    "c0e4e3a0-b011-41b6-82d6-c31f202631fe"
+  ],
+  "sourceMaps": false,
+  "startScene": "c0e4e3a0-b011-41b6-82d6-c31f202631fe",
+  "template": "link",
+  "title": "splicePicture",
+  "useDebugKeystore": true,
+  "vsVersion": "auto",
+  "webOrientation": "auto",
+  "wechatgame": {
+    "REMOTE_SERVER_ROOT": "",
+    "appid": "wx6ac3f5090a6b99c5",
+    "isSubdomain": false,
+    "orientation": "portrait",
+    "subContext": ""
+  },
+  "xxteaKey": "7b2835cc-766f-41",
+  "zipCompressJs": true,
+  "project": "/Users/likeke/Documents/pro/projects/splicePicture",
+  "projectName": "splicePicture",
+  "debugBuildWorker": false
+}
+2018-08-24T13:02:02.894Z - normal: Building /Users/likeke/Documents/pro/projects/splicePicture
+2018-08-24T13:02:02.895Z - normal: Destination /Users/likeke/Documents/pro/projects/splicePicture/build/web-mobile
+2018-08-24T13:02:03.209Z - normal: Delete /Users/likeke/Documents/pro/projects/splicePicture/build/web-mobile/**/*
+2018-08-24T13:02:05.704Z - normal: Compiled project javascript file successfully
+2018-08-24T13:02:05.704Z - normal: Start building assets
+2018-08-24T13:02:05.704Z - normal: Start spawn build-worker
+2018-08-24T13:02:06.355Z - normal: Finish spawn build-worker
+2018-08-24T13:02:06.356Z - normal: Start init build-worker
+2018-08-24T13:02:08.253Z - normal: 1.9.3
+2018-08-24T13:02:08.379Z - normal: Finish init build-worker
+2018-08-24T13:02:08.379Z - normal: Start build-assets in worker
+2018-08-24T13:02:09.143Z - normal: Finish build-assets in worker
+2018-08-24T13:02:09.147Z - normal: Finish building assets
+2018-08-24T13:02:09.172Z - normal: Start building raw assets
+2018-08-24T13:02:09.173Z - normal: Start building plugin scripts
+2018-08-24T13:02:09.313Z - normal: Finish building raw assets
+2018-08-24T13:02:09.338Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
+2018-08-24T13:02:09.386Z - normal: Generating html from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/web-mobile/template/index.html
+2018-08-24T13:02:09.431Z - normal: Built to "/Users/likeke/Documents/pro/projects/splicePicture/build/web-mobile" successfully

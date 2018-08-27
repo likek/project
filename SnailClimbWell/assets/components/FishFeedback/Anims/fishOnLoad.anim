@@ -1,0 +1,75 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "fishOnLoad",
+  "_objFlags": 0,
+  "_rawFiles": null,
+  "_duration": 0.84,
+  "sample": 25,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "props": {
+      "x": [
+        {
+          "frame": 0,
+          "value": 2149
+        },
+        {
+          "frame": 0.36,
+          "value": 1951
+        },
+        {
+          "frame": 0.8,
+          "value": 1864
+        }
+      ],
+      "y": [
+        {
+          "frame": 0,
+          "value": 162
+        },
+        {
+          "frame": 0.36,
+          "value": 58
+        },
+        {
+          "frame": 0.8,
+          "value": 95
+        }
+      ],
+      "rotation": [
+        {
+          "frame": 0,
+          "value": -13
+        },
+        {
+          "frame": 0.36,
+          "value": -24
+        },
+        {
+          "frame": 0.8,
+          "value": 0
+        }
+      ]
+    },
+    "paths": {
+      "小鱼": {
+        "props": {
+          "x": [],
+          "y": [],
+          "rotation": []
+        }
+      }
+    },
+    "comps": {
+      "cc.Sprite": {}
+    }
+  },
+  "events": [
+    {
+      "frame": 0.84,
+      "func": "firstFeedbackFinish",
+      "params": []
+    }
+  ]
+}

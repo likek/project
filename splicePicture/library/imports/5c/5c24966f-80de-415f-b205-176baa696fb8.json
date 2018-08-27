@@ -1,7 +1,7 @@
 {
   "__type__": "cc.SpriteFrame",
   "content": {
-    "name": "2-3格子",
+    "name": "2x3",
     "texture": "ca302c27-f0ae-493d-a123-bfa2a04c370c",
     "atlas": "",
     "rect": [

@@ -1,0 +1,97 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "boardWinAnimIn",
+  "_objFlags": 0,
+  "_rawFiles": null,
+  "_duration": 2.32,
+  "sample": 25,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "props": {
+      "rotation": [
+        {
+          "frame": 1.16,
+          "value": 0
+        },
+        {
+          "frame": 1.48,
+          "value": 13
+        },
+        {
+          "frame": 1.8,
+          "value": -7
+        },
+        {
+          "frame": 2.04,
+          "value": 0
+        }
+      ],
+      "scaleX": [
+        {
+          "frame": 0.2,
+          "value": 0,
+          "curve": "linear"
+        },
+        {
+          "frame": 0.48,
+          "value": 1.26
+        },
+        {
+          "frame": 0.68,
+          "value": 1
+        },
+        {
+          "frame": 2.04,
+          "value": 1
+        },
+        {
+          "frame": 2.16,
+          "value": 1.26
+        },
+        {
+          "frame": 2.32,
+          "value": 0
+        }
+      ],
+      "scaleY": [
+        {
+          "frame": 0.2,
+          "value": 0
+        },
+        {
+          "frame": 0.48,
+          "value": 1.26
+        },
+        {
+          "frame": 0.68,
+          "value": 1
+        },
+        {
+          "frame": 2.04,
+          "value": 1
+        },
+        {
+          "frame": 2.16,
+          "value": 1.26
+        },
+        {
+          "frame": 2.32,
+          "value": 0
+        }
+      ],
+      "opacity": [
+        {
+          "frame": 0,
+          "value": 255,
+          "curve": "constant"
+        },
+        {
+          "frame": 2.32,
+          "value": 0
+        }
+      ]
+    }
+  },
+  "events": []
+}

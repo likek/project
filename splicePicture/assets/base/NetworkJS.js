@@ -108,6 +108,7 @@ var NetworkJS = cc.Class({
 	},
 	//下载解析失败type:1.下载失败，2.解析失败
 	gameLoadFailed: function (type) {
+		console.log(type + "       " + "gameLoadFailed");
 		if (type == 1) {
 			var params = encodeURI('errcode=10001&errmsg=下载失败');
 			window.location.href = 'optionBlank://gameLoadFailed?' + params;
@@ -118,8 +119,9 @@ var NetworkJS = cc.Class({
 	},
 	//通知游戏加载成功，开始游戏
 	gameLoadSuccess: function (totalNumber) {
-		var params = encodeURI('isShow=1&totalNumber=' + totalNumber);
+		var params = encodeURI('isShow=1&isHideNativeBackBtn=1&isHideNativeProgressBtn=1&totalNumber=' + totalNumber);
         window.location.href = 'optionBlank://gameLoadSuccess?' + params;
+
 	},
 	//通知游戏结束
 	gameOver: function (answerInfoArr) {
@@ -131,5 +133,8 @@ var NetworkJS = cc.Class({
         var params = encodeURI('nowNumber=' + nowNumber + '&totalNumber=' + totalNumber);
         window.location.href = 'optionBlank://gameLoadProgress?' + params;
     },
+	gameBackAction:function(){
+		window.location.href = 'optionBlank://xmaGameBackAction?status=1';
+	},
 
 });

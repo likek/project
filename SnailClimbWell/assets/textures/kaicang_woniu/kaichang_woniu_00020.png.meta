@@ -1,0 +1,30 @@
+{
+  "ver": "1.0.0",
+  "uuid": "694d6bcb-e683-4cb8-ba2d-2af039d231dd",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "subMetas": {
+    "kaichang_woniu_00020": {
+      "ver": "1.0.3",
+      "uuid": "d2706c15-e886-45f0-a4bc-1c61eaef9f8b",
+      "rawTextureUuid": "694d6bcb-e683-4cb8-ba2d-2af039d231dd",
+      "trimType": "custom",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 288,
+      "height": 288,
+      "rawWidth": 288,
+      "rawHeight": 288,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

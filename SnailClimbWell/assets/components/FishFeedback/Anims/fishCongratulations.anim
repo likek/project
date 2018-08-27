@@ -1,0 +1,76 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "fishCongratulations",
+  "_objFlags": 0,
+  "_rawFiles": null,
+  "_duration": 2.32,
+  "sample": 25,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "props": {
+      "y": [
+        {
+          "frame": 0,
+          "value": 95
+        },
+        {
+          "frame": 0,
+          "value": 95,
+          "curve": "cubicInOut"
+        },
+        {
+          "frame": 0.48,
+          "value": 268,
+          "curve": "cubicInOut"
+        },
+        {
+          "frame": 0.88,
+          "value": 265,
+          "curve": "cubicInOut"
+        },
+        {
+          "frame": 1.2,
+          "value": 95
+        }
+      ],
+      "rotation": [
+        {
+          "frame": 0,
+          "value": 0,
+          "curve": "cubicInOut"
+        },
+        {
+          "frame": 0.48,
+          "value": 20,
+          "curve": "cubicInOut"
+        },
+        {
+          "frame": 0.88,
+          "value": -14,
+          "curve": "cubicInOut"
+        },
+        {
+          "frame": 1.2,
+          "value": 0
+        }
+      ],
+      "x": [
+        {
+          "frame": 0,
+          "value": 1865
+        }
+      ]
+    },
+    "comps": {
+      "cc.Sprite": {}
+    }
+  },
+  "events": [
+    {
+      "frame": 2.32,
+      "func": "feedbackFinish",
+      "params": []
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 {
   "__type__": "cc.SpriteFrame",
   "content": {
-    "name": "Group-1",
+    "name": "Group",
     "texture": "10653568-0a35-4955-9237-603fa8eb6ed6",
     "atlas": "",
     "rect": [

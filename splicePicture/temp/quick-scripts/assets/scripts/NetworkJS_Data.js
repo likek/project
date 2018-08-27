@@ -52,7 +52,7 @@ cc.Class({
 		var quescontimg = questionDict.quescontimg;
 		var qescontsound = questionDict.qescontsound;
 
-		if (!interactiveJson.rightAry || !interactiveJson.questionAry || !interactiveJson.optionCount || !interactiveJson.countDown) {
+		if (!interactiveJson.countDown) {
 			this.gameLoadFailed(2);
 		}
 

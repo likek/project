@@ -37,7 +37,7 @@ cc.Class({
             starPre.parent = this.node;  
             starPre.position = cc.p(-numCount/2*(blockWidth+miWidth)+i*(blockWidth+miWidth)+miWidth/2+blockWidth/2, 710)
             if (!this.starData) {
-                thi.starData = []
+                this.starData = []
             }
             this.starData.push(starPre)
         }

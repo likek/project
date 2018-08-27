@@ -16,6 +16,10 @@ cc.Class({
         rightAudio: cc.AudioClip,
         wrongAudio: cc.AudioClip,
         timuAudio: cc.AudioClip,
+        timeUpAudio: cc.AudioClip,
+        oneStarAudio: cc.AudioClip,
+        twoStarAudio:cc.AudioClip,
+        threeStarAudio: cc.AudioClip,
 
         flags: cc.Node,//旗子
         cattle: cc.Node,//牛
@@ -107,6 +111,8 @@ cc.Class({
         this.progress.getComponent("ProgressJs").playFlayStar(new cc.v2(0,0),this.nowQuestionID,2);
         this.progress.getComponent("ProgressJs").setStarTypeByIndex(this.nowQuestionID,2);
         this.tipsFinished = true;
+        this.settlementJs.playTimeUpAnim();
+        this.playTimeUpAudio();
     },
 
     //移除当前所有选项
@@ -146,10 +152,10 @@ cc.Class({
 
             this.timeLabel.string = this.timeFormat(this.countDown);
         }
-        // if (this.nowQuestionID > 0) {
-        !this.isIts && this.showSchedule();
-        isTotalCd && (this.lastAnswerTime = this.answerTime);
-        // }
+        if (this.nowQuestionID > 0) {
+            !this.isIts && this.showSchedule();
+            isTotalCd && (this.lastAnswerTime = this.answerTime);
+        }
         this.isIts && this.questionNumListJS.changeOptionEnable();
         this.isShowFeed = false;
         this.changeMoveTag(0);
@@ -223,13 +229,36 @@ cc.Class({
                 },1.7);
             },0.3);
         } else if (type === 2) {
-            //出发
-            AUDIO_OPEN && this.playLoseAudio();
-            this.settlementJs.playLoseAnim(this.feedbackFinish);
+            setTimeout(()=>{
+                this.feedbackFinish();
+            },1000);
         } else if (type === 3) { //时间到逻辑
-            //出发
-            AUDIO_OPEN && this.playLoseAudio();
-            this.settlementJs.playTimeUpAnim(this.feedbackFinish);
+            setTimeout(()=>{
+                this.feedbackFinish();
+            },1000);
+        }
+    },
+    gameOverSettlement: function() {
+        let totalNum = this.answerInfoArr.length;
+        let rightNum = 0.0;
+        this.answerInfoArr.forEach((obj, idx)=> {
+           if (obj.answerStatus === '1'){
+                rightNum+= 1;
+           }
+        },this);
+        if(rightNum/totalNum >=0.8){
+            if (CONSOLE_LOG_OPEN) cc.log('>=0.8');
+            AUDIO_OPEN && this.playThreeStarAudio();
+            this.settlementJs.playWinAnim();
+        }else if (rightNum/totalNum >=0.6){
+            if (CONSOLE_LOG_OPEN) cc.log('>=0.6');
+            AUDIO_OPEN && this.playTwoStarAudio();
+            this.settlementJs.playTwoStarAnim();
+
+        }else{
+            if (CONSOLE_LOG_OPEN) cc.log('<0.6');
+            AUDIO_OPEN && this.playOneStarAudio();
+            this.settlementJs.playLoseAnim();
         }
     },
     updateGameState: function (interactable) {
@@ -249,12 +278,8 @@ cc.Class({
             return;
         }
     },
-    playWinAudio: function () {
+    playWinAudio: function () { //每一关成功
         this.playAudio(this.winAudio);
-    },
-
-    playLoseAudio: function () {
-        this.playAudio(this.loseAudio);
     },
     playCancelAudio: function () {
         this.playAudio(this.resetAudio);
@@ -270,6 +295,18 @@ cc.Class({
     },
     playWrongAudio(){
         this.playAudio(this.wrongAudio);
+    },
+    playTimeUpAudio:function(){
+        this.playAudio(this.timeUpAudio);
+    },
+    playOneStarAudio:function(){
+        this.playAudio(this.oneStarAudio);
+    },
+    playTwoStarAudio:function(){
+        this.playAudio(this.twoStarAudio);
+    },
+    playThreeStarAudio:function(){
+        this.playAudio(this.threeStarAudio);
     },
     /* 循环规则音,点击后重置 */
     BasicAni: function () {
@@ -335,12 +372,10 @@ cc.Class({
     },
     setCattleAnimationOnce(animation,timeOut){
         this.cattle.getComponent("sp.Skeleton").setAnimation(0,animation,false);
-        setTimeout(()=>{
+        if(this.setCattleAnimationOnce.__lastStand)clearTimeout(this.setCattleAnimationOnce.__lastStand);
+        this.setCattleAnimationOnce.__lastStand = setTimeout(()=>{
             this.cattle.getComponent("sp.Skeleton").setAnimation(0,"stand",true);
         },timeOut||2600);
-    },
-    gameBackAction:function(){
-        window.location.href = 'optionBlank://xmaGameBackAction?status=1';
     },
 
     tipsAnimation(){

@@ -22,6 +22,10 @@ cc.Class({
         rightAudio: cc.AudioClip,
         wrongAudio: cc.AudioClip,
         timuAudio: cc.AudioClip,
+        timeUpAudio: cc.AudioClip,
+        oneStarAudio: cc.AudioClip,
+        twoStarAudio: cc.AudioClip,
+        threeStarAudio: cc.AudioClip,
 
         flags: cc.Node, //旗子
         cattle: cc.Node, //牛
@@ -112,6 +116,8 @@ cc.Class({
         this.progress.getComponent("ProgressJs").playFlayStar(new cc.v2(0, 0), this.nowQuestionID, 2);
         this.progress.getComponent("ProgressJs").setStarTypeByIndex(this.nowQuestionID, 2);
         this.tipsFinished = true;
+        this.settlementJs.playTimeUpAnim();
+        this.playTimeUpAudio();
     },
 
     //移除当前所有选项
@@ -150,10 +156,10 @@ cc.Class({
 
             this.timeLabel.string = this.timeFormat(this.countDown);
         }
-        // if (this.nowQuestionID > 0) {
-        !this.isIts && this.showSchedule();
-        isTotalCd && (this.lastAnswerTime = this.answerTime);
-        // }
+        if (this.nowQuestionID > 0) {
+            !this.isIts && this.showSchedule();
+            isTotalCd && (this.lastAnswerTime = this.answerTime);
+        }
         this.isIts && this.questionNumListJS.changeOptionEnable();
         this.isShowFeed = false;
         this.changeMoveTag(0);
@@ -232,14 +238,36 @@ cc.Class({
                 }, 1.7);
             }, 0.3);
         } else if (type === 2) {
-            //出发
-            AUDIO_OPEN && this.playLoseAudio();
-            this.settlementJs.playLoseAnim(this.feedbackFinish);
+            setTimeout(function () {
+                _this.feedbackFinish();
+            }, 1000);
         } else if (type === 3) {
             //时间到逻辑
-            //出发
-            AUDIO_OPEN && this.playLoseAudio();
-            this.settlementJs.playTimeUpAnim(this.feedbackFinish);
+            setTimeout(function () {
+                _this.feedbackFinish();
+            }, 1000);
+        }
+    },
+    gameOverSettlement: function gameOverSettlement() {
+        var totalNum = this.answerInfoArr.length;
+        var rightNum = 0.0;
+        this.answerInfoArr.forEach(function (obj, idx) {
+            if (obj.answerStatus === '1') {
+                rightNum += 1;
+            }
+        }, this);
+        if (rightNum / totalNum >= 0.8) {
+            if (CONSOLE_LOG_OPEN) cc.log('>=0.8');
+            AUDIO_OPEN && this.playThreeStarAudio();
+            this.settlementJs.playWinAnim();
+        } else if (rightNum / totalNum >= 0.6) {
+            if (CONSOLE_LOG_OPEN) cc.log('>=0.6');
+            AUDIO_OPEN && this.playTwoStarAudio();
+            this.settlementJs.playTwoStarAnim();
+        } else {
+            if (CONSOLE_LOG_OPEN) cc.log('<0.6');
+            AUDIO_OPEN && this.playOneStarAudio();
+            this.settlementJs.playLoseAnim();
         }
     },
     updateGameState: function updateGameState(interactable) {
@@ -259,11 +287,8 @@ cc.Class({
         }
     },
     playWinAudio: function playWinAudio() {
+        //每一关成功
         this.playAudio(this.winAudio);
-    },
-
-    playLoseAudio: function playLoseAudio() {
-        this.playAudio(this.loseAudio);
     },
     playCancelAudio: function playCancelAudio() {
         this.playAudio(this.resetAudio);
@@ -281,6 +306,18 @@ cc.Class({
         this.playAudio(this.wrongAudio);
     },
 
+    playTimeUpAudio: function playTimeUpAudio() {
+        this.playAudio(this.timeUpAudio);
+    },
+    playOneStarAudio: function playOneStarAudio() {
+        this.playAudio(this.oneStarAudio);
+    },
+    playTwoStarAudio: function playTwoStarAudio() {
+        this.playAudio(this.twoStarAudio);
+    },
+    playThreeStarAudio: function playThreeStarAudio() {
+        this.playAudio(this.threeStarAudio);
+    },
     /* 循环规则音,点击后重置 */
     BasicAni: function BasicAni() {
         //倒计时回调
@@ -347,15 +384,11 @@ cc.Class({
         var _this2 = this;
 
         this.cattle.getComponent("sp.Skeleton").setAnimation(0, animation, false);
-        setTimeout(function () {
+        if (this.setCattleAnimationOnce.__lastStand) clearTimeout(this.setCattleAnimationOnce.__lastStand);
+        this.setCattleAnimationOnce.__lastStand = setTimeout(function () {
             _this2.cattle.getComponent("sp.Skeleton").setAnimation(0, "stand", true);
         }, timeOut || 2600);
     },
-
-    gameBackAction: function gameBackAction() {
-        window.location.href = 'optionBlank://xmaGameBackAction?status=1';
-    },
-
     tipsAnimation: function tipsAnimation() {
         var _this3 = this;
 

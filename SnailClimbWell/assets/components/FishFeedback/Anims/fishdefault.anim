@@ -1,0 +1,41 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "fishdefault",
+  "_objFlags": 0,
+  "_rawFiles": null,
+  "_duration": 2.4,
+  "sample": 25,
+  "speed": 1,
+  "wrapMode": 2,
+  "curveData": {
+    "props": {
+      "y": [
+        {
+          "frame": 0,
+          "value": 95
+        },
+        {
+          "frame": 0.6,
+          "value": 70,
+          "curve": "linear"
+        },
+        {
+          "frame": 1.2,
+          "value": 95
+        },
+        {
+          "frame": 1.8,
+          "value": 120
+        },
+        {
+          "frame": 2.4,
+          "value": 95
+        }
+      ]
+    },
+    "comps": {
+      "cc.Sprite": {}
+    }
+  },
+  "events": []
+}

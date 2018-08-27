@@ -1,0 +1,69 @@
+
+three_star_.png
+size: 1702,848
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+background
+  rotate: false
+  xy: 1399, 63
+  size: 298, 207
+  orig: 298, 207
+  offset: 0, 0
+  index: -1
+cloud_big
+  rotate: false
+  xy: 5, 4
+  size: 1389, 181
+  orig: 1389, 181
+  offset: 0, 0
+  index: -1
+cloud_small1
+  rotate: true
+  xy: 1248, 408
+  size: 178, 93
+  orig: 178, 93
+  offset: 0, 0
+  index: -1
+cloud_small2
+  rotate: true
+  xy: 1248, 228
+  size: 176, 91
+  orig: 176, 91
+  offset: 0, 0
+  index: -1
+light
+  rotate: false
+  xy: 1248, 590
+  size: 133, 254
+  orig: 133, 254
+  offset: 0, 0
+  index: -1
+not_star
+  rotate: false
+  xy: 1372, 274
+  size: 272, 254
+  orig: 272, 254
+  offset: 0, 0
+  index: -1
+rainbow
+  rotate: false
+  xy: 5, 189
+  size: 1238, 655
+  orig: 1238, 655
+  offset: 0, 0
+  index: -1
+shadows
+  rotate: true
+  xy: 1346, 253
+  size: 333, 21
+  orig: 333, 21
+  offset: 0, 0
+  index: -1
+star
+  rotate: true
+  xy: 1399, 532
+  size: 312, 295
+  orig: 312, 295
+  offset: 0, 0
+  index: -1

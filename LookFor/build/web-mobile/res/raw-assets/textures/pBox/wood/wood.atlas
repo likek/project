@@ -1,0 +1,27 @@
+
+wood.png
+size: 133,98
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+wood_q1
+  rotate: true
+  xy: 0, 3
+  size: 95, 86
+  orig: 95, 86
+  offset: 0, 0
+  index: -1
+wood_q2
+  rotate: true
+  xy: 88, 33
+  size: 65, 45
+  orig: 65, 45
+  offset: 0, 0
+  index: -1
+wood_q3
+  rotate: true
+  xy: 88, 0
+  size: 31, 45
+  orig: 31, 45
+  offset: 0, 0
+  index: -1

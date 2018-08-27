@@ -82,7 +82,8 @@
         "assets",
         "scene"
       ]
-    }
+    },
+    "window-1535115718686": {}
   },
   "panels": {
     "package-asset.import": {
@@ -104,8 +105,8 @@
       "height": 548
     },
     "builder": {
-      "x": 336,
-      "y": 23,
+      "x": 363,
+      "y": 52,
       "width": 500,
       "height": 722
     }

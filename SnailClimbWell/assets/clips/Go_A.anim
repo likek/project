@@ -1,0 +1,63 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "OptionA_Go",
+  "_objFlags": 0,
+  "_rawFiles": null,
+  "_duration": 1.72,
+  "sample": 25,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "props": {
+      "position": [
+        {
+          "frame": 0,
+          "value": [
+            750,
+            -872
+          ]
+        },
+        {
+          "frame": 0.32,
+          "value": [
+            750,
+            -872
+          ]
+        },
+        {
+          "frame": 1,
+          "value": [
+            1542,
+            -848
+          ]
+        },
+        {
+          "frame": 1.36,
+          "value": [
+            2047,
+            -1084
+          ]
+        },
+        {
+          "frame": 1.72,
+          "value": [
+            2334,
+            -872
+          ]
+        }
+      ],
+      "opacity": [
+        {
+          "frame": 0,
+          "value": 255,
+          "curve": "constant"
+        },
+        {
+          "frame": 1.72,
+          "value": 0
+        }
+      ]
+    }
+  },
+  "events": []
+}

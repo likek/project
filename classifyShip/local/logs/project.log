@@ -1,56 +1,56 @@
-2018-08-16T07:42:55.040Z - normal: Load ~/.CocosCreator/settings.json
-2018-08-16T07:42:55.045Z - normal: checking language setting...
-2018-08-16T07:42:55.045Z - normal: Language: zh
-2018-08-16T07:42:55.760Z - success: protocol editor-framework registered
-2018-08-16T07:42:55.760Z - success: protocol app registered
-2018-08-16T07:42:55.760Z - success: protocol theme registered
-2018-08-16T07:42:55.761Z - success: protocol packages registered
-2018-08-16T07:42:55.761Z - success: protocol unpack registerred
-2018-08-16T07:42:55.761Z - success: protocol disable-commonjs registerred
-2018-08-16T07:42:55.863Z - normal: connected!
-2018-08-16T07:42:55.866Z - normal: Check project /Users/likeke/Documents/pro/projects/classifyShip
-2018-08-16T07:42:55.881Z - normal: Initializing Cocos2d
-2018-08-16T07:42:56.089Z - normal: Initializing Asset Database
-2018-08-16T07:42:56.121Z - success: protocol uuid registerred
-2018-08-16T07:42:56.121Z - success: protocol db registerred
-2018-08-16T07:42:56.122Z - success: protocol thumbnail registerred
-2018-08-16T07:42:56.122Z - normal: Loading editor/builtin packages
-2018-08-16T07:42:56.141Z - success: anysdk loaded
-2018-08-16T07:42:56.266Z - success: assets loaded
-2018-08-16T07:42:56.270Z - success: builder loaded
-2018-08-16T07:42:56.272Z - success: cocos-analytics loaded
-2018-08-16T07:42:56.278Z - success: console loaded
-2018-08-16T07:42:56.313Z - success: fb-instant-games loaded
-2018-08-16T07:42:56.317Z - success: hierarchy loaded
-2018-08-16T07:42:56.321Z - success: inspector loaded
-2018-08-16T07:42:56.322Z - success: keystore loaded
-2018-08-16T07:42:56.329Z - success: node-library loaded
-2018-08-16T07:42:56.330Z - success: package-asset loaded
-2018-08-16T07:42:56.332Z - success: preferences loaded
-2018-08-16T07:42:56.335Z - success: project-exporter loaded
-2018-08-16T07:42:56.351Z - success: project-importer loaded
-2018-08-16T07:42:56.354Z - success: project-settings loaded
-2018-08-16T07:42:56.362Z - success: ui-kit loaded
-2018-08-16T07:42:56.367Z - success: ui-grid loaded
-2018-08-16T07:42:56.371Z - success: scene loaded
-2018-08-16T07:42:56.372Z - success: sprite-editor loaded
-2018-08-16T07:42:56.378Z - success: store loaded
-2018-08-16T07:42:56.384Z - success: timeline loaded
-2018-08-16T07:42:56.384Z - normal: Loading builtin packages
-2018-08-16T07:42:56.388Z - success: asset-db-debugger loaded
-2018-08-16T07:42:56.390Z - success: color-picker loaded
-2018-08-16T07:42:56.395Z - success: package-manager loaded
-2018-08-16T07:42:56.396Z - success: qqplay-adapter loaded
-2018-08-16T07:42:56.403Z - success: sdkbox loaded
-2018-08-16T07:42:56.407Z - success: tester loaded
-2018-08-16T07:42:56.411Z - success: ui-kit-preview-extra loaded
-2018-08-16T07:42:56.415Z - success: ui-kit-preview loaded
-2018-08-16T07:42:56.418Z - success: ui-tree loaded
-2018-08-16T07:42:56.419Z - success: weapp-adapter loaded
-2018-08-16T07:42:57.456Z - normal: Initializing project /Users/likeke/Documents/pro/projects/classifyShip
-2018-08-16T07:42:57.459Z - normal: Loading packages
-2018-08-16T07:42:57.465Z - normal: Watching packages
-2018-08-16T07:42:57.589Z - normal: Run Application
-2018-08-16T07:42:58.774Z - success: preview server running at http://localhost:7457
-2018-08-16T07:43:03.497Z - normal: 1.9.3
-2018-08-16T07:44:28.228Z - info: shutdown preview server
+2018-08-22T03:43:39.928Z - normal: Load ~/.CocosCreator/settings.json
+2018-08-22T03:43:39.931Z - normal: checking language setting...
+2018-08-22T03:43:39.931Z - normal: Language: zh
+2018-08-22T03:43:40.581Z - success: protocol editor-framework registered
+2018-08-22T03:43:40.582Z - success: protocol app registered
+2018-08-22T03:43:40.582Z - success: protocol theme registered
+2018-08-22T03:43:40.582Z - success: protocol packages registered
+2018-08-22T03:43:40.582Z - success: protocol unpack registerred
+2018-08-22T03:43:40.583Z - success: protocol disable-commonjs registerred
+2018-08-22T03:43:43.576Z - normal: failed to connect login server due to request timeout
+2018-08-22T03:43:43.582Z - normal: Check project /Users/likeke/Documents/pro/projects/classifyShip
+2018-08-22T03:43:43.583Z - normal: Initializing Cocos2d
+2018-08-22T03:43:43.754Z - normal: Initializing Asset Database
+2018-08-22T03:43:43.786Z - success: protocol uuid registerred
+2018-08-22T03:43:43.786Z - success: protocol db registerred
+2018-08-22T03:43:43.786Z - success: protocol thumbnail registerred
+2018-08-22T03:43:43.786Z - normal: Loading editor/builtin packages
+2018-08-22T03:43:43.806Z - success: anysdk loaded
+2018-08-22T03:43:43.925Z - success: assets loaded
+2018-08-22T03:43:43.929Z - success: builder loaded
+2018-08-22T03:43:43.931Z - success: cocos-analytics loaded
+2018-08-22T03:43:43.936Z - success: console loaded
+2018-08-22T03:43:43.971Z - success: fb-instant-games loaded
+2018-08-22T03:43:43.975Z - success: hierarchy loaded
+2018-08-22T03:43:43.979Z - success: inspector loaded
+2018-08-22T03:43:43.981Z - success: keystore loaded
+2018-08-22T03:43:43.984Z - success: node-library loaded
+2018-08-22T03:43:43.987Z - success: package-asset loaded
+2018-08-22T03:43:43.989Z - success: preferences loaded
+2018-08-22T03:43:43.992Z - success: project-exporter loaded
+2018-08-22T03:43:44.007Z - success: project-importer loaded
+2018-08-22T03:43:44.010Z - success: project-settings loaded
+2018-08-22T03:43:44.014Z - success: ui-kit loaded
+2018-08-22T03:43:44.020Z - success: ui-grid loaded
+2018-08-22T03:43:44.024Z - success: scene loaded
+2018-08-22T03:43:44.026Z - success: sprite-editor loaded
+2018-08-22T03:43:44.030Z - success: store loaded
+2018-08-22T03:43:44.036Z - success: timeline loaded
+2018-08-22T03:43:44.037Z - normal: Loading builtin packages
+2018-08-22T03:43:44.040Z - success: asset-db-debugger loaded
+2018-08-22T03:43:44.041Z - success: color-picker loaded
+2018-08-22T03:43:44.044Z - success: package-manager loaded
+2018-08-22T03:43:44.045Z - success: qqplay-adapter loaded
+2018-08-22T03:43:44.052Z - success: sdkbox loaded
+2018-08-22T03:43:44.056Z - success: tester loaded
+2018-08-22T03:43:44.059Z - success: ui-kit-preview-extra loaded
+2018-08-22T03:43:44.062Z - success: ui-kit-preview loaded
+2018-08-22T03:43:44.065Z - success: ui-tree loaded
+2018-08-22T03:43:44.066Z - success: weapp-adapter loaded
+2018-08-22T03:43:45.057Z - normal: Initializing project /Users/likeke/Documents/pro/projects/classifyShip
+2018-08-22T03:43:45.060Z - normal: Loading packages
+2018-08-22T03:43:45.066Z - normal: Watching packages
+2018-08-22T03:43:45.182Z - normal: Run Application
+2018-08-22T03:43:46.308Z - success: preview server running at http://localhost:7457
+2018-08-22T03:43:51.255Z - normal: 1.9.3
+2018-08-22T06:52:40.949Z - info: shutdown preview server
