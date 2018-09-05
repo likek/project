@@ -1,0 +1,104 @@
+
+right_atmosphere.png
+size: 234,138
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+flower_g
+  rotate: false
+  xy: 124, 29
+  size: 38, 41
+  orig: 38, 41
+  offset: 0, 0
+  index: -1
+flower_r
+  rotate: false
+  xy: 0, 0
+  size: 56, 61
+  orig: 56, 61
+  offset: 0, 0
+  index: -1
+flower_r_2
+  rotate: true
+  xy: 166, 49
+  size: 43, 48
+  orig: 43, 48
+  offset: 0, 0
+  index: -1
+flower_r_d
+  rotate: true
+  xy: 166, 94
+  size: 44, 48
+  orig: 44, 48
+  offset: 0, 0
+  index: -1
+flower_y_d
+  rotate: false
+  xy: 164, 2
+  size: 41, 45
+  orig: 41, 45
+  offset: 0, 0
+  index: -1
+flower_y_d_2
+  rotate: false
+  xy: 39, 64
+  size: 66, 74
+  orig: 66, 74
+  offset: 0, 0
+  index: -1
+line_blue
+  rotate: true
+  xy: 58, 4
+  size: 58, 64
+  orig: 58, 64
+  offset: 0, 0
+  index: -1
+line_deep_red
+  rotate: false
+  xy: 107, 72
+  size: 57, 66
+  orig: 57, 66
+  offset: 0, 0
+  index: -1
+line_orange
+  rotate: false
+  xy: 0, 63
+  size: 37, 75
+  orig: 37, 75
+  offset: 0, 0
+  index: -1
+point
+  rotate: true
+  xy: 216, 79
+  size: 25, 17
+  orig: 25, 17
+  offset: 0, 0
+  index: -1
+point2
+  rotate: false
+  xy: 216, 106
+  size: 18, 14
+  orig: 18, 14
+  offset: 0, 0
+  index: -1
+point3
+  rotate: false
+  xy: 216, 122
+  size: 18, 16
+  orig: 18, 16
+  offset: 0, 0
+  index: -1
+point4
+  rotate: true
+  xy: 216, 57
+  size: 20, 14
+  orig: 20, 14
+  offset: 0, 0
+  index: -1
+point5
+  rotate: false
+  xy: 207, 28
+  size: 24, 19
+  orig: 24, 19
+  offset: 0, 0
+  index: -1

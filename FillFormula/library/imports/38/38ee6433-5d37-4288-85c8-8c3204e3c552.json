@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "formulaBox",
+    "texture": "bea14a90-e1d8-4293-b7e3-9d7f1b228c9f",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      1988,
+      510
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      1988,
+      510
+    ],
+    "capInsets": [
+      113,
+      113,
+      113,
+      196
+    ]
+  }
+}

@@ -1,0 +1,1243 @@
+2018-09-05T01:18:57.889Z - normal: Load ~/.CocosCreator/settings.json
+2018-09-05T01:18:57.893Z - normal: checking language setting...
+2018-09-05T01:18:57.893Z - normal: Language: zh
+2018-09-05T01:18:58.623Z - success: protocol editor-framework registered
+2018-09-05T01:18:58.623Z - success: protocol app registered
+2018-09-05T01:18:58.623Z - success: protocol theme registered
+2018-09-05T01:18:58.623Z - success: protocol packages registered
+2018-09-05T01:18:58.624Z - success: protocol unpack registerred
+2018-09-05T01:18:58.624Z - success: protocol disable-commonjs registerred
+2018-09-05T01:18:58.728Z - normal: connected!
+2018-09-05T01:18:58.730Z - normal: Check project /Users/likeke/Documents/pro/projects/FillFormula
+2018-09-05T01:18:58.732Z - normal: Initializing Cocos2d
+2018-09-05T01:18:58.956Z - normal: Initializing Asset Database
+2018-09-05T01:18:58.993Z - success: protocol uuid registerred
+2018-09-05T01:18:58.994Z - success: protocol db registerred
+2018-09-05T01:18:58.994Z - success: protocol thumbnail registerred
+2018-09-05T01:18:58.994Z - normal: Loading editor/builtin packages
+2018-09-05T01:18:59.018Z - success: anysdk loaded
+2018-09-05T01:18:59.145Z - success: assets loaded
+2018-09-05T01:18:59.149Z - success: builder loaded
+2018-09-05T01:18:59.152Z - success: cocos-analytics loaded
+2018-09-05T01:18:59.156Z - success: console loaded
+2018-09-05T01:18:59.193Z - success: fb-instant-games loaded
+2018-09-05T01:18:59.197Z - success: hierarchy loaded
+2018-09-05T01:18:59.202Z - success: inspector loaded
+2018-09-05T01:18:59.204Z - success: keystore loaded
+2018-09-05T01:18:59.208Z - success: node-library loaded
+2018-09-05T01:18:59.210Z - success: package-asset loaded
+2018-09-05T01:18:59.213Z - success: preferences loaded
+2018-09-05T01:18:59.216Z - success: project-exporter loaded
+2018-09-05T01:18:59.235Z - success: project-importer loaded
+2018-09-05T01:18:59.238Z - success: project-settings loaded
+2018-09-05T01:18:59.242Z - success: ui-kit loaded
+2018-09-05T01:18:59.247Z - success: ui-grid loaded
+2018-09-05T01:18:59.252Z - success: scene loaded
+2018-09-05T01:18:59.253Z - success: sprite-editor loaded
+2018-09-05T01:18:59.258Z - success: store loaded
+2018-09-05T01:18:59.265Z - success: timeline loaded
+2018-09-05T01:18:59.265Z - normal: Loading builtin packages
+2018-09-05T01:18:59.269Z - success: asset-db-debugger loaded
+2018-09-05T01:18:59.270Z - success: color-picker loaded
+2018-09-05T01:18:59.274Z - success: package-manager loaded
+2018-09-05T01:18:59.275Z - success: qqplay-adapter loaded
+2018-09-05T01:18:59.282Z - success: sdkbox loaded
+2018-09-05T01:18:59.287Z - success: tester loaded
+2018-09-05T01:18:59.291Z - success: ui-kit-preview-extra loaded
+2018-09-05T01:18:59.295Z - success: ui-kit-preview loaded
+2018-09-05T01:18:59.299Z - success: ui-tree loaded
+2018-09-05T01:18:59.301Z - success: weapp-adapter loaded
+2018-09-05T01:19:00.379Z - normal: Initializing project /Users/likeke/Documents/pro/projects/FillFormula
+2018-09-05T01:19:00.381Z - normal: Loading packages
+2018-09-05T01:19:00.387Z - normal: Watching packages
+2018-09-05T01:19:00.498Z - normal: Run Application
+2018-09-05T01:19:01.467Z - success: preview server running at http://localhost:7456
+2018-09-05T01:19:06.118Z - normal: 1.9.3
+2018-09-05T01:19:06.447Z - warn: The Asset used by component "cc.Sprite" in prefab "title_node.prefab" is missing. Detailed information:
+Node path: "title_node/biaotikuang-zhong"
+Asset url: "db://assets/components/Title/title_node.prefab"
+Missing uuid: "b06d5caa-bfb3-4526-9c8a-7f4b48aa70c3"
+
+2018-09-05T01:25:15.874Z - warn: The Asset used by component "cc.Sprite" in prefab "title_node.prefab" is missing. Detailed information:
+Node path: "title_node/biaotikuang-zhong"
+Asset url: "db://assets/components/Title/title_node.prefab"
+Missing uuid: "b06d5caa-bfb3-4526-9c8a-7f4b48aa70c3"
+
+2018-09-05T01:32:10.503Z - warn: The Asset used by component "cc.Sprite" in prefab "title_node.prefab" is missing. Detailed information:
+Node path: "title_node/biaotikuang-zhong"
+Asset url: "db://assets/components/Title/title_node.prefab"
+Missing uuid: "b06d5caa-bfb3-4526-9c8a-7f4b48aa70c3"
+
+2018-09-05T01:33:11.544Z - warn: The Asset used by component "cc.Sprite" in prefab "title_node.prefab" is missing. Detailed information:
+Node path: "title_node/biaotikuang-zhong"
+Asset url: "db://assets/components/Title/title_node.prefab"
+Missing uuid: "b06d5caa-bfb3-4526-9c8a-7f4b48aa70c3"
+
+2018-09-05T01:34:31.027Z - warn: The Asset used by component "cc.Sprite" in prefab "title_node.prefab" is missing. Detailed information:
+Node path: "title_node/biaotikuang-zhong"
+Asset url: "db://assets/components/Title/title_node.prefab"
+Missing uuid: "b06d5caa-bfb3-4526-9c8a-7f4b48aa70c3"
+
+2018-09-05T01:34:51.216Z - warn: The Asset used by component "cc.Sprite" in prefab "title_node.prefab" is missing. Detailed information:
+Node path: "title_node/biaotikuang-zhong"
+Asset url: "db://assets/components/Title/title_node.prefab"
+Missing uuid: "b06d5caa-bfb3-4526-9c8a-7f4b48aa70c3"
+
+2018-09-05T01:36:48.039Z - warn: The Asset used by component "cc.Sprite" in prefab "title_node.prefab" is missing. Detailed information:
+Node path: "title_node/biaotikuang-zhong"
+Asset url: "db://assets/components/Title/title_node.prefab"
+Missing uuid: "b06d5caa-bfb3-4526-9c8a-7f4b48aa70c3"
+
+2018-09-05T01:37:05.099Z - warn: The Asset used by component "cc.Sprite" in prefab "title_node.prefab" is missing. Detailed information:
+Node path: "title_node/biaotikuang-zhong"
+Asset url: "db://assets/components/Title/title_node.prefab"
+Missing uuid: "b06d5caa-bfb3-4526-9c8a-7f4b48aa70c3"
+
+2018-09-05T01:39:19.472Z - warn: The Asset used by component "cc.Sprite" in prefab "title_node.prefab" is missing. Detailed information:
+Node path: "title_node/biaotikuang-zhong"
+Asset url: "db://assets/components/Title/title_node.prefab"
+Missing uuid: "b06d5caa-bfb3-4526-9c8a-7f4b48aa70c3"
+
+2018-09-05T01:39:41.854Z - warn: The Asset used by component "cc.Sprite" in prefab "title_node.prefab" is missing. Detailed information:
+Node path: "title_node/biaotikuang-zhong"
+Asset url: "db://assets/components/Title/title_node.prefab"
+Missing uuid: "b06d5caa-bfb3-4526-9c8a-7f4b48aa70c3"
+
+2018-09-05T01:42:23.300Z - warn: The Asset used by component "cc.Sprite" in prefab "title_node.prefab" is missing. Detailed information:
+Node path: "title_node/biaotikuang-zhong"
+Asset url: "db://assets/components/Title/title_node.prefab"
+Missing uuid: "b06d5caa-bfb3-4526-9c8a-7f4b48aa70c3"
+
+2018-09-05T01:43:11.560Z - warn: The Asset used by component "cc.Sprite" in prefab "title_node.prefab" is missing. Detailed information:
+Node path: "title_node/biaotikuang-zhong"
+Asset url: "db://assets/components/Title/title_node.prefab"
+Missing uuid: "b06d5caa-bfb3-4526-9c8a-7f4b48aa70c3"
+
+2018-09-05T01:44:19.013Z - warn: The Asset used by component "cc.Sprite" in prefab "title_node.prefab" is missing. Detailed information:
+Node path: "title_node/biaotikuang-zhong"
+Asset url: "db://assets/components/Title/title_node.prefab"
+Missing uuid: "b06d5caa-bfb3-4526-9c8a-7f4b48aa70c3"
+
+2018-09-05T01:44:49.802Z - normal: Start building with options : {
+  "androidStudio": true,
+  "apiLevel": "",
+  "appABIs": [],
+  "appKey": "",
+  "appSecret": "",
+  "buildPath": "/Users/likeke/Documents/pro/projects/FillFormula/build",
+  "debug": false,
+  "dest": "/Users/likeke/Documents/pro/projects/FillFormula/build/web-mobile",
+  "encryptJs": true,
+  "excludeScenes": [],
+  "excludedModules": [
+    "CCSpriteDistortion",
+    "ParticleSystem",
+    "TiledMap",
+    "ProgressBar",
+    "ScrollBar",
+    "ScrollView",
+    "Toggle",
+    "PageView",
+    "PageViewIndicator",
+    "Slider",
+    "EditorBox",
+    "VideoPlayer",
+    "RichText",
+    "MotionStreak",
+    "Graphics",
+    "Physics",
+    "StudioComponent"
+  ],
+  "fb-instant-games": {},
+  "includeAnySDK": false,
+  "includeEruda": false,
+  "includeSDKBox": false,
+  "inlineSpriteFrames": true,
+  "inlineSpriteFrames_native": true,
+  "jailbreakPlatform": false,
+  "md5Cache": false,
+  "mergeStartScene": false,
+  "oauthLoginServer": "",
+  "optimizeHotUpdate": false,
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "org.cocos2d.ZhuoXiaoYu",
+  "platform": "web-mobile",
+  "previewHeight": "720",
+  "previewWidth": "1280",
+  "privateKey": "",
+  "qqplay": {
+    "REMOTE_SERVER_ROOT": "",
+    "orientation": "portrait"
+  },
+  "renderMode": "0",
+  "scenes": [
+    "c0e4e3a0-b011-41b6-82d6-c31f202631fe"
+  ],
+  "sourceMaps": false,
+  "startScene": "c0e4e3a0-b011-41b6-82d6-c31f202631fe",
+  "template": "link",
+  "title": "FillFormula",
+  "useDebugKeystore": true,
+  "vsVersion": "auto",
+  "webOrientation": "auto",
+  "wechatgame": {
+    "REMOTE_SERVER_ROOT": "",
+    "appid": "wx6ac3f5090a6b99c5",
+    "isSubdomain": false,
+    "orientation": "portrait",
+    "subContext": ""
+  },
+  "xxteaKey": "955f7d44-da50-43",
+  "zipCompressJs": true,
+  "project": "/Users/likeke/Documents/pro/projects/FillFormula",
+  "projectName": "FillFormula",
+  "debugBuildWorker": false
+}
+2018-09-05T01:44:49.804Z - normal: Building /Users/likeke/Documents/pro/projects/FillFormula
+2018-09-05T01:44:49.804Z - normal: Destination /Users/likeke/Documents/pro/projects/FillFormula/build/web-mobile
+2018-09-05T01:44:50.174Z - normal: Delete /Users/likeke/Documents/pro/projects/FillFormula/build/web-mobile/**/*
+2018-09-05T01:44:52.550Z - normal: Compiled project javascript file successfully
+2018-09-05T01:44:52.550Z - normal: Start building assets
+2018-09-05T01:44:52.551Z - normal: Start spawn build-worker
+2018-09-05T01:44:53.192Z - normal: Finish spawn build-worker
+2018-09-05T01:44:53.193Z - normal: Start init build-worker
+2018-09-05T01:44:55.064Z - normal: 1.9.3
+2018-09-05T01:44:55.170Z - normal: Finish init build-worker
+2018-09-05T01:44:55.170Z - normal: Start build-assets in worker
+2018-09-05T01:44:55.446Z - warn: The referenced asset used in "db://assets/components/Title/title_node.prefab" is not found, it may have been deleted. Detailed information:
+Node path: "title_node/biaotikuang-zhong"
+Used in Component: "cc.Sprite"
+uuid: "b06d5caa-bfb3-4526-9c8a-7f4b48aa70c3"
+2018-09-05T01:44:55.466Z - warn: Can not find particle texture in /Users/likeke/Documents/pro/projects/FillFormula/assets/components/settlement/glow_dots, plist: /Users/likeke/Documents/pro/projects/FillFormula/assets/components/settlement/glow_dots.plist
+2018-09-05T01:44:55.623Z - normal: Finish build-assets in worker
+2018-09-05T01:44:55.627Z - normal: Finish building assets
+2018-09-05T01:44:55.639Z - normal: Start building raw assets
+2018-09-05T01:44:55.640Z - normal: Start building plugin scripts
+2018-09-05T01:44:55.724Z - normal: Finish building raw assets
+2018-09-05T01:44:55.734Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
+2018-09-05T01:44:55.745Z - normal: Generating html from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/web-mobile/template/index.html
+2018-09-05T01:44:55.754Z - normal: Built to "/Users/likeke/Documents/pro/projects/FillFormula/build/web-mobile" successfully
+2018-09-05T01:45:53.069Z - warn: The Asset used by component "cc.Sprite" in prefab "title_node.prefab" is missing. Detailed information:
+Node path: "title_node/biaotikuang-zhong"
+Asset url: "db://assets/components/Title/title_node.prefab"
+Missing uuid: "b06d5caa-bfb3-4526-9c8a-7f4b48aa70c3"
+
+2018-09-05T01:46:11.355Z - normal: Start building with options : {
+  "androidStudio": true,
+  "apiLevel": "",
+  "appABIs": [],
+  "appKey": "",
+  "appSecret": "",
+  "buildPath": "/Users/likeke/Documents/pro/projects/FillFormula/build",
+  "debug": false,
+  "dest": "/Users/likeke/Documents/pro/projects/FillFormula/build/web-mobile",
+  "encryptJs": true,
+  "excludeScenes": [],
+  "excludedModules": [
+    "CCSpriteDistortion",
+    "ParticleSystem",
+    "TiledMap",
+    "ProgressBar",
+    "ScrollBar",
+    "ScrollView",
+    "Toggle",
+    "PageView",
+    "PageViewIndicator",
+    "Slider",
+    "EditorBox",
+    "VideoPlayer",
+    "RichText",
+    "MotionStreak",
+    "Graphics",
+    "Physics",
+    "StudioComponent"
+  ],
+  "fb-instant-games": {},
+  "includeAnySDK": false,
+  "includeEruda": false,
+  "includeSDKBox": false,
+  "inlineSpriteFrames": true,
+  "inlineSpriteFrames_native": true,
+  "jailbreakPlatform": false,
+  "md5Cache": false,
+  "mergeStartScene": false,
+  "oauthLoginServer": "",
+  "optimizeHotUpdate": false,
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "org.cocos2d.ZhuoXiaoYu",
+  "platform": "web-mobile",
+  "previewHeight": "720",
+  "previewWidth": "1280",
+  "privateKey": "",
+  "qqplay": {
+    "REMOTE_SERVER_ROOT": "",
+    "orientation": "portrait"
+  },
+  "renderMode": "0",
+  "scenes": [
+    "c0e4e3a0-b011-41b6-82d6-c31f202631fe"
+  ],
+  "sourceMaps": false,
+  "startScene": "c0e4e3a0-b011-41b6-82d6-c31f202631fe",
+  "template": "link",
+  "title": "FillFormula",
+  "useDebugKeystore": true,
+  "vsVersion": "auto",
+  "webOrientation": "auto",
+  "wechatgame": {
+    "REMOTE_SERVER_ROOT": "",
+    "appid": "wx6ac3f5090a6b99c5",
+    "isSubdomain": false,
+    "orientation": "portrait",
+    "subContext": ""
+  },
+  "xxteaKey": "955f7d44-da50-43",
+  "zipCompressJs": true,
+  "project": "/Users/likeke/Documents/pro/projects/FillFormula",
+  "projectName": "FillFormula",
+  "debugBuildWorker": false
+}
+2018-09-05T01:46:11.363Z - normal: Building /Users/likeke/Documents/pro/projects/FillFormula
+2018-09-05T01:46:11.363Z - normal: Destination /Users/likeke/Documents/pro/projects/FillFormula/build/web-mobile
+2018-09-05T01:46:11.364Z - normal: Delete /Users/likeke/Documents/pro/projects/FillFormula/build/web-mobile/**/*
+2018-09-05T01:46:13.733Z - normal: Compiled project javascript file successfully
+2018-09-05T01:46:13.733Z - normal: Start building assets
+2018-09-05T01:46:13.733Z - normal: Start spawn build-worker
+2018-09-05T01:46:14.424Z - normal: Finish spawn build-worker
+2018-09-05T01:46:14.424Z - normal: Start init build-worker
+2018-09-05T01:46:16.354Z - normal: 1.9.3
+2018-09-05T01:46:16.447Z - normal: Finish init build-worker
+2018-09-05T01:46:16.447Z - normal: Start build-assets in worker
+2018-09-05T01:46:16.736Z - warn: The referenced asset used in "db://assets/components/Title/title_node.prefab" is not found, it may have been deleted. Detailed information:
+Node path: "title_node/biaotikuang-zhong"
+Used in Component: "cc.Sprite"
+uuid: "b06d5caa-bfb3-4526-9c8a-7f4b48aa70c3"
+2018-09-05T01:46:16.759Z - warn: Can not find particle texture in /Users/likeke/Documents/pro/projects/FillFormula/assets/components/settlement/glow_dots, plist: /Users/likeke/Documents/pro/projects/FillFormula/assets/components/settlement/glow_dots.plist
+2018-09-05T01:46:16.900Z - normal: Finish build-assets in worker
+2018-09-05T01:46:16.904Z - normal: Finish building assets
+2018-09-05T01:46:16.915Z - normal: Start building raw assets
+2018-09-05T01:46:16.916Z - normal: Start building plugin scripts
+2018-09-05T01:46:16.984Z - normal: Finish building raw assets
+2018-09-05T01:46:16.994Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
+2018-09-05T01:46:16.998Z - normal: Generating html from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/web-mobile/template/index.html
+2018-09-05T01:46:17.009Z - normal: Built to "/Users/likeke/Documents/pro/projects/FillFormula/build/web-mobile" successfully
+2018-09-05T01:49:52.232Z - warn: The Asset used by component "cc.Sprite" in prefab "title_node.prefab" is missing. Detailed information:
+Node path: "title_node/biaotikuang-zhong"
+Asset url: "db://assets/components/Title/title_node.prefab"
+Missing uuid: "b06d5caa-bfb3-4526-9c8a-7f4b48aa70c3"
+
+2018-09-05T01:50:37.856Z - warn: The Asset used by component "cc.Sprite" in prefab "title_node.prefab" is missing. Detailed information:
+Node path: "title_node/biaotikuang-zhong"
+Asset url: "db://assets/components/Title/title_node.prefab"
+Missing uuid: "b06d5caa-bfb3-4526-9c8a-7f4b48aa70c3"
+
+2018-09-05T01:52:37.080Z - warn: The Asset used by component "cc.Sprite" in prefab "title_node.prefab" is missing. Detailed information:
+Node path: "title_node/biaotikuang-zhong"
+Asset url: "db://assets/components/Title/title_node.prefab"
+Missing uuid: "b06d5caa-bfb3-4526-9c8a-7f4b48aa70c3"
+
+2018-09-05T01:53:21.829Z - normal: Start building with options : {
+  "androidStudio": true,
+  "apiLevel": "",
+  "appABIs": [],
+  "appKey": "",
+  "appSecret": "",
+  "buildPath": "/Users/likeke/Documents/pro/projects/FillFormula/build",
+  "debug": false,
+  "dest": "/Users/likeke/Documents/pro/projects/FillFormula/build/web-mobile",
+  "encryptJs": true,
+  "excludeScenes": [],
+  "excludedModules": [
+    "CCSpriteDistortion",
+    "ParticleSystem",
+    "TiledMap",
+    "ProgressBar",
+    "ScrollBar",
+    "ScrollView",
+    "Toggle",
+    "PageView",
+    "PageViewIndicator",
+    "Slider",
+    "EditorBox",
+    "VideoPlayer",
+    "RichText",
+    "MotionStreak",
+    "Graphics",
+    "Physics",
+    "StudioComponent"
+  ],
+  "fb-instant-games": {},
+  "includeAnySDK": false,
+  "includeEruda": false,
+  "includeSDKBox": false,
+  "inlineSpriteFrames": true,
+  "inlineSpriteFrames_native": true,
+  "jailbreakPlatform": false,
+  "md5Cache": false,
+  "mergeStartScene": false,
+  "oauthLoginServer": "",
+  "optimizeHotUpdate": false,
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "org.cocos2d.ZhuoXiaoYu",
+  "platform": "web-mobile",
+  "previewHeight": "720",
+  "previewWidth": "1280",
+  "privateKey": "",
+  "qqplay": {
+    "REMOTE_SERVER_ROOT": "",
+    "orientation": "portrait"
+  },
+  "renderMode": "0",
+  "scenes": [
+    "c0e4e3a0-b011-41b6-82d6-c31f202631fe"
+  ],
+  "sourceMaps": false,
+  "startScene": "c0e4e3a0-b011-41b6-82d6-c31f202631fe",
+  "template": "link",
+  "title": "FillFormula",
+  "useDebugKeystore": true,
+  "vsVersion": "auto",
+  "webOrientation": "auto",
+  "wechatgame": {
+    "REMOTE_SERVER_ROOT": "",
+    "appid": "wx6ac3f5090a6b99c5",
+    "isSubdomain": false,
+    "orientation": "portrait",
+    "subContext": ""
+  },
+  "xxteaKey": "955f7d44-da50-43",
+  "zipCompressJs": true,
+  "project": "/Users/likeke/Documents/pro/projects/FillFormula",
+  "projectName": "FillFormula",
+  "debugBuildWorker": false
+}
+2018-09-05T01:53:21.836Z - normal: Building /Users/likeke/Documents/pro/projects/FillFormula
+2018-09-05T01:53:21.837Z - normal: Destination /Users/likeke/Documents/pro/projects/FillFormula/build/web-mobile
+2018-09-05T01:53:21.837Z - normal: Delete /Users/likeke/Documents/pro/projects/FillFormula/build/web-mobile/**/*
+2018-09-05T01:53:24.137Z - normal: Compiled project javascript file successfully
+2018-09-05T01:53:24.138Z - normal: Start building assets
+2018-09-05T01:53:24.138Z - normal: Start spawn build-worker
+2018-09-05T01:53:24.766Z - normal: Finish spawn build-worker
+2018-09-05T01:53:24.766Z - normal: Start init build-worker
+2018-09-05T01:53:26.667Z - normal: 1.9.3
+2018-09-05T01:53:26.767Z - normal: Finish init build-worker
+2018-09-05T01:53:26.767Z - normal: Start build-assets in worker
+2018-09-05T01:53:27.034Z - warn: The referenced asset used in "db://assets/components/Title/title_node.prefab" is not found, it may have been deleted. Detailed information:
+Node path: "title_node/biaotikuang-zhong"
+Used in Component: "cc.Sprite"
+uuid: "b06d5caa-bfb3-4526-9c8a-7f4b48aa70c3"
+2018-09-05T01:53:27.055Z - warn: Can not find particle texture in /Users/likeke/Documents/pro/projects/FillFormula/assets/components/settlement/glow_dots, plist: /Users/likeke/Documents/pro/projects/FillFormula/assets/components/settlement/glow_dots.plist
+2018-09-05T01:53:27.214Z - normal: Finish build-assets in worker
+2018-09-05T01:53:27.216Z - normal: Finish building assets
+2018-09-05T01:53:27.226Z - normal: Start building raw assets
+2018-09-05T01:53:27.227Z - normal: Start building plugin scripts
+2018-09-05T01:53:27.293Z - normal: Finish building raw assets
+2018-09-05T01:53:27.302Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
+2018-09-05T01:53:27.308Z - normal: Generating html from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/web-mobile/template/index.html
+2018-09-05T01:53:27.317Z - normal: Built to "/Users/likeke/Documents/pro/projects/FillFormula/build/web-mobile" successfully
+2018-09-05T01:59:17.017Z - warn: The Asset used by component "cc.Sprite" in prefab "title_node.prefab" is missing. Detailed information:
+Node path: "title_node/biaotikuang-zhong"
+Asset url: "db://assets/components/Title/title_node.prefab"
+Missing uuid: "b06d5caa-bfb3-4526-9c8a-7f4b48aa70c3"
+
+2018-09-05T02:03:03.973Z - warn: The Asset used by component "cc.Sprite" in prefab "title_node.prefab" is missing. Detailed information:
+Node path: "title_node/biaotikuang-zhong"
+Asset url: "db://assets/components/Title/title_node.prefab"
+Missing uuid: "b06d5caa-bfb3-4526-9c8a-7f4b48aa70c3"
+
+2018-09-05T02:04:28.561Z - warn: The Asset used by component "cc.Sprite" in prefab "title_node.prefab" is missing. Detailed information:
+Node path: "title_node/biaotikuang-zhong"
+Asset url: "db://assets/components/Title/title_node.prefab"
+Missing uuid: "b06d5caa-bfb3-4526-9c8a-7f4b48aa70c3"
+
+2018-09-05T02:05:26.475Z - warn: The Asset used by component "cc.Sprite" in prefab "title_node.prefab" is missing. Detailed information:
+Node path: "title_node/biaotikuang-zhong"
+Asset url: "db://assets/components/Title/title_node.prefab"
+Missing uuid: "b06d5caa-bfb3-4526-9c8a-7f4b48aa70c3"
+
+2018-09-05T02:05:51.274Z - warn: The Asset used by component "cc.Sprite" in prefab "title_node.prefab" is missing. Detailed information:
+Node path: "title_node/biaotikuang-zhong"
+Asset url: "db://assets/components/Title/title_node.prefab"
+Missing uuid: "b06d5caa-bfb3-4526-9c8a-7f4b48aa70c3"
+
+2018-09-05T02:10:12.786Z - warn: The Asset used by component "cc.Sprite" in prefab "title_node.prefab" is missing. Detailed information:
+Node path: "title_node/biaotikuang-zhong"
+Asset url: "db://assets/components/Title/title_node.prefab"
+Missing uuid: "b06d5caa-bfb3-4526-9c8a-7f4b48aa70c3"
+
+2018-09-05T02:11:21.036Z - warn: The Asset used by component "cc.Sprite" in prefab "title_node.prefab" is missing. Detailed information:
+Node path: "title_node/biaotikuang-zhong"
+Asset url: "db://assets/components/Title/title_node.prefab"
+Missing uuid: "b06d5caa-bfb3-4526-9c8a-7f4b48aa70c3"
+
+2018-09-05T02:11:42.403Z - warn: The Asset used by component "cc.Sprite" in prefab "title_node.prefab" is missing. Detailed information:
+Node path: "title_node/biaotikuang-zhong"
+Asset url: "db://assets/components/Title/title_node.prefab"
+Missing uuid: "b06d5caa-bfb3-4526-9c8a-7f4b48aa70c3"
+
+2018-09-05T02:12:18.683Z - warn: The Asset used by component "cc.Sprite" in prefab "title_node.prefab" is missing. Detailed information:
+Node path: "title_node/biaotikuang-zhong"
+Asset url: "db://assets/components/Title/title_node.prefab"
+Missing uuid: "b06d5caa-bfb3-4526-9c8a-7f4b48aa70c3"
+
+2018-09-05T02:13:27.655Z - warn: The Asset used by component "cc.Sprite" in prefab "title_node.prefab" is missing. Detailed information:
+Node path: "title_node/biaotikuang-zhong"
+Asset url: "db://assets/components/Title/title_node.prefab"
+Missing uuid: "b06d5caa-bfb3-4526-9c8a-7f4b48aa70c3"
+
+2018-09-05T02:15:06.393Z - warn: The Asset used by component "cc.Sprite" in prefab "title_node.prefab" is missing. Detailed information:
+Node path: "title_node/biaotikuang-zhong"
+Asset url: "db://assets/components/Title/title_node.prefab"
+Missing uuid: "b06d5caa-bfb3-4526-9c8a-7f4b48aa70c3"
+
+2018-09-05T02:16:40.640Z - warn: The Asset used by component "cc.Sprite" in prefab "title_node.prefab" is missing. Detailed information:
+Node path: "title_node/biaotikuang-zhong"
+Asset url: "db://assets/components/Title/title_node.prefab"
+Missing uuid: "b06d5caa-bfb3-4526-9c8a-7f4b48aa70c3"
+
+2018-09-05T02:17:46.188Z - warn: The Asset used by component "cc.Sprite" in prefab "title_node.prefab" is missing. Detailed information:
+Node path: "title_node/biaotikuang-zhong"
+Asset url: "db://assets/components/Title/title_node.prefab"
+Missing uuid: "b06d5caa-bfb3-4526-9c8a-7f4b48aa70c3"
+
+2018-09-05T02:18:40.622Z - warn: The Asset used by component "cc.Sprite" in prefab "title_node.prefab" is missing. Detailed information:
+Node path: "title_node/biaotikuang-zhong"
+Asset url: "db://assets/components/Title/title_node.prefab"
+Missing uuid: "b06d5caa-bfb3-4526-9c8a-7f4b48aa70c3"
+
+2018-09-05T02:18:55.592Z - normal: Start building with options : {
+  "androidStudio": true,
+  "apiLevel": "",
+  "appABIs": [],
+  "appKey": "",
+  "appSecret": "",
+  "buildPath": "/Users/likeke/Documents/pro/projects/FillFormula/build",
+  "debug": false,
+  "dest": "/Users/likeke/Documents/pro/projects/FillFormula/build/web-mobile",
+  "encryptJs": true,
+  "excludeScenes": [],
+  "excludedModules": [
+    "CCSpriteDistortion",
+    "ParticleSystem",
+    "TiledMap",
+    "ProgressBar",
+    "ScrollBar",
+    "ScrollView",
+    "Toggle",
+    "PageView",
+    "PageViewIndicator",
+    "Slider",
+    "EditorBox",
+    "VideoPlayer",
+    "RichText",
+    "MotionStreak",
+    "Graphics",
+    "Physics",
+    "StudioComponent"
+  ],
+  "fb-instant-games": {},
+  "includeAnySDK": false,
+  "includeEruda": false,
+  "includeSDKBox": false,
+  "inlineSpriteFrames": true,
+  "inlineSpriteFrames_native": true,
+  "jailbreakPlatform": false,
+  "md5Cache": false,
+  "mergeStartScene": false,
+  "oauthLoginServer": "",
+  "optimizeHotUpdate": false,
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "org.cocos2d.ZhuoXiaoYu",
+  "platform": "web-mobile",
+  "previewHeight": "720",
+  "previewWidth": "1280",
+  "privateKey": "",
+  "qqplay": {
+    "REMOTE_SERVER_ROOT": "",
+    "orientation": "portrait"
+  },
+  "renderMode": "0",
+  "scenes": [
+    "c0e4e3a0-b011-41b6-82d6-c31f202631fe"
+  ],
+  "sourceMaps": false,
+  "startScene": "c0e4e3a0-b011-41b6-82d6-c31f202631fe",
+  "template": "link",
+  "title": "FillFormula",
+  "useDebugKeystore": true,
+  "vsVersion": "auto",
+  "webOrientation": "auto",
+  "wechatgame": {
+    "REMOTE_SERVER_ROOT": "",
+    "appid": "wx6ac3f5090a6b99c5",
+    "isSubdomain": false,
+    "orientation": "portrait",
+    "subContext": ""
+  },
+  "xxteaKey": "955f7d44-da50-43",
+  "zipCompressJs": true,
+  "project": "/Users/likeke/Documents/pro/projects/FillFormula",
+  "projectName": "FillFormula",
+  "debugBuildWorker": false
+}
+2018-09-05T02:18:55.599Z - normal: Building /Users/likeke/Documents/pro/projects/FillFormula
+2018-09-05T02:18:55.600Z - normal: Destination /Users/likeke/Documents/pro/projects/FillFormula/build/web-mobile
+2018-09-05T02:18:55.601Z - normal: Delete /Users/likeke/Documents/pro/projects/FillFormula/build/web-mobile/**/*
+2018-09-05T02:18:58.040Z - normal: Compiled project javascript file successfully
+2018-09-05T02:18:58.040Z - normal: Start building assets
+2018-09-05T02:18:58.040Z - normal: Start spawn build-worker
+2018-09-05T02:18:58.685Z - normal: Finish spawn build-worker
+2018-09-05T02:18:58.685Z - normal: Start init build-worker
+2018-09-05T02:19:00.629Z - normal: 1.9.3
+2018-09-05T02:19:00.732Z - normal: Finish init build-worker
+2018-09-05T02:19:00.732Z - normal: Start build-assets in worker
+2018-09-05T02:19:01.013Z - warn: The referenced asset used in "db://assets/components/Title/title_node.prefab" is not found, it may have been deleted. Detailed information:
+Node path: "title_node/biaotikuang-zhong"
+Used in Component: "cc.Sprite"
+uuid: "b06d5caa-bfb3-4526-9c8a-7f4b48aa70c3"
+2018-09-05T02:19:01.036Z - warn: Can not find particle texture in /Users/likeke/Documents/pro/projects/FillFormula/assets/components/settlement/glow_dots, plist: /Users/likeke/Documents/pro/projects/FillFormula/assets/components/settlement/glow_dots.plist
+2018-09-05T02:19:01.191Z - normal: Finish build-assets in worker
+2018-09-05T02:19:01.194Z - normal: Finish building assets
+2018-09-05T02:19:01.205Z - normal: Start building raw assets
+2018-09-05T02:19:01.206Z - normal: Start building plugin scripts
+2018-09-05T02:19:01.267Z - normal: Finish building raw assets
+2018-09-05T02:19:01.279Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
+2018-09-05T02:19:01.287Z - normal: Generating html from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/web-mobile/template/index.html
+2018-09-05T02:19:01.300Z - normal: Built to "/Users/likeke/Documents/pro/projects/FillFormula/build/web-mobile" successfully
+2018-09-05T02:26:58.219Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:43458
+2018-09-05T02:27:00.637Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:43460
+2018-09-05T02:27:25.032Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:43786
+2018-09-05T02:27:43.754Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:43826
+2018-09-05T02:27:43.754Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:43828
+2018-09-05T02:27:43.755Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:43829
+2018-09-05T02:28:26.780Z - warn: The SpriteFrame used by component "cc.Sprite" is missing. Detailed information:
+Node path: "Canvas/scalebg/test"
+Missing uuid: "9763a3ff-b8f5-42bf-be8d-e0c8a81cc86a"
+
+2018-09-05T02:31:12.153Z - warn: The Asset used by component "cc.Sprite" in prefab "title_node.prefab" is missing. Detailed information:
+Node path: "title_node/biaotikuang-zhong"
+Asset url: "db://assets/components/Title/title_node.prefab"
+Missing uuid: "b06d5caa-bfb3-4526-9c8a-7f4b48aa70c3"
+
+2018-09-05T02:31:12.368Z - warn: The Asset used by component "cc.Sprite" is missing. Detailed information:
+Node path: "Canvas/scalebg/test"
+Missing uuid: "9763a3ff-b8f5-42bf-be8d-e0c8a81cc86a"
+
+2018-09-05T02:31:42.351Z - warn: The Asset used by component "cc.Sprite" in prefab "title_node.prefab" is missing. Detailed information:
+Node path: "title_node/biaotikuang-zhong"
+Asset url: "db://assets/components/Title/title_node.prefab"
+Missing uuid: "b06d5caa-bfb3-4526-9c8a-7f4b48aa70c3"
+
+2018-09-05T02:32:02.609Z - warn: The Asset used by component "cc.Sprite" in prefab "title_node.prefab" is missing. Detailed information:
+Node path: "title_node/biaotikuang-zhong"
+Asset url: "db://assets/components/Title/title_node.prefab"
+Missing uuid: "b06d5caa-bfb3-4526-9c8a-7f4b48aa70c3"
+
+2018-09-05T02:32:41.674Z - normal: Start building with options : {
+  "androidStudio": true,
+  "apiLevel": "",
+  "appABIs": [],
+  "appKey": "",
+  "appSecret": "",
+  "buildPath": "/Users/likeke/Documents/pro/projects/FillFormula/build",
+  "debug": false,
+  "dest": "/Users/likeke/Documents/pro/projects/FillFormula/build/web-mobile",
+  "encryptJs": true,
+  "excludeScenes": [],
+  "excludedModules": [
+    "CCSpriteDistortion",
+    "ParticleSystem",
+    "TiledMap",
+    "ProgressBar",
+    "ScrollBar",
+    "ScrollView",
+    "Toggle",
+    "PageView",
+    "PageViewIndicator",
+    "Slider",
+    "EditorBox",
+    "VideoPlayer",
+    "RichText",
+    "MotionStreak",
+    "Graphics",
+    "Physics",
+    "StudioComponent"
+  ],
+  "fb-instant-games": {},
+  "includeAnySDK": false,
+  "includeEruda": false,
+  "includeSDKBox": false,
+  "inlineSpriteFrames": true,
+  "inlineSpriteFrames_native": true,
+  "jailbreakPlatform": false,
+  "md5Cache": false,
+  "mergeStartScene": false,
+  "oauthLoginServer": "",
+  "optimizeHotUpdate": false,
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "org.cocos2d.ZhuoXiaoYu",
+  "platform": "web-mobile",
+  "previewHeight": "720",
+  "previewWidth": "1280",
+  "privateKey": "",
+  "qqplay": {
+    "REMOTE_SERVER_ROOT": "",
+    "orientation": "portrait"
+  },
+  "renderMode": "0",
+  "scenes": [
+    "c0e4e3a0-b011-41b6-82d6-c31f202631fe"
+  ],
+  "sourceMaps": false,
+  "startScene": "c0e4e3a0-b011-41b6-82d6-c31f202631fe",
+  "template": "link",
+  "title": "FillFormula",
+  "useDebugKeystore": true,
+  "vsVersion": "auto",
+  "webOrientation": "auto",
+  "wechatgame": {
+    "REMOTE_SERVER_ROOT": "",
+    "appid": "wx6ac3f5090a6b99c5",
+    "isSubdomain": false,
+    "orientation": "portrait",
+    "subContext": ""
+  },
+  "xxteaKey": "955f7d44-da50-43",
+  "zipCompressJs": true,
+  "project": "/Users/likeke/Documents/pro/projects/FillFormula",
+  "projectName": "FillFormula",
+  "debugBuildWorker": false
+}
+2018-09-05T02:32:41.682Z - normal: Building /Users/likeke/Documents/pro/projects/FillFormula
+2018-09-05T02:32:41.683Z - normal: Destination /Users/likeke/Documents/pro/projects/FillFormula/build/web-mobile
+2018-09-05T02:32:41.683Z - normal: Delete /Users/likeke/Documents/pro/projects/FillFormula/build/web-mobile/**/*
+2018-09-05T02:32:43.897Z - normal: Compiled project javascript file successfully
+2018-09-05T02:32:43.897Z - normal: Start building assets
+2018-09-05T02:32:43.898Z - normal: Start spawn build-worker
+2018-09-05T02:32:44.552Z - normal: Finish spawn build-worker
+2018-09-05T02:32:44.552Z - normal: Start init build-worker
+2018-09-05T02:32:46.371Z - normal: 1.9.3
+2018-09-05T02:32:46.477Z - normal: Finish init build-worker
+2018-09-05T02:32:46.477Z - normal: Start build-assets in worker
+2018-09-05T02:32:46.767Z - warn: The referenced asset used in "db://assets/components/Title/title_node.prefab" is not found, it may have been deleted. Detailed information:
+Node path: "title_node/biaotikuang-zhong"
+Used in Component: "cc.Sprite"
+uuid: "b06d5caa-bfb3-4526-9c8a-7f4b48aa70c3"
+2018-09-05T02:32:46.784Z - warn: Can not find particle texture in /Users/likeke/Documents/pro/projects/FillFormula/assets/components/settlement/glow_dots, plist: /Users/likeke/Documents/pro/projects/FillFormula/assets/components/settlement/glow_dots.plist
+2018-09-05T02:32:46.932Z - normal: Finish build-assets in worker
+2018-09-05T02:32:46.935Z - normal: Finish building assets
+2018-09-05T02:32:46.945Z - normal: Start building raw assets
+2018-09-05T02:32:46.946Z - normal: Start building plugin scripts
+2018-09-05T02:32:47.010Z - normal: Finish building raw assets
+2018-09-05T02:32:47.020Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
+2018-09-05T02:32:47.032Z - normal: Generating html from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/web-mobile/template/index.html
+2018-09-05T02:32:47.040Z - normal: Built to "/Users/likeke/Documents/pro/projects/FillFormula/build/web-mobile" successfully
+2018-09-05T02:44:54.176Z - warn: The Asset used by component "cc.Sprite" in prefab "title_node.prefab" is missing. Detailed information:
+Node path: "title_node/biaotikuang-zhong"
+Asset url: "db://assets/components/Title/title_node.prefab"
+Missing uuid: "b06d5caa-bfb3-4526-9c8a-7f4b48aa70c3"
+
+2018-09-05T02:45:23.738Z - warn: The Asset used by component "cc.Sprite" in prefab "title_node.prefab" is missing. Detailed information:
+Node path: "title_node/biaotikuang-zhong"
+Asset url: "db://assets/components/Title/title_node.prefab"
+Missing uuid: "b06d5caa-bfb3-4526-9c8a-7f4b48aa70c3"
+
+2018-09-05T02:50:40.125Z - warn: The Asset used by component "cc.Sprite" in prefab "title_node.prefab" is missing. Detailed information:
+Node path: "title_node/biaotikuang-zhong"
+Asset url: "db://assets/components/Title/title_node.prefab"
+Missing uuid: "b06d5caa-bfb3-4526-9c8a-7f4b48aa70c3"
+
+2018-09-05T02:50:46.796Z - warn: The Asset used by component "cc.Sprite" in prefab "title_node.prefab" is missing. Detailed information:
+Node path: "title_node/biaotikuang-zhong"
+Asset url: "db://assets/components/Title/title_node.prefab"
+Missing uuid: "b06d5caa-bfb3-4526-9c8a-7f4b48aa70c3"
+
+2018-09-05T02:51:49.305Z - warn: The Asset used by component "cc.Sprite" in prefab "title_node.prefab" is missing. Detailed information:
+Node path: "title_node/biaotikuang-zhong"
+Asset url: "db://assets/components/Title/title_node.prefab"
+Missing uuid: "b06d5caa-bfb3-4526-9c8a-7f4b48aa70c3"
+
+2018-09-05T03:09:24.746Z - warn: The Asset used by component "cc.Sprite" in prefab "title_node.prefab" is missing. Detailed information:
+Node path: "title_node/biaotikuang-zhong"
+Asset url: "db://assets/components/Title/title_node.prefab"
+Missing uuid: "b06d5caa-bfb3-4526-9c8a-7f4b48aa70c3"
+
+2018-09-05T03:10:18.097Z - warn: The Asset used by component "cc.Sprite" in prefab "title_node.prefab" is missing. Detailed information:
+Node path: "title_node/biaotikuang-zhong"
+Asset url: "db://assets/components/Title/title_node.prefab"
+Missing uuid: "b06d5caa-bfb3-4526-9c8a-7f4b48aa70c3"
+
+2018-09-05T03:11:48.443Z - warn: The Asset used by component "cc.Sprite" in prefab "title_node.prefab" is missing. Detailed information:
+Node path: "title_node/biaotikuang-zhong"
+Asset url: "db://assets/components/Title/title_node.prefab"
+Missing uuid: "b06d5caa-bfb3-4526-9c8a-7f4b48aa70c3"
+
+2018-09-05T03:17:05.916Z - warn: The Asset used by component "cc.Sprite" in prefab "title_node.prefab" is missing. Detailed information:
+Node path: "title_node/biaotikuang-zhong"
+Asset url: "db://assets/components/Title/title_node.prefab"
+Missing uuid: "b06d5caa-bfb3-4526-9c8a-7f4b48aa70c3"
+
+2018-09-05T03:18:21.057Z - warn: The Asset used by component "cc.Sprite" in prefab "title_node.prefab" is missing. Detailed information:
+Node path: "title_node/biaotikuang-zhong"
+Asset url: "db://assets/components/Title/title_node.prefab"
+Missing uuid: "b06d5caa-bfb3-4526-9c8a-7f4b48aa70c3"
+
+2018-09-05T03:25:29.301Z - warn: The Asset used by component "cc.Sprite" in prefab "title_node.prefab" is missing. Detailed information:
+Node path: "title_node/biaotikuang-zhong"
+Asset url: "db://assets/components/Title/title_node.prefab"
+Missing uuid: "b06d5caa-bfb3-4526-9c8a-7f4b48aa70c3"
+
+2018-09-05T03:28:08.149Z - warn: The Asset used by component "cc.Sprite" in prefab "title_node.prefab" is missing. Detailed information:
+Node path: "title_node/biaotikuang-zhong"
+Asset url: "db://assets/components/Title/title_node.prefab"
+Missing uuid: "b06d5caa-bfb3-4526-9c8a-7f4b48aa70c3"
+
+2018-09-05T03:29:06.487Z - warn: The Asset used by component "cc.Sprite" in prefab "title_node.prefab" is missing. Detailed information:
+Node path: "title_node/biaotikuang-zhong"
+Asset url: "db://assets/components/Title/title_node.prefab"
+Missing uuid: "b06d5caa-bfb3-4526-9c8a-7f4b48aa70c3"
+
+2018-09-05T03:29:47.472Z - warn: The Asset used by component "cc.Sprite" in prefab "title_node.prefab" is missing. Detailed information:
+Node path: "title_node/biaotikuang-zhong"
+Asset url: "db://assets/components/Title/title_node.prefab"
+Missing uuid: "b06d5caa-bfb3-4526-9c8a-7f4b48aa70c3"
+
+2018-09-05T03:32:01.774Z - warn: The Asset used by component "cc.Sprite" in prefab "title_node.prefab" is missing. Detailed information:
+Node path: "title_node/biaotikuang-zhong"
+Asset url: "db://assets/components/Title/title_node.prefab"
+Missing uuid: "b06d5caa-bfb3-4526-9c8a-7f4b48aa70c3"
+
+2018-09-05T03:33:39.708Z - warn: The Asset used by component "cc.Sprite" in prefab "title_node.prefab" is missing. Detailed information:
+Node path: "title_node/biaotikuang-zhong"
+Asset url: "db://assets/components/Title/title_node.prefab"
+Missing uuid: "b06d5caa-bfb3-4526-9c8a-7f4b48aa70c3"
+
+2018-09-05T03:34:32.320Z - warn: The Asset used by component "cc.Sprite" in prefab "title_node.prefab" is missing. Detailed information:
+Node path: "title_node/biaotikuang-zhong"
+Asset url: "db://assets/components/Title/title_node.prefab"
+Missing uuid: "b06d5caa-bfb3-4526-9c8a-7f4b48aa70c3"
+
+2018-09-05T03:35:27.662Z - warn: The Asset used by component "cc.Sprite" in prefab "title_node.prefab" is missing. Detailed information:
+Node path: "title_node/biaotikuang-zhong"
+Asset url: "db://assets/components/Title/title_node.prefab"
+Missing uuid: "b06d5caa-bfb3-4526-9c8a-7f4b48aa70c3"
+
+2018-09-05T03:36:41.460Z - warn: The Asset used by component "cc.Sprite" in prefab "title_node.prefab" is missing. Detailed information:
+Node path: "title_node/biaotikuang-zhong"
+Asset url: "db://assets/components/Title/title_node.prefab"
+Missing uuid: "b06d5caa-bfb3-4526-9c8a-7f4b48aa70c3"
+
+2018-09-05T03:38:11.226Z - warn: The Asset used by component "cc.Sprite" in prefab "title_node.prefab" is missing. Detailed information:
+Node path: "title_node/biaotikuang-zhong"
+Asset url: "db://assets/components/Title/title_node.prefab"
+Missing uuid: "b06d5caa-bfb3-4526-9c8a-7f4b48aa70c3"
+
+2018-09-05T03:40:49.976Z - warn: The Asset used by component "cc.Sprite" in prefab "title_node.prefab" is missing. Detailed information:
+Node path: "title_node/biaotikuang-zhong"
+Asset url: "db://assets/components/Title/title_node.prefab"
+Missing uuid: "b06d5caa-bfb3-4526-9c8a-7f4b48aa70c3"
+
+2018-09-05T03:41:31.714Z - warn: The Asset used by component "cc.Sprite" in prefab "title_node.prefab" is missing. Detailed information:
+Node path: "title_node/biaotikuang-zhong"
+Asset url: "db://assets/components/Title/title_node.prefab"
+Missing uuid: "b06d5caa-bfb3-4526-9c8a-7f4b48aa70c3"
+
+2018-09-05T05:11:10.486Z - warn: The Asset used by component "cc.Sprite" in prefab "title_node.prefab" is missing. Detailed information:
+Node path: "title_node/biaotikuang-zhong"
+Asset url: "db://assets/components/Title/title_node.prefab"
+Missing uuid: "b06d5caa-bfb3-4526-9c8a-7f4b48aa70c3"
+
+2018-09-05T05:11:55.356Z - warn: The Asset used by component "cc.Sprite" in prefab "title_node.prefab" is missing. Detailed information:
+Node path: "title_node/biaotikuang-zhong"
+Asset url: "db://assets/components/Title/title_node.prefab"
+Missing uuid: "b06d5caa-bfb3-4526-9c8a-7f4b48aa70c3"
+
+2018-09-05T05:13:44.315Z - warn: The Asset used by component "cc.Sprite" in prefab "title_node.prefab" is missing. Detailed information:
+Node path: "title_node/biaotikuang-zhong"
+Asset url: "db://assets/components/Title/title_node.prefab"
+Missing uuid: "b06d5caa-bfb3-4526-9c8a-7f4b48aa70c3"
+
+2018-09-05T05:13:57.017Z - warn: The Asset used by component "cc.Sprite" in prefab "title_node.prefab" is missing. Detailed information:
+Node path: "title_node/biaotikuang-zhong"
+Asset url: "db://assets/components/Title/title_node.prefab"
+Missing uuid: "b06d5caa-bfb3-4526-9c8a-7f4b48aa70c3"
+
+2018-09-05T05:19:46.713Z - warn: The Asset used by component "cc.Sprite" in prefab "title_node.prefab" is missing. Detailed information:
+Node path: "title_node/biaotikuang-zhong"
+Asset url: "db://assets/components/Title/title_node.prefab"
+Missing uuid: "b06d5caa-bfb3-4526-9c8a-7f4b48aa70c3"
+
+2018-09-05T05:21:00.471Z - warn: The Asset used by component "cc.Sprite" in prefab "title_node.prefab" is missing. Detailed information:
+Node path: "title_node/biaotikuang-zhong"
+Asset url: "db://assets/components/Title/title_node.prefab"
+Missing uuid: "b06d5caa-bfb3-4526-9c8a-7f4b48aa70c3"
+
+2018-09-05T05:24:38.280Z - warn: The Asset used by component "cc.Sprite" in prefab "title_node.prefab" is missing. Detailed information:
+Node path: "title_node/biaotikuang-zhong"
+Asset url: "db://assets/components/Title/title_node.prefab"
+Missing uuid: "b06d5caa-bfb3-4526-9c8a-7f4b48aa70c3"
+
+2018-09-05T05:25:30.072Z - warn: The Asset used by component "cc.Sprite" in prefab "title_node.prefab" is missing. Detailed information:
+Node path: "title_node/biaotikuang-zhong"
+Asset url: "db://assets/components/Title/title_node.prefab"
+Missing uuid: "b06d5caa-bfb3-4526-9c8a-7f4b48aa70c3"
+
+2018-09-05T05:30:01.218Z - warn: The Asset used by component "cc.Sprite" in prefab "title_node.prefab" is missing. Detailed information:
+Node path: "title_node/biaotikuang-zhong"
+Asset url: "db://assets/components/Title/title_node.prefab"
+Missing uuid: "b06d5caa-bfb3-4526-9c8a-7f4b48aa70c3"
+
+2018-09-05T05:31:48.884Z - warn: The Asset used by component "cc.Sprite" in prefab "title_node.prefab" is missing. Detailed information:
+Node path: "title_node/biaotikuang-zhong"
+Asset url: "db://assets/components/Title/title_node.prefab"
+Missing uuid: "b06d5caa-bfb3-4526-9c8a-7f4b48aa70c3"
+
+2018-09-05T05:33:32.774Z - warn: The Asset used by component "cc.Sprite" in prefab "title_node.prefab" is missing. Detailed information:
+Node path: "title_node/biaotikuang-zhong"
+Asset url: "db://assets/components/Title/title_node.prefab"
+Missing uuid: "b06d5caa-bfb3-4526-9c8a-7f4b48aa70c3"
+
+2018-09-05T05:37:24.489Z - warn: The Asset used by component "cc.Sprite" in prefab "title_node.prefab" is missing. Detailed information:
+Node path: "title_node/biaotikuang-zhong"
+Asset url: "db://assets/components/Title/title_node.prefab"
+Missing uuid: "b06d5caa-bfb3-4526-9c8a-7f4b48aa70c3"
+
+2018-09-05T05:38:28.347Z - warn: The Asset used by component "cc.Sprite" in prefab "title_node.prefab" is missing. Detailed information:
+Node path: "title_node/biaotikuang-zhong"
+Asset url: "db://assets/components/Title/title_node.prefab"
+Missing uuid: "b06d5caa-bfb3-4526-9c8a-7f4b48aa70c3"
+
+2018-09-05T05:40:31.950Z - warn: The Asset used by component "cc.Sprite" in prefab "title_node.prefab" is missing. Detailed information:
+Node path: "title_node/biaotikuang-zhong"
+Asset url: "db://assets/components/Title/title_node.prefab"
+Missing uuid: "b06d5caa-bfb3-4526-9c8a-7f4b48aa70c3"
+
+2018-09-05T05:41:27.987Z - warn: The Asset used by component "cc.Sprite" in prefab "title_node.prefab" is missing. Detailed information:
+Node path: "title_node/biaotikuang-zhong"
+Asset url: "db://assets/components/Title/title_node.prefab"
+Missing uuid: "b06d5caa-bfb3-4526-9c8a-7f4b48aa70c3"
+
+2018-09-05T05:43:51.928Z - warn: The Asset used by component "cc.Sprite" in prefab "title_node.prefab" is missing. Detailed information:
+Node path: "title_node/biaotikuang-zhong"
+Asset url: "db://assets/components/Title/title_node.prefab"
+Missing uuid: "b06d5caa-bfb3-4526-9c8a-7f4b48aa70c3"
+
+2018-09-05T05:46:36.122Z - warn: The Asset used by component "cc.Sprite" in prefab "title_node.prefab" is missing. Detailed information:
+Node path: "title_node/biaotikuang-zhong"
+Asset url: "db://assets/components/Title/title_node.prefab"
+Missing uuid: "b06d5caa-bfb3-4526-9c8a-7f4b48aa70c3"
+
+2018-09-05T05:48:15.731Z - warn: The Asset used by component "cc.Sprite" in prefab "title_node.prefab" is missing. Detailed information:
+Node path: "title_node/biaotikuang-zhong"
+Asset url: "db://assets/components/Title/title_node.prefab"
+Missing uuid: "b06d5caa-bfb3-4526-9c8a-7f4b48aa70c3"
+
+2018-09-05T05:50:37.286Z - warn: The Asset used by component "cc.Sprite" in prefab "title_node.prefab" is missing. Detailed information:
+Node path: "title_node/biaotikuang-zhong"
+Asset url: "db://assets/components/Title/title_node.prefab"
+Missing uuid: "b06d5caa-bfb3-4526-9c8a-7f4b48aa70c3"
+
+2018-09-05T05:53:56.828Z - warn: The Asset used by component "cc.Sprite" in prefab "title_node.prefab" is missing. Detailed information:
+Node path: "title_node/biaotikuang-zhong"
+Asset url: "db://assets/components/Title/title_node.prefab"
+Missing uuid: "b06d5caa-bfb3-4526-9c8a-7f4b48aa70c3"
+
+2018-09-05T05:54:53.838Z - warn: The Asset used by component "cc.Sprite" in prefab "title_node.prefab" is missing. Detailed information:
+Node path: "title_node/biaotikuang-zhong"
+Asset url: "db://assets/components/Title/title_node.prefab"
+Missing uuid: "b06d5caa-bfb3-4526-9c8a-7f4b48aa70c3"
+
+2018-09-05T05:58:31.976Z - warn: The Asset used by component "cc.Sprite" in prefab "title_node.prefab" is missing. Detailed information:
+Node path: "title_node/biaotikuang-zhong"
+Asset url: "db://assets/components/Title/title_node.prefab"
+Missing uuid: "b06d5caa-bfb3-4526-9c8a-7f4b48aa70c3"
+
+2018-09-05T06:01:31.728Z - warn: The Asset used by component "cc.Sprite" in prefab "title_node.prefab" is missing. Detailed information:
+Node path: "title_node/biaotikuang-zhong"
+Asset url: "db://assets/components/Title/title_node.prefab"
+Missing uuid: "b06d5caa-bfb3-4526-9c8a-7f4b48aa70c3"
+
+2018-09-05T06:02:14.665Z - warn: The Asset used by component "cc.Sprite" in prefab "title_node.prefab" is missing. Detailed information:
+Node path: "title_node/biaotikuang-zhong"
+Asset url: "db://assets/components/Title/title_node.prefab"
+Missing uuid: "b06d5caa-bfb3-4526-9c8a-7f4b48aa70c3"
+
+2018-09-05T06:02:48.398Z - warn: The Asset used by component "cc.Sprite" in prefab "title_node.prefab" is missing. Detailed information:
+Node path: "title_node/biaotikuang-zhong"
+Asset url: "db://assets/components/Title/title_node.prefab"
+Missing uuid: "b06d5caa-bfb3-4526-9c8a-7f4b48aa70c3"
+
+2018-09-05T06:03:25.435Z - warn: The Asset used by component "cc.Sprite" in prefab "title_node.prefab" is missing. Detailed information:
+Node path: "title_node/biaotikuang-zhong"
+Asset url: "db://assets/components/Title/title_node.prefab"
+Missing uuid: "b06d5caa-bfb3-4526-9c8a-7f4b48aa70c3"
+
+2018-09-05T06:03:33.084Z - warn: The Asset used by component "cc.Sprite" in prefab "title_node.prefab" is missing. Detailed information:
+Node path: "title_node/biaotikuang-zhong"
+Asset url: "db://assets/components/Title/title_node.prefab"
+Missing uuid: "b06d5caa-bfb3-4526-9c8a-7f4b48aa70c3"
+
+2018-09-05T06:09:24.488Z - normal: Start building with options : {
+  "androidStudio": true,
+  "apiLevel": "",
+  "appABIs": [],
+  "appKey": "",
+  "appSecret": "",
+  "buildPath": "/Users/likeke/Documents/pro/projects/FillFormula/build",
+  "debug": false,
+  "dest": "/Users/likeke/Documents/pro/projects/FillFormula/build/web-mobile",
+  "encryptJs": true,
+  "excludeScenes": [],
+  "excludedModules": [
+    "CCSpriteDistortion",
+    "ParticleSystem",
+    "TiledMap",
+    "ProgressBar",
+    "ScrollBar",
+    "ScrollView",
+    "Toggle",
+    "PageView",
+    "PageViewIndicator",
+    "Slider",
+    "EditorBox",
+    "VideoPlayer",
+    "RichText",
+    "MotionStreak",
+    "Graphics",
+    "Physics",
+    "StudioComponent"
+  ],
+  "fb-instant-games": {},
+  "includeAnySDK": false,
+  "includeEruda": false,
+  "includeSDKBox": false,
+  "inlineSpriteFrames": true,
+  "inlineSpriteFrames_native": true,
+  "jailbreakPlatform": false,
+  "md5Cache": false,
+  "mergeStartScene": false,
+  "oauthLoginServer": "",
+  "optimizeHotUpdate": false,
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "org.cocos2d.ZhuoXiaoYu",
+  "platform": "web-mobile",
+  "previewHeight": "720",
+  "previewWidth": "1280",
+  "privateKey": "",
+  "qqplay": {
+    "REMOTE_SERVER_ROOT": "",
+    "orientation": "portrait"
+  },
+  "renderMode": "0",
+  "scenes": [
+    "c0e4e3a0-b011-41b6-82d6-c31f202631fe"
+  ],
+  "sourceMaps": false,
+  "startScene": "c0e4e3a0-b011-41b6-82d6-c31f202631fe",
+  "template": "link",
+  "title": "FillFormula",
+  "useDebugKeystore": true,
+  "vsVersion": "auto",
+  "webOrientation": "auto",
+  "wechatgame": {
+    "REMOTE_SERVER_ROOT": "",
+    "appid": "wx6ac3f5090a6b99c5",
+    "isSubdomain": false,
+    "orientation": "portrait",
+    "subContext": ""
+  },
+  "xxteaKey": "955f7d44-da50-43",
+  "zipCompressJs": true,
+  "project": "/Users/likeke/Documents/pro/projects/FillFormula",
+  "projectName": "FillFormula",
+  "debugBuildWorker": false
+}
+2018-09-05T06:09:24.498Z - normal: Building /Users/likeke/Documents/pro/projects/FillFormula
+2018-09-05T06:09:24.498Z - normal: Destination /Users/likeke/Documents/pro/projects/FillFormula/build/web-mobile
+2018-09-05T06:09:24.500Z - normal: Delete /Users/likeke/Documents/pro/projects/FillFormula/build/web-mobile/**/*
+2018-09-05T06:09:27.018Z - normal: Compiled project javascript file successfully
+2018-09-05T06:09:27.019Z - normal: Start building assets
+2018-09-05T06:09:27.019Z - normal: Start spawn build-worker
+2018-09-05T06:09:27.752Z - normal: Finish spawn build-worker
+2018-09-05T06:09:27.752Z - normal: Start init build-worker
+2018-09-05T06:09:29.794Z - normal: 1.9.3
+2018-09-05T06:09:29.924Z - normal: Finish init build-worker
+2018-09-05T06:09:29.924Z - normal: Start build-assets in worker
+2018-09-05T06:09:30.246Z - warn: The referenced asset used in "db://assets/components/Title/title_node.prefab" is not found, it may have been deleted. Detailed information:
+Node path: "title_node/biaotikuang-zhong"
+Used in Component: "cc.Sprite"
+uuid: "b06d5caa-bfb3-4526-9c8a-7f4b48aa70c3"
+2018-09-05T06:09:30.270Z - warn: Can not find particle texture in /Users/likeke/Documents/pro/projects/FillFormula/assets/components/settlement/glow_dots, plist: /Users/likeke/Documents/pro/projects/FillFormula/assets/components/settlement/glow_dots.plist
+2018-09-05T06:09:30.434Z - normal: Finish build-assets in worker
+2018-09-05T06:09:30.436Z - normal: Finish building assets
+2018-09-05T06:09:30.450Z - normal: Start building raw assets
+2018-09-05T06:09:30.451Z - normal: Start building plugin scripts
+2018-09-05T06:09:30.524Z - normal: Finish building raw assets
+2018-09-05T06:09:30.535Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
+2018-09-05T06:09:30.540Z - normal: Generating html from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/web-mobile/template/index.html
+2018-09-05T06:09:30.551Z - normal: Built to "/Users/likeke/Documents/pro/projects/FillFormula/build/web-mobile" successfully
+2018-09-05T06:11:20.669Z - warn: The Asset used by component "cc.Sprite" in prefab "title_node.prefab" is missing. Detailed information:
+Node path: "title_node/biaotikuang-zhong"
+Asset url: "db://assets/components/Title/title_node.prefab"
+Missing uuid: "b06d5caa-bfb3-4526-9c8a-7f4b48aa70c3"
+
+2018-09-05T06:27:11.596Z - warn: The Asset used by component "cc.Sprite" in prefab "title_node.prefab" is missing. Detailed information:
+Node path: "title_node/biaotikuang-zhong"
+Asset url: "db://assets/components/Title/title_node.prefab"
+Missing uuid: "b06d5caa-bfb3-4526-9c8a-7f4b48aa70c3"
+
+2018-09-05T06:29:21.175Z - warn: The Asset used by component "cc.Sprite" in prefab "title_node.prefab" is missing. Detailed information:
+Node path: "title_node/biaotikuang-zhong"
+Asset url: "db://assets/components/Title/title_node.prefab"
+Missing uuid: "b06d5caa-bfb3-4526-9c8a-7f4b48aa70c3"
+
+2018-09-05T06:31:17.102Z - warn: The Asset used by component "cc.Sprite" in prefab "title_node.prefab" is missing. Detailed information:
+Node path: "title_node/biaotikuang-zhong"
+Asset url: "db://assets/components/Title/title_node.prefab"
+Missing uuid: "b06d5caa-bfb3-4526-9c8a-7f4b48aa70c3"
+
+2018-09-05T06:32:12.914Z - warn: The Asset used by component "cc.Sprite" in prefab "title_node.prefab" is missing. Detailed information:
+Node path: "title_node/biaotikuang-zhong"
+Asset url: "db://assets/components/Title/title_node.prefab"
+Missing uuid: "b06d5caa-bfb3-4526-9c8a-7f4b48aa70c3"
+
+2018-09-05T06:34:14.997Z - warn: The Asset used by component "cc.Sprite" in prefab "title_node.prefab" is missing. Detailed information:
+Node path: "title_node/biaotikuang-zhong"
+Asset url: "db://assets/components/Title/title_node.prefab"
+Missing uuid: "b06d5caa-bfb3-4526-9c8a-7f4b48aa70c3"
+
+2018-09-05T06:34:55.060Z - normal: Start building with options : {
+  "androidStudio": true,
+  "apiLevel": "",
+  "appABIs": [],
+  "appKey": "",
+  "appSecret": "",
+  "buildPath": "/Users/likeke/Documents/pro/projects/FillFormula/build",
+  "debug": false,
+  "dest": "/Users/likeke/Documents/pro/projects/FillFormula/build/web-mobile",
+  "encryptJs": true,
+  "excludeScenes": [],
+  "excludedModules": [
+    "CCSpriteDistortion",
+    "ParticleSystem",
+    "TiledMap",
+    "ProgressBar",
+    "ScrollBar",
+    "ScrollView",
+    "Toggle",
+    "PageView",
+    "PageViewIndicator",
+    "Slider",
+    "EditorBox",
+    "VideoPlayer",
+    "RichText",
+    "MotionStreak",
+    "Graphics",
+    "Physics",
+    "StudioComponent"
+  ],
+  "fb-instant-games": {},
+  "includeAnySDK": false,
+  "includeEruda": false,
+  "includeSDKBox": false,
+  "inlineSpriteFrames": true,
+  "inlineSpriteFrames_native": true,
+  "jailbreakPlatform": false,
+  "md5Cache": false,
+  "mergeStartScene": false,
+  "oauthLoginServer": "",
+  "optimizeHotUpdate": false,
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "org.cocos2d.ZhuoXiaoYu",
+  "platform": "web-mobile",
+  "previewHeight": "720",
+  "previewWidth": "1280",
+  "privateKey": "",
+  "qqplay": {
+    "REMOTE_SERVER_ROOT": "",
+    "orientation": "portrait"
+  },
+  "renderMode": "0",
+  "scenes": [
+    "c0e4e3a0-b011-41b6-82d6-c31f202631fe"
+  ],
+  "sourceMaps": false,
+  "startScene": "c0e4e3a0-b011-41b6-82d6-c31f202631fe",
+  "template": "link",
+  "title": "FillFormula",
+  "useDebugKeystore": true,
+  "vsVersion": "auto",
+  "webOrientation": "auto",
+  "wechatgame": {
+    "REMOTE_SERVER_ROOT": "",
+    "appid": "wx6ac3f5090a6b99c5",
+    "isSubdomain": false,
+    "orientation": "portrait",
+    "subContext": ""
+  },
+  "xxteaKey": "955f7d44-da50-43",
+  "zipCompressJs": true,
+  "project": "/Users/likeke/Documents/pro/projects/FillFormula",
+  "projectName": "FillFormula",
+  "debugBuildWorker": false
+}
+2018-09-05T06:34:55.068Z - normal: Building /Users/likeke/Documents/pro/projects/FillFormula
+2018-09-05T06:34:55.069Z - normal: Destination /Users/likeke/Documents/pro/projects/FillFormula/build/web-mobile
+2018-09-05T06:34:55.069Z - normal: Delete /Users/likeke/Documents/pro/projects/FillFormula/build/web-mobile/**/*
+2018-09-05T06:34:57.384Z - normal: Compiled project javascript file successfully
+2018-09-05T06:34:57.384Z - normal: Start building assets
+2018-09-05T06:34:57.384Z - normal: Start spawn build-worker
+2018-09-05T06:34:58.159Z - normal: Finish spawn build-worker
+2018-09-05T06:34:58.159Z - normal: Start init build-worker
+2018-09-05T06:35:00.129Z - normal: 1.9.3
+2018-09-05T06:35:00.218Z - normal: Finish init build-worker
+2018-09-05T06:35:00.218Z - normal: Start build-assets in worker
+2018-09-05T06:35:00.511Z - warn: The referenced asset used in "db://assets/components/Title/title_node.prefab" is not found, it may have been deleted. Detailed information:
+Node path: "title_node/biaotikuang-zhong"
+Used in Component: "cc.Sprite"
+uuid: "b06d5caa-bfb3-4526-9c8a-7f4b48aa70c3"
+2018-09-05T06:35:00.534Z - warn: Can not find particle texture in /Users/likeke/Documents/pro/projects/FillFormula/assets/components/settlement/glow_dots, plist: /Users/likeke/Documents/pro/projects/FillFormula/assets/components/settlement/glow_dots.plist
+2018-09-05T06:35:00.667Z - normal: Finish build-assets in worker
+2018-09-05T06:35:00.670Z - normal: Finish building assets
+2018-09-05T06:35:00.682Z - normal: Start building raw assets
+2018-09-05T06:35:00.682Z - normal: Start building plugin scripts
+2018-09-05T06:35:00.741Z - normal: Finish building raw assets
+2018-09-05T06:35:00.755Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
+2018-09-05T06:35:00.762Z - normal: Generating html from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/web-mobile/template/index.html
+2018-09-05T06:35:00.769Z - normal: Built to "/Users/likeke/Documents/pro/projects/FillFormula/build/web-mobile" successfully
+2018-09-05T06:36:38.417Z - info: shutdown preview server

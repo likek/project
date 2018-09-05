@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "commitBtnPressed",
+    "texture": "22cabf29-a4e1-4408-b647-3fbec3674f11",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      252,
+      210
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      252,
+      210
+    ]
+  }
+}

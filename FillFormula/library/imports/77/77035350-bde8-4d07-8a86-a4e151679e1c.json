@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "multiplication",
+    "texture": "d54f2478-b45e-42d2-a90a-91aba21553a8",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      74,
+      74
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      74,
+      74
+    ]
+  }
+}

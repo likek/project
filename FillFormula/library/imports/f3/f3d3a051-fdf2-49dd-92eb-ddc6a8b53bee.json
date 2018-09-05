@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "right_atmosphere",
+    "texture": "90710ccf-eaf9-4419-8632-508796735648",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      234,
+      138
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      234,
+      138
+    ]
+  }
+}

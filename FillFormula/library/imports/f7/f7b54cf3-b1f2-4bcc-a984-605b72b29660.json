@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "markBg",
+    "texture": "5c3279e2-a376-4066-9349-3335e12e99f8",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      144,
+      136
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      144,
+      136
+    ],
+    "capInsets": [
+      57,
+      56,
+      56,
+      57
+    ]
+  }
+}

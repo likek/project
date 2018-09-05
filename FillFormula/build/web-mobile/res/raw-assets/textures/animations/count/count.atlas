@@ -1,0 +1,55 @@
+
+count.png
+size: 1248,264
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+board
+  rotate: false
+  xy: 0, 54
+  size: 898, 210
+  orig: 898, 210
+  offset: 0, 0
+  index: -1
+division
+  rotate: true
+  xy: 0, 0
+  size: 52, 100
+  orig: 52, 100
+  offset: 0, 0
+  index: -1
+division_option
+  rotate: false
+  xy: 900, 1
+  size: 263, 263
+  orig: 263, 263
+  offset: 0, 0
+  index: -1
+minus
+  rotate: false
+  xy: 102, 27
+  size: 52, 25
+  orig: 52, 25
+  offset: 0, 0
+  index: -1
+plus
+  rotate: false
+  xy: 1165, 181
+  size: 83, 83
+  orig: 83, 83
+  offset: 0, 0
+  index: -1
+product
+  rotate: false
+  xy: 1165, 105
+  size: 74, 74
+  orig: 74, 74
+  offset: 0, 0
+  index: -1
+rope_l
+  rotate: false
+  xy: 1165, 54
+  size: 20, 49
+  orig: 20, 49
+  offset: 0, 0
+  index: -1

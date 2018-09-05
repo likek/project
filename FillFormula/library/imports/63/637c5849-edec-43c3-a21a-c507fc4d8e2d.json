@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "questionMarkBox",
+    "texture": "4139f809-c494-401b-9ebf-4bf4157d7a38",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      264,
+      263
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      264,
+      263
+    ]
+  }
+}
